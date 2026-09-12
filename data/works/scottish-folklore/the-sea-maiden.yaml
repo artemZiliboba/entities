@@ -1,0 +1,67 @@
+id: the-sea-maiden
+title: "Морская дева"
+original_title: "The Sea-Maiden"
+kind: folktale
+tradition:
+  - scottish-folklore
+collection: "Celtic Fairy Tales"
+author: "Джозеф Джейкобс"
+source:
+  title: "Celtic Fairy Tales — The Sea-Maiden"
+  url: "https://www.gutenberg.org/cache/epub/7885/pg7885.html"
+  note: >
+    Текст из сборника Joseph Jacobs, Celtic Fairy Tales (1892), в открытом
+    издании Project Gutenberg. В примечаниях Джейкобс указывает источником
+    Popular Tales of the West Highlands Джона Фрэнсиса Кэмпбелла, сказку № 4.
+    Запись следует редакции Джейкобса и не смешивает детали иных вариантов.
+
+entities:
+  - id: sea-maiden
+    name: "Морская дева"
+    type: creature
+    description: >
+      Сверхъестественная обитательница воды, которая обещает рыбаку богатый
+      улов в обмен на его будущего сына, позднее похищает выросшего юношу и
+      удерживает его в озере. Её жизнь связана с отдельно спрятанной душой.
+    tags:
+      - water-spirit
+      - antagonist
+      - bargain
+      - external-soul
+
+  - id: sea-maiden-soul-egg
+    name: "Яйцо с душой Морской девы"
+    type: artifact
+    description: >
+      Магическое вместилище вынесенной наружу души Морской девы. Пока яйцо
+      цело, она остаётся жива; когда герой раздавливает его, Морская дева
+      погибает.
+    tags:
+      - external-soul
+      - vulnerability
+      - hidden-object
+
+  - id: soul-hiding-chain
+    name: "Цепочка хранилищ души"
+    type: phenomenon
+    description: >
+      Сверхъестественная последовательность, скрывающая яйцо с душой Морской
+      девы: на острове находится белоногая лань, из неё появляется ворона,
+      из вороны — форель, а во рту форели спрятано яйцо. Каждое звено должно
+      быть преодолено, чтобы добраться до уязвимости Морской девы.
+    tags:
+      - external-soul
+      - nested-concealment
+      - transformation
+
+  - id: sea-maiden-boat-sinking
+    name: "Потопление лодок Морской девой"
+    type: phenomenon
+    description: >
+      Магическая защита острова, где скрыта душа Морской девы: она топит лодки
+      и плоты, пытающиеся пересечь озеро, из-за чего герой вынужден добираться
+      до острова иным способом.
+    tags:
+      - water-magic
+      - barrier
+      - protection
