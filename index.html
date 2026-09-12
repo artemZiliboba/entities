@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Энциклопедия магических сущностей из фольклора и литературы" />
+  <title>Энциклопедия сущностей</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">✦</span>
+      <span>Энциклопедия сущностей</span>
+    </div>
+    <a class="repo-link" href="https://github.com/artemZiliboba/entities" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </header>
+
+  <main class="page">
+    <section class="hero panel">
+      <div>
+        <p class="eyebrow">ОТКРЫТЫЙ КАТАЛОГ</p>
+        <h1>Магические сущности<br />из сказок и мифов</h1>
+        <p class="lead">Данные читаются напрямую из YAML-файлов репозитория.</p>
+      </div>
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <section class="controls panel" aria-label="Фильтры каталога">
+      <label class="field search-field">
+        <span>Поиск</span>
+        <input id="search" type="search" placeholder="Название, описание, произведение..." autocomplete="off" />
+      </label>
+
+      <label class="field">
+        <span>Тип</span>
+        <select id="typeFilter"><option value="">Все типы</option></select>
+      </label>
+
+      <label class="field">
+        <span>Традиция</span>
+        <select id="traditionFilter"><option value="">Все традиции</option></select>
+      </label>
+
+      <label class="field">
+        <span>Произведение</span>
+        <select id="workFilter"><option value="">Все произведения</option></select>
+      </label>
+
+      <label class="field">
+        <span>Группировка</span>
+        <select id="groupBy">
+          <option value="none">Без группировки</option>
+          <option value="work">По произведению</option>
+          <option value="type">По типу</option>
+          <option value="tradition">По традиции</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Сортировка</span>
+        <select id="sortBy">
+          <option value="name">По названию</option>
+          <option value="work">По произведению</option>
+          <option value="type">По типу</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="catalog-head">
+      <div>
+        <p class="eyebrow">КАТАЛОГ</p>
+        <h2 id="resultTitle">Все сущности</h2>
+      </div>
+      <button id="resetFilters" class="button" type="button">Сбросить фильтры</button>
+    </section>
+
+    <div id="status" class="status panel">Загружаю данные из репозитория…</div>
+    <section id="catalog" class="catalog" aria-live="polite"></section>
+  </main>
+
+  <footer class="footer">
+    <span>entities / GitHub Pages</span>
+    <span>Источник истины — репозиторий</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
