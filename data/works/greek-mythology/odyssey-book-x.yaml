@@ -1,0 +1,65 @@
+id: odyssey-book-x
+title: "Одиссея, песнь X: Эол и Кирка"
+original_title: "Odyssey, Book X"
+kind: epic
+tradition:
+  - greek-mythology
+author: "Гомер"
+collection: "Одиссея"
+source:
+  title: "The Odyssey (Butler) — Book X: Æolus, the Læstrygones, Circe"
+  url: "https://en.wikisource.org/wiki/The_Odyssey_%28Butler%29/Book_X"
+  note: >
+    Английский перевод Сэмюэла Батлера, опубликованный на Wikisource.
+    Запись ограничена X песнью и следует именно этому переводу, не смешивая
+    детали иных переводов и позднейших пересказов.
+
+entities:
+  - id: circe
+    name: "Кирка"
+    type: character
+    description: >
+      Богиня и волшебница, живущая на острове Ээя. Она подмешивает чары в пищу
+      спутникам Одиссея и ударом жезла превращает их в свиней, а позднее с
+      помощью противодействующих чар возвращает им человеческий облик.
+    tags:
+      - goddess
+      - witchcraft
+      - transformation
+
+  - id: moly
+    name: "Моли"
+    type: plant
+    description: >
+      Божественная трава с чёрным корнем и белым цветком, которую Гермес даёт
+      Одиссею. Её сила защищает героя от колдовского напитка Кирки; смертным
+      трудно вырвать это растение из земли, тогда как богам это доступно.
+    tags:
+      - protection
+      - anti-magic
+      - divine-plant
+
+  - id: circes-wand
+    name: "Жезл Кирки"
+    type: artifact
+    description: >
+      Волшебный жезл, которым Кирка ударяет выпивших её зелье людей, завершая
+      превращение в животных. В выбранном тексте жезл непосредственно связан
+      как с попыткой превращения Одиссея, так и с чарами над его спутниками.
+    tags:
+      - wand
+      - transformation
+      - enchanted-object
+
+  - id: aeolus-bag-of-winds
+    name: "Мешок ветров Эола"
+    type: artifact
+    description: >
+      Мешок из бычьей шкуры, в который Эол заключает пути ревущих ветров и
+      плотно запечатывает серебряной нитью, оставляя свободным лишь попутный
+      западный ветер. Когда спутники Одиссея развязывают мешок, освобождённые
+      ветры вызывают бурю и уносят корабль назад к острову Эола.
+    tags:
+      - wind
+      - containment
+      - enchanted-object
