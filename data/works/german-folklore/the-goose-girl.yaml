@@ -1,0 +1,52 @@
+id: the-goose-girl
+title: "Гусятница"
+original_title: "Die Gänsemagd"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Grimm's Household Tales"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884), Tale 89 — The Goose-Girl"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales%2C_Volume_2/The_Goose-Girl"
+  note: >
+    Английский перевод Маргарет Хант (1884), опубликованный на Wikisource.
+    Запись следует именно этой версии сказки и не смешивает детали иных переводов.
+
+entities:
+  - id: falada
+    name: "Фалада"
+    type: animal
+    description: >
+      Конь королевской дочери, способный говорить. После его гибели отрубленная
+      голова сохраняет способность отвечать настоящей невесте и тем самым
+      подтверждает сверхъестественную природу Фалады.
+    tags:
+      - talking-animal
+      - supernatural
+      - witness
+
+  - id: three-drops-of-blood
+    name: "Платок с тремя каплями крови"
+    type: artifact
+    description: >
+      Белый платок с тремя каплями крови матери принцессы, предназначенный
+      помогать ей в дороге. Пока платок находится при девушке, капли способны
+      говорить; после его утраты служанка получает власть над положением
+      принцессы.
+    tags:
+      - charm
+      - protection
+      - blood
+
+  - id: wind-command
+    name: "Заклинание ветра"
+    type: spell
+    description: >
+      Формула, которую гусятница произносит на лугу, чтобы вызвать сильный ветер.
+      Ветер уносит шляпу Конрада и не даёт ему приблизиться, пока девушка
+      расчёсывает и заплетает волосы.
+    tags:
+      - wind
+      - incantation
+      - protection
