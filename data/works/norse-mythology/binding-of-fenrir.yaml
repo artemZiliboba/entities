@@ -1,0 +1,53 @@
+id: binding-of-fenrir
+title: "Связывание Фенрира"
+original_title: "Binding the Wolf Fenrir"
+kind: myth
+tradition:
+  - norse-mythology
+author: "Снорри Стурлусон"
+collection: "Младшая Эдда"
+source:
+  title: "The Elder Edda and the Younger Edda — Younger Edda — Binding the Wolf Fenrir"
+  url: "https://en.wikisource.org/wiki/The_Elder_Edda_and_the_Younger_Edda/Younger_Edda/Binding_the_Wolf_Fenrir"
+  note: >
+    Английский перевод Бенджамина Торпа в издании 1907 года на Wikisource.
+    Запись следует этому тексту эпизода о связывании Фенрира и не объединяет
+    детали из других переводов или позднейших пересказов.
+
+entities:
+  - id: fenrir
+    name: "Фенрир"
+    type: creature
+    description: >
+      Огромный сверхъестественный волк, выращенный среди богов и непрерывно
+      набиравший силу. Он разрывает две изготовленные богами цепи, но оказывается
+      связан Глейпниром после того, как Тюр кладёт руку ему в пасть как залог.
+    tags:
+      - wolf
+      - giant-creature
+      - prophecy
+      - bound-monster
+
+  - id: gleipnir
+    name: "Глейпнир"
+    type: artifact
+    description: >
+      Волшебные путы, изготовленные карликами по приказу богов. Они выглядят
+      гладкими и мягкими, подобно шёлковой ленте, но удерживают Фенрира там,
+      где обычные тяжёлые цепи оказываются бессильны.
+    tags:
+      - binding
+      - dwarven-craft
+      - enchanted-object
+
+  - id: tyr
+    name: "Тюр"
+    type: character
+    description: >
+      Бог, который соглашается вложить правую руку в пасть Фенриру как залог
+      честности богов во время испытания Глейпнира. Когда волк понимает, что его
+      не освободят, он откусывает Тюру руку.
+    tags:
+      - god
+      - sacrifice
+      - courage
