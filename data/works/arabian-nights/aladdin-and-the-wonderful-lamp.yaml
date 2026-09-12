@@ -1,0 +1,75 @@
+id: aladdin-and-the-wonderful-lamp
+title: "Аладдин и волшебная лампа"
+original_title: "Aladdin and the Wonderful Lamp"
+kind: folktale
+tradition:
+  - arabian-nights
+collection: "The Arabian Nights Entertainments"
+source:
+  title: "The Arabian Nights Entertainments — Aladdin and the Wonderful Lamp"
+  url: "https://www.gutenberg.org/files/128/128-h/128-h.htm"
+  note: >
+    Англоязычная редакция Эндрю Лэнга, опубликованная Project Gutenberg.
+    Запись следует именно этому тексту и не смешивает детали других переводов
+    и редакций истории об Аладдине.
+
+entities:
+  - id: wonderful-lamp
+    name: "Волшебная лампа"
+    type: artifact
+    description: >
+      Старая лампа, обладание которой даёт власть над могущественным джинном.
+      При натирании лампы джинн появляется и исполняет приказы владельца,
+      включая создание богатств, дворца и перенос самого дворца вместе с людьми.
+    tags:
+      - genie
+      - wishes
+      - enchanted-object
+
+  - id: genie-of-the-lamp
+    name: "Джинн лампы"
+    type: creature
+    description: >
+      Могущественное сверхъестественное существо, связанное с волшебной лампой
+      и обязанное повиноваться тому, кто ею владеет. Его сила позволяет
+      мгновенно доставлять богатства, строить дворец и переносить его на большие
+      расстояния.
+    tags:
+      - genie
+      - servant
+      - supernatural-power
+
+  - id: magic-ring
+    name: "Волшебное кольцо"
+    type: artifact
+    description: >
+      Кольцо, переданное Аладдину африканским магом. Когда Аладдин случайно
+      трёт его, появляется связанный с кольцом джинн, который способен вывести
+      его из запечатанной пещеры и позднее перенести к похищенному дворцу.
+    tags:
+      - genie
+      - protection
+      - enchanted-object
+
+  - id: genie-of-the-ring
+    name: "Джинн кольца"
+    type: creature
+    description: >
+      Сверхъестественный слуга волшебного кольца. Он выполняет приказы носителя
+      кольца, но прямо признаёт, что его возможности уступают силе джинна лампы.
+    tags:
+      - genie
+      - servant
+      - supernatural-power
+
+  - id: african-magician
+    name: "Африканский маг"
+    type: character
+    description: >
+      Колдун, который с помощью магических книг и геомантии узнаёт о скрытой
+      лампе, открывает вход в подземное место посредством магического обряда и
+      пытается завладеть артефактом через Аладдина.
+    tags:
+      - magician
+      - antagonist
+      - divination
