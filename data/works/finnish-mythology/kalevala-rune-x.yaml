@@ -1,0 +1,64 @@
+id: kalevala-rune-x
+title: "Калевала, руна X: Ильмаринен куёт Сампо"
+original_title: "The Kalevala, Rune X: Ilmarinen Forges the Sampo"
+kind: epic
+tradition:
+  - finnish-mythology
+author: "Элиас Лённрот"
+collection: "Калевала"
+source:
+  title: "The Kalevala — Rune X: Ilmarinen Forges the Sampo"
+  url: "https://en.wikisource.org/wiki/The_Kalevala/Rune_X"
+  note: >
+    Английский перевод Джона Мартина Кроуфорда (1888), опубликованный на Wikisource.
+    Запись ограничена X руной и следует именно этой редакции, не смешивая детали
+    других переводов и позднейших пересказов.
+
+entities:
+  - id: sampo
+    name: "Сампо"
+    type: artifact
+    description: >
+      Волшебное устройство, выкованное Ильмариненом для хозяйки Похьёлы. После
+      завершения оно само мелет муку, производит соль и куёт деньги, выдавая
+      отдельные меры для еды, торговли и запасов.
+    tags:
+      - prosperity
+      - magical-machine
+      - forging
+
+  - id: ilmarinen
+    name: "Ильмаринен"
+    type: character
+    description: >
+      Магический кузнец и вечный мастер металла. В руне он утверждает, что прежде
+      выковал небесный свод, а затем создаёт Сампо, управляя необычной кузницей и
+      доводя до конца работу, которую обычный мастер выполнить не смог бы.
+    tags:
+      - magic-smith
+      - forging
+      - creator
+
+  - id: vainamoinen
+    name: "Вяйнямёйнен"
+    type: character
+    description: >
+      Древний певец и заклинатель, чья песня непосредственно изменяет мир. Он
+      вырастает песней чудесную ель, помещает на её ветви Луну и Большую Медведицу,
+      а затем вызывает бурный ветер, уносящий Ильмаринена в Похьёлу.
+    tags:
+      - magic-song
+      - incantation
+      - weather-magic
+
+  - id: wondrous-pine
+    name: "Чудесная ель Вяйнямёйнена"
+    type: plant
+    description: >
+      Огромное дерево, созданное заклинательной песней Вяйнямёйнена. Оно вырастает
+      до небес, несёт на ветвях Луну и Большую Медведицу и даже обращается к
+      Ильмаринену, когда тот забирается на него.
+    tags:
+      - magical-plant
+      - conjuration
+      - speaking-tree
