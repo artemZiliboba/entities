@@ -1,0 +1,65 @@
+id: punchkin
+title: "Панчкин"
+original_title: "Punchkin"
+kind: folktale
+tradition:
+  - indian-folklore
+collection: "Old Deccan Days"
+author: "Мэри Фрер"
+source:
+  title: "Old Deccan Days — Punchkin"
+  url: "https://www.gutenberg.org/ebooks/36696"
+  note: >
+    Текст из сборника Mary Frere, Old Deccan Days, в открытом издании
+    Project Gutenberg. Запись следует этой версии сказки и не смешивает
+    детали позднейших пересказов.
+
+entities:
+  - id: punchkin-magician
+    name: "Панчкин"
+    type: character
+    description: >
+      Могущественный колдун, способный превращать людей в камни и деревья и
+      возвращать им человеческий облик. Его собственная жизнь вынесена из тела
+      и связана с зелёным попугаем, спрятанным далеко от дворца.
+    tags:
+      - magician
+      - antagonist
+      - transformation
+      - external-soul
+
+  - id: punchkin-parrot
+    name: "Попугай с жизнью Панчкина"
+    type: animal
+    description: >
+      Маленький зелёный попугай, в котором заключена жизнь Панчкина. Повреждение
+      крыльев и ног птицы немедленно отражается на теле колдуна, а смерть
+      попугая приводит к смерти Панчкина.
+    tags:
+      - external-soul
+      - vulnerability
+      - hidden-life
+
+  - id: punchkin-wand
+    name: "Волшебная палочка Панчкина"
+    type: artifact
+    description: >
+      Магический предмет, взмахом которого Панчкин восстанавливает человеческий
+      облик превращённых им людей и возвращает к жизни множество пленников,
+      прежде выглядевших как камни, деревья и другие предметы сада.
+    tags:
+      - wand
+      - transformation
+      - restoration
+
+  - id: genii-guardians
+    name: "Джинны-стражи"
+    type: creature
+    description: >
+      Многочисленные сверхъестественные стражи, охраняющие место, где спрятан
+      попугай с жизнью Панчкина. Их присутствие делает тайник почти недоступным
+      для обычного путника.
+    tags:
+      - guardian
+      - genie
+      - hidden-object
