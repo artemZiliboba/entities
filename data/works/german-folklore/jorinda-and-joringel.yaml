@@ -1,0 +1,66 @@
+id: jorinda-and-joringel
+title: "Йоринда и Йорингель"
+original_title: "Jorinde und Joringel"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Grimm's Household Tales"
+source:
+  title: "Grimm's Household Tales, Volume 1 (1884), Tale 69 — Jorinda and Joringel"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales%2C_Volume_1/Jorinda_and_Joringel"
+  note: >
+    Английский перевод Маргарет Рейн Хант (1884), опубликованный на Wikisource.
+    Запись следует именно этой редакции сказки и не смешивает детали других
+    переводов и вариантов.
+
+entities:
+  - id: castle-witch
+    name: "Ведьма из замка"
+    type: character
+    description: >
+      Старая ведьма, живущая в лесном замке. Днём она способна принимать облик
+      кошки или совы, заманивает к себе животных и птиц, обездвиживает людей,
+      приблизившихся к замку, и превращает невинных девушек в птиц.
+    tags:
+      - witch
+      - shapeshifting
+      - transformation
+      - antagonist
+
+  - id: blood-red-flower
+    name: "Кроваво-красный цветок"
+    type: plant
+    description: >
+      Необычный красный цветок с крупной каплей росы, похожей на жемчужину.
+      Он защищает Йорингеля от чар вокруг замка, открывает запертую дверь и
+      снимает колдовство с тех, кого касается.
+    tags:
+      - disenchantment
+      - protection
+      - magical-plant
+
+  - id: castle-immobilization
+    name: "Обездвиживающие чары вокруг замка"
+    type: phenomenon
+    description: >
+      Магическое действие, охватывающее пространство примерно в ста шагах от
+      замка ведьмы. Всякий вошедший в эту область замирает и не может двигаться,
+      пока ведьма не разрешит ему освободиться; волшебный цветок отменяет этот
+      эффект для Йорингеля.
+    tags:
+      - enchantment
+      - barrier
+      - immobilization
+
+  - id: maiden-bird-transformation
+    name: "Заклятие превращения девушек в птиц"
+    type: spell
+    description: >
+      Колдовство ведьмы, превращающее невинных девушек, приблизившихся к замку,
+      в птиц. Превращённых она держит в клетках; прикосновение волшебного цветка
+      разрушает заклятие и возвращает Йоринде человеческий облик.
+    tags:
+      - transformation
+      - curse
+      - disenchantment
