@@ -1,0 +1,77 @@
+id: the-snow-queen
+title: "Снежная королева"
+original_title: "Sneedronningen"
+kind: story
+tradition:
+  - danish-literature
+author: "Ханс Кристиан Андерсен"
+collection: "Fairy Tales from Hans Christian Andersen"
+source:
+  title: "Fairy Tales from Hans Christian Andersen (1914) — The Snow Queen"
+  url: "https://en.wikisource.org/wiki/Fairy_tales_from_Hans_Christian_Andersen_%28Walker%29/The_Snow_Queen"
+  note: >
+    Английский перевод из издания 1914 года с иллюстрациями Дугалда Стюарта
+    Уокера, опубликованный на Wikisource. Запись следует этой редакции сказки
+    и не смешивает детали иных переводов.
+
+entities:
+  - id: snow-queen
+    name: "Снежная королева"
+    type: character
+    description: >
+      Сверхъестественная повелительница холода, которая увозит Кая в свой
+      ледяной дворец. Её поцелуи лишают мальчика ощущения холода и памяти о
+      близких, а сама она способна летать над странами и повелевать снежными
+      стражами.
+    tags:
+      - ice
+      - enchantment
+      - antagonist
+
+  - id: evil-mirror
+    name: "Злое волшебное зеркало"
+    type: artifact
+    description: >
+      Зеркало, созданное злым демоном и искажающее всё хорошее и прекрасное,
+      одновременно подчёркивая дурное и безобразное. После разрушения его
+      осколки сохраняют ту же магическую силу.
+    tags:
+      - mirror
+      - corruption
+      - cursed-object
+
+  - id: mirror-shards
+    name: "Осколки волшебного зеркала"
+    type: artifact
+    description: >
+      Мельчайшие фрагменты разбитого зеркала, продолжающие действовать как
+      целый артефакт. Попав в глаз, они искажают восприятие, а попав в сердце,
+      делают его холодным и бесчувственным; именно такие осколки поражают Кая.
+    tags:
+      - curse
+      - corruption
+      - transformation
+
+  - id: living-snowflake-guards
+    name: "Живые снежинки-стражи"
+    type: creature
+    description: >
+      Ожившие снежинки, служащие передовым отрядом Снежной королевы. Они
+      увеличиваются по мере приближения к Герде и принимают облик колючих и
+      звероподобных существ, преграждая путь к дворцу.
+    tags:
+      - snow
+      - guardian
+      - animated
+
+  - id: snow-queens-palace
+    name: "Дворец Снежной королевы"
+    type: location
+    description: >
+      Огромный ледяной дворец на далёком севере, стены которого сложены из
+      снежных заносов, а двери и окна связаны с ледяными ветрами. Его залы
+      освещают северные сияния, а в центре лежит замёрзшее Озеро Разума.
+    tags:
+      - ice-palace
+      - otherworld
+      - enchanted-location
