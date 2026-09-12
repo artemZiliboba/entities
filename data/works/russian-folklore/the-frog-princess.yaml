@@ -1,0 +1,73 @@
+id: the-frog-princess
+title: "Царевна-лягушка"
+kind: folktale
+tradition:
+  - russian-folklore
+collection: "Русские народные сказки"
+source:
+  note: >
+    Пример энциклопедической записи. Сюжет существует в нескольких народных
+    вариантах, поэтому состав и детали магических сущностей могут различаться.
+
+entities:
+  - id: frog-princess
+    name: "Царевна-лягушка"
+    type: character
+    description: >
+      Заколдованная царевна, вынужденная некоторое время жить в облике лягушки
+      и способная возвращаться к человеческому облику.
+    tags:
+      - transformation
+      - enchantment
+
+  - id: frog-skin
+    name: "Лягушачья кожа"
+    type: artifact
+    description: >
+      Волшебная оболочка, связанная с превращением царевны. Её преждевременное
+      уничтожение нарушает установленный срок заклятия и становится причиной
+      дальнейших испытаний героя.
+    tags:
+      - transformation
+      - enchantment
+
+  - id: baba-yaga-hut
+    name: "Избушка на курьих ножках"
+    type: location
+    description: >
+      Волшебное жилище Бабы-яги, встречающее героя на пути во время поисков
+      исчезнувшей царевны.
+    tags:
+      - dwelling
+      - liminal-place
+
+  - id: baba-yaga
+    name: "Баба-яга"
+    type: character
+    description: >
+      Сверхъестественная хозяйка избушки, которая в сказочном путешествии может
+      испытать героя, дать ему сведения или помочь продолжить поиски.
+    tags:
+      - helper
+      - witch
+
+  - id: koschei-the-deathless
+    name: "Кощей Бессмертный"
+    type: character
+    description: >
+      Сверхъестественный противник, связанный с похищением или удержанием
+      царевны в ряде вариантов сюжета.
+    tags:
+      - antagonist
+      - immortality
+
+  - id: koschei-needle
+    name: "Игла Кощея"
+    type: artifact
+    description: >
+      Спрятанный магический объект, повреждение которого лишает Кощея его
+      сверхъестественной неуязвимости и приводит к его гибели.
+    tags:
+      - immortality
+      - vulnerability
+      - hidden-object
