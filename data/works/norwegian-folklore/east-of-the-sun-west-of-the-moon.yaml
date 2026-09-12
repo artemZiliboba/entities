@@ -1,0 +1,64 @@
+id: east-of-the-sun-west-of-the-moon
+title: "К востоку от солнца и к западу от луны"
+original_title: "Østenfor sol og vestenfor måne"
+kind: folktale
+tradition:
+  - norwegian-folklore
+collection: "The Blue Fairy Book"
+source:
+  title: "The Blue Fairy Book — East of the Sun and West of the Moon"
+  url: "https://en.wikisource.org/wiki/The_Blue_Fairy_Book/East_of_the_Sun_and_West_of_the_Moon"
+  note: >
+    Английский перевод Маргарет Рейн Хант в The Blue Fairy Book (1889),
+    под редакцией Эндрю Лэнга. Запись следует этой редакции и не смешивает
+    детали с другими вариантами норвежской сказки.
+
+entities:
+  - id: enchanted-white-bear-prince
+    name: "Заколдованный принц-белый медведь"
+    type: character
+    description: >
+      Принц, превращённый мачехой в большого белого медведя днём и принимающий
+      человеческий облик ночью. Заклятие должно было прекратиться после года,
+      если девушка не увидит его человеческого лица раньше срока.
+    tags:
+      - transformation
+      - enchantment
+      - prince
+
+  - id: troll-hag-stepmother
+    name: "Мачеха-троллиха"
+    type: character
+    description: >
+      Сверхъестественная мачеха принца, наложившая на него превращающее
+      заклятие и после его нарушения уведшая его в замок к востоку от солнца
+      и к западу от луны.
+    tags:
+      - troll
+      - witch
+      - antagonist
+      - enchantment
+
+  - id: north-wind
+    name: "Северный ветер"
+    type: character
+    description: >
+      Персонифицированный сверхъестественный ветер, единственный из четырёх
+      ветров знающий путь к далёкому замку. Он переносит девушку на своей спине
+      через море к месту, лежащему к востоку от солнца и к западу от луны.
+    tags:
+      - wind
+      - guide
+      - supernatural
+
+  - id: east-west-castle
+    name: "Замок к востоку от солнца и к западу от луны"
+    type: location
+    description: >
+      Недоступный обычной дорогой далёкий замок, куда после нарушения условий
+      заклятия отправляется принц. Добраться до него удаётся лишь с помощью
+      Северного ветра.
+    tags:
+      - otherworld
+      - remote-place
+      - enchanted-realm
