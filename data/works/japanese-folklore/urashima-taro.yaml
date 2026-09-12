@@ -1,0 +1,63 @@
+id: urashima-taro
+title: "Урасима Таро"
+original_title: "Urashima Taro"
+kind: folktale
+tradition:
+  - japanese-folklore
+collection: "Japanese Fairy Tales"
+author: "Еи Теодора Одзаки"
+source:
+  title: "Japanese Fairy Tales — The Story of Urashima Taro, the Fisher Lad"
+  url: "https://www.gutenberg.org/ebooks/4018"
+  note: >
+    Англоязычная версия из сборника Yei Theodora Ozaki, опубликованного
+    Project Gutenberg. Запись следует именно этой редакции сюжета.
+
+entities:
+  - id: magical-tortoise
+    name: "Волшебная черепаха"
+    type: animal
+    description: >
+      Спасённая Урасимой черепаха позже разговаривает с ним, увеличивается до
+      размеров, позволяющих нести человека на спине, и доставляет героя в
+      подводное царство Морского царя.
+    tags:
+      - talking-animal
+      - transformation
+      - guide
+
+  - id: rin-gin-palace
+    name: "Дворец Рин Гин"
+    type: location
+    description: >
+      Подводный дворец Морского царя, куда черепаха приводит Урасиму. Герой
+      проводит там несколько дней, тогда как в человеческом мире за это время
+      проходят столетия.
+    tags:
+      - underwater-realm
+      - otherworld
+      - time-distortion
+
+  - id: tamate-bako
+    name: "Тамате-бако"
+    type: artifact
+    description: >
+      Запретный дар принцессы, который Урасима получает перед возвращением
+      домой. Когда он открывает коробку вопреки предупреждению, из неё выходит
+      фиолетовое облако, после чего последствия утраченного времени настигают
+      героя.
+    tags:
+      - forbidden-object
+      - transformation
+      - time
+
+  - id: accelerated-time
+    name: "Неравный ход времени"
+    type: phenomenon
+    description: >
+      Сверхъестественное расхождение времени между дворцом Морского царя и
+      человеческим миром: несколько дней для Урасимы соответствуют примерно
+      трёмстам годам в его родной деревне.
+    tags:
+      - time-distortion
+      - otherworld
