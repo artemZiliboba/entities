@@ -1,0 +1,75 @@
+id: pwyll-prince-of-dyfed
+title: "Пуйлл, принц Диведа"
+original_title: "Pwyll, Prince of Dyfed"
+kind: myth
+tradition:
+  - welsh-mythology
+collection: "The Mabinogion"
+source:
+  title: "The Mabinogion — Pwyll, Prince of Dyfed"
+  url: "https://www.gutenberg.org/ebooks/5160"
+  note: >
+    Английский перевод леди Шарлотты Гест из открытого издания Project Gutenberg.
+    Запись следует этой версии Первой ветви Мабиноги и не смешивает детали
+    других переводов и позднейших пересказов.
+
+entities:
+  - id: arawn
+    name: "Араун"
+    type: character
+    description: >
+      Правитель Аннуна, встречающий Пуйлла во время охоты. Он на год меняет
+      внешность Пуйлла со своей собственной, чтобы тот занял его место и
+      сразился с соперником Хавганом, после чего возвращает обоим их прежний облик.
+    tags:
+      - otherworld-ruler
+      - shapeshifting
+      - bargain
+
+  - id: hounds-of-annwn
+    name: "Гончие Аннуна"
+    type: animal
+    description: >
+      Необычная свора Арауна, отличающаяся ослепительно-белой шерстью и ярко-красными
+      ушами. Эти сверхъестественные охотничьи псы появляются вместе с правителем
+      потустороннего Аннуна и первыми приводят Пуйлла к встрече с ним.
+    tags:
+      - otherworld
+      - hunting
+      - supernatural-animal
+
+  - id: annwn
+    name: "Аннун"
+    type: location
+    description: >
+      Потустороннее владение Арауна, куда Пуйлл отправляется после обмена обликами.
+      Там он в течение года живёт как сам Араун и в назначенный день побеждает
+      Хавгана, обеспечивая своему союзнику власть над всем царством.
+    tags:
+      - otherworld
+      - enchanted-realm
+      - kingdom
+
+  - id: arawn-pwyll-form-exchange
+    name: "Обмен обликами Арауна и Пуйлла"
+    type: phenomenon
+    description: >
+      Магическое превращение, при котором Араун придаёт Пуйллу собственный облик,
+      а сам принимает внешность Пуйлла. Чары действуют весь установленный срок,
+      позволяя каждому быть неузнанным при дворе другого, а затем полностью снимаются.
+    tags:
+      - transformation
+      - identity
+      - enchantment
+
+  - id: rhiannon-white-horse
+    name: "Белый конь Рианнон"
+    type: animal
+    description: >
+      Светлый конь, на котором Рианнон появляется у кургана Арберт. Хотя он движется
+      неторопливым ровным шагом, самые быстрые всадники Пуйлла не могут его догнать;
+      преследование прекращается лишь тогда, когда Рианнон сама соглашается остановиться.
+    tags:
+      - supernatural-speed
+      - otherworld
+      - horse
