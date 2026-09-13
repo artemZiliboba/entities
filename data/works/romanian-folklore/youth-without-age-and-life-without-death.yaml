@@ -1,0 +1,158 @@
+id: youth-without-age-and-life-without-death
+title: "Молодость без старости и жизнь без смерти"
+original_title: "Youth Without Age and Life Without Death"
+kind: folktale
+tradition:
+  - romanian-folklore
+collection: "Roumanian Fairy Tales"
+source:
+  title: "Roumanian Fairy Tales — Youth Without Age and Life Without Death"
+  url: "https://www.gutenberg.org/ebooks/20552"
+  note: >
+    Английская редакция из сборника Mite Kremnitz, Roumanian Fairy Tales
+    (New York: Henry Holt and Company, 1885), опубликованная Project Gutenberg
+    как eBook #20552. Запись следует только этой версии сказки.
+
+entities:
+  - id: childbearing-herbs
+    name: "Травы, дарующие ребёнка"
+    type: plant
+    description: >
+      Особые травы мудрого старика, которые император и императрица получают
+      после безуспешных обращений к другим знахарям и звездочётам. После их
+      употребления у бездетной пары рождается единственный сын, как и было
+      предсказано стариком.
+    tags:
+      - fertility
+      - magical-plant
+      - prophecy
+
+  - id: four-winged-horse
+    name: "Заколдованный четырёхкрылый конь"
+    type: animal
+    description: >
+      Сначала выглядит больным и покрытым язвами, но говорит человеческим
+      голосом и узнаёт в принце героя. После шести недель ухода сбрасывает язвы,
+      становится могучим конём с четырьмя крыльями, летает с огромной скоростью,
+      советует хозяину и прямо назван в тексте заколдованным и неубиваемым.
+    tags:
+      - talking-animal
+      - flying-horse
+      - enchanted-animal
+      - invulnerable
+
+  - id: woodpecker-fairy
+    name: "Фея-Дятел"
+    type: character
+    description: >
+      Огромная и опасная хозяйка лесного владения, прежде бывшая женщиной.
+      Родительское проклятие превратило её в дятла; она способна двигаться с
+      такой силой и скоростью, что валит деревья, а отрубленная нога после
+      возвращения на место мгновенно прирастает.
+    tags:
+      - fairy
+      - curse
+      - transformation
+      - regeneration
+
+  - id: scorpion-witch
+    name: "Ведьма-Скорпион"
+    type: character
+    description: >
+      Сестра Феи-Дятла, превращённая родительским проклятием в чудовище.
+      Она движется как ветер, извергает огонь и имеет чудовищные размеры;
+      отсечённая принцем голова после возвращения на место снова прирастает.
+    tags:
+      - witch
+      - fire
+      - curse
+      - regeneration
+
+  - id: perpetual-spring-field
+    name: "Поле вечной весны"
+    type: location
+    description: >
+      Цветущее поле за владениями Ведьмы-Скорпиона, где постоянно царит весна.
+      Его необычайно красивые цветы источают сладкий опьяняющий аромат, а мягкий
+      ветер непрерывно колышет растительность.
+    tags:
+      - eternal-spring
+      - enchanted-land
+      - magical-location
+
+  - id: ageless-palace-fairies
+    name: "Три феи дворца вечной молодости"
+    type: character
+    description: >
+      Три сестры, одинаково молодые и прекрасные, живущие в дворце за лесом
+      зверей. Младшая спасает принца от стражей и позднее становится его женой;
+      все три остаются неизменно молодыми и знают последствия запретной долины.
+    tags:
+      - fairy
+      - agelessness
+      - guardians
+
+  - id: palace-of-youth-without-age
+    name: "Дворец Молодости без старости и Жизни без смерти"
+    type: location
+    description: >
+      Сверкающий дворец за непроходимым лесом, где принц обретает искомое
+      существование. Пока он живёт там, века проходят для внешнего мира, но сам
+      он не стареет и не болеет, оставаясь таким же молодым, как в день прибытия.
+    tags:
+      - agelessness
+      - immortality
+      - magical-location
+      - time-distortion
+
+  - id: youth-without-age-state
+    name: "Молодость без старости и жизнь без смерти"
+    type: phenomenon
+    description: >
+      Сверхъестественное состояние, которое принц находит в волшебном дворце:
+      течение столетий не меняет его возраста и не приносит болезней. Оно
+      сохраняется, пока герой остаётся в пределах этого мира и не нарушает
+      запрет, связанный с Долиной Плача.
+    tags:
+      - agelessness
+      - immortality
+      - time-distortion
+
+  - id: valley-of-lamentation
+    name: "Долина Плача"
+    type: location
+    description: >
+      Единственное место возле дворца, куда принцу запрещено входить. Стоит ему
+      случайно пересечь долину во время охоты, как его внезапно охватывает
+      непреодолимая тоска по давно умершим родителям, и это желание заставляет
+      его покинуть землю вечной молодости.
+    tags:
+      - forbidden-place
+      - enchantment
+      - longing
+      - magical-location
+
+  - id: returning-age
+    name: "Возвращение накопившегося возраста"
+    type: phenomenon
+    description: >
+      После ухода из земли вечной молодости принц начинает стремительно стареть
+      по мере возвращения домой. Пока вокруг него обнаруживаются прошедшие
+      столетия, его волосы и борода белеют, тело слабеет, и к родному дворцу
+      он прибывает глубоким стариком.
+    tags:
+      - rapid-aging
+      - time-distortion
+      - mortality
+
+  - id: princes-death
+    name: "Смерть принца"
+    type: character
+    description: >
+      Персонифицированная смерть героя, долгие века ожидающая его в старом
+      сундуке среди развалин родного дворца. Она говорит с вернувшимся принцем,
+      хватает его, после чего тот мгновенно падает мёртвым и рассыпается в прах.
+    tags:
+      - personified-death
+      - mortality
+      - supernatural-being
