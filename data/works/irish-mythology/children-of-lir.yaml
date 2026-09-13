@@ -1,0 +1,65 @@
+id: children-of-lir
+title: "Судьба детей Лира"
+original_title: "The Fate of the Children of Lir"
+kind: legend
+tradition:
+  - irish-mythology
+collection: "More Celtic Fairy Tales"
+source:
+  title: "More Celtic Fairy Tales — The Fate of the Children of Lir"
+  url: "https://en.wikisource.org/wiki/More_Celtic_Fairy_Tales/The_Fate_of_the_Children_of_Lir"
+  note: >
+    Редакция Джозефа Джейкобса (1895), опубликованная на Wikisource; в примечаниях
+    указано, что текст сокращён с версии, опубликованной Society for the Preservation
+    of the Irish Language в 1883 году. Запись следует именно этой редакции и не
+    смешивает детали иных пересказов.
+
+entities:
+  - id: aoife
+    name: "Аойфе"
+    type: character
+    description: >
+      Мачеха детей Лира, владеющая друидическим колдовством. Из ревности она
+      превращает четырёх детей в белых лебедей и назначает срок их изгнания на
+      трёх водоёмах, после чего сама подвергается наказанию за содеянное.
+    tags:
+      - enchantress
+      - transformation
+      - curse
+
+  - id: children-of-lir-swans
+    name: "Дети Лира в облике лебедей"
+    type: animal
+    description: >
+      Фингола, Аод, Фиахра и Конн после заклятия Аойфе превращаются в белых
+      лебедей, сохраняя человеческую речь и способность петь необычайно красивыми
+      голосами. В этом облике они проводят долгие века на озёрах и морских проливах.
+    tags:
+      - transformation
+      - talking-animal
+      - enchanted-humans
+
+  - id: swan-transformation-curse
+    name: "Заклятие превращения детей Лира в лебедей"
+    type: spell
+    description: >
+      Друидическое заклятие Аойфе, превращающее детей Лира в лебедей и
+      ограничивающее срок чар последовательным пребыванием на озере Дерравараг,
+      в проливе Мойл и у острова Инишглора. Снять его раньше назначенного срока
+      невозможно.
+    tags:
+      - curse
+      - transformation
+      - druidic-magic
+
+  - id: children-of-lir-song
+    name: "Чудесное пение детей Лира"
+    type: phenomenon
+    description: >
+      Сверхъестественно прекрасное пение заколдованных детей, которое приносит
+      покой и наслаждение слушателям. Несмотря на птичий облик, они сохраняют
+      разум, речь и способность исполнять песни человеческими голосами.
+    tags:
+      - magical-song
+      - enchantment
+      - voice
