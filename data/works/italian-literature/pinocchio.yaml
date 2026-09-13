@@ -1,0 +1,276 @@
+id: pinocchio
+title: "Приключения Пиноккио"
+original_title: "Le avventure di Pinocchio"
+kind: novel
+tradition:
+  - italian-literature
+author: "Карло Коллоди"
+source:
+  title: "The Adventures of Pinocchio"
+  url: "https://www.gutenberg.org/ebooks/500"
+  note: >
+    Английский перевод Кэрол Делла Кьеза, опубликованный Project Gutenberg как
+    eBook #500. Запись следует этой редакции и не смешивает детали позднейших
+    экранизаций и пересказов.
+
+entities:
+  - id: talking-log
+    name: "Говорящее полено"
+    type: artifact
+    description: >
+      Обычное на вид полено, которое ещё до изготовления Пиноккио говорит,
+      плачет, смеётся и реагирует на удары и строгание как живое существо.
+    tags:
+      - talking-object
+      - enchanted-wood
+      - animation
+
+  - id: pinocchio-living-marionette
+    name: "Пиноккио — живая деревянная марионетка"
+    type: character
+    description: >
+      Вырезанная Джеппетто деревянная марионетка, которая самостоятельно
+      двигается, говорит, испытывает боль и эмоции и действует как живое существо.
+    tags:
+      - living-puppet
+      - animated-object
+      - wooden-being
+
+  - id: talking-cricket
+    name: "Говорящий Сверчок"
+    type: animal
+    description: >
+      Сверчок, способный говорить, рассуждать и давать Пиноккио нравственные
+      советы; позднее он также выступает одним из врачей Феи.
+    tags:
+      - talking-animal
+      - counselor
+      - doctor
+
+  - id: living-marionette-troupe
+    name: "Живые марионетки театра Огнееда"
+    type: creature
+    description: >
+      Деревянные актёры театра, включая Арлекина и Пульчинеллу, которые
+      самостоятельно разговаривают, двигаются, узнают Пиноккио и называют его
+      своим деревянным братом.
+    tags:
+      - living-puppet
+      - animated-object
+      - group
+
+  - id: talking-fox-and-cat
+    name: "Говорящие Лиса и Кот"
+    type: animal
+    description: >
+      Антропоморфные Лиса и Кот, свободно разговаривающие с Пиноккио и другими
+      персонажами и разыгрывающие человеческие роли мошенников и разбойников.
+    tags:
+      - talking-animal
+      - anthropomorphic
+      - trickster
+
+  - id: fairy-with-azure-hair
+    name: "Фея с лазурными волосами"
+    type: character
+    description: >
+      Древняя добрая фея, принимающая Пиноккио под защиту. Она вызывает
+      говорящих животных-помощников, исцеляет и наставляет его, меняет собственный
+      облик и в конце вознаграждает героя превращением в настоящего мальчика.
+    tags:
+      - fairy
+      - shapeshifting
+      - transformation
+      - helper
+
+  - id: fairy-falcon
+    name: "Сокол Феи"
+    type: animal
+    description: >
+      Говорящий сокол, отвечающий Фее человеческой речью и по её приказу
+      освобождающий Пиноккио из петли на дубе.
+    tags:
+      - talking-animal
+      - fairy-servant
+      - rescuer
+
+  - id: medoro-poodle
+    name: "Пудель Медоро"
+    type: animal
+    description: >
+      Пудель-служитель Феи, который ходит на задних лапах, носит придворную
+      ливрею и управляет стеклянной каретой как человеческий кучер.
+    tags:
+      - anthropomorphic
+      - fairy-servant
+      - coachman
+
+  - id: animal-doctors
+    name: "Ворон и Сова — врачи Феи"
+    type: animal
+    description: >
+      Разговаривающие Ворон и Сова, которых Фея приглашает вместе с Говорящим
+      Сверчком осмотреть почти погибшего Пиноккио и высказать врачебное мнение.
+    tags:
+      - talking-animal
+      - doctor
+      - group
+
+  - id: black-rabbit-undertakers
+    name: "Чёрные кролики-гробовщики"
+    type: animal
+    description: >
+      Четыре говорящих чёрных кролика, входящих к Пиноккио с маленьким гробом
+      и объявляющих, что пришли за ним, если он откажется выпить лекарство.
+    tags:
+      - talking-animal
+      - undertaker
+      - fairy-household
+
+  - id: fairy-medicine
+    name: "Лекарство Феи"
+    type: substance
+    description: >
+      Горькое лекарство, которое Фея даёт тяжело больному Пиноккио. Сразу после
+      того как он выпивает его, кукла полностью приходит в себя и вскакивает с постели.
+    tags:
+      - healing
+      - magical-medicine
+      - fairy-magic
+
+  - id: lie-growing-nose
+    name: "Рост носа Пиноккио от лжи"
+    type: phenomenon
+    description: >
+      Сверхъестественное удлинение носа Пиноккио при каждой новой лжи. После
+      нескольких лживых ответов нос вырастает настолько, что мешает ему двигаться.
+    tags:
+      - lie
+      - transformation
+      - magical-punishment
+
+  - id: fairy-woodpeckers
+    name: "Дятлы Феи"
+    type: animal
+    description: >
+      Огромная стая дятлов, вызванная Феей одним хлопком. Птицы одновременно
+      слетаются к чрезмерно выросшему носу Пиноккио и склёвывают его до обычного размера.
+    tags:
+      - summoned-animal
+      - fairy-servant
+      - restoration
+
+  - id: giant-talking-pigeon
+    name: "Говорящий гигантский Голубь"
+    type: animal
+    description: >
+      Голубь крупнее индюка, который разговаривает с Пиноккио, сообщает ему
+      сведения о Джеппетто и переносит марионетку на спине на десятки миль к морю.
+    tags:
+      - talking-animal
+      - giant-animal
+      - transport
+
+  - id: talking-dolphin
+    name: "Говорящий Дельфин"
+    type: animal
+    description: >
+      Вежливый дельфин, который отвечает Пиноккио человеческой речью, объясняет
+      дорогу по острову и предупреждает его об огромной Акуле.
+    tags:
+      - talking-animal
+      - sea-animal
+      - guide
+
+  - id: fairy-snail
+    name: "Улитка Феи"
+    type: animal
+    description: >
+      Говорящая улитка-служительница Феи с маленьким светом на голове. Она
+      открывает дом Феи, приносит Пиноккио еду и позднее передаёт ему известия о Фее.
+    tags:
+      - talking-animal
+      - fairy-servant
+      - luminous
+
+  - id: eel-door-knocker
+    name: "Превращение дверного молотка в угря"
+    type: phenomenon
+    description: >
+      Когда Пиноккио пытается воспользоваться дверным молотком дома Феи,
+      тот внезапно превращается в живого угря и уползает в темноту.
+    tags:
+      - transformation
+      - animated-object
+      - fairy-house
+
+  - id: land-of-toys-donkey-transformation
+    name: "Превращение детей Страны игрушек в ослов"
+    type: phenomenon
+    description: >
+      Дети, месяцами живущие в Стране игрушек без учёбы и труда, постепенно
+      превращаются в ослов: у них вырастают уши и хвосты, руки становятся ногами,
+      лица вытягиваются в морды, а человеческая речь сменяется ржанием.
+    tags:
+      - transformation
+      - human-to-animal
+      - magical-punishment
+
+  - id: transformed-boy-donkeys
+    name: "Осёлки — бывшие мальчики"
+    type: animal
+    description: >
+      Дети, уже превращённые в ослов в Стране игрушек. Некоторые сохраняют
+      остатки человеческого сознания и речи; один из них предупреждает Пиноккио,
+      а его друг Фитилёк позднее узнаёт героя и называет себя человеческим именем.
+    tags:
+      - transformed-human
+      - talking-animal
+      - enchanted-animal
+
+  - id: fairy-blue-goat-form
+    name: "Облик Феи в виде козочки с голубой шерстью"
+    type: animal
+    description: >
+      Один из обликов Феи: маленькая козочка с голубой шерстью, которая говорит
+      человеческим голосом, пытается спасти Пиноккио у моря и позднее оставляет
+      дом Говорящему Сверчку.
+    tags:
+      - shapeshifting
+      - fairy-form
+      - talking-animal
+
+  - id: pinocchio-human-transformation
+    name: "Превращение Пиноккио в настоящего мальчика"
+    type: phenomenon
+    description: >
+      Финальное чудесное превращение: после сна Пиноккио просыпается уже не
+      деревянной марионеткой, а живым человеческим мальчиком, тогда как его
+      прежнее деревянное тело остаётся неподвижно лежать рядом.
+    tags:
+      - transformation
+      - puppet-to-human
+      - fairy-reward
+
+  - id: fairy-coin-transmutation
+    name: "Превращение монет Феи в золото"
+    type: phenomenon
+    description: >
+      Пятьдесят мелких монет, которые Пиноккио отдал на помощь Фее, возвращаются
+      ему после финального превращения как пятьдесят золотых монет в кошельке.
+    tags:
+      - transmutation
+      - money
+      - fairy-reward
+
+  - id: final-house-renewal
+    name: "Чудесное обновление дома и Джеппетто"
+    type: phenomenon
+    description: >
+      В ту же ночь, когда Пиноккио становится мальчиком, бедное жилище чудесно
+      превращается в красиво обставленную комнату, а старый и больной Джеппетто
+      просыпается помолодевшим и вновь полным сил.
+    tags:
+      - transformation
+      - rejuvenation
+      - fairy-reward
