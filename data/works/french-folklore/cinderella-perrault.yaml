@@ -1,0 +1,124 @@
+id: cinderella-perrault
+title: "Золушка, или Хрустальная туфелька"
+original_title: "Cendrillon, ou la Petite Pantoufle de verre"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Шарль Перро"
+collection: "Tales of Passed Times"
+source:
+  title: "Tales of Passed Times — Cinderella; or, The Little Glass Slipper"
+  url: "https://www.gutenberg.org/ebooks/33511"
+  note: >
+    Английский текст из лондонского издания J. M. Dent & Company 1900 года,
+    опубликованный Project Gutenberg как eBook #33511. Запись следует именно
+    этой редакции сказки Перро и не смешивает детали других вариантов Золушки.
+
+entities:
+  - id: fairy-godmother
+    name: "Фея-крёстная"
+    type: character
+    description: >
+      Крёстная Золушки, прямо названная в тексте феей. С помощью волшебной
+      палочки она превращает тыкву, животных и одежду, чтобы Золушка смогла
+      попасть на бал, и задаёт срок действия чар до полуночи.
+    tags:
+      - fairy
+      - transformation
+      - helper
+
+  - id: fairy-wand
+    name: "Волшебная палочка феи-крёстной"
+    type: artifact
+    description: >
+      Палочка, прикосновениями которой фея-крёстная вызывает все основные
+      превращения: тыквы в карету, мышей в лошадей, крысы в кучера, ящериц
+      в лакеев и старой одежды Золушки в праздничный наряд.
+    tags:
+      - wand
+      - transformation
+      - enchanted-object
+
+  - id: pumpkin-coach
+    name: "Карета из тыквы"
+    type: artifact
+    description: >
+      Позолоченная карета, в которую фея превращает вычищенную тыкву одним
+      ударом палочки. Чары действуют лишь до полуночи, после чего карета снова
+      становится тыквой.
+    tags:
+      - transformation
+      - carriage
+      - temporary-enchantment
+
+  - id: mouse-horses
+    name: "Шесть мышей-лошадей"
+    type: animal
+    description: >
+      Шесть живых мышей из мышеловки, превращённых феей в красивых серых
+      лошадей для кареты Золушки. После полуночи они должны вновь стать мышами.
+    tags:
+      - transformation
+      - enchanted-animal
+      - horses
+
+  - id: rat-coachman
+    name: "Крыса-кучер"
+    type: animal
+    description: >
+      Одна из трёх крыс в крысоловке, выбранная за большие усы и превращённая
+      прикосновением палочки в дородного кучера. По истечении чар она должна
+      вернуться к исходному облику крысы.
+    tags:
+      - transformation
+      - enchanted-animal
+      - coachman
+
+  - id: lizard-footmen
+    name: "Шесть ящериц-лакеев"
+    type: animal
+    description: >
+      Шесть ящериц, найденных за лейкой в саду и превращённых феей в лакеев
+      в богато отделанных ливреях. Они сопровождают карету до окончания чар.
+    tags:
+      - transformation
+      - enchanted-animal
+      - servants
+
+  - id: enchanted-ball-gown
+    name: "Заколдованный бальный наряд Золушки"
+    type: artifact
+    description: >
+      Старая одежда Золушки после прикосновения палочки мгновенно становится
+      платьем из золота и серебра, украшенным драгоценными камнями. После
+      полуночи наряд возвращается к прежнему виду.
+    tags:
+      - transformation
+      - clothing
+      - temporary-enchantment
+
+  - id: glass-slippers
+    name: "Хрустальные туфельки"
+    type: artifact
+    description: >
+      Пара необычайно красивых стеклянных туфелек, подаренная Золушке феей
+      вместе с преобразившимся нарядом. В отличие от прочих чар, одна туфелька
+      остаётся после полуночи у принца, а вторая — у Золушки и позднее служит
+      для её узнавания.
+    tags:
+      - fairy-gift
+      - footwear
+      - recognition
+
+  - id: midnight-enchantment-reversal
+    name: "Возвращение чар в полночь"
+    type: phenomenon
+    description: >
+      Условие магии феи-крёстной: после полуночи карета снова становится
+      тыквой, лошади — мышами, лакеи — ящерицами, а праздничная одежда —
+      прежней. Во второй вечер Золушка застаёт начало этого обратного
+      превращения, задержавшись на балу до двенадцати.
+    tags:
+      - timed-magic
+      - transformation
+      - reversal
