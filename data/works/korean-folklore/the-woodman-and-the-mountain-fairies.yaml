@@ -1,0 +1,57 @@
+id: the-woodman-and-the-mountain-fairies
+title: "Лесоруб и горные феи"
+original_title: "The Woodman and the Mountain Fairies"
+kind: folktale
+tradition:
+  - korean-folklore
+collection: "Korean Fairy Tales"
+author: "Уильям Эллиот Гриффис"
+source:
+  title: "Korean Fairy Tales — The Woodman and the Mountain Fairies"
+  url: "https://www.gutenberg.org/ebooks/67180"
+  note: >
+    Английская редакция из сборника William Elliot Griffis, Korean Fairy Tales
+    (Thomas Y. Crowell Company; издание 1911/1922), опубликованная Project
+    Gutenberg как eBook #67180. Запись следует только этой версии сказки.
+
+entities:
+  - id: mountain-fairies
+    name: "Горные феи"
+    type: character
+    description: >
+      Два сверхъестественных обитателя гор, которых лесоруб Киль Ви встречает
+      за игрой в го. Они существуют вне обычного хода времени: пока герой
+      наблюдает за их партией, для внешнего мира проходят века, а сами феи
+      исчезают вместе с доской и камнями, когда игра внезапно прерывается.
+    tags:
+      - fairy
+      - mountain-spirit
+      - time-distortion
+
+  - id: fairy-persimmon-seed
+    name: "Семечко горных фей"
+    type: artifact
+    description: >
+      Небольшой предмет, похожий на семя хурмы, который одна из фей кладёт в
+      рот Киль Ви. После этого герой не может говорить, не чувствует голода и
+      остаётся неподвижно поглощён игрой; когда семечко выпадает изо рта спустя
+      пятьсот лет внешнего времени, способность говорить возвращается.
+    tags:
+      - fairy-gift
+      - silence
+      - hunger-suppression
+      - enchantment
+
+  - id: five-hundred-year-time-slip
+    name: "Пятисотлетний разрыв времени у игры фей"
+    type: phenomenon
+    description: >
+      Сверхъестественное искажение времени вокруг игры горных фей. Киль Ви
+      воспринимает происходящее как непрерывное наблюдение за одной партией,
+      однако за это время истлевают деревянная рукоять его топора, одежда и
+      шляпа, сам он становится глубоким стариком, а в деревне проходит около
+      пятисот лет и сменяется множество поколений.
+    tags:
+      - time-distortion
+      - fairy-time
+      - centuries
