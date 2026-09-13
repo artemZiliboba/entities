@@ -1,0 +1,75 @@
+id: alices-adventures-in-wonderland
+title: "Алиса в Стране чудес"
+original_title: "Alice's Adventures in Wonderland"
+kind: novel
+tradition:
+  - english-literature
+author: "Льюис Кэрролл"
+source:
+  title: "Alice's Adventures in Wonderland"
+  url: "https://www.gutenberg.org/ebooks/11"
+  note: >
+    Открытый английский текст Project Gutenberg (eBook #11), основанный на
+    оригинальном произведении Льюиса Кэрролла. Запись следует этому тексту и
+    не смешивает детали экранизаций или позднейших адаптаций.
+
+entities:
+  - id: drink-me-potion
+    name: "Напиток «Выпей меня»"
+    type: substance
+    description: >
+      Необычный напиток из маленькой бутылочки с этикеткой «DRINK ME».
+      Выпив его, Алиса уменьшается примерно до десяти дюймов ростом, что
+      позволяет ей приблизиться к размеру маленькой двери в сад.
+    tags:
+      - size-change
+      - shrinking
+      - enchanted-food
+
+  - id: eat-me-cake
+    name: "Пирожок «Съешь меня»"
+    type: substance
+    description: >
+      Маленький пирожок с надписью «EAT ME», найденный Алисой под стеклянным
+      столом. После того как она доедает его, её рост резко увеличивается,
+      пока голова не упирается в потолок зала.
+    tags:
+      - size-change
+      - growth
+      - enchanted-food
+
+  - id: caterpillars-mushroom
+    name: "Гриб Синей Гусеницы"
+    type: plant
+    description: >
+      Большой гриб, на котором сидит Синяя Гусеница. Кусочки с разных сторон
+      гриба противоположно меняют рост Алисы: одна сторона делает её выше,
+      другая — ниже, позволяя ей регулировать собственный размер.
+    tags:
+      - size-change
+      - magical-plant
+      - transformation
+
+  - id: cheshire-cat
+    name: "Чеширский Кот"
+    type: animal
+    description: >
+      Говорящий кот, способный появляться и исчезать по собственному желанию.
+      Иногда он исчезает постепенно, оставляя после себя одну улыбку, которая
+      некоторое время остаётся видимой без самого кота.
+    tags:
+      - talking-animal
+      - disappearance
+      - supernatural-animal
+
+  - id: white-rabbit
+    name: "Белый Кролик"
+    type: animal
+    description: >
+      Говорящий белый кролик в жилете, носящий карманные часы и ведущий себя
+      как человек. Именно его появление и речь побуждают Алису последовать за
+      ним в нору и попасть в Страну чудес.
+    tags:
+      - talking-animal
+      - anthropomorphic
+      - guide
