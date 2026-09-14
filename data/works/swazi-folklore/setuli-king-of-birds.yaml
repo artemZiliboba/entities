@@ -1,0 +1,155 @@
+id: setuli-king-of-birds
+title: "Сетули, или Король птиц"
+original_title: "Setuli; or, the King of the Birds"
+kind: folktale
+tradition:
+  - swazi-folklore
+collection: "Fairy Tales from South Africa"
+source:
+  title: "Fairy Tales from South Africa — Setuli; or, the King of the Birds"
+  url: "https://www.gutenberg.org/ebooks/75833"
+  note: >
+    Английская запись свазийской сказки из сборника Sarah F. Bourhill и
+    Beatrice L. Drake, Fairy Tales from South Africa (Macmillan, 1908),
+    опубликованная Project Gutenberg как eBook #75833. Запись следует только
+    этой редакции и не смешивает её с другими вариантами.
+
+entities:
+  - id: setulis-magician-brother
+    name: "Старший брат-маг Сетули"
+    type: character
+    description: >
+      Старший брат Сетули, прямо названный великим магом. Он знает свойства
+      волшебных корней и сверхъестественные силы птиц и зверей, понимает
+      магические приветствия птиц и готовит зелье невидимости для разведчиков.
+    tags:
+      - magician
+      - magical-herbs
+      - animal-lore
+
+  - id: pool-fairy
+    name: "Фея из лесного пруда"
+    type: character
+    description: >
+      Фея в облике старухи, появляющаяся из глубокого пруда после испытаний
+      Сетули. Она возвращает ему речь и слух, обещает исполнять его будущие
+      просьбы и посылает ему три стаи птиц, ставшие основой его войска.
+    tags:
+      - fairy
+      - healer
+      - wish-granting
+      - helper
+
+  - id: speak-command
+    name: "Троекратное повеление «Говори!»"
+    type: spell
+    description: >
+      Магическая формула феи: она трижды велит Сетули говорить, и после третьего
+      повеления он впервые получает способность слышать, понимать речь и говорить.
+    tags:
+      - healing-spell
+      - speech
+      - restoration
+
+  - id: setuli-wish-power
+    name: "Дар исполнения желаний Сетули"
+    type: phenomenon
+    description: >
+      Сверхъестественная способность, полученная Сетули от феи: достаточно
+      приказать или попросить, чтобы появлялись нужные ему вещи и припасы.
+      Так он мгновенно создаёт тысячу хижин и обеспечивает большое войско едой.
+    tags:
+      - wish-granting
+      - conjuration
+      - fairy-gift
+
+  - id: bird-warrior-regiments
+    name: "Птичьи полки Сетули"
+    type: creature
+    description: >
+      Три стаи птиц — сакобулы, золотые иволги и руибекки, присланные феей.
+      Одним словом Сетули превращает их в человеческих воинов, телохранителей
+      и юных носильщиков; их птичьи предводители становятся командирами.
+    tags:
+      - transformation
+      - enchanted-army
+      - birds
+      - fairy-gift
+
+  - id: invisibility-potion
+    name: "Зелье невидимости"
+    type: substance
+    description: >
+      Волшебное зелье старшего брата-мага, которое получают разведчики Сетули.
+      После его применения они становятся невидимыми и могут приблизиться к
+      чужим городам, не будучи замеченными.
+    tags:
+      - invisibility
+      - potion
+      - magic
+
+  - id: many-eyed-ogre
+    name: "Многоглазый однорукий огр"
+    type: creature
+    description: >
+      Чудовищный хозяин городов на равнине: у него одна рука, одна нога и два
+      глаза, расположенные спереди и сзади головы. Он связан с колдовством,
+      которое уродует и лишает речи жителей его владений, и после смертельной
+      раны способен снова ожить.
+    tags:
+      - ogre
+      - curse
+      - regeneration
+      - monster
+
+  - id: ogres-enchantment
+    name: "Заклятие одноруких и одноногих жителей"
+    type: phenomenon
+    description: >
+      Злое колдовство, из-за которого жители городов становятся глухонемыми,
+      однорукими и одноногими, а приблизившиеся чужаки начинают испытывать те
+      же симптомы. После поражения огра чары исчезают, и люди возвращаются к
+      обычному облику и речи.
+    tags:
+      - curse
+      - transformation
+      - muteness
+      - restoration
+
+  - id: magic-feather-ball
+    name: "Магический шар из птичьих перьев"
+    type: artifact
+    description: >
+      Разноцветный шар-головной убор, сделанный Сетули из перьев множества птиц.
+      Текст прямо приписывает ему магическую силу: при прикосновении Сетули
+      исчезают сотни маленьких огров, а позже шар помогает всему стаду одним
+      прыжком преодолеть огромную пропасть.
+    tags:
+      - feathers
+      - talisman
+      - banishment
+      - supernatural-leap
+
+  - id: little-ogres
+    name: "Маленькие огры"
+    type: creature
+    description: >
+      Сотни одноруких и одноногих существ, появляющихся рядом с ожившим большим
+      огром и играющих магическим шаром из перьев. Когда Сетули касается шара,
+      все маленькие огры мгновенно исчезают, словно дым.
+    tags:
+      - ogre
+      - supernatural-creature
+      - group
+
+  - id: magic-assegai
+    name: "Волшебный ассегай Сетули"
+    type: artifact
+    description: >
+      Копьё, которым Сетули демонстрирует свою власть местному вождю. Ударив
+      им своих телохранителей по ногам, он заставляет их ходить на одной ноге,
+      а повторным ударом сразу возвращает им нормальную походку.
+    tags:
+      - magic-weapon
+      - transformation
+      - restoration
