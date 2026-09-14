@@ -1,0 +1,115 @@
+id: the-magic-ring
+title: "Волшебное кольцо"
+original_title: "The Magic Ring"
+kind: folktale
+tradition:
+  - armenian-folklore
+collection: "The Golden Maiden, and Other Folk Tales and Fairy Stories Told in Armenia"
+author: "А. Г. Секлемиан"
+source:
+  title: "The Golden Maiden, and Other Folk Tales and Fairy Stories Told in Armenia — The Magic Ring"
+  url: "https://www.gutenberg.org/ebooks/46944"
+  note: >
+    Английская редакция А. Г. Секлемиана (1898), Project Gutenberg eBook #46944.
+    Запись следует только сказке The Magic Ring из этого сборника и не смешивает
+    её с одноимёнными или родственными вариантами других традиций.
+
+entities:
+  - id: enchanted-snake-prince
+    name: "Заколдованный царевич-змея"
+    type: character
+    description: >
+      Сын царя Индии, которого маги превратили в маленькую змею. Заклятие
+      устроено так, что он возвращает человеческий облик, когда человек
+      собственноручно даёт ему хлеб и змея откусывает кусок.
+    tags:
+      - prince
+      - transformation
+      - curse
+      - snake
+
+  - id: snake-transformation-spell
+    name: "Заклятие превращения царевича в змею"
+    type: spell
+    description: >
+      Колдовство магов, превращающее царского сына в змею и задающее точное
+      условие освобождения: он должен получить хлеб непосредственно из руки
+      человека. Исполнение условия мгновенно возвращает ему человеческий облик.
+    tags:
+      - transformation
+      - curse
+      - release-condition
+
+  - id: magic-ring
+    name: "Волшебное кольцо царя Индии"
+    type: artifact
+    description: >
+      Драгоценное кольцо, которое царь отдаёт спасителю своего сына. Если
+      перевернуть камень кольца, появляются два джинна и исполняют волю хозяина,
+      создавая богатства, перенося дворец и возвращая его на прежнее место.
+    tags:
+      - magic-ring
+      - summoning
+      - wish-granting
+      - teleportation
+
+  - id: two-ring-genii
+    name: "Два джинна волшебного кольца"
+    type: creature
+    description: >
+      Два сверхъестественных служителя, вызываемые поворотом камня кольца.
+      Они обязаны выполнять приказ владельца: за одну ночь создают дворец и
+      требуемые богатства, переносят целый дворец на остров и затем возвращают его.
+    tags:
+      - genie
+      - summoned-servant
+      - conjuration
+      - teleportation
+
+  - id: talking-cat
+    name: "Говорящая кошка"
+    type: animal
+    description: >
+      Спасённая героем кошка, способная разговаривать с собакой и мышью.
+      Вместе с ними она отправляется через Семь морей за похищенным кольцом,
+      помогает проникнуть во дворец и переносит мышь на себе по стене.
+    tags:
+      - talking-animal
+      - helper
+      - cat
+
+  - id: talking-mouse
+    name: "Говорящая мышь"
+    type: animal
+    description: >
+      Спасённая героем мышь, разговаривающая с другими животными и играющая
+      ключевую роль в возвращении кольца: она проникает в спальню похитителя,
+      заставляет его чихнуть и уронить кольцо, а позднее находит его в рыбе.
+    tags:
+      - talking-animal
+      - helper
+      - mouse
+
+  - id: talking-dog
+    name: "Говорящая собака"
+    type: animal
+    description: >
+      Спасённая героем собака, способная говорить с кошкой и мышью. Она
+      переплывает Семь морей, перевозя спутников на спине, и участвует в
+      экспедиции по возвращению волшебного кольца.
+    tags:
+      - talking-animal
+      - helper
+      - dog
+
+  - id: bottomless-sea
+    name: "Бездонное море"
+    type: location
+    description: >
+      Сверхъестественная морская бездна, куда джинны по приказу владельца кольца
+      бросают похитителя. Финал подчёркивает невозможность достичь дна: злодей
+      продолжает падать в море бесконечно и никогда не достигает его дна.
+    tags:
+      - bottomless
+      - magical-location
+      - punishment
