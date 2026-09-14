@@ -1,0 +1,190 @@
+id: east-of-the-sun-and-west-of-the-moon
+title: "К востоку от солнца и к западу от луны"
+original_title: "East of the Sun and West of the Moon"
+kind: folktale
+tradition:
+  - norwegian-folklore
+collection: "East of the Sun and West of the Moon: Old Tales from the North"
+author: "Петер Кристен Асбьёрнсен и Йорген Му"
+source:
+  title: "East of the Sun and West of the Moon: Old Tales from the North — East of the Sun and West of the Moon"
+  url: "https://www.gutenberg.org/ebooks/30973"
+  note: >
+    Английская редакция норвежской сказки из сборника Peter Christen Asbjørnsen
+    and Jørgen Engebretsen Moe, East of the Sun and West of the Moon: Old Tales
+    from the North, Project Gutenberg eBook #30973. Запись следует только
+    заглавной сказке и не смешивает её с другими вариантами сюжета ATU 425A.
+
+entities:
+  - id: white-bear-prince
+    name: "Принц в облике Белого Медведя"
+    type: character
+    description: >
+      Заколдованный принц, который днём существует в облике огромного Белого
+      Медведя, а ночью принимает человеческий облик. Он перевозит героиню на
+      спине, живёт в скрытом замке и может быть освобождён только при соблюдении
+      условия наложенного на него колдовства.
+    tags:
+      - enchanted-prince
+      - transformation
+      - white-bear
+      - animal-bridegroom
+
+  - id: troll-stepmother
+    name: "Мачеха-тролль"
+    type: character
+    description: >
+      Сверхъестественная мачеха принца, наложившая на него заклятие, из-за
+      которого он днём становится Белым Медведем. Она живёт в замке к востоку от
+      солнца и к западу от луны и пытается женить его на своей дочери.
+    tags:
+      - troll
+      - witch
+      - curse
+      - antagonist
+
+  - id: white-bear-transformation-curse
+    name: "Заклятие Белого Медведя"
+    type: spell
+    description: >
+      Колдовство мачехи, заставляющее принца быть Белым Медведем днём и человеком
+      ночью. Оно должно было прекратиться, если героиня целый год не увидит его
+      человеческий облик; нарушение условия связывает принца с замком мачехи.
+    tags:
+      - transformation
+      - curse
+      - release-condition
+
+  - id: silver-summoning-bell
+    name: "Серебряный колокольчик"
+    type: artifact
+    description: >
+      Колокольчик, который Белый Медведь даёт героине в своём замке. Стоит ей
+      позвонить, как нужная вещь или услуга появляется немедленно; с его помощью
+      она получает в том числе готовую спальню и всё необходимое.
+    tags:
+      - magic-bell
+      - summoning
+      - wish-fulfillment
+
+  - id: white-bear-hidden-castle
+    name: "Скрытый замок Белого Медведя"
+    type: location
+    description: >
+      Волшебный замок внутри крутого холма: после стука Белого Медведя в скале
+      открывается дверь, а внутри находятся освещённые золотом и серебром залы.
+      После нарушения условия заклятия замок исчезает вместе с принцем.
+    tags:
+      - enchanted-castle
+      - hidden-place
+      - disappearing-location
+
+  - id: self-returning-horses
+    name: "Самовозвращающиеся кони старух"
+    type: animal
+    description: >
+      Кони трёх старух-помощниц, на которых героиня последовательно едет к
+      следующему проводнику. После лёгкого удара под левым ухом и команды каждый
+      конь самостоятельно возвращается домой к своей хозяйке.
+    tags:
+      - magical-horse
+      - self-returning
+      - guide
+
+  - id: east-wind
+    name: "Восточный Ветер"
+    type: creature
+    description: >
+      Персонифицированный Восточный Ветер, который разговаривает с героиней и
+      переносит её на своей спине к Западному Ветру. Он знает о далёком замке,
+      но признаёт, что сам никогда не дул так далеко.
+    tags:
+      - personified-wind
+      - guide
+      - aerial-transport
+
+  - id: west-wind
+    name: "Западный Ветер"
+    type: creature
+    description: >
+      Персонифицированный брат Восточного Ветра. Он также переносит героиню на
+      спине и направляет её к более сильному Южному Ветру, поскольку сам не знает
+      дороги к замку к востоку от солнца и к западу от луны.
+    tags:
+      - personified-wind
+      - guide
+      - aerial-transport
+
+  - id: south-wind
+    name: "Южный Ветер"
+    type: creature
+    description: >
+      Персонифицированный Южный Ветер, более сильный и много странствовавший.
+      Он несёт героиню к старшему брату — Северному Ветру, единственному из них,
+      кто знает путь к искомому замку.
+    tags:
+      - personified-wind
+      - guide
+      - aerial-transport
+
+  - id: north-wind
+    name: "Северный Ветер"
+    type: creature
+    description: >
+      Старший и сильнейший из четырёх ветров. Он однажды уже заносил лист к
+      далёкому замку и затем переносит туда героиню через море на своей спине,
+      вызывая по пути разрушительную бурю и полностью истощая свои силы.
+    tags:
+      - personified-wind
+      - guide
+      - aerial-transport
+      - storm
+
+  - id: east-west-castle
+    name: "Замок к востоку от солнца и к западу от луны"
+    type: location
+    description: >
+      Недостижимый обычной дорогой замок мачехи-тролля, расположенный за пределами
+      привычного мира. Добраться до него способен только Северный Ветер после
+      долгого перелёта через море; внутри удерживаются принц и похищенные люди.
+    tags:
+      - otherworldly-castle
+      - troll-realm
+      - remote-location
+
+  - id: long-nosed-troll-princess
+    name: "Длинноносая принцесса-тролль"
+    type: creature
+    description: >
+      Дочь мачехи-тролля, предназначенная принцу в жёны после срыва условия его
+      освобождения. Она покупает у героини три золотых предмета за ночи рядом с
+      принцем и каждый раз усыпляет его напитком, чтобы помешать встрече.
+    tags:
+      - troll
+      - princess
+      - antagonist
+      - enchanted-castle
+
+  - id: castle-trolls
+    name: "Тролли замка"
+    type: creature
+    description: >
+      Сверхъестественные обитатели замка мачехи. Во время испытания свадебной
+      рубахой они по очереди пытаются отстирать три пятна, но от их усилий ткань
+      лишь чернеет всё сильнее; после победы героини вся группа исчезает.
+    tags:
+      - troll
+      - supernatural-household
+      - antagonist
+
+  - id: sleepy-drink
+    name: "Сонный напиток"
+    type: substance
+    description: >
+      Напиток, который длинноносая принцесса даёт принцу вечером. После него он
+      спит так крепко, что героиня не может разбудить его две ночи подряд; на
+      третью ночь принц лишь притворяется, что пьёт, и тайно выливает напиток.
+    tags:
+      - sleeping-draught
+      - enchanted-drink
+      - sleep
