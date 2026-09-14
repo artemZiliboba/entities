@@ -1,0 +1,63 @@
+id: maui-the-fisherman
+title: "Мауи-рыболов"
+original_title: "Maui the Fisherman"
+kind: myth
+tradition:
+  - hawaiian-mythology
+collection: "Legends of Ma-ui, a Demi God of Polynesia and of his Mother Hina"
+author: "Уильям Дрейк Вестервельт"
+source:
+  title: "Legends of Ma-ui — Maui the Fisherman"
+  url: "https://www.gutenberg.org/ebooks/32601"
+  note: >
+    Английская редакция сборника W. D. Westervelt (1910), Project Gutenberg
+    eBook #32601. Запись следует гавайскому повествованию главы II без смешивания
+    с приведёнными позднее сравнительными полинезийскими вариантами.
+
+entities:
+  - id: maui-demigod
+    name: "Мауи"
+    type: character
+    description: >
+      Полубог и герой повествования, владеющий унаследованной магической костью
+      и созданным с её помощью рыболовным крюком. Заклинанием и волшебным крюком
+      он цепляет морское дно и поднимает из воды сушу.
+    tags: [demigod, culture-hero, fisherman]
+
+  - id: manaiakalani-magic-hook
+    name: "Магический крюк Манаиакалани"
+    type: artifact
+    aliases:
+      - "Manai-i-ka-lani"
+    description: >
+      Волшебный рыболовный крюк Мауи. Его священная острая часть сделана из
+      магической кости предков; этим крюком герой цепляет землю под морем и
+      начинает поднимать её к поверхности.
+    tags: [magic-hook, fishing, land-raising, ancestral-magic]
+
+  - id: ancestral-magic-bone
+    name: "Магическая кость предков Мауи"
+    type: artifact
+    description: >
+      Полученная от предков волшебная кость, из которой изготовлена священная
+      часть крюка Мауи. Текст связывает её и с более ранним подвигом героя,
+      когда этой костью он поражал солнце, заставляя его двигаться медленнее.
+    tags: [magic-bone, ancestor, sun]
+
+  - id: divine-fishing-incantation
+    name: "Заклинание божественной рыбалки Мауи"
+    type: spell
+    description: >
+      Формула, которую Мауи произносит, бросая магический крюк в море и прямо
+      связывая действие с божественной силой. После этого морское дно начинает
+      двигаться, поднимаются огромные волны и появляется суша.
+    tags: [incantation, divine-power, fishing, land-raising]
+
+  - id: raising-land-from-sea
+    name: "Поднятие суши из моря"
+    type: phenomenon
+    description: >
+      Чудесное последствие ловли Мауи: крюк цепляет глубины, после чего суша
+      поднимается над водой. Когда один из братьев нарушает запрет и оглядывается,
+      леска рвётся, и поднятая земля остаётся разделённой на острова.
+    tags: [land-raising, island-creation, supernatural-fishing]
