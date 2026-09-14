@@ -1,0 +1,125 @@
+id: the-children-of-the-mist
+title: "Дети тумана"
+original_title: "The Children of the Mist"
+kind: legend
+tradition:
+  - maori-folklore
+collection: "Te Tohunga: The Ancient Legends and Traditions of the Maoris"
+author: "Джеймс Коуэн"
+source:
+  title: "Te Tohunga — Nga Patu-Paiarehe, The Children of the Mist"
+  url: "https://www.gutenberg.org/ebooks/54610"
+  note: >
+    Английский текст главы XIV из книги W. Dittmer, Te Tohunga: The Ancient
+    Legends and Traditions of the Maoris (1907); глава The Children of the Mist
+    подписана James Cowan. Использована редакция Project Gutenberg eBook #54610.
+    Запись следует только этой главе и не смешивает её с другими маорийскими
+    сюжетами из сборника.
+
+entities:
+  - id: patu-paiarehe
+    name: "Пату-паиарехе"
+    type: creature
+    aliases:
+      - "Turehu"
+      - "Tahurangi"
+      - "Maero"
+    description: >
+      Горный народ фей маорийской традиции, живущий в туманных лесистых горах.
+      Они появляются преимущественно ночью, владеют чарами и искусством
+      зачарования, любят музыку и способны похищать людей из мира смертных.
+    tags:
+      - fairy
+      - mountain-spirit
+      - enchantment
+      - night
+
+  - id: hidden-fairy-pa
+    name: "Скрытые па Пату-паиарехе"
+    type: location
+    description: >
+      Укреплённые поселения фей в глухих лесах. Обычному человеку их постройки
+      кажутся деревьями, скалами и зарослями папоротника; распознать настоящие
+      частоколы и дома способен только тохунга, обладающий особым знанием.
+    tags:
+      - hidden-place
+      - fairy-settlement
+      - illusion
+      - forest
+
+  - id: enchanted-mount-pirongia
+    name: "Зачарованная гора Пиронгия"
+    type: location
+    description: >
+      Гора, прямо названная в повествовании зачарованной и считающаяся жилищем
+      многочисленных Пату-паиарехе. На её вершине проявляются необычные гром и
+      молнии, а смертные опасаются магии живущего там сказочного народа.
+    tags:
+      - enchanted-mountain
+      - fairy-haunt
+      - pirongia
+
+  - id: pirongia-death-omen
+    name: "Смертельное знамение Пиронгии"
+    type: phenomenon
+    description: >
+      Гром и молнии, возникающие вокруг вершины Пиронгии даже тогда, когда на
+      равнине стоит ясная погода. Маори толкуют этот знак как предвестие смерти
+      вождя или другого несчастья для народа.
+    tags:
+      - omen
+      - lightning
+      - thunder
+      - death
+
+  - id: pirongia-fairy-chief
+    name: "Фейский вождь Пиронгии"
+    type: creature
+    description: >
+      Вождь Пату-паиарехе, похитивший Тавайату и унесший её в горное поселение.
+      После её возвращения к мужу он приходит ночью за женщиной, но не может
+      войти в дом, защищённый священной красной охрой и каракиа.
+    tags:
+      - fairy
+      - chief
+      - abduction
+      - pirongia
+
+  - id: ancestral-wairua
+    name: "Вайруа жреческого предка"
+    type: creature
+    description: >
+      Дух одного из жреческих предков семьи, который ночью садится на конёк дома
+      Руаранги и Тавайату и голосом даёт им способ защититься от возвращения
+      Пату-паиарехе — покрыть себя и жилище священной красной охрой.
+    tags:
+      - ancestral-spirit
+      - wairua
+      - protector
+      - guidance
+
+  - id: sacred-kokowai
+    name: "Священная охра коковаи"
+    type: substance
+    description: >
+      Красная земля-охра, названная священной. По совету духа предка ею покрывают
+      тела, стены, дверь и порог дома; Пату-паиарехе боятся коковаи так же, как
+      человеческого огня, и фейский вождь не решается переступить защищённый порог.
+    tags:
+      - sacred-substance
+      - red-ochre
+      - protection
+      - fairy-repellent
+
+  - id: protective-karakia
+    name: "Защитные каракиа Руаранги"
+    type: spell
+    description: >
+      Сильные ритуальные заклинания, которые Руаранги произносит при возвращении
+      жены и затем повторяет ночью в защищённом доме. Вместе со священной коковаи
+      они не позволяют фейскому вождю вновь завладеть Тавайату.
+    tags:
+      - karakia
+      - protection-spell
+      - fairy
+      - warding
