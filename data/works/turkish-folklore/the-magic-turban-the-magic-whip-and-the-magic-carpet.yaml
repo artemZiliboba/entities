@@ -1,0 +1,115 @@
+id: the-magic-turban-the-magic-whip-and-the-magic-carpet
+title: "Волшебный тюрбан, волшебный кнут и волшебный ковёр"
+original_title: "The Magic Turban, the Magic Whip, and the Magic Carpet"
+kind: folktale
+tradition:
+  - turkish-folklore
+collection: "Turkish Fairy Tales and Folk Tales"
+source:
+  title: "Turkish Fairy Tales and Folk Tales — The Magic Turban, the Magic Whip, and the Magic Carpet"
+  url: "https://www.gutenberg.org/ebooks/64807"
+  note: >
+    Английская редакция сборника Игнаца Куноша в переводе Р. Нисбета Бейна
+    (London: A. H. Bullen, 1901), Project Gutenberg eBook #64807. Запись следует
+    только этой версии сказки и не смешивает её с родственными сюжетами.
+
+entities:
+  - id: magic-turban
+    name: "Волшебный тюрбан"
+    type: artifact
+    description: >
+      Унаследованный одним из трёх братьев тюрбан, который делает надевшего его
+      человека невидимым для смертных глаз. Герой использует его, чтобы тайно
+      последовать за дочерью падишаха и наблюдать за её ночным путешествием.
+    tags:
+      - invisibility
+      - magical-clothing
+      - concealment
+
+  - id: magic-whip
+    name: "Волшебный кнут"
+    type: artifact
+    description: >
+      Один из трёх волшебных предметов наследства. Удар этим кнутом по
+      волшебному ковру приводит его в движение и позволяет владельцу быстро
+      переноситься в желаемое место.
+    tags:
+      - magical-tool
+      - flight
+      - transport
+
+  - id: magic-carpet
+    name: "Волшебный ковёр"
+    type: artifact
+    description: >
+      Летающий ковёр, действующий вместе с волшебным кнутом. Герой садится на
+      него, ударяет кнутом и по словесному пожеланию переносится сначала к
+      старшему брату, а позднее обратно во дворец падишаха.
+    tags:
+      - flying-carpet
+      - transport
+      - wish-directed
+
+  - id: black-efrit-carrier
+    name: "Чёрный эфрит-носильщик"
+    type: creature
+    description: >
+      Сверхъестественный слуга, который ночью появляется у дворца с золотым
+      щитом на голове, усаживает на него дочь падишаха и переносит её в далёкое
+      владение Пери. Он замечает необычный вес, когда невидимый герой тайно
+      присоединяется к поездке.
+    tags:
+      - efrit
+      - supernatural-servant
+      - transport
+
+  - id: speaking-jeweled-trees
+    name: "Говорящие драгоценные деревья"
+    type: plant
+    description: >
+      Деревья двух чудесных садов на пути к дворцу Пери: одни состоят из серебра
+      и алмазов, другие сияют золотом и драгоценными камнями. Когда невидимый
+      герой ломает ветви, деревья стонут, плачут и вслух объявляют о присутствии
+      человека.
+    tags:
+      - talking-plant
+      - jeweled-tree
+      - enchanted-garden
+
+  - id: black-peri-king
+    name: "Чёрный царь Пери"
+    type: creature
+    description: >
+      Владыка Пери огромного и устрашающего облика, удерживающий дочь падишаха
+      своей магической властью. Герой проникает в его дворец невидимым и убивает
+      его одним ударом меча, после чего сверхъестественный мир реагирует на смерть
+      своего царя громовым потрясением.
+    tags:
+      - peri
+      - supernatural-ruler
+      - captor
+      - enchantment
+
+  - id: princess-binding-enchantment
+    name: "Заклятие, удерживающее дочь падишаха"
+    type: spell
+    description: >
+      Колдовство царя Пери, наложенное на похищенную принцессу. Текст прямо
+      сообщает, что из-за его силы она не могла самостоятельно освободиться и
+      обрела свободу только после гибели похитителя.
+    tags:
+      - binding-spell
+      - captivity
+      - enchantment
+
+  - id: peri-kings-death-upheaval
+    name: "Потрясение при гибели царя Пери"
+    type: phenomenon
+    description: >
+      Сверхъестественная реакция на смерть чёрного царя Пери: небеса грохочут,
+      земля стонет, а громкий голос возвещает, что человеческое дитя убило их
+      царя. Явление начинается сразу после отсечения головы Пери.
+    tags:
+      - supernatural-upheaval
+      - death-omen
+      - peri
