@@ -1,0 +1,107 @@
+id: the-bird-with-nine-heads
+title: "Птица с девятью головами"
+original_title: "The Bird with Nine Heads"
+kind: folktale
+tradition:
+  - chinese-folklore
+collection: "The Chinese Fairy Book"
+source:
+  title: "The Chinese Fairy Book — The Bird with Nine Heads"
+  url: "https://www.gutenberg.org/ebooks/29939"
+  note: >
+    Английская редакция из сборника The Chinese Fairy Book, подготовленного
+    Рихардом Вильгельмом и переведённого Фредериком Х. Мартенсом; Project
+    Gutenberg eBook #29939. Запись следует только этой версии сказки.
+
+entities:
+  - id: nine-headed-bird
+    name: "Птица с девятью головами"
+    type: creature
+    description: >
+      Огромная сверхъестественная птица, похищающая королевскую дочь и уносящая
+      её бурей в пещеру на отвесной скале. Ранее у неё было десять голов, но
+      Небесный пёс откусил одну; оставшиеся девять голов герой отрубает мечом,
+      когда чудовище засыпает.
+    tags:
+      - multi-headed
+      - monster
+      - kidnapping
+      - storm
+
+  - id: hound-of-heaven
+    name: "Небесный пёс"
+    type: creature
+    description: >
+      Небесное существо, которое до событий сказки нападает на десятиглавую
+      птицу и откусывает ей одну голову. Оставленная им рана продолжает кровоточить,
+      поэтому похищенная принцесса вынуждена перевязывать чудовище.
+    tags:
+      - celestial-creature
+      - hound
+      - monster-slayer
+
+  - id: dragon-son-fish-form
+    name: "Сын дракона в облике рыбы"
+    type: creature
+    description: >
+      Сын морского дракона, превращённый в рыбу и прибитый четырьмя гвоздями к
+      стене пещеры. Когда герой касается его, рыбья форма исчезает и перед ним
+      оказывается прекрасный юноша; освобождённый сын дракона становится его
+      названым братом.
+    tags:
+      - dragon
+      - transformation
+      - enchanted-form
+      - fish
+
+  - id: sea-dragon
+    name: "Морской дракон"
+    type: creature
+    description: >
+      Великий дракон, встреченный героем у пещеры и позднее узнанный как отец
+      спасённого юноши. Он мгновенно переносит героя с отвесной скалы вниз,
+      владеет подводным царством и награждает спасителя сына волшебной флягой.
+    tags:
+      - dragon
+      - sea-god
+      - underwater
+      - supernatural-transport
+
+  - id: magic-pearls
+    name: "Магические жемчужины"
+    type: artifact
+    description: >
+      Жемчужины, найденные героем в панцире черепахи. Брошенная в огонь жемчужина
+      гасит пламя, а брошенная в воду заставляет её расступиться, открывая сухой
+      проход; так герой раздвигает море и попадает к морскому дракону.
+    tags:
+      - pearl
+      - water-parting
+      - fire-quenching
+      - talisman
+
+  - id: wish-gourd-flask
+    name: "Волшебная тыквенная фляга"
+    type: artifact
+    description: >
+      Маленькая фляга из тыквы, полученная героем от морского дракона по совету
+      его сына. Она исполняет бытовые желания владельца: по одной мысли перед
+      ним появляются накрытый стол, осёл, повозка и паланкин с носильщиками.
+    tags:
+      - gourd
+      - wish-granting
+      - conjuration
+      - talisman
+
+  - id: sea-dragons-realm
+    name: "Подводное царство морского дракона"
+    type: location
+    description: >
+      Подводное владение морского дракона, куда герой входит после того, как
+      магическая жемчужина раздвигает морские воды. Здесь живут морской дракон
+      и его сын, героя принимают как родственника и здесь он получает волшебную
+      тыквенную флягу.
+    tags:
+      - underwater
+      - dragon-realm
+      - magical-location
