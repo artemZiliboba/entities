@@ -1,0 +1,91 @@
+id: the-story-of-kanag
+title: "История Канага"
+original_title: "The Story of Kanag"
+kind: folktale
+tradition:
+  - tinguian-folklore
+collection: "Philippine Folk Tales"
+author: "Мейбл Кук Коул"
+source:
+  title: "Philippine Folk Tales — The Story of Kanag"
+  url: "https://www.gutenberg.org/ebooks/12814"
+  note: >
+    Английская запись тингийской сказки из сборника Mabel Cook Cole,
+    Philippine Folk Tales (1916), Project Gutenberg eBook #12814. Запись
+    следует только разделу The Story of Kanag и не смешивает его с соседними
+    тингийскими рассказами того же сборника.
+
+entities:
+  - id: kanag
+    name: "Канаг"
+    type: character
+    description: >
+      Тингийский герой, обладающий собственной магической силой. Он превращает
+      себя из юноши в маленькую птицу и позднее вновь принимает человеческий
+      облик; в птичьем виде подаёт людям вещие знаки перед походами.
+    tags:
+      - shapeshifter
+      - bird-form
+      - omen
+      - magical-hero
+
+  - id: kanag-bird-omens
+    name: "Вещие знаки птицы-Канага"
+    type: phenomenon
+    description: >
+      Сверхъестественные предзнаменования, которые Канаг подаёт в облике птицы.
+      Плохой знак заставляет Апонитолау отказаться от похода, а хороший означает,
+      что ему не будет причинён вред и позволяет продолжить путь.
+    tags:
+      - omen
+      - divination
+      - protection-sign
+
+  - id: spirit-servants
+    name: "Духи-служители семьи Канага"
+    type: creature
+    description: >
+      Сверхъестественные слуги, которых родители Канага посылают следовать за
+      ним и найти девушку, ради которой он согласится снова стать человеком.
+      Они владеют магией и обеспечивают Канага одеждой после возвращения в
+      человеческий облик.
+    tags:
+      - spirit
+      - supernatural-servant
+      - helper
+
+  - id: heat-enchantment
+    name: "Чары жара у колодца"
+    type: spell
+    description: >
+      Магическое воздействие духов-служителей: возле колодца они заставляют
+      всех красивых девушек вокруг почувствовать сильный жар, из-за чего те
+      рано утром приходят купаться. Так духи показывают Канагу будущую невесту.
+    tags:
+      - enchantment
+      - heat
+      - attraction
+
+  - id: dalonagan
+    name: "Далонаган"
+    type: character
+    description: >
+      Мать Дапилисан, проявляющая самостоятельную магическую силу во время
+      свадебных испытаний. Одним движением бровей она заставляет исчезнуть
+      половину сосудов, которыми должен быть наполнен дом духов.
+    tags:
+      - magic-user
+      - disappearance
+      - wedding-trial
+
+  - id: aponibolinayen
+    name: "Апониболинайен"
+    type: character
+    description: >
+      Мать Канага и могущественная участница свадебных испытаний. После того как
+      Далонаган заставляет половину сосудов исчезнуть, Апониболинайен применяет
+      магическую силу и вновь мгновенно наполняет ими дом духов.
+    tags:
+      - magic-user
+      - conjuration
+      - wedding-trial
