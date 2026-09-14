@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "65a753132dce6b7037564d4847580540bba0f2d8"
-work_count: 29
+master_sha: "f0aa2d2d0a8b24ad7c0a20880ef6dea48918372b"
+work_count: 30
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -32,6 +32,10 @@ works:
   - id: the-snow-queen
     tradition: danish-literature
     path: data/works/danish-literature/the-snow-queen.yaml
+
+  - id: the-shipwrecked-sailor
+    tradition: egyptian-literature
+    path: data/works/egyptian-literature/the-shipwrecked-sailor.yaml
 
   - id: alices-adventures-in-wonderland
     tradition: english-literature
