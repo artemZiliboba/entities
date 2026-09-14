@@ -1,0 +1,72 @@
+id: the-shipwrecked-sailor
+title: "Сказка о потерпевшем кораблекрушение"
+original_title: "The Shipwrecked Sailor"
+kind: folktale
+tradition:
+  - egyptian-literature
+collection: "Egyptian Tales, Translated from the Papyri: First Series, IVth to XIIth Dynasty"
+author: "У. М. Флиндерс Питри (редактор и переводчик)"
+source:
+  title: "Egyptian Tales — The Shipwrecked Sailor"
+  url: "https://www.gutenberg.org/ebooks/7386"
+  note: >
+    Английский перевод древнеегипетской сказки XII династии из сборника
+    W. M. Flinders Petrie, Egyptian Tales, Translated from the Papyri: First
+    Series, IVth to XIIth Dynasty, 2nd ed. (1899), Project Gutenberg eBook #7386.
+    Запись следует только разделу The Shipwrecked Sailor и не смешивает его с
+    позднейшими пересказами или другими древнеегипетскими сюжетами.
+
+entities:
+  - id: great-serpent-of-the-isle
+    name: "Великий змей Острова Блаженных"
+    type: creature
+    description: >
+      Гигантский говорящий змей длиной в тридцать локтей, с золотым телом и
+      окраской лазурита. Его появление сопровождается грохотом, дрожью деревьев
+      и земли; он переносит моряка во рту, разговаривает с ним, называет себя
+      князем земли Пунт и распоряжается на чудесном острове.
+    tags:
+      - giant-serpent
+      - speaking-creature
+      - supernatural-ruler
+      - punt
+
+  - id: serpent-family-of-the-isle
+    name: "Семья змеев Острова Блаженных"
+    type: creature
+    description: >
+      Родня Великого змея, живущая вместе с ним на острове. Сам змей говорит,
+      что вокруг него находятся его братья, дети и родичи — всего семьдесят пять
+      змеев; они составляют сверхъестественное население острова.
+    tags:
+      - serpents
+      - supernatural-kindred
+      - island-dwellers
+
+  - id: isle-of-the-blest
+    name: "Остров Блаженных"
+    type: location
+    description: >
+      Чудесный остров посреди моря, куда волна выносит единственного спасшегося
+      моряка. На острове нет недостатка в пище и драгоценностях, там живут змеи,
+      а Великий змей предупреждает, что после отплытия героя остров больше не
+      будет виден и снова превратится в морские волны.
+    tags:
+      - enchanted-island
+      - otherworld
+      - abundance
+      - disappearing-place
+
+  - id: serpent-prophecy
+    name: "Пророчество Великого змея"
+    type: phenomenon
+    description: >
+      Сверхъестественное предвидение змея, который заранее сообщает моряку,
+      сколько месяцев тот пробудет на острове, когда придёт корабль из Египта,
+      сколько продлится обратный путь и что герой вернётся домой к семье и
+      завершит жизнь в своём городе. Рассказ показывает исполнение этих сроков.
+    tags:
+      - prophecy
+      - foresight
+      - rescue
+      - homecoming
