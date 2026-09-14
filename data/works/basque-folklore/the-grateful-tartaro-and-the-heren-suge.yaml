@@ -1,0 +1,108 @@
+id: the-grateful-tartaro-and-the-heren-suge
+title: "Благодарный Тартаро и Эрен-Суге"
+original_title: "The Grateful Tartaro and the Heren-Suge"
+kind: folktale
+tradition:
+  - basque-folklore
+collection: "Basque Legends"
+author: "Уэнтворт Вебстер"
+source:
+  title: "Basque Legends — The Grateful Tartaro and the Heren-Suge"
+  url: "https://www.gutenberg.org/ebooks/34902"
+  note: >
+    Английская запись баскской сказки из сборника Wentworth Webster,
+    Basque Legends, второе издание (1879), Project Gutenberg eBook #34902.
+    Запись следует только основной версии The Grateful Tartaro and the Heren-Suge
+    и не смешивает её с вариацией, приведённой автором после сказки.
+
+entities:
+  - id: grateful-tartaro
+    name: "Благодарный Тартаро"
+    type: creature
+    description: >
+      Сверхъестественный великан, которого юный Пети Йорж освобождает из плена.
+      В благодарность Тартаро обещает служить ему всегда, предсказывает нужные
+      действия, снабжает его необычными конями, мечами, боевым псом и ароматной
+      водой и тем самым несколько раз спасает героя от Эрен-Суге.
+    tags:
+      - tartaro
+      - giant
+      - supernatural-helper
+      - gratitude
+
+  - id: heren-suge
+    name: "Эрен-Суге"
+    type: creature
+    aliases:
+      - "Семиглавый змей"
+    description: >
+      Семиглавый змей, которому предназначена в жертву младшая дочь короля.
+      Он последовательно вступает в три поединка с Пети Йоржем и в последней
+      схватке угрожает сжечь героя и его спутников огнём между головой и хвостом.
+    tags:
+      - seven-headed-serpent
+      - monster
+      - fire
+      - sacrifice
+
+  - id: miraculous-garden-renewal
+    name: "Чудесное восстановление королевского сада"
+    type: phenomenon
+    description: >
+      После совета Тартаро Пети Йорж вырывает в саду капусту и лук-порей, однако
+      уже на следующий день растения вырастают вновь, ещё прекраснее прежних,
+      а вместе с ними появляются три необычайно красивые цветка для принцесс.
+    tags:
+      - garden
+      - regeneration
+      - miraculous-growth
+
+  - id: tartaro-door-opening-swords
+    name: "Мечи Тартаро, открывающие двери"
+    type: artifact
+    description: >
+      Мечи, которые Тартаро даёт герою перед тремя встречами с Эрен-Суге.
+      Одного прикосновения клинка достаточно, чтобы сами собой распахнулись
+      сначала семь, затем четырнадцать и наконец двадцать одна запертая дверь
+      кареты принцессы; теми же мечами герой отрубает головы змея.
+    tags:
+      - magic-sword
+      - door-opening
+      - dragon-slaying
+
+  - id: tartaro-battle-horses
+    name: "Боевые кони Тартаро"
+    type: animal
+    description: >
+      Необычные кони, которых Тартаро выдаёт Пети Йоржу для трёх поединков.
+      Они непосредственно участвуют в битве, ударами копыт отрубают головы
+      Эрен-Суге, а последний конь способен прыгать высотой с дом.
+    tags:
+      - supernatural-horse
+      - battle-helper
+      - extraordinary-leap
+
+  - id: tartaro-terrible-dog
+    name: "Грозный пёс Тартаро"
+    type: animal
+    description: >
+      Боевой пёс, полученный героем от Тартаро перед последней схваткой.
+      После окропления ароматной водой он вместе с Пети Йоржем и конём атакует
+      Эрен-Суге и отрывает одну из трёх оставшихся голов змея.
+    tags:
+      - supernatural-dog
+      - battle-helper
+      - dragon-slaying
+
+  - id: sweet-scented-water
+    name: "Ароматная вода Тартаро"
+    type: substance
+    description: >
+      Волшебная вода в бутылке, которую Тартаро даёт для последнего боя.
+      По заранее указанной формуле принцесса окропляет ею героя, коня и пса;
+      сразу после этого трое одновременно отрубают последние три головы Эрен-Суге.
+    tags:
+      - magic-water
+      - battle-aid
+      - empowerment
+      - dragon-slaying
