@@ -1,0 +1,126 @@
+version: 1
+source_of_truth: "data/works/"
+master_sha: "65a753132dce6b7037564d4847580540bba0f2d8"
+work_count: 29
+note: >
+  Централизованный реестр уже обработанных произведений. При добавлении нового
+  произведения в data/works/ этот файл должен обновляться в том же pull request.
+  Для проверки дублей сначала сверяйте id, tradition и canonical path здесь,
+  затем подтверждайте отсутствие записи непосредственно в дереве data/works/.
+
+works:
+  - id: the-wonderful-wizard-of-oz
+    tradition: american-literature
+    path: data/works/american-literature/the-wonderful-wizard-of-oz.yaml
+
+  - id: aladdin-and-the-wonderful-lamp
+    tradition: arabian-nights
+    path: data/works/arabian-nights/aladdin-and-the-wonderful-lamp.yaml
+
+  - id: the-magic-ring
+    tradition: armenian-folklore
+    path: data/works/armenian-folklore/the-magic-ring.yaml
+
+  - id: the-grateful-tartaro-and-the-heren-suge
+    tradition: basque-folklore
+    path: data/works/basque-folklore/the-grateful-tartaro-and-the-heren-suge.yaml
+
+  - id: the-bird-with-nine-heads
+    tradition: chinese-folklore
+    path: data/works/chinese-folklore/the-bird-with-nine-heads.yaml
+
+  - id: the-snow-queen
+    tradition: danish-literature
+    path: data/works/danish-literature/the-snow-queen.yaml
+
+  - id: alices-adventures-in-wonderland
+    tradition: english-literature
+    path: data/works/english-literature/alices-adventures-in-wonderland.yaml
+
+  - id: kalevala-rune-x
+    tradition: finnish-mythology
+    path: data/works/finnish-mythology/kalevala-rune-x.yaml
+
+  - id: cinderella-perrault
+    tradition: french-folklore
+    path: data/works/french-folklore/cinderella-perrault.yaml
+
+  - id: jorinda-and-joringel
+    tradition: german-folklore
+    path: data/works/german-folklore/jorinda-and-joringel.yaml
+
+  - id: the-goose-girl
+    tradition: german-folklore
+    path: data/works/german-folklore/the-goose-girl.yaml
+
+  - id: odyssey-book-x
+    tradition: greek-mythology
+    path: data/works/greek-mythology/odyssey-book-x.yaml
+
+  - id: maui-the-fisherman
+    tradition: hawaiian-mythology
+    path: data/works/hawaiian-mythology/maui-the-fisherman.yaml
+
+  - id: punchkin
+    tradition: indian-folklore
+    path: data/works/indian-folklore/punchkin.yaml
+
+  - id: children-of-lir
+    tradition: irish-mythology
+    path: data/works/irish-mythology/children-of-lir.yaml
+
+  - id: pinocchio
+    tradition: italian-literature
+    path: data/works/italian-literature/pinocchio.yaml
+
+  - id: urashima-taro
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/urashima-taro.yaml
+
+  - id: the-woodman-and-the-mountain-fairies
+    tradition: korean-folklore
+    path: data/works/korean-folklore/the-woodman-and-the-mountain-fairies.yaml
+
+  - id: the-children-of-the-mist
+    tradition: maori-folklore
+    path: data/works/maori-folklore/the-children-of-the-mist.yaml
+
+  - id: binding-of-fenrir
+    tradition: norse-mythology
+    path: data/works/norse-mythology/binding-of-fenrir.yaml
+
+  - id: east-of-the-sun-west-of-the-moon
+    tradition: norwegian-folklore
+    path: data/works/norwegian-folklore/east-of-the-sun-west-of-the-moon.yaml
+
+  - id: beowulf
+    tradition: old-english-epic
+    path: data/works/old-english-epic/beowulf.yaml
+
+  - id: youth-without-age-and-life-without-death
+    tradition: romanian-folklore
+    path: data/works/romanian-folklore/youth-without-age-and-life-without-death.yaml
+
+  - id: the-frog-princess
+    tradition: russian-folklore
+    path: data/works/russian-folklore/the-frog-princess.yaml
+
+  - id: the-sea-maiden
+    tradition: scottish-folklore
+    path: data/works/scottish-folklore/the-sea-maiden.yaml
+
+  - id: setuli-king-of-birds
+    tradition: swazi-folklore
+    path: data/works/swazi-folklore/setuli-king-of-birds.yaml
+
+  - id: the-story-of-kanag
+    tradition: tinguian-folklore
+    path: data/works/tinguian-folklore/the-story-of-kanag.yaml
+
+  - id: the-magic-turban-the-magic-whip-and-the-magic-carpet
+    tradition: turkish-folklore
+    path: data/works/turkish-folklore/the-magic-turban-the-magic-whip-and-the-magic-carpet.yaml
+
+  - id: pwyll-prince-of-dyfed
+    tradition: welsh-mythology
+    path: data/works/welsh-mythology/pwyll-prince-of-dyfed.yaml
