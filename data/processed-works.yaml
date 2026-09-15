@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "891e6d8e01ead7a77201ed5b8865a8e6e7377619"
-work_count: 32
+master_sha: "88d8d074c181f1edf549e179feb1643dbbb567be"
+work_count: 33
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -104,6 +104,10 @@ works:
   - id: beowulf
     tradition: old-english-epic
     path: data/works/old-english-epic/beowulf.yaml
+
+  - id: the-whirlwind
+    tradition: polish-folklore
+    path: data/works/polish-folklore/the-whirlwind.yaml
 
   - id: youth-without-age-and-life-without-death
     tradition: romanian-folklore
