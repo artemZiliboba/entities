@@ -1,0 +1,172 @@
+id: the-whirlwind
+title: "Вихрь"
+original_title: "The Whirlwind"
+kind: folktale
+tradition:
+  - polish-folklore
+collection: "Polish Fairy Tales"
+author: "А. Ю. Глинский"
+source:
+  title: "Polish Fairy Tales — The Whirlwind"
+  url: "https://www.gutenberg.org/ebooks/36668"
+  note: >
+    Английский перевод Мод Эшхерст Биггс в сборнике Polish Fairy Tales
+    (1920), по подборке сказок А. Ю. Глинского, впервые изданной в Вильне
+    в 1862 году. Использован только раздел The Whirlwind; детали соседних
+    сказок и иных вариантов не смешиваются с этой записью.
+
+entities:
+  - id: dwarf-magician
+    name: "Карлик-колдун"
+    type: character
+    description: >
+      Отвергнутый жених принцессы Ладны, скрывающий настоящий облик уродливого
+      семидюймового карлика с семифутовой бородой. Он принимает вид принца,
+      превращается в вихрь, летает по воздуху, увеличивает размеры и силу,
+      насылает волшебный сон и владеет несколькими магическими предметами.
+    tags: [magician, shapeshifting, flight, antagonist]
+
+  - id: whirlwind-abduction
+    name: "Вихрь-похищение"
+    type: phenomenon
+    description: >
+      Магический облик карлика: сильный вихрь поднимает принцессу Ладну над
+      облаками и переносит её во дворец среди недоступных гор.
+    tags: [whirlwind, transformation, abduction, flight]
+
+  - id: cap-of-invisibility
+    name: "Шапка-невидимка"
+    type: artifact
+    description: >
+      Шапка карлика, делающая владельца полностью невидимым. Ею пользуются
+      сначала принцесса Ладна, а позднее принц Добротек.
+    tags: [invisibility, magic-cap]
+
+  - id: sleep-breath
+    name: "Усыпляющее дыхание карлика"
+    type: spell
+    description: >
+      Дыхание карлика погружает Ладну в глубокий магический сон, который нельзя
+      снять обычными средствами; позднее её пробуждает прикосновение отсечённой
+      бороды колдуна.
+    tags: [magical-sleep, breath, curse]
+
+  - id: speaking-cursed-skull
+    name: "Говорящий проклятый череп"
+    type: character
+    description: >
+      Человеческий череп на перекрёстке, сохраняющий речь после смерти.
+      Он веками остаётся связан с душой прежнего владельца, а после исполнения
+      условия освобождения объясняет принцу, как вызвать Серого Вещего Коня.
+    tags: [speaking-dead, curse, crossroads, helper]
+
+  - id: released-blue-soul
+    name: "Синий свет освобождённой души"
+    type: phenomenon
+    description: >
+      После исполнения условия из черепа поднимается к небу синий свет,
+      прямо названный в тексте душой умершего, завершившей своё наказание.
+    tags: [soul, release, blue-light, afterlife]
+
+  - id: grey-seer-horse-summoning
+    name: "Призыв Серого Вещего Коня"
+    type: spell
+    description: >
+      Формула, которую нужно произнести на равнине, не оглядываясь, чтобы
+      вызвать Серого Вещего Коня. После призыва поднимается ветер, сверкает
+      молния и гремит гром.
+    tags: [summoning, incantation, magical-horse]
+
+  - id: grey-seer-horse
+    name: "Серый Вещий Конь с золотой гривой"
+    type: creature
+    description: >
+      Говорящий волшебный конь, летающий быстрее бури, извергающий пламя,
+      искры и дым. Он даёт советы, преображает принца, переносит его через моря
+      и горы и позднее применяет три воды Горы Вечной Жизни.
+    tags: [magical-horse, speaking-creature, flight, helper]
+
+  - id: seer-horse-ear-transformation
+    name: "Преображение через уши Вещего Коня"
+    type: phenomenon
+    description: >
+      Пройдя через уши коня, Добротек получает золотые доспехи и сверхчеловеческую
+      силу: от его шага дрожит земля, а от крика поднимается буря. Обратный
+      проход возвращает ему прежний облик.
+    tags: [transformation, superhuman-strength, golden-armour]
+
+  - id: giant-head
+    name: "Голова великана с василисковым взглядом"
+    type: creature
+    description: >
+      Отсечённая голова великана, которой карлик придал сверхъестественную жизнь
+      и велел веками охранять Всесекущий меч. Она выглядит как движущаяся гора,
+      говорит с принцем и обладает смертельным взглядом.
+    tags: [giant, living-head, basilisk-gaze, guardian]
+
+  - id: basilisk-gaze-of-giant-head
+    name: "Василисковый взгляд Головы великана"
+    type: spell
+    description: >
+      Сверхъестественный взгляд охраняющей меч головы, поражающий каждого,
+      кто приближается. Всесекущий меч делает своего владельца неуязвимым для
+      этого действия.
+    tags: [deadly-gaze, basilisk, curse]
+
+  - id: all-cutting-sword
+    name: "Всесекущий меч"
+    type: artifact
+    description: >
+      Волшебный меч, защищающий владельца от василискового взгляда Головы
+      великана. Только им можно перерезать магическую бороду карлика и лишить
+      колдуна заключённой в ней силы.
+    tags: [magic-sword, protection, giant-slayer]
+
+  - id: dwarf-magic-beard
+    name: "Магическая борода карлика"
+    type: artifact
+    description: >
+      Семифутовая борода, в которой заключена сверхъестественная сила карлика.
+      По мере её перерезания он слабеет; отсечённая борода сохраняет магическое
+      свойство и позднее пробуждает принцессу от наложенного сна.
+    tags: [magical-body-part, strength-source, awakening]
+
+  - id: invisible-servants
+    name: "Невидимые слуги карлика"
+    type: character
+    description: >
+      Невидимые служители горного дворца. Увидев отсечённую бороду хозяина на
+      шлеме Добротека, они распахивают перед принцем все двери.
+    tags: [invisible, servants, enchanted-palace]
+
+  - id: mountain-of-everlasting-life
+    name: "Гора Вечной Жизни"
+    type: location
+    description: >
+      Сверхъестественная гора с тремя источниками на вершине: Водой Ослабления,
+      Водой Исцеления и Водой Жизни, совместно возвращающими Добротека к жизни.
+    tags: [magical-mountain, resurrection, healing]
+
+  - id: water-of-loosening
+    name: "Вода Ослабления"
+    type: substance
+    description: >
+      Первая из трёх чудесных вод Горы Вечной Жизни, используемая вместе с
+      двумя другими водами при восстановлении Добротека.
+    tags: [magical-water, resurrection, restoration]
+
+  - id: water-of-healing
+    name: "Вода Исцеления"
+    type: substance
+    description: >
+      Вторая из трёх чудесных вод Горы Вечной Жизни, применяемая в общей
+      последовательности исцеления и возвращения жизни.
+    tags: [magical-water, healing, resurrection]
+
+  - id: water-of-life
+    name: "Вода Жизни"
+    type: substance
+    description: >
+      Третья чудесная вода с Горы Вечной Жизни; после применения трёх вод
+      Добротек приходит в себя и возвращается к жизни.
+    tags: [magical-water, life, resurrection]
