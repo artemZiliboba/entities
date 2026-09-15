@@ -1,0 +1,115 @@
+id: bird-girl
+title: "Птичья девушка"
+original_title: "Bird Girl"
+kind: folktale
+tradition:
+  - serbian-folklore
+collection: "Serbian Fairy Tales"
+source:
+  title: "Serbian Fairy Tales — Bird Girl"
+  url: "https://www.gutenberg.org/ebooks/67191"
+  note: >
+    Английский перевод Элодии Лоутон Миятович в сборнике Serbian Fairy Tales
+    (Robert M. McBride & Co., 1918), Project Gutenberg eBook #67191. Запись
+    следует только сказке Bird Girl и не смешивает её с другими вариантами.
+
+entities:
+  - id: golden-haired-enchantress
+    name: "Златовласая колдунья"
+    type: character
+    description: >
+      Старуха с золотыми волосами, сидящая на вершине холма с птицей на груди.
+      Если она успевает увидеть приближающегося человека раньше, чем тот схватит
+      её за волосы, человек мгновенно превращается в камень. Она же способна
+      вернуть окаменевших к жизни своим дыханием.
+    tags:
+      - enchantress
+      - petrification
+      - restoration
+
+  - id: bird-girl
+    name: "Птичья девушка"
+    type: character
+    description: >
+      Девушка, которую златовласая колдунья превратила в птицу и держала при
+      себе как приманку для молодых мужчин. После освобождения королевич целует
+      птицу, и она снова принимает человеческий облик.
+    tags:
+      - transformation
+      - enchanted-maiden
+      - bird
+
+  - id: petrification-by-sight
+    name: "Окаменение взглядом колдуньи"
+    type: spell
+    description: >
+      Чары златовласой старухи: всякий, кого она замечает до того, как он успеет
+      схватить её за волосы, превращается на месте в камень. Множество прежних
+      искателей остаются на холме в виде мраморных глыб.
+    tags:
+      - petrification
+      - curse
+      - sight
+
+  - id: blue-wind-of-restoration
+    name: "Синий ветер оживления"
+    type: phenomenon
+    description: >
+      Сверхъестественное дыхание колдуньи: она выдыхает изо рта синий ветер в
+      сторону обращённых в камень людей, после чего они немедленно оживают и
+      возвращаются к человеческому состоянию.
+    tags:
+      - restoration
+      - resurrection
+      - magical-wind
+
+  - id: bird-girl-transformation
+    name: "Превращение Птичьей девушки"
+    type: spell
+    description: >
+      Заклятие, которым колдунья превратила девушку в птицу, чтобы заманивать
+      молодых мужчин на опасный холм. После победы над колдуньей поцелуй
+      королевича сопровождает обратное превращение птицы в девушку.
+    tags:
+      - transformation
+      - enchantment
+      - bird
+
+  - id: wish-fulfilling-stick
+    name: "Исполняющая желания палочка"
+    type: artifact
+    description: >
+      Палочка, которую освобождённая девушка отдаёт королевичу и которая делает
+      всё, чего от неё пожелают. Ударом по скале она вызывает массу золотых
+      монет, прикосновением разделяет реку, а ударом превращает нападающих волков
+      в муравьёв.
+    tags:
+      - magic-stick
+      - wish-fulfilling
+      - transformation
+      - water-parting
+
+  - id: transformed-stone-men
+    name: "Окаменевшие искатели"
+    type: character
+    description: >
+      Молодые мужчины, которых колдунья заметила прежде, чем они смогли схватить
+      её за волосы. Они стоят на холме в виде мраморных глыб, пока синий ветер
+      колдуньи не возвращает их к жизни.
+    tags:
+      - petrified
+      - enchanted-people
+      - restored
+
+  - id: wolves-turned-to-ants
+    name: "Превращение волков в муравьёв"
+    type: phenomenon
+    description: >
+      Магическое действие палочки во время путешествия домой: когда стая волков
+      нападает на королевича и девушку, удар палочкой один за другим превращает
+      волков в муравьёв.
+    tags:
+      - transformation
+      - wolves
+      - ants
+      - magic-stick
