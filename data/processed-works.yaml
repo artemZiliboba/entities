@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f0aa2d2d0a8b24ad7c0a20880ef6dea48918372b"
-work_count: 30
+master_sha: "8f10425e5be0e20fadd01d135f96f570a1dddac1"
+work_count: 31
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -80,6 +80,10 @@ works:
   - id: urashima-taro
     tradition: japanese-folklore
     path: data/works/japanese-folklore/urashima-taro.yaml
+
+  - id: the-bamboo-cutter-and-the-moon-child
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/the-bamboo-cutter-and-the-moon-child.yaml
 
   - id: the-woodman-and-the-mountain-fairies
     tradition: korean-folklore
