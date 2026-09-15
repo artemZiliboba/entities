@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "8f10425e5be0e20fadd01d135f96f570a1dddac1"
-work_count: 31
+master_sha: "891e6d8e01ead7a77201ed5b8865a8e6e7377619"
+work_count: 32
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -112,6 +112,10 @@ works:
   - id: the-frog-princess
     tradition: russian-folklore
     path: data/works/russian-folklore/the-frog-princess.yaml
+
+  - id: bird-girl
+    tradition: serbian-folklore
+    path: data/works/serbian-folklore/bird-girl.yaml
 
   - id: the-sea-maiden
     tradition: scottish-folklore
