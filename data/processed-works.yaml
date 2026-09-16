@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "ec7d7706d612b27b5c480276a11bc7854dec8b85"
-work_count: 36
+master_sha: "f4a89139d8e28f32b6312825cf42b43aaba2a24d"
+work_count: 37
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -28,6 +28,10 @@ works:
   - id: the-bird-with-nine-heads
     tradition: chinese-folklore
     path: data/works/chinese-folklore/the-bird-with-nine-heads.yaml
+
+  - id: long-broad-and-sharpsight
+    tradition: czech-folklore
+    path: data/works/czech-folklore/long-broad-and-sharpsight.yaml
 
   - id: the-snow-queen
     tradition: danish-literature
