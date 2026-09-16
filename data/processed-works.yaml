@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "88d8d074c181f1edf549e179feb1643dbbb567be"
-work_count: 33
+master_sha: "2c38109089d4cbcc5bf80414bfc4231f7ebcc9f5"
+work_count: 34
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -36,6 +36,10 @@ works:
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
     path: data/works/egyptian-literature/the-shipwrecked-sailor.yaml
+
+  - id: the-dragon-of-the-north
+    tradition: estonian-folklore
+    path: data/works/estonian-folklore/the-dragon-of-the-north.yaml
 
   - id: alices-adventures-in-wonderland
     tradition: english-literature
