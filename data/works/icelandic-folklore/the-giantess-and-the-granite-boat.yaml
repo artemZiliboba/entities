@@ -1,0 +1,125 @@
+id: the-giantess-and-the-granite-boat
+title: "Великанша и гранитная лодка"
+original_title: "The Giantess and the Granite Boat"
+kind: folktale
+tradition:
+  - icelandic-folklore
+collection: "Icelandic Fairy Tales"
+source:
+  title: "Icelandic Fairy Tales — The Giantess and the Granite Boat"
+  url: "https://www.gutenberg.org/ebooks/67085"
+  note: >
+    Английская редакция Mrs. A. W. Hall, Icelandic Fairy Tales (1897),
+    Project Gutenberg eBook #67085. Использован только раздел
+    The Giantess and the Granite Boat; детали других исландских сказок
+    из сборника не смешивались.
+
+entities:
+  - id: granite-boat-giantess
+    name: "Великанша в гранитной лодке"
+    type: creature
+    description: >
+      Великанша, прибывающая к кораблю Сигурда в лодке, вырубленной из гранита.
+      Она владеет магией превращения, подчиняет Хельгу своей воле и принимает
+      её внешность, чтобы занять место королевы.
+    tags:
+      - giantess
+      - shapeshifter
+      - enchantress
+      - impostor
+
+  - id: granite-boat
+    name: "Гранитная лодка"
+    type: artifact
+    description: >
+      Огромная лодка, вырубленная из гранита. После того как Хельга оказывается
+      в ней, лодка способна двигаться сама и уносит её к трёхголовому великану
+      без гребца и обычного управления.
+    tags:
+      - magic-boat
+      - self-moving
+      - granite
+
+  - id: spell-to-lower-regions
+    name: "Заклятие пути в нижние области"
+    type: spell
+    description: >
+      Приказ-заклятие великанши, наложенный на Хельгу и гранитную лодку: путь
+      нельзя прерывать, пока пленница не достигнет брата великанши в нижних
+      областях.
+    tags:
+      - compulsion
+      - magical-travel
+      - curse
+
+  - id: helga-magical-paralysis
+    name: "Магическое оцепенение Хельги"
+    type: spell
+    description: >
+      Невидимая сила, сковывающая Хельгу при появлении великанши. Королева не
+      может ни двигаться, ни закричать и разбудить Сигурда и команду корабля.
+    tags:
+      - paralysis
+      - compulsion
+      - enchantment
+
+  - id: helga-impersonation-transformation
+    name: "Превращение великанши в Хельгу"
+    type: spell
+    description: >
+      Надев одежды Хельги, великанша постепенно принимает её фигуру и лицо и
+      затем выдаёт себя за королеву при дворе Сигурда.
+    tags:
+      - shapeshifting
+      - impersonation
+      - transformation
+
+  - id: giantess-yawn-transformation
+    name: "Превращение великанши через зевок"
+    type: spell
+    description: >
+      Великанша меняет размер и облик силой зевка: лёгкий зевок делает её
+      похожей на молодую женщину, более сильный увеличивает её до полувеликанши,
+      а полный зевок возвращает ей настоящий гигантский облик.
+    tags:
+      - shapeshifting
+      - size-changing
+      - transformation
+
+  - id: three-headed-giant
+    name: "Трёхголовый великан"
+    type: creature
+    description: >
+      Брат великанши, живущий под землёй и удерживающий Хельгу в пещере. Он
+      появляется через открывающийся пол дворца и держит пленницу прикованной,
+      требуя согласия на брак.
+    tags:
+      - giant
+      - three-headed
+      - captor
+      - underground
+
+  - id: enchanted-iron-ring-and-chain
+    name: "Зачарованное железное кольцо и цепь"
+    type: artifact
+    description: >
+      Железное кольцо на талии Хельги и длинная цепь, второй конец которой
+      прикреплён к трёхголовому великану. Цепь позволяет ему удерживать пленницу
+      даже во время разрешённых посещений сына на поверхности.
+    tags:
+      - enchanted-chain
+      - captivity
+      - sympathetic-link
+
+  - id: chain-giant-sympathetic-bond
+    name: "Магическая связь цепи с великаном"
+    type: phenomenon
+    description: >
+      Когда Сигурд перерубает цепь Хельги, из-под земли раздаются нечеловеческие
+      стоны и грохот, а дворец содрогается. Хельга объясняет, что внезапный
+      разрыв связи заставил великана, находившегося под замком, упасть и погибнуть.
+    tags:
+      - sympathetic-magic
+      - chain
+      - earthquake
+      - giant
