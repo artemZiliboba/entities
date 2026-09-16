@@ -1,0 +1,281 @@
+id: the-dragon-of-the-north
+title: "Дракон Севера"
+original_title: "The Dragon of the North"
+kind: folktale
+tradition:
+  - estonian-folklore
+collection: "The Yellow Fairy Book"
+author: "Фридрих Рейнхольд Крейцвальд; английская версия под редакцией Эндрю Лэнга"
+source:
+  title: "The Yellow Fairy Book — The Dragon of the North"
+  url: "https://www.gutenberg.org/files/640/640-h/640-h.htm"
+  note: >
+    Project Gutenberg eBook #640. В The Yellow Fairy Book сказка прямо
+    атрибутирована как «Der Norlands Drache» из Esthnische Mahrchen Крейцвальда.
+    Запись следует только этой версии и не смешивает её с другими эстонскими
+    вариантами.
+
+entities:
+  - id: dragon-of-the-north
+    name: "Дракон Севера"
+    type: creature
+    description: >
+      Огромное северное чудовище с телом, покрытым чешуёй твёрже камня и металла,
+      длинным змеиным хвостом и светящимися глазами. Оно опустошает целые области,
+      почти неуязвимо для обычных средств и способно за один прыжок преодолевать
+      огромные расстояния.
+    tags:
+      - dragon
+      - monster
+      - armored
+      - destructive
+
+  - id: dragons-compelling-gaze
+    name: "Завораживающий взгляд Дракона"
+    type: spell
+    description: >
+      Сверхъестественное действие глаз Дракона: всякий, кто смотрит в них,
+      оказывается словно околдован и сам устремляется прямо в пасть чудовища.
+    tags:
+      - enchantment
+      - gaze
+      - compulsion
+
+  - id: solomons-signet-ring
+    name: "Перстень царя Соломона"
+    type: artifact
+    description: >
+      Золотой перстень с тайными знаками, которому приписывается ангельское
+      происхождение. В зависимости от пальца левой руки он дарует полёт,
+      невидимость, неуязвимость, создание желаемого и сверхъестественную силу;
+      его надпись также содержит знание о том, как победить Дракона Севера.
+    tags:
+      - magic-ring
+      - solomon
+      - secret-inscription
+      - multi-power
+
+  - id: eastern-magician
+    name: "Восточный маг"
+    type: character
+    description: >
+      Знаменитый мудрец, который обучает героя языку птиц, позднее семь недель
+      расшифровывает тайные знаки на перстне Соломона, объясняет способ победы над
+      Драконом и в конце снимает магическое заточение героя.
+    tags:
+      - magician
+      - wisdom
+      - helper
+
+  - id: nine-herb-bird-speech-potion
+    name: "Зелье из девяти трав"
+    type: substance
+    description: >
+      Сильное зелье, сваренное Восточным магом из девяти видов трав, собранных
+      при лунном свете. После девяти ложек в день на протяжении трёх дней герой
+      получает способность понимать язык птиц.
+    tags:
+      - potion
+      - nine-herbs
+      - bird-language
+      - moonlight
+
+  - id: understanding-bird-language
+    name: "Понимание языка птиц"
+    type: phenomenon
+    description: >
+      Дар, полученный после зелья Восточного мага. Герой начинает понимать речь
+      птиц и благодаря их разговорам узнаёт о Ведьме-деве, перстне Соломона и
+      других скрытых сведениях.
+    tags:
+      - bird-language
+      - magical-knowledge
+      - communication
+
+  - id: witch-maiden
+    name: "Ведьма-дева"
+    type: character
+    description: >
+      Бессмертно юная волшебница, владеющая перстнем Соломона. Она поддерживает
+      молодость лунным обрядом, создаёт дворец и богатства чарами, разыскивает
+      похитившего кольцо героя магическим искусством и способна превращаться в
+      орла.
+    tags:
+      - witch
+      - enchantress
+      - shapeshifter
+      - ageless
+
+  - id: moon-spring
+    name: "Лунный источник Ведьмы-девы"
+    type: location
+    description: >
+      Скрытый лесной источник, к которому Ведьма-дева приходит при полной луне.
+      Здесь она совершает повторяющийся обряд омоложения, благодаря которому её
+      красота не увядает.
+    tags:
+      - enchanted-spring
+      - moon
+      - rejuvenation
+      - hidden-place
+
+  - id: moon-rejuvenation-rite
+    name: "Лунный обряд вечной молодости"
+    type: spell
+    description: >
+      Обряд Ведьмы-девы при полной луне: она девять раз умывает лицо, девять раз
+      обходит источник и поёт обращение к луне, чтобы её красота и молодость не
+      увядали.
+    tags:
+      - rejuvenation
+      - moon-magic
+      - ritual
+      - ninefold
+
+  - id: enchanted-palace-of-witch-maiden
+    name: "Зачарованный дворец Ведьмы-девы"
+    type: location
+    description: >
+      Великолепное жилище с садом и богатыми комнатами, созданное чарами при
+      помощи перстня Соломона. Как и прочие сотворённые богатства, оно не обладает
+      постоянным существованием и может исчезнуть без следа.
+    tags:
+      - enchanted-palace
+      - conjuration
+      - illusion
+
+  - id: conjured-treasures
+    name: "Сотворённые сокровища Ведьмы-девы"
+    type: phenomenon
+    description: >
+      Богатства, которые Ведьма-дева вызывает с помощью перстня Соломона. Они
+      выглядят настоящими, но не остаются постоянными и исчезают подобно ветру.
+    tags:
+      - conjuration
+      - treasure
+      - impermanence
+
+  - id: blood-bargain
+    name: "Кровавый залог Ведьмы-девы"
+    type: spell
+    description: >
+      Предлагаемая Ведьмой-девой сделка: за перстень и вечную любовь герой должен
+      отдать три капли крови из мизинца левой руки. Птицы предупреждают его, что
+      отдача крови означала бы продажу души.
+    tags:
+      - blood-magic
+      - soul-bargain
+      - pact
+
+  - id: ring-flight
+    name: "Полёт перстня Соломона"
+    type: phenomenon
+    description: >
+      Сила перстня при ношении на мизинце левой руки: владелец способен лететь по
+      воздуху как птица и быстро преодолевать огромные расстояния.
+    tags:
+      - flight
+      - magic-ring
+      - air
+
+  - id: ring-invisibility
+    name: "Невидимость перстня Соломона"
+    type: phenomenon
+    description: >
+      Сила перстня при ношении на третьем пальце левой руки: владелец становится
+      невидимым, продолжая видеть всё происходящее вокруг.
+    tags:
+      - invisibility
+      - magic-ring
+
+  - id: ring-invulnerability
+    name: "Неуязвимость перстня Соломона"
+    type: phenomenon
+    description: >
+      Сила перстня при ношении на среднем пальце левой руки: огонь, вода и острое
+      оружие не способны причинить владельцу вред.
+    tags:
+      - invulnerability
+      - protection
+      - magic-ring
+
+  - id: ring-conjuration
+    name: "Сотворение желаемого перстнем Соломона"
+    type: phenomenon
+    description: >
+      Сила перстня при ношении на указательном пальце левой руки: владелец может
+      мгновенно создавать желаемые вещи и сооружения, включая целые дома.
+    tags:
+      - conjuration
+      - creation
+      - magic-ring
+
+  - id: ring-supernatural-strength
+    name: "Сверхъестественная сила перстня Соломона"
+    type: phenomenon
+    description: >
+      Сила перстня при ношении на большом пальце левой руки: рука владельца
+      становится настолько сильной, что может разбивать скалы и стены и поднимать
+      тяжести, недоступные множеству обычных людей.
+    tags:
+      - supernatural-strength
+      - magic-ring
+
+  - id: witch-maiden-eagle-transformation
+    name: "Превращение Ведьмы-девы в орла"
+    type: spell
+    description: >
+      Ведьма-дева превращается в орла, чтобы перехватить героя в воздухе,
+      похитить у него перстень Соломона, а затем снова принимает человеческий
+      облик.
+    tags:
+      - shapeshifting
+      - eagle
+      - transformation
+
+  - id: magical-tracking-of-the-prince
+    name: "Магическое выслеживание героя"
+    type: spell
+    description: >
+      После кражи перстня Ведьма-дева с помощью магического искусства узнаёт,
+      где находится герой и в каком облике он летит к Восточному магу, что
+      позволяет ей устроить воздушную засаду.
+    tags:
+      - divination
+      - tracking
+      - witchcraft
+
+  - id: enchanted-imprisonment
+    name: "Зачарованное заточение героя"
+    type: spell
+    description: >
+      Ведьма-дева приковывает героя в глубокой пещере; позднее маги определяют,
+      что он удерживается не человеческой силой, а чарами. Восточный маг снимает
+      это заточение только при помощи собственной магии.
+    tags:
+      - imprisonment
+      - enchantment
+      - chains
+
+  - id: finnish-magician
+    name: "Финский маг"
+    type: character
+    description: >
+      Прославленный волшебник, которого призывают ко двору после исчезновения
+      героя. Он магическим путём устанавливает, что королевский зять жив,
+      страдает и удерживается в восточной стране более могущественным существом.
+    tags:
+      - magician
+      - divination
+      - finland
+
+  - id: magical-release-from-chains
+    name: "Магическое освобождение из цепей"
+    type: phenomenon
+    description: >
+      Восточный маг снимает наложенное Ведьмой-девой заточение и освобождает
+      героя из цепей при помощи магии после почти семи лет плена.
+    tags:
+      - liberation
+      - counter-magic
+      - enchanted-chains
