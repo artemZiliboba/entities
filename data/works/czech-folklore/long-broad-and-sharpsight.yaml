@@ -1,0 +1,233 @@
+id: long-broad-and-sharpsight
+title: "Длинный, Широкий и Зоркий"
+original_title: "Long, Broad, and Sharpsight"
+kind: folktale
+tradition:
+  - czech-folklore
+collection: "Sixty Folk-Tales from Exclusively Slavonic Sources"
+source:
+  title: "Folk Tales Every Child Should Know — Long, Broad, and Sharpsight"
+  url: "https://www.gutenberg.org/ebooks/15164"
+  note: >
+    Перевод А. Х. Вратислава с богемского, перепечатанный в сборнике Hamilton
+    Wright Mabie, Folk Tales Every Child Should Know, Project Gutenberg eBook
+    #15164. Использован только раздел Long, Broad, and Sharpsight; детали иных
+    вариантов сказки не смешивались.
+
+entities:
+  - id: living-princess-portraits
+    name: "Оживающие портреты принцесс"
+    type: artifact
+    description: >
+      Двенадцать изображений принцесс на хрустальных окнах тайной башенной
+      комнаты. На глазах королевича девушки на портретах начинают двигаться,
+      смотреть на него и улыбаться, а после его выбора все изображения исчезают.
+    tags:
+      - enchanted-image
+      - living-portrait
+      - prophecy
+
+  - id: wicked-wizard
+    name: "Злой волшебник"
+    type: character
+    description: >
+      Хозяин железного замка и пленитель принцессы. Он обращает людей в камень,
+      насылает неодолимый сон, прячет принцессу в иных формах и после третьего
+      поражения превращается в ворона и улетает.
+    tags:
+      - wizard
+      - captor
+      - petrification
+      - transformation
+
+  - id: iron-castle
+    name: "Железный замок"
+    type: location
+    description: >
+      Зачарованная крепость волшебника, окружённая железным мостом и населённая
+      окаменевшими людьми и лошадьми. После захода солнца мост поднимается сам,
+      а ворота закрываются, запирая прибывших внутри.
+    tags:
+      - enchanted-castle
+      - captivity
+      - petrification
+
+  - id: self-raising-iron-bridge
+    name: "Самоподъёмный железный мост"
+    type: artifact
+    description: >
+      Мост у ворот железного замка, который после захода солнца самостоятельно
+      поднимается одновременно с закрытием ворот и превращает гостей в пленников
+      крепости.
+    tags:
+      - enchanted-bridge
+      - self-moving
+      - captivity
+
+  - id: long
+    name: "Длинный"
+    type: character
+    description: >
+      Сверхъестественный помощник королевича, способный вытягивать своё тело до
+      высоты деревьев и облаков, делать огромные шаги и доставать предметы на
+      расстоянии в сотни миль.
+    tags:
+      - magical-helper
+      - stretching
+      - giant-stride
+
+  - id: broad
+    name: "Широкий"
+    type: character
+    description: >
+      Сверхъестественный помощник, умеющий раздуваться до огромных размеров и
+      затем снова сжиматься. Он способен выпить значительную часть моря, чтобы
+      открыть доступ к его дну.
+    tags:
+      - magical-helper
+      - expansion
+      - sea-drinking
+
+  - id: sharpsight
+    name: "Зоркий"
+    type: character
+    description: >
+      Помощник с всепроникающим зрением. Даже с завязанными глазами он видит
+      необычайно далеко, а без повязки способен разглядеть скрытое за горами и
+      внутри камня.
+    tags:
+      - magical-helper
+      - clairvoyance
+      - supernatural-sight
+
+  - id: sharpsight-burning-gaze
+    name: "Огненный взгляд Зоркого"
+    type: spell
+    description: >
+      Разрушительная сила открытого взгляда Зоркого: горючее загорается, а камень
+      трескается и рассыпается. Этим взглядом он разбивает гору и скалу, чтобы
+      достать превращённую принцессу.
+    tags:
+      - destructive-gaze
+      - fire
+      - stone-breaking
+
+  - id: petrification-curse
+    name: "Заклятие окаменения"
+    type: spell
+    description: >
+      Чары волшебника, которыми прежние искатели, слуги, рыцари и даже лошади
+      были остановлены в движении и обращены в камень. Волшебник прямо грозит
+      тем же исходом королевичу и его трём помощникам.
+    tags:
+      - petrification
+      - curse
+      - enchanted-people
+
+  - id: petrified-castle-inhabitants
+    name: "Окаменевшие обитатели замка"
+    type: character
+    description: >
+      Люди, застигнутые чарами волшебника в самых разных действиях и застывшие
+      каменными статуями. После падения власти волшебника они одновременно
+      оживают и продолжают прерванные движения.
+    tags:
+      - petrified
+      - enchanted-people
+      - restoration
+
+  - id: enchanted-sleep
+    name: "Неодолимый сон волшебника"
+    type: spell
+    description: >
+      Ночные чары, из-за которых королевич и его помощники неизбежно засыпают,
+      несмотря на все попытки бодрствовать. Пока они спят, принцесса исчезает и
+      оказывается спрятана волшебником в новой форме.
+    tags:
+      - magical-sleep
+      - enchantment
+      - trial
+
+  - id: princess-acorn-transformation
+    name: "Превращение принцессы в жёлудь"
+    type: spell
+    description: >
+      Первое ночное сокрытие принцессы: волшебник переносит её за сто миль и
+      превращает в жёлудь на вершине старого дуба. Падение найденного жёлудя на
+      землю возвращает ей человеческий облик.
+    tags:
+      - transformation
+      - acorn
+      - concealment
+
+  - id: princess-gem-transformation
+    name: "Превращение принцессы в драгоценный камень"
+    type: spell
+    description: >
+      Второе сокрытие принцессы: она оказывается драгоценным камнем внутри скалы
+      в далёкой горе. После разрушения горы и возвращения камня в замок падение
+      его на землю снова превращает её в девушку.
+    tags:
+      - transformation
+      - gemstone
+      - concealment
+
+  - id: princess-gold-ring-transformation
+    name: "Превращение принцессы в золотое кольцо"
+    type: spell
+    description: >
+      Третье и самое дальнее сокрытие: принцесса превращена в золотое кольцо,
+      спрятанное в раковине на дне Чёрного моря. Когда кольцо попадает обратно в
+      комнату, она мгновенно принимает человеческий облик.
+    tags:
+      - transformation
+      - ring
+      - concealment
+
+  - id: self-serving-feast
+    name: "Самоподающийся пир"
+    type: phenomenon
+    description: >
+      Магическое обслуживание в пустом замке: еда появляется для гостей без
+      видимых слуг, а вино само наливается. Это продолжается даже тогда, когда
+      остальные обитатели крепости остаются окаменевшими.
+    tags:
+      - enchanted-feast
+      - self-serving
+      - castle-magic
+
+  - id: wizard-iron-hoops
+    name: "Три железных обруча волшебника"
+    type: artifact
+    description: >
+      Три железных обруча вместо пояса на теле волшебника. После каждого
+      успешного возвращения принцессы один обруч сверхъестественно трескается и
+      слетает; после разрушения третьего волшебник теряет прежний облик.
+    tags:
+      - enchanted-belt
+      - magical-sign
+      - threefold-trial
+
+  - id: wizard-raven-transformation
+    name: "Превращение волшебника в ворона"
+    type: spell
+    description: >
+      После третьего поражения и разрушения последнего железного обруча волшебник
+      превращается в ворона и улетает через разбитое окно, чем завершается его
+      власть над замком.
+    tags:
+      - transformation
+      - raven
+      - defeat
+
+  - id: castle-restoration
+    name: "Оживление зачарованного замка"
+    type: phenomenon
+    description: >
+      После исчезновения волшебника чары разрушаются одновременно во всём
+      владении: люди и лошади оживают, деревья покрываются зеленью, луга цветами,
+      река снова течёт, а в воде и воздухе возвращается жизнь.
+    tags:
+      - restoration
+      - curse-breaking
+      - revival
