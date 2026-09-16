@@ -1,0 +1,232 @@
+id: the-glass-axe
+title: "Стеклянный топор"
+original_title: "The Glass Axe"
+kind: folktale
+tradition:
+  - hungarian-folklore
+collection: "The Yellow Fairy Book"
+author: "Эндрю Лэнг (редактор)"
+source:
+  title: "The Yellow Fairy Book — The Glass Axe"
+  url: "https://www.gutenberg.org/ebooks/640"
+  note: >
+    Английская версия из The Yellow Fairy Book Эндрю Лэнга (1894), Project
+    Gutenberg eBook #640. В издании сказка снабжена примечанием "From the
+    Hungarian. Kletke." Запись следует только разделу The Glass Axe и не
+    смешивает его с другими вариантами.
+
+entities:
+  - id: wicked-fairy
+    name: "Злая фея"
+    type: character
+    description: >
+      Могущественная фея, власть которой захватывает принца, как только он
+      впервые касается земли. Она переносит его в своё владение, задаёт
+      невыполнимые задания, преследует беглецов и применяет чары превращения,
+      сотворения и разрушения.
+    tags:
+      - fairy
+      - captor
+      - sorcery
+
+  - id: fairy-domain
+    name: "Владение злой феи"
+    type: location
+    description: >
+      Иной мир с замком посреди огромного озера, облачным мостом, горами и
+      лесами. Власть феи действует внутри этого пространства и заканчивается за
+      рекой, к которой стремятся беглецы.
+    tags:
+      - otherworld
+      - enchanted-realm
+      - boundary
+
+  - id: cloud-bridge
+    name: "Облачный мост"
+    type: location
+    description: >
+      Единственный путь через озеро к замку феи. Мост состоит из облаков, и
+      принцу кажется, что на каждом шагу он проваливается в них.
+    tags:
+      - magical-bridge
+      - clouds
+      - fairy-realm
+
+  - id: glass-axe
+    name: "Стеклянный топор"
+    type: artifact
+    description: >
+      Стеклянный топор, которым фея приказывает принцу валить лес. При первом
+      ударе он разлетается на куски, но после помощи дочери феи оказывается
+      вновь целым и невредимым рядом с выполненной работой.
+    tags:
+      - magic-axe
+      - restoration
+      - impossible-task
+
+  - id: black-girl
+    name: "Чёрная девушка"
+    type: character
+    description: >
+      Дочь злой феи, заколдованная собственной матерью и вынужденная жить в
+      тёмном облике до своего освобождения. Она владеет магией, помогает принцу
+      выполнять задания и организует побег из владения матери.
+    tags:
+      - enchanted-maiden
+      - fairy-daughter
+      - helper
+      - transformation
+
+  - id: black-girl-curse
+    name: "Проклятие Чёрной девушки"
+    type: spell
+    description: >
+      Заклятие злой феи, удерживающее её дочь в чужом облике и в пределах
+      материнской власти до тех пор, пока молодой человек не поможет ей перейти
+      реку и освободиться.
+    tags:
+      - curse
+      - transformation
+      - captivity
+
+  - id: sleeping-draught
+    name: "Усыпляющее зелье Чёрной девушки"
+    type: substance
+    description: >
+      Волшебный напиток, который девушка дважды даёт принцу перед выполнением
+      невозможных заданий. Он погружает его в глубокий сон, а к пробуждению
+      работа оказывается чудесным образом завершена.
+    tags:
+      - potion
+      - magical-sleep
+      - impossible-task
+
+  - id: magical-task-completion
+    name: "Чудесное выполнение заданий"
+    type: phenomenon
+    description: >
+      Магическая помощь дочери феи, благодаря которой за время сна принца
+      поваленный лес и затем нарубленные связки дров появляются полностью
+      готовыми, а разбитый стеклянный топор восстанавливается.
+    tags:
+      - magical-labor
+      - restoration
+      - impossible-task
+
+  - id: rock-palace-spell
+    name: "Дворец из обломка скалы"
+    type: spell
+    description: >
+      Чары Чёрной девушки: она отламывает кусок скалы, произносит магические
+      слова и бросает его навстречу матери. В тот же миг возникает сияющий
+      дворец с множеством дверей и ходов, задерживающий фею.
+    tags:
+      - conjuration
+      - illusion
+      - escape
+
+  - id: pond-and-duck-transformation
+    name: "Превращение в пруд и утку"
+    type: spell
+    description: >
+      Во время погони девушка превращает себя в пруд, а принца — в утку,
+      плавающую на его поверхности, чтобы скрыться от злой феи.
+    tags:
+      - transformation
+      - disguise
+      - escape
+
+  - id: sand-hill-conjuration
+    name: "Песчаный холм злой феи"
+    type: spell
+    description: >
+      Ответные чары злой феи, создающие у её ног холм песка, которым она пытается
+      осушить волшебный пруд. Заклятие не достигает цели и лишь оттесняет воду.
+    tags:
+      - conjuration
+      - sand
+      - counterspell
+
+  - id: church-and-monk-transformation
+    name: "Церковь и огромный монах"
+    type: spell
+    description: >
+      Защитное превращение беглецов: вместо принца и девушки перед преследующей
+      феей возникают большая каменная церковь и огромный монах-страж. Кинжал феи
+      разбивается о монаха.
+    tags:
+      - transformation
+      - disguise
+      - protection
+
+  - id: enchanted-beast-forest
+    name: "Лес волков и медведей"
+    type: phenomenon
+    description: >
+      Магическое препятствие, возникающее после исчезновения церкви и монаха:
+      фея внезапно оказывается в чёрном лесу, полном волков, медведей и других
+      зверей, которые не подчиняются её силе и задерживают погоню.
+    tags:
+      - enchanted-forest
+      - conjuration
+      - escape
+
+  - id: enchanted-bow-and-arrows
+    name: "Лук и стрелы освобождения"
+    type: artifact
+    description: >
+      Оружие, которое Чёрная девушка оставляет принцу у реки, приказав убивать
+      всякое встреченное живое существо. С его помощью принц проходит цепочку
+      скрытых звериных форм, ведущую к освобождению девушки.
+    tags:
+      - enchanted-weapon
+      - liberation
+      - transformation-chain
+
+  - id: nested-animal-transformations
+    name: "Цепочка превращений кабан — заяц — голубь — яйцо"
+    type: phenomenon
+    description: >
+      Сверхъестественная последовательность форм: из убитого кабана выскакивает
+      заяц, после его смерти появляется голубь, а голубь превращается в белое
+      яйцо. Разрушение последней формы завершает освобождение девушки.
+    tags:
+      - transformation
+      - nested-forms
+      - liberation
+
+  - id: vulture-transformation
+    name: "Превращение грифа в девушку"
+    type: phenomenon
+    description: >
+      Когда огромный гриф бросается на принца, тот швыряет в него белое яйцо.
+      Вместо птицы перед ним немедленно появляется освобождённая прекрасная
+      девушка в своём настоящем облике.
+    tags:
+      - transformation
+      - liberation
+      - vulture
+
+  - id: dragon-drawn-flying-chariot
+    name: "Летающая колесница с огненным драконом"
+    type: artifact
+    description: >
+      Последнее средство погони злой феи: воздушная колесница, запряжённая
+      огненным драконом. Фея летит на ней к реке, пока воды не поглощают
+      колесницу вместе с хозяйкой.
+    tags:
+      - flying-chariot
+      - fiery-dragon
+      - pursuit
+
+  - id: ground-touch-abduction
+    name: "Похищение при касании земли"
+    type: phenomenon
+    description: >
+      Роковое действие власти феи: в момент, когда принц впервые ставит ногу на
+      землю, он исчезает на глазах свиты и невидимая сила переносит его в
+      владение злой феи.
+    tags:
+      - abduction
+      - curse
+      - fairy-power

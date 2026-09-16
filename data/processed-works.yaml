@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
 master_sha: "2c38109089d4cbcc5bf80414bfc4231f7ebcc9f5"
-work_count: 34
+work_count: 35
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -68,6 +68,10 @@ works:
   - id: maui-the-fisherman
     tradition: hawaiian-mythology
     path: data/works/hawaiian-mythology/maui-the-fisherman.yaml
+
+  - id: the-glass-axe
+    tradition: hungarian-folklore
+    path: data/works/hungarian-folklore/the-glass-axe.yaml
 
   - id: punchkin
     tradition: indian-folklore
