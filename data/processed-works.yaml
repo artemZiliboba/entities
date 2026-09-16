@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "2c38109089d4cbcc5bf80414bfc4231f7ebcc9f5"
-work_count: 35
+master_sha: "ec7d7706d612b27b5c480276a11bc7854dec8b85"
+work_count: 36
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -72,6 +72,10 @@ works:
   - id: the-glass-axe
     tradition: hungarian-folklore
     path: data/works/hungarian-folklore/the-glass-axe.yaml
+
+  - id: the-giantess-and-the-granite-boat
+    tradition: icelandic-folklore
+    path: data/works/icelandic-folklore/the-giantess-and-the-granite-boat.yaml
 
   - id: punchkin
     tradition: indian-folklore
