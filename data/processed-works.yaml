@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f4a89139d8e28f32b6312825cf42b43aaba2a24d"
-work_count: 37
+master_sha: "745b0244af1607294b5001fdf6ebfc464b85f2c1"
+work_count: 38
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -104,6 +104,10 @@ works:
   - id: the-woodman-and-the-mountain-fairies
     tradition: korean-folklore
     path: data/works/korean-folklore/the-woodman-and-the-mountain-fairies.yaml
+
+  - id: the-princes-and-the-friendly-animals
+    tradition: lithuanian-folklore
+    path: data/works/lithuanian-folklore/the-princes-and-the-friendly-animals.yaml
 
   - id: the-children-of-the-mist
     tradition: maori-folklore
