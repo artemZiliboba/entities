@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "745b0244af1607294b5001fdf6ebfc464b85f2c1"
-work_count: 38
+master_sha: "2f1d1a3853c91096f5e36ad7ec4df04238c80988"
+work_count: 39
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -124,6 +124,10 @@ works:
   - id: beowulf
     tradition: old-english-epic
     path: data/works/old-english-epic/beowulf.yaml
+
+  - id: what-the-rose-did-to-the-cypress
+    tradition: persian-folklore
+    path: data/works/persian-folklore/what-the-rose-did-to-the-cypress.yaml
 
   - id: the-whirlwind
     tradition: polish-folklore
