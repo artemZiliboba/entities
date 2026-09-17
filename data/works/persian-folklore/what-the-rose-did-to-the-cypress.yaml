@@ -1,0 +1,337 @@
+id: what-the-rose-did-to-the-cypress
+title: "Что роза сделала кипарису"
+original_title: "What the Rose Did to the Cypress"
+kind: folktale
+tradition:
+  - persian-folklore
+collection: "The Brown Fairy Book"
+source:
+  title: "The Brown Fairy Book — What the Rose Did to the Cypress"
+  url: "https://www.gutenberg.org/ebooks/3282"
+  note: >
+    Перевод Аннет С. Беверидж с двух персидских рукописей, хранившихся в
+    British Museum и India Office, опубликованный в The Brown Fairy Book под
+    редакцией Эндрю Лэнга. Использован только текст What the Rose Did to the
+    Cypress; детали иных вариантов не смешивались.
+
+entities:
+  - id: khizr-like-guide
+    name: "Зелёный проводник, подобный Хызру"
+    type: character
+    description: >
+      Таинственный старец в зелёном с посохом, внезапно появляющийся перед
+      принцем и точно указывающий ему путь к Ваку в Кафе, включая опасную среднюю
+      дорогу и надпись на дорожном столбе.
+    tags:
+      - supernatural-guide
+      - khizr
+      - prophecy
+
+  - id: waq-of-qaf
+    name: "Вак в земле Каф"
+    type: location
+    description: >
+      Труднодоступная область Кавказа, населённая джиннами, демонами и пери.
+      Дорога к ней проходит через смертельно опасные места и семь морей, которые
+      человек не способен преодолеть обычным способом.
+    tags:
+      - otherworld
+      - qaf
+      - peris
+      - jinn
+
+  - id: lady-latifa
+    name: "Латифа-колдунья"
+    type: character
+    description: >
+      Владычица зачарованного сада и сестра Джамилы. Владеет магическим жезлом и
+      превращает людей в зверей, удерживая заколдованных пленников в своём саду.
+    tags:
+      - sorceress
+      - transformation
+      - captor
+
+  - id: latifas-enchanted-garden
+    name: "Зачарованный сад Латифы"
+    type: location
+    description: >
+      Волшебное владение, из которого превращённый в оленя принц не может уйти:
+      прыгая через стену, он снова и снова оказывается внутри того же сада.
+    tags:
+      - enchanted-garden
+      - looping-space
+      - captivity
+
+  - id: latifas-snake-wand
+    name: "Змеевидный жезл Латифы"
+    type: artifact
+    description: >
+      Жезл, сделанный в форме змеи. Латифа произносит над ним слова и ударом
+      превращает принца Алмаса из человека в оленя.
+    tags:
+      - magic-wand
+      - transformation
+
+  - id: deer-transformation
+    name: "Превращение Алмаса в оленя"
+    type: spell
+    description: >
+      Заклятие Латифы, меняющее человеческое тело принца на оленье при сохранении
+      человеческого разума и памяти.
+    tags:
+      - transformation
+      - deer
+      - curse
+
+  - id: latifas-bewitched-deer
+    name: "Заколдованные олени Латифы"
+    type: animal
+    description: >
+      Люди, ранее превращённые Латифой в зверей и содержащиеся в её магическом
+      саду. В конце сказки Джамила возвращает им человеческий облик.
+    tags:
+      - transformed-humans
+      - deer
+      - enchantment
+
+  - id: lady-jamila
+    name: "Джамила-волшебница"
+    type: character
+    description: >
+      Сестра Латифы, распознающая в плачущем олене заколдованного человека.
+      Владеет собственной магией превращения и возвращает Алмасу, а позднее и
+      другим пленникам сестры, человеческий облик.
+    tags:
+      - sorceress
+      - magical-helper
+      - restoration
+
+  - id: jamilas-restoration-wand
+    name: "Жезл Джамилы"
+    type: artifact
+    description: >
+      Скрытый под ковром магический жезл, над которым Джамила произносит слова
+      перед тем, как ударом вернуть оленю человеческий облик.
+    tags:
+      - magic-wand
+      - restoration
+      - transformation
+
+  - id: restoration-from-deer-form
+    name: "Возвращение из оленьего облика"
+    type: spell
+    description: >
+      Магическое действие Джамилы, отменяющее превращение Латифы и возвращающее
+      Алмасу человеческое тело; в финале аналогичным образом освобождаются и
+      остальные заколдованные люди.
+    tags:
+      - counterspell
+      - restoration
+      - transformation
+
+  - id: bow-of-prophet-salih
+    name: "Лук и стрелы пророка Салиха"
+    type: artifact
+    description: >
+      Священное оружие, переданное Джамилой принцу для опасного пути. Из этого
+      лука Алмас поражает огромного дракона у дерева Симурга.
+    tags:
+      - magic-weapon
+      - sacred-weapon
+      - bow
+
+  - id: scorpion-of-solomon
+    name: "Скорпион Соломона"
+    type: artifact
+    description: >
+      Волшебный меч исключительной прочности и остроты: камень и сталь для него
+      одинаково податливы, а в бою он рассекает противников и не повреждается.
+    tags:
+      - magic-sword
+      - solomon
+      - unbreakable
+
+  - id: dagger-of-timus
+    name: "Кинжал Тимуса"
+    type: artifact
+    description: >
+      Кинжал, изготовленный мудрецом Тимусом. Его ношение наделяет владельца
+      сверхъестественной стойкостью: человек не сгибается даже под тяжестью семи
+      верблюжьих грузов.
+    tags:
+      - magic-dagger
+      - strength
+      - endurance
+
+  - id: king-lion
+    name: "Царь-лев"
+    type: animal
+    description: >
+      Огромный говорящий лев, повелевающий множеством других львов. После
+      гостеприимства Алмаса он становится союзником принца и приходит со своим
+      войском на помощь по магическому призыву.
+    tags:
+      - talking-animal
+      - lion-king
+      - magical-helper
+
+  - id: king-lion-hairs
+    name: "Волосы царя-льва"
+    type: artifact
+    description: >
+      Волосы, подаренные царём-львом Алмасу. Сожжение одного волоса немедленно
+      призывает льва и его огромную армию на помощь.
+    tags:
+      - summoning
+      - magical-token
+      - lion
+
+  - id: dragon-of-simurgh-tree
+    name: "Дракон у дерева Симурга"
+    type: creature
+    description: >
+      Гигантский дракон, ежегодно пожирающий птенцов Симурга. Его тело настолько
+      велико, что грудь раздавливает камни, а из пасти и ран исходит губительный
+      смрад.
+    tags:
+      - dragon
+      - monster
+      - simurgh
+
+  - id: simurgh
+    name: "Симург"
+    type: creature
+    description: >
+      Чудесная гигантская птица, разумная и говорящая. В благодарность за спасение
+      птенцов переносит Алмаса через семь морей, снабжает его перьями для призыва
+      и позже спасает от казни.
+    tags:
+      - simurgh
+      - magical-helper
+      - flight
+      - talking-creature
+
+  - id: simurgh-feathers
+    name: "Перья Симурга"
+    type: artifact
+    description: >
+      Три пера, подаренные Алмасу Симургом. При сожжении пера чудесная птица
+      появляется почти мгновенно, независимо от расстояния.
+    tags:
+      - summoning
+      - magical-token
+      - simurgh
+
+  - id: simurgh-wonder-tree
+    name: "Чудесное дерево Симурга"
+    type: plant
+    description: >
+      Огромное дерево у жилища Симурга, на одинаковых ветвях которого одновременно
+      растут цветы и плоды тысячи различных видов; в его кроне находится гнездо
+      чудесных птиц.
+    tags:
+      - magical-tree
+      - thousand-fruits
+      - simurgh
+
+  - id: two-blinded-peris
+    name: "Две ослеплённые пери"
+    type: character
+    description: >
+      Две сверхъестественные женщины, наказанные царём пери слепотой и оставленные
+      в колодце. После исцеления они помогают Синаубару проникнуть к царской
+      дочери и дают ему средство пережить казнь огнём.
+    tags:
+      - peri
+      - magical-helper
+      - blindness
+
+  - id: sea-cow
+    name: "Морская корова"
+    type: creature
+    description: >
+      Опасное чудесное животное, выходящее из великого моря пастись на берегу.
+      Производимое ею средство обладает силой возвращать зрение ослеплённым пери.
+    tags:
+      - sea-creature
+      - healing
+
+  - id: sea-cow-blindness-cure
+    name: "Целебное средство морской коровы"
+    type: substance
+    description: >
+      Навоз морской коровы, который пери называют лекарством от наложенной на них
+      слепоты. После нанесения на глаза обе полностью прозревают.
+    tags:
+      - healing
+      - blindness-cure
+      - magical-substance
+
+  - id: fireproof-oil
+    name: "Огнестойкое масло пери"
+    type: substance
+    description: >
+      Масло, которым две спасённые пери тайно натирают Синаубара перед казнью.
+      Благодаря ему семидневный огонь не оставляет на человеке никаких следов.
+    tags:
+      - fire-immunity
+      - magical-oil
+      - protection
+
+  - id: peri-king
+    name: "Царь пери"
+    type: character
+    description: >
+      Правитель пери и отец Гуль. Он способен ослеплять своих подданных и
+      повелевает демонами и пери, охраняющими дочь и исполняющими его приговоры.
+    tags:
+      - peri
+      - supernatural-ruler
+      - curse
+
+  - id: gul-the-peri
+    name: "Гуль, дочь царя пери"
+    type: character
+    description: >
+      Сверхъестественная царевна-пери, ставшая женой Синаубара. Её слёзы
+      превращаются в жемчуг, а при улыбке с губ падают розы.
+    tags:
+      - peri
+      - enchanted-princess
+      - pearls
+      - roses
+
+  - id: guls-pearl-tears
+    name: "Жемчужные слёзы Гуль"
+    type: phenomenon
+    description: >
+      Чудесное свойство Гуль: когда она плачет, её слёзы становятся настоящими
+      жемчужинами, которые собирают и относят в царскую сокровищницу.
+    tags:
+      - transformation
+      - pearls
+      - tears
+
+  - id: guls-rose-smile
+    name: "Розы улыбки Гуль"
+    type: phenomenon
+    description: >
+      Второе чудесное свойство пери Гуль: когда она улыбается, с её губ падают
+      розы, которые также собирают как реальные цветы.
+    tags:
+      - manifestation
+      - roses
+      - smile
+
+  - id: collyrium-of-solomon
+    name: "Коллирий Соломона"
+    type: substance
+    description: >
+      Волшебное глазное средство, подаренное Алмасу Симургом. Оно возвращает
+      зрение ослепшему от горя царю и, по словам текста, открывает скрытые вещи
+      земли.
+    tags:
+      - solomon
+      - healing
+      - sight
+      - revelation
