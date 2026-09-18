@@ -1,0 +1,310 @@
+id: the-master-maid
+title: "Мастер-девица"
+original_title: "The Master-Maid"
+kind: folktale
+tradition:
+  - norwegian-folklore
+collection: "The Blue Fairy Book"
+source:
+  title: "The Blue Fairy Book — The Master-Maid"
+  url: "https://www.gutenberg.org/ebooks/503"
+  note: >
+    Версия из The Blue Fairy Book под редакцией Эндрю Лэнга (1889),
+    Project Gutenberg eBook #503. В конце текста источник указан как
+    Asbjornsen and Moe. Использована только сказка The Master-Maid;
+    детали реконструкций и иных вариантов ATU 313 не смешивались.
+
+entities:
+  - id: giant-master
+    name: "Великан-хозяин"
+    type: creature
+    description: >
+      Великан, нанимающий младшего королевича и задающий ему опасные задания.
+      Он владеет огнедышащим конём, получает дань из подземной сокровищницы
+      и во время погони призывает Рекопийцу и Бурильщика гор.
+    tags:
+      - giant
+      - supernatural-master
+      - pursuer
+
+  - id: master-maid
+    name: "Мастер-девица"
+    type: character
+    description: >
+      Волшебная помощница, заключённая в доме великана. Она знает способы
+      выполнить невозможные задания, оживляет кровь для обмана великана,
+      создаёт преграды во время бегства и позднее накладывает принудительные
+      чары на своих женихов.
+    tags:
+      - enchantress
+      - magical-helper
+      - master-maid
+
+  - id: copper-cauldron
+    name: "Медный котёл"
+    type: artifact
+    description: >
+      Первый из трёх котлов, кипящих без видимого огня в запретных комнатах
+      великана. Опущенная в него прядь волос королевича становится медной.
+    tags:
+      - magic-cauldron
+      - transmutation
+      - copper
+
+  - id: silver-cauldron
+    name: "Серебряный котёл"
+    type: artifact
+    description: >
+      Второй самокипящий котёл великана. Прядь волос, погружённая в его
+      содержимое, покрывается серебром.
+    tags:
+      - magic-cauldron
+      - transmutation
+      - silver
+
+  - id: golden-cauldron
+    name: "Золотой котёл"
+    type: artifact
+    description: >
+      Третий котёл, кипящий без огня. После погружения волос королевича прядь
+      выходит ярко позолоченной.
+    tags:
+      - magic-cauldron
+      - transmutation
+      - gold
+
+  - id: self-cleaning-stable
+    name: "Заколдованная конюшня"
+    type: location
+    description: >
+      Конюшня великана, которую нельзя вычистить обычным способом: на каждую
+      выброшенную вилами порцию грязи внутрь прибывает десять новых. Если
+      работать рукоятью перевёрнутых вил, всё содержимое само вылетает наружу.
+    tags:
+      - enchanted-stable
+      - impossible-task
+      - self-cleaning
+
+  - id: fire-breathing-horse
+    name: "Огнедышащий конь великана"
+    type: animal
+    description: >
+      Свирепый конь на горном склоне, из ноздрей которого вырываются огонь и
+      красное пламя. Особая уздечка мгновенно делает его кротким и управляемым.
+    tags:
+      - fire-breathing
+      - magical-horse
+      - giant
+
+  - id: taming-bridle
+    name: "Уздечка укрощения"
+    type: artifact
+    description: >
+      Уздечка у двери, предназначенная для огнедышащего коня. Когда королевич
+      забрасывает удила прямо ему в пасть, неукротимый конь сразу становится
+      смирным.
+    tags:
+      - magic-bridle
+      - taming
+      - horse
+
+  - id: fiery-underground-keeper
+    name: "Огненный хранитель подземной дани"
+    type: creature
+    description: >
+      Существо из скалы, у которого искры летят из глаз и носа. После условного
+      стука оно проводит королевича внутрь горы и выдаёт ему столько золота и
+      серебра, сколько тот способен унести.
+    tags:
+      - underground
+      - fire
+      - treasure-keeper
+
+  - id: underground-treasure-vault
+    name: "Подземная сокровищница великана"
+    type: location
+    description: >
+      Скрытое внутри горы пространство, открывающееся после удара дубиной по
+      каменной стене. Внутри золото и серебро лежат огромными грудами и служат
+      данью великану.
+    tags:
+      - underground-treasure
+      - hidden-realm
+      - gold
+
+  - id: talking-blood-drops
+    name: "Говорящие капли крови"
+    type: phenomenon
+    description: >
+      Три капли крови королевича, оставленные Мастер-девицей на деревянной
+      скамье. Они по очереди отвечают великану вместо беглецов, создавая
+      впечатление, что его приказ всё ещё исполняется.
+    tags:
+      - talking-blood
+      - decoy
+      - escape-magic
+
+  - id: river-sucker
+    name: "Рекопийца"
+    type: creature
+    description: >
+      Сверхъестественный слуга великана, способный несколькими глотками резко
+      понизить уровень моря. Великан призывает его, чтобы продолжить погоню за
+      беглецами.
+    tags:
+      - water-drinker
+      - giant-servant
+      - pursuit
+
+  - id: mountain-borer
+    name: "Бурильщик гор"
+    type: creature
+    description: >
+      Второй чудесный слуга великана. По приказу хозяина он пробуривает проход
+      сквозь возникшую посреди моря гору, чтобы Рекопийца снова смог пить воду.
+    tags:
+      - mountain-borer
+      - giant-servant
+      - pursuit
+
+  - id: mountain-making-salt
+    name: "Соль, превращающаяся в гору"
+    type: substance
+    description: >
+      Ком соли, взятый Мастер-девицей при побеге. Брошенный в море, он вырастает
+      в огромную высокую гору поперёк пути великана и временно останавливает
+      погоню.
+    tags:
+      - magic-salt
+      - mountain
+      - obstacle
+
+  - id: sea-restoring-water-flask
+    name: "Фляга, восстанавливающая море"
+    type: artifact
+    description: >
+      Фляга Мастер-девицы, из которой достаточно вылить одну-две капли, чтобы
+      море мгновенно снова наполнилось водой после того, как Рекопийца почти
+      осушил его.
+    tags:
+      - magic-flask
+      - water
+      - sea
+
+  - id: oblivion-apple
+    name: "Яблоко забвения"
+    type: substance
+    description: >
+      Яблоко, которое сестра невесты подкатывает вернувшемуся королевичу.
+      С первым же откушенным кусочком он полностью забывает Мастер-девицу и
+      обещание вернуться за ней.
+    tags:
+      - enchanted-apple
+      - oblivion
+      - memory-loss
+
+  - id: malicious-troll-crone
+    name: "Злобная старуха-тролль"
+    type: creature
+    description: >
+      Хозяйка лесной хижины, у которой поселяется Мастер-девица. Рассказчик
+      прямо называет её злым и недоброжелательным троллем; она погибает, убегая
+      в страхе от чудесного золочения дома.
+    tags:
+      - troll
+      - crone
+      - hostile
+
+  - id: gilding-gold-dust
+    name: "Золотая пыль Мастер-девицы"
+    type: substance
+    description: >
+      Золото из сундука, которое Мастер-девица бросает в огонь. Оно вскипает и
+      растекается по хижине, полностью покрывая золотом её стены снаружи и
+      изнутри.
+    tags:
+      - magic-gold
+      - gilding
+      - transformation
+
+  - id: binding-shovel-spell
+    name: "Чары лопаты и раскалённых углей"
+    type: spell
+    description: >
+      Приказ Мастер-девицы связывает шерифа с лопатой до рассвета и заставляет
+      его всю ночь осыпать себя раскалёнными углями, несмотря на просьбы
+      остановить действие чар.
+    tags:
+      - binding
+      - compulsion
+      - shovel
+
+  - id: dancing-door-spell
+    name: "Чары пляшущей двери"
+    type: spell
+    description: >
+      Заклятие Мастер-девицы удерживает поверенного у дверной щеколды и до
+      рассвета заставляет дверь таскать и бить его между стенами крыльца.
+    tags:
+      - binding
+      - compulsion
+      - door
+
+  - id: world-running-calf-spell
+    name: "Чары бегущего вокруг света телёнка"
+    type: spell
+    description: >
+      Заклятие связывает пристава с хвостом телёнка. До рассвета животное
+      несёт его через холмы и долины вокруг света, не позволяя освободиться.
+    tags:
+      - binding
+      - compulsion
+      - calf
+
+  - id: unbreakable-shovel-handle
+    name: "Неломающаяся рукоять лопаты"
+    type: artifact
+    description: >
+      Рукоять из позолоченной хижины, одолженная свадебной процессии. В отличие
+      от нескольких обычных деталей она не ломается, когда используется вместо
+      постоянно лопающегося шкворня экипажа.
+    tags:
+      - unbreakable
+      - enchanted-tool
+      - wedding
+
+  - id: unbreakable-porch-door
+    name: "Неломающаяся половина двери"
+    type: artifact
+    description: >
+      Половина двери хижины Мастер-девицы, которую используют для ремонта
+      разваливающегося экипажа. Она удерживает конструкцию там, где обычное
+      дерево снова и снова ломается.
+    tags:
+      - unbreakable
+      - enchanted-door
+      - wedding
+
+  - id: superstrong-calf
+    name: "Сверхсильный телёнок"
+    type: animal
+    description: >
+      Телёнок Мастер-девицы, способный в одиночку увезти свадебный экипаж,
+      который не могли сдвинуть даже двенадцать лошадей. Он мчится с такой
+      силой, что повозка временами оказывается в воздухе.
+    tags:
+      - magical-animal
+      - super-strength
+      - calf
+
+  - id: golden-cock-hen-and-apple
+    name: "Золотые петух, курица и яблоко"
+    type: artifact
+    description: >
+      Золотые фигурки и яблоко, взятые Мастер-девицей из дома великана.
+      На свадебном пиру петух и курица сами начинают сражаться за яблоко;
+      разыгранная сцена возвращает королевичу память о совместном бегстве.
+    tags:
+      - animated-objects
+      - memory-restoration
+      - golden-apple
