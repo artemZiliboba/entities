@@ -1,0 +1,319 @@
+id: ghvthisavari
+title: "Гвтисавари (Я от Бога)"
+original_title: "Ghvthisavari (I am of God)"
+kind: folktale
+tradition:
+  - georgian-folklore
+collection: "Georgian Folk Tales"
+source:
+  title: "Georgian Folk Tales — Ghvthisavari (I am of God)"
+  url: "https://www.gutenberg.org/ebooks/44536"
+  note: >
+    Перевод Марджори Скотт Уордроп, опубликованный в Georgian Folk Tales
+    (David Nutt, 1894), Project Gutenberg eBook #44536. По предисловию Уордроп,
+    грузинские сказки первой части происходят из сборника Khalkhuri Zghaprebi,
+    изданного Грузинским фольклорным обществом в Тифлисе в 1891 году.
+    Использован только текст Ghvthisavari (I am of God); детали соседних сказок
+    и иных вариантов не смешивались.
+
+entities:
+  - id: giant-magic-apple
+    name: "Чудесное большое яблоко"
+    type: substance
+    description: >
+      Необычайно большое яблоко, приплывшее к морской башне. Принцесса съедает
+      мякоть, а её спутница кожуру; после этого обе без участия мужчин беременеют:
+      первая рождает Гвтисавари, вторая — восемь маленьких собак.
+    tags:
+      - miraculous-conception
+      - enchanted-fruit
+      - birth
+
+  - id: ghvthisavari
+    name: "Гвтисавари"
+    type: character
+    description: >
+      Чудесно рождённый сын принцессы. За один день растёт столько, сколько
+      обычный ребёнок за год, обладает исключительной силой, побеждает
+      многоголовых деви и способен одним прыжком преодолеть огромное море.
+    tags:
+      - miraculous-birth
+      - supernatural-growth
+      - superhuman-strength
+      - hero
+
+  - id: eight-talking-dogs
+    name: "Восемь говорящих собак"
+    type: animal
+    description: >
+      Восемь крошечных собак, рождённых спутницей принцессы после того, как она
+      съела кожуру чудесного яблока. Они сопровождают Гвтисавари, разговаривают
+      между собой и организуют его спасение из затопленного сундука.
+    tags:
+      - talking-animals
+      - magical-companions
+      - miraculous-birth
+
+  - id: one-headed-devi-mother
+    name: "Одноголовая мать деви"
+    type: creature
+    description: >
+      Мать пяти многоголовых деви, живущая вместе с ними в их доме. Она сама
+      принадлежит к роду деви и угрожает съесть Гвтисавари, но погибает от его
+      стрелы.
+    tags:
+      - devi
+      - ogre
+      - cannibal
+
+  - id: two-headed-devi
+    name: "Двухголовый деви"
+    type: creature
+    description: >
+      Первый из пяти братьев-деви, вернувшийся домой на поиски неизвестного
+      стрелка. Имеет две головы и хвастается, что от страха перед ним не смеют
+      двигаться ни птицы, ни муравьи.
+    tags:
+      - devi
+      - multi-headed
+      - ogre
+
+  - id: three-headed-devi
+    name: "Трёхголовый деви"
+    type: creature
+    description: >
+      Второй брат из семейства деви. Имеет три головы и после исчезновения
+      старшего брата отправляется домой, где также вступает в бой с Гвтисавари.
+    tags:
+      - devi
+      - multi-headed
+      - ogre
+
+  - id: five-headed-devi
+    name: "Пятиголовый деви"
+    type: creature
+    description: >
+      Третий из многоголовых братьев-деви, имеющий пять голов. Он повторяет путь
+      старших братьев и погибает в поединке с Гвтисавари.
+    tags:
+      - devi
+      - multi-headed
+      - ogre
+
+  - id: nine-headed-devi
+    name: "Девятиголовый деви"
+    type: creature
+    description: >
+      Четвёртый брат-деви с девятью головами. Отправляется домой после исчезновения
+      остальных и также оказывается побеждён Гвтисавари.
+    tags:
+      - devi
+      - multi-headed
+      - ogre
+
+  - id: ten-headed-devi
+    name: "Десятиголовый деви"
+    type: creature
+    description: >
+      Последний и наиболее живучий из братьев-деви. Гвтисавари отрубает ему
+      головы, но по ошибке оставляет десятую; поскольку именно в ней заключена
+      душа чудовища, деви возвращается к жизни и позже вступает в союз с матерью
+      героя.
+    tags:
+      - devi
+      - multi-headed
+      - external-soul
+      - revenant
+
+  - id: tenth-head-soul
+    name: "Душа в десятой голове деви"
+    type: phenomenon
+    description: >
+      Сверхъестественная связь жизни десятиголового деви с его последней головой.
+      Пока десятая голова остаётся на теле, чудовище способно выжить после
+      отсечения остальных девяти и выбраться из моря.
+    tags:
+      - external-soul
+      - hidden-life
+      - immortality
+
+  - id: sky-antlered-stag
+    name: "Олень с рогами до неба"
+    type: animal
+    description: >
+      Огромный говорящий олень, чьи рога достигают неба. Он предупреждает
+      Гвтисавари об обмане матери, добровольно отдаёт кусок рога и дарит волос,
+      позволяющий призвать его в беде.
+    tags:
+      - talking-animal
+      - magical-helper
+      - giant-antlers
+
+  - id: stag-summoning-hair
+    name: "Призывной волос оленя"
+    type: artifact
+    description: >
+      Волос, подаренный небеснорогим оленем Гвтисавари. Если герой в беде
+      вспоминает оленя, дар служит знаком связи с помощником, который приходит
+      ему на помощь.
+    tags:
+      - summoning-token
+      - magical-helper
+      - stag
+
+  - id: talking-wild-boar
+    name: "Говорящий дикий кабан"
+    type: animal
+    description: >
+      Сверхъестественно разумный кабан, которого Гвтисавари посылают убить.
+      Кабан раскрывает обман матери, позволяет взять щетину и даёт собственный
+      волос как средство призыва в будущей опасности.
+    tags:
+      - talking-animal
+      - magical-helper
+      - boar
+
+  - id: boar-summoning-hair
+    name: "Призывной волос кабана"
+    type: artifact
+    description: >
+      Волос, подаренный говорящим кабаном. Он закрепляет обещание кабана явиться
+      на помощь Гвтисавари, когда герой окажется в беде.
+    tags:
+      - summoning-token
+      - magical-helper
+      - boar
+
+  - id: phascundzi-griffin
+    name: "Грифон-фаскундзи"
+    type: creature
+    description: >
+      Огромная разумная птица-мать, названная в переводе griffin (phascundzi).
+      Она разговаривает с героем, даёт ему своё перо и при спасении Гвтисавари
+      ударами крыльев рассекает море на три части.
+    tags:
+      - griffin
+      - phascundzi
+      - magical-helper
+      - sea-cleaving
+
+  - id: griffin-summoning-feather
+    name: "Призывное перо грифона"
+    type: artifact
+    description: >
+      Перо, вырванное грифоном-фаскундзи и подаренное Гвтисавари. Оно служит
+      магическим знаком связи: в беде герой должен вспомнить грифона, и тот
+      явится к нему.
+    tags:
+      - summoning-token
+      - magical-helper
+      - griffin
+
+  - id: young-griffin
+    name: "Птенец грифона"
+    type: creature
+    description: >
+      Один из птенцов фаскундзи, которого мать добровольно позволяет Гвтисавари
+      унести живым. Его требовали как якобы лечебную добычу, чтобы заманить героя
+      на смертельное задание.
+    tags:
+      - griffin
+      - magical-creature
+      - quest-object
+
+  - id: blood-drinking-giant-bird
+    name: "Гигантская птица — враг грифонов"
+    type: creature
+    description: >
+      Огромная странная птица, похожая на орла, которая из года в год нападает на
+      гнездо фаскундзи и пьёт кровь её птенцов. Гвтисавари убивает её стрелой,
+      заслуживая благодарность грифона.
+    tags:
+      - giant-bird
+      - predator
+      - griffin-enemy
+
+  - id: ghvthisavari-half-devi-brother
+    name: "Младший брат Гвтисавари — сын деви"
+    type: character
+    description: >
+      Сын матери Гвтисавари и десятиголового деви. Он обладает силой, равной
+      силе старшего брата, спасает Гвтисавари из тела окаменяющей старухи и
+      возвращает к жизни его самого, собак и оружие.
+    tags:
+      - half-devi
+      - supernatural-strength
+      - magical-helper
+
+  - id: blood-water-omen
+    name: "Вода, превращающаяся в кровь"
+    type: phenomenon
+    description: >
+      Условленный братьями сверхъестественный знак бедствия. Вода на крыше одного
+      из братьев превращается в кровь, когда другой попадает в смертельную
+      опасность, и тем самым призывает его на помощь.
+    tags:
+      - omen
+      - blood
+      - magical-signal
+
+  - id: petrifying-old-woman
+    name: "Окаменяющая беззубая старуха"
+    type: character
+    description: >
+      Таинственная прожорливая старуха, появляющаяся у огня. Она владеет
+      маленьким камнем, которым окаменяет оружие и собак, лишает Гвтисавари силы,
+      а затем проглатывает героя и его спутников целиком.
+    tags:
+      - witch
+      - petrification
+      - cannibal
+      - shapeless-evil
+
+  - id: petrifying-stone
+    name: "Камень окаменения"
+    type: artifact
+    description: >
+      Маленький камень беззубой старухи. Брошенный или направленный на цель, он
+      превращает лук, стрелы и собак в камень, а Гвтисавари лишает силы и
+      приводит в состояние, подобное смерти.
+    tags:
+      - petrification
+      - magic-stone
+      - paralysis
+
+  - id: old-womans-restoring-blood
+    name: "Воскрешающая кровь старухи"
+    type: substance
+    description: >
+      Кровь убитой окаменяющей старухи. Младший брат поливает ею Гвтисавари,
+      его собак и оружие: герой и животные возвращаются к жизни, а окаменевшие
+      лук и стрелы вновь поднимаются с земли.
+    tags:
+      - resurrection
+      - restoration
+      - magical-blood
+
+  - id: truth-testing-arrow-oath
+    name: "Клятва испытующей стрелой"
+    type: spell
+    description: >
+      Клятва младшего брата доказать, что он не касался жены Гвтисавари:
+      выпущенная вверх стрела должна поразить ту часть его тела, которая её
+      касалась. Стрела поражает только мизинец, которым он коснулся женщины,
+      и убивает клянущегося.
+    tags:
+      - oath
+      - truth-test
+      - magical-arrow
+
+  - id: immortal-water
+    name: "Бессмертная вода"
+    type: substance
+    description: >
+      Чудесная вода, которую Гвтисавари находит после гибели младшего брата.
+      С её помощью он возвращает убитого стрелой брата к жизни.
+    tags:
+      - resurrection
+      - life-water
+      - immortality
