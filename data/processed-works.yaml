@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f1700dcf48ca2a6edc8d73c04dcf52d493638343"
-work_count: 40
+master_sha: "f163087e6901112557295ec41d2b5c3313050406"
+work_count: 41
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -64,6 +64,10 @@ works:
   - id: the-goose-girl
     tradition: german-folklore
     path: data/works/german-folklore/the-goose-girl.yaml
+
+  - id: the-white-snake
+    tradition: german-folklore
+    path: data/works/german-folklore/the-white-snake.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
