@@ -1,0 +1,102 @@
+id: the-white-snake
+title: "Белая змея"
+original_title: "Die weiße Schlange"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Grimm's Household Tales, Volume 1"
+source:
+  title: "Grimm's Household Tales, Volume 1 — The White Snake"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales%2C_Volume_1/The_White_Snake"
+  note: >
+    Английский перевод Маргарет Рейн Хант (1884) на Wikisource; текст также
+    сверен с открытым изданием Grimms' Fairy Tales, Project Gutenberg eBook
+    #2591. Использована только сказка The White Snake (KHM 17); детали иных
+    переводов и вариантов не смешивались.
+
+entities:
+  - id: white-snake
+    name: "Белая змея"
+    type: animal
+    description: >
+      Таинственная белая змея, которую королю ежедневно подают на закрытом блюде.
+      Стоит слуге попробовать кусочек её тела, как он немедленно получает
+      способность понимать речь животных.
+    tags:
+      - white-snake
+      - animal-language
+      - magical-food
+
+  - id: animal-language-gift
+    name: "Дар понимания языка животных"
+    type: phenomenon
+    description: >
+      Сверхъестественная способность, возникающая у слуги после вкушения белой
+      змеи. Благодаря ей он слышит осмысленную речь птиц и других животных и
+      позже может воспользоваться помощью спасённых им существ.
+    tags:
+      - animal-language
+      - supernatural-hearing
+      - magical-gift
+
+  - id: three-grateful-fish
+    name: "Три благодарные рыбы"
+    type: animal
+    description: >
+      Три рыбы, которых герой спасает после того, как они оказываются на суше.
+      Позже они находят на морском дне брошенное туда золотое кольцо и приносят
+      его герою в раковине, позволяя выполнить первое испытание.
+    tags:
+      - grateful-animals
+      - magical-helper
+      - fish
+
+  - id: ant-king-and-colony
+    name: "Муравьиный царь и его муравьи"
+    type: animal
+    description: >
+      Муравьи, которых герой щадит в пути, и их царь. За одну ночь они собирают
+      до последнего зерна рассыпанное по траве просо и вновь наполняют десять
+      мешков, выполняя второе невозможное задание принцессы.
+    tags:
+      - grateful-animals
+      - magical-helper
+      - ants
+
+  - id: three-grateful-ravens
+    name: "Три благодарных ворона"
+    type: animal
+    description: >
+      Три ворона, которых герой спасает от голода, отдав им своего коня.
+      Повзрослев, они перелетают море к краю света, находят Древо жизни и
+      приносят герою золотое яблоко для последнего испытания.
+    tags:
+      - grateful-animals
+      - magical-helper
+      - ravens
+
+  - id: tree-of-life
+    name: "Древо жизни"
+    type: plant
+    description: >
+      Чудесное дерево, растущее за морем на краю света. На нём созревают золотые
+      яблоки жизни; местонахождение дерева неизвестно герою, и добраться до него
+      вместо него удаётся благодарным воронам.
+    tags:
+      - tree-of-life
+      - otherworld
+      - golden-apples
+
+  - id: golden-apple-of-life
+    name: "Золотое яблоко жизни"
+    type: substance
+    description: >
+      Золотой плод Древа жизни, принесённый воронами. Герой и принцесса делят
+      яблоко и съедают его; после этого сердце принцессы наполняется любовью к
+      герою, а супруги доживают вместе до глубокой старости.
+    tags:
+      - apple-of-life
+      - magical-fruit
+      - love
+      - longevity
