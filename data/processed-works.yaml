@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f163087e6901112557295ec41d2b5c3313050406"
-work_count: 41
+master_sha: "15b4f91d198cb0f67f9756986144b6c2238b6ae4"
+work_count: 42
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -128,6 +128,10 @@ works:
   - id: east-of-the-sun-west-of-the-moon
     tradition: norwegian-folklore
     path: data/works/norwegian-folklore/east-of-the-sun-west-of-the-moon.yaml
+
+  - id: the-master-maid
+    tradition: norwegian-folklore
+    path: data/works/norwegian-folklore/the-master-maid.yaml
 
   - id: beowulf
     tradition: old-english-epic
