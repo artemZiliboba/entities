@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "15b4f91d198cb0f67f9756986144b6c2238b6ae4"
-work_count: 42
+master_sha: "6d1a58eeeeb2edbc67c411561c99fd5ae60a1395"
+work_count: 43
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -68,6 +68,10 @@ works:
   - id: the-white-snake
     tradition: german-folklore
     path: data/works/german-folklore/the-white-snake.yaml
+
+  - id: the-six-swans
+    tradition: german-folklore
+    path: data/works/german-folklore/the-six-swans.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
