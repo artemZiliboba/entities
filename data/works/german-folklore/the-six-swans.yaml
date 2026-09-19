@@ -1,0 +1,138 @@
+id: the-six-swans
+title: "Шесть лебедей"
+original_title: "Die sechs Schwäne"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Grimm's Household Tales, Volume 1"
+source:
+  title: "Grimm's Household Tales, Volume 1 — The Six Swans"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales%2C_Volume_1/The_Six_Swans"
+  note: >
+    Английский перевод Маргарет Рейн Хант (1884) на Wikisource, сказка KHM 49.
+    Для сверки использована страница Wikisource с оригинальными немецкими
+    редакциями Die sechs Schwäne. Детали других вариантов сказки не смешивались.
+
+entities:
+  - id: old-forest-witch
+    name: "Старая лесная ведьма"
+    type: character
+    description: >
+      Ведьма, которую заблудившийся король встречает в лесу. Она обещает вывести
+      его к дороге только при условии, что он женится на её дочери, и именно от
+      неё дочь впоследствии обучается колдовству.
+    tags:
+      - witch
+      - forest
+      - bargain
+
+  - id: witch-queen
+    name: "Королева-колдунья"
+    type: character
+    description: >
+      Дочь старой ведьмы и новая жена короля. Используя выученное у матери
+      колдовство, она создаёт зачарованные рубашки и обращает шестерых пасынков
+      в лебедей.
+    tags:
+      - witch
+      - queen
+      - transformation
+
+  - id: guiding-ball-of-yarn
+    name: "Путеводный клубок пряжи"
+    type: artifact
+    description: >
+      Клубок, который один лишь способен указывать дорогу к скрытому лесному
+      замку, где король прячет детей. Королева узнаёт о нём от подкупленных слуг
+      и использует его, чтобы найти пасынков.
+    tags:
+      - magic-thread
+      - guidance
+      - hidden-place
+
+  - id: enchanted-silk-shirts
+    name: "Зачарованные шёлковые рубашки"
+    type: artifact
+    description: >
+      Маленькие белые шёлковые рубашки, в которые королева вшивает чары.
+      Стоит рубашке коснуться одного из принцев, как тот немедленно обращается
+      в лебедя.
+    tags:
+      - enchanted-clothing
+      - transformation
+      - curse
+
+  - id: swan-transformation-curse
+    name: "Заклятие превращения в лебедей"
+    type: spell
+    description: >
+      Колдовство королевы, наложенное через зачарованные рубашки. Шесть принцев
+      теряют человеческий облик и вынуждены жить лебедями, пока сестра не
+      выполнит условия освобождения.
+    tags:
+      - transformation
+      - swan
+      - curse
+
+  - id: six-swan-brothers
+    name: "Шесть братьев-лебедей"
+    type: character
+    description: >
+      Шесть принцев, обращённых мачехой в лебедей. Они сохраняют разум и речь,
+      а каждый вечер на короткое время способны вновь принимать человеческий
+      облик.
+    tags:
+      - transformed-princes
+      - swans
+      - enchanted
+
+  - id: quarter-hour-human-form
+    name: "Четверть часа человеческого облика"
+    type: phenomenon
+    description: >
+      Ограниченное действие проклятия: каждый вечер братья могут сбросить
+      лебединые шкуры и оставаться людьми лишь одну четверть часа, после чего
+      снова превращаются в лебедей.
+    tags:
+      - temporary-transformation
+      - swan-skin
+      - time-limit
+
+  - id: six-year-silence-ritual
+    name: "Шестилетний обет молчания и безмолвного труда"
+    type: spell
+    description: >
+      Условие разрушения проклятия: сестра должна шесть лет не говорить и не
+      смеяться, одновременно изготавливая для братьев шесть рубашек из звездчатки.
+      Одно произнесённое слово до завершения срока уничтожило бы весь труд.
+    tags:
+      - counterspell
+      - silence
+      - six-years
+      - trial
+
+  - id: starwort-liberation-shirts
+    name: "Рубашки освобождения из звездчатки"
+    type: artifact
+    description: >
+      Шесть рубашек, которые сестра шьёт из звездчатки в течение шестилетнего
+      молчания. Когда она набрасывает их на лебедей, лебединые шкуры отпадают,
+      а братья возвращаются в человеческий облик.
+    tags:
+      - counterspell
+      - enchanted-clothing
+      - liberation
+      - starwort
+
+  - id: residual-swan-wing
+    name: "Оставшееся лебединое крыло младшего брата"
+    type: phenomenon
+    description: >
+      Последствие незавершённой шестой рубашки: у младшего брата отсутствует
+      левый рукав, поэтому после освобождения вместо левой руки у него остаётся
+      лебединое крыло.
+    tags:
+      - partial-transformation
+      - swan-wing
+      - incomplete-counterspell
