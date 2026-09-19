@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "96ab138d1ee3f3433998344c3aec39adbc217e7a"
-work_count: 44
+master_sha: "cd45953366d44d005a06f8d2e0ee71d824911d86"
+work_count: 45
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -72,6 +72,10 @@ works:
   - id: the-white-snake
     tradition: german-folklore
     path: data/works/german-folklore/the-white-snake.yaml
+
+  - id: the-twelve-dancing-princesses
+    tradition: german-folklore
+    path: data/works/german-folklore/the-twelve-dancing-princesses.yaml
 
   - id: the-six-swans
     tradition: german-folklore
