@@ -1,0 +1,124 @@
+id: the-twelve-dancing-princesses
+title: "Двенадцать танцующих принцесс"
+original_title: "Die zertanzten Schuhe"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Kinder- und Hausmärchen"
+source:
+  title: "Die zertanzten Schuhe (KHM 133)"
+  url: "https://de.wikisource.org/wiki/Die_zertanzten_Schuhe_(1857)"
+  note: >
+    Сказка братьев Гримм, KHM 133, по седьмому изданию Kinder- und Hausmärchen
+    (1857), Wikisource. Для англоязычной сверки использован Project Gutenberg
+    eBook #2591, The Twelve Dancing Princesses. Детали иных редакций и поздних
+    пересказов не смешивались.
+
+entities:
+  - id: sleeping-draught
+    name: "Усыпляющее вино"
+    type: substance
+    description: >
+      Вино, которое старшая принцесса подаёт ночным наблюдателям. Оно действует
+      как снотворное: прежние претенденты засыпают и не могут проследить путь
+      принцесс; солдат избегает действия, тайно вылив напиток.
+    tags:
+      - sleeping-draught
+      - enchanted-drink
+      - sleep
+
+  - id: invisibility-cloak
+    name: "Плащ-невидимка"
+    type: artifact
+    description: >
+      Короткий плащ, подаренный солдату старухой. Надев его, он становится
+      невидимым и может три ночи следовать за принцессами, не будучи замеченным.
+    tags:
+      - invisibility
+      - magic-cloak
+      - magical-helper
+
+  - id: sinking-bed-secret-passage
+    name: "Опускающаяся кровать и тайный ход"
+    type: artifact
+    description: >
+      Волшебный механизм в спальне: после условного действия старшей принцессы
+      её кровать опускается в пол, а под ней открывается проход и лестница в
+      подземный мир ночных танцев.
+    tags:
+      - secret-passage
+      - enchanted-bed
+      - underground
+
+  - id: silver-leaf-grove
+    name: "Роща серебряных деревьев"
+    type: location
+    description: >
+      Первая из трёх подземных рощ на пути принцесс. Все листья деревьев в ней
+      состоят из серебра и сверкают; солдат ломает ветвь как доказательство
+      своего путешествия.
+    tags:
+      - enchanted-grove
+      - silver
+      - underground
+
+  - id: golden-leaf-grove
+    name: "Роща золотых деревьев"
+    type: location
+    description: >
+      Вторая подземная роща, где листья деревьев сделаны из золота. Солдат также
+      отламывает здесь ветвь и позднее предъявляет её королю.
+    tags:
+      - enchanted-grove
+      - gold
+      - underground
+
+  - id: diamond-leaf-grove
+    name: "Роща алмазных деревьев"
+    type: location
+    description: >
+      Третья и самая драгоценная из подземных рощ: листья на деревьях сверкают
+      как настоящие алмазы. Ветвь из этой рощи становится третьим вещественным
+      доказательством тайного пути.
+    tags:
+      - enchanted-grove
+      - diamonds
+      - underground
+
+  - id: underground-dance-castle
+    name: "Подземный танцевальный замок"
+    type: location
+    description: >
+      Скрытый подземный замок за большим водоёмом, куда двенадцать принцев
+      перевозят принцесс на лодках. Именно здесь они танцуют до глубокой ночи,
+      пока башмаки не изнашиваются.
+    tags:
+      - underground-castle
+      - otherworld
+      - dancing
+
+  - id: twelve-enchanted-princes
+    name: "Двенадцать заколдованных принцев"
+    type: character
+    description: >
+      Двенадцать принцев, встречающих сестёр у подземного озера и каждую ночь
+      танцующих с ними в замке. Финал прямо сообщает, что после разоблачения
+      они вновь подвергаются заклятию на число дней, равное числу проведённых
+      с принцессами ночей.
+    tags:
+      - enchanted-princes
+      - underground
+      - curse
+
+  - id: princes-reenchantment
+    name: "Повторное заклятие двенадцати принцев"
+    type: spell
+    description: >
+      Финальное сверхъестественное наказание: двенадцать принцев вновь
+      оказываются заколдованы на столько дней, сколько ночей они прежде
+      танцевали с дочерьми короля.
+    tags:
+      - curse
+      - reenchantment
+      - punishment
