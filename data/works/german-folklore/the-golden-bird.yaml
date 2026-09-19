@@ -1,0 +1,116 @@
+id: the-golden-bird
+title: "Золотая птица"
+original_title: "Der goldene Vogel"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Kinder- und Hausmärchen"
+source:
+  title: "Der goldene Vogel (KHM 57)"
+  url: "https://de.wikisource.org/wiki/Der_goldene_Vogel_(1857)"
+  note: >
+    Сказка братьев Гримм, KHM 57, из седьмого издания Kinder- und Hausmärchen
+    (1857), сверенная по Wikisource. Для англоязычной сверки использован
+    Project Gutenberg eBook #2591, The Golden Bird. Детали более ранних
+    редакций и иных вариантов не смешивались.
+
+entities:
+  - id: golden-apple-tree
+    name: "Дерево золотых яблок"
+    type: plant
+    description: >
+      Дерево в королевском саду, на котором созревают настоящие золотые яблоки.
+      Их исчезновение каждую ночь запускает поиски Золотой птицы и весь дальнейший
+      сюжет.
+    tags:
+      - magical-tree
+      - golden-apples
+      - royal-garden
+
+  - id: golden-apples
+    name: "Золотые яблоки"
+    type: substance
+    description: >
+      Чудесные золотые плоды королевского дерева. Золотая птица похищает их по
+      одному каждую ночь; позднее три пропавших яблока обнаруживаются в замке,
+      где содержат птицу.
+    tags:
+      - magical-fruit
+      - gold
+      - quest-object
+
+  - id: golden-bird
+    name: "Золотая птица"
+    type: animal
+    description: >
+      Птица с полностью золотым оперением, прилетающая по ночам за золотыми
+      яблоками. Её перо ценится выше целого королевства, а сама птица становится
+      первым главным объектом поисков младшего сына.
+    tags:
+      - golden-bird
+      - magical-animal
+      - quest-object
+
+  - id: enchanted-fox-prince
+    name: "Заколдованный лис-принц"
+    type: character
+    description: >
+      Говорящий лис, который знает местонахождение птицы, коня и принцессы,
+      переносит героя на хвосте с необычайной скоростью, спасает его и выполняет
+      невозможное задание. В финале выясняется, что лис — заколдованный брат
+      принцессы.
+    tags:
+      - enchanted-prince
+      - talking-fox
+      - magical-helper
+      - transformation
+
+  - id: fox-tail-journey
+    name: "Мгновенные поездки на хвосте лиса"
+    type: phenomenon
+    description: >
+      Сверхъестественный способ передвижения: герой садится на хвост лиса, после
+      чего тот несётся через леса и камни с такой скоростью, что волосы свистят
+      на ветру, быстро доставляя его к далёким замкам.
+    tags:
+      - magical-travel
+      - supernatural-speed
+      - fox
+
+  - id: golden-horse
+    name: "Золотой конь"
+    type: animal
+    description: >
+      Чудесный конь, способный бежать быстрее ветра. Он становится вторым
+      объектом поисков героя и позднее позволяет увезти принцессу и Золотую
+      птицу.
+    tags:
+      - magical-horse
+      - golden
+      - supernatural-speed
+      - quest-object
+
+  - id: vanished-hill
+    name: "Исчезновение огромного холма"
+    type: phenomenon
+    description: >
+      Невозможное задание, которое лис выполняет вместо героя: за одну ночь
+      полностью убирает огромный холм, закрывавший королю вид из окна, хотя
+      обычными силами сделать это было невозможно.
+    tags:
+      - impossible-task
+      - landscape-magic
+      - fox
+
+  - id: fox-disenchantment
+    name: "Освобождение лиса от заклятия"
+    type: spell
+    description: >
+      Условие снятия старых чар с лиса: герой должен убить его и отсечь голову
+      и лапы. После исполнения просьбы лис мгновенно принимает человеческий
+      облик и оказывается пропавшим братом принцессы.
+    tags:
+      - counterspell
+      - disenchantment
+      - transformation
