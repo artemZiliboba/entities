@@ -1,0 +1,141 @@
+id: the-water-of-life
+title: "Вода жизни"
+original_title: "Das Wasser des Lebens"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Kinder- und Hausmärchen"
+source:
+  title: "Das Wasser des Lebens (KHM 97)"
+  url: "https://de.wikisource.org/wiki/Das_Wasser_des_Lebens_(1857)"
+  note: >
+    Сказка братьев Гримм, KHM 97, по седьмому изданию Kinder- und Hausmärchen
+    (1857), Wikisource; текст дважды вычитан по источнику. Для англоязычной
+    сверки использован Project Gutenberg eBook #2591, The Water of Life.
+    Детали ранних редакций и иных вариантов не смешивались.
+
+entities:
+  - id: dwarf-guide
+    name: "Карлик-проводник"
+    type: character
+    description: >
+      Сверхъестественный карлик, встречающий трёх братьев по дороге. Он знает,
+      где находится Вода жизни, наказывает двух старших за высокомерие,
+      снабжает младшего волшебным средством для входа в замок и позднее
+      освобождает старших братьев из наложенного им заточения.
+    tags:
+      - dwarf
+      - magical-helper
+      - curse
+      - guide
+
+  - id: mountain-entrapment-curse
+    name: "Проклятие горного ущелья"
+    type: spell
+    description: >
+      Заклятие карлика, наложенное на двух старших принцев. Дорога в горах
+      сужается вокруг каждого из них так, что они оказываются зажаты между
+      скалами и не могут двинуться ни вперёд, ни назад, пока карлик не снимает
+      чары.
+    tags:
+      - curse
+      - entrapment
+      - mountains
+
+  - id: iron-wand
+    name: "Железный прут"
+    type: artifact
+    description: >
+      Железный прут, подаренный карликом младшему принцу. Три удара им по
+      железным воротам заколдованного замка заставляют ворота распахнуться,
+      открывая путь к Воде жизни.
+    tags:
+      - magic-wand
+      - gate-opening
+      - enchanted-castle
+
+  - id: enchanted-castle
+    name: "Заколдованный замок Воды жизни"
+    type: location
+    description: >
+      Замок, в котором находится источник Воды жизни. Внутри сидят заколдованные
+      принцы, живёт освобождённая впоследствии принцесса, а железные ворота
+      подчиняются магическому правилу полуночи.
+    tags:
+      - enchanted-castle
+      - otherworld
+      - water-of-life
+
+  - id: midnight-iron-gate
+    name: "Полуночные железные ворота"
+    type: artifact
+    description: >
+      Железные ворота заколдованного замка, которые открываются от трёх ударов
+      волшебного прута, но ровно в полночь захлопываются снова. Если путник
+      задержится, он останется заперт внутри; при побеге принца ворота успевают
+      отсечь часть его пятки.
+    tags:
+      - enchanted-gate
+      - midnight
+      - trap
+
+  - id: enchanted-princes
+    name: "Заколдованные принцы"
+    type: character
+    description: >
+      Группа принцев, сидящих в большом зале замка в состоянии чар. Они
+      неподвижны и не участвуют в событиях, пока младший принц проходит через
+      заколдованное владение.
+    tags:
+      - enchanted-princes
+      - suspended-state
+      - castle
+
+  - id: enchanted-princess
+    name: "Освобождённая принцесса"
+    type: character
+    description: >
+      Принцесса, находившаяся под чарами в замке. Она приветствует младшего
+      принца как своего освободителя, обещает ему руку и королевство и указывает
+      путь к источнику Воды жизни.
+    tags:
+      - enchanted-princess
+      - liberation
+      - castle
+
+  - id: water-of-life
+    name: "Вода жизни"
+    type: substance
+    description: >
+      Чудесная вода из источника в заколдованном замке. Даже небольшого глотка
+      достаточно, чтобы смертельно больной король мгновенно избавился от болезни
+      и вновь почувствовал себя сильным и здоровым, как в молодости.
+    tags:
+      - healing
+      - life-water
+      - rejuvenation
+
+  - id: army-slaying-sword
+    name: "Меч, побеждающий целые армии"
+    type: artifact
+    description: >
+      Меч, найденный младшим принцем в заколдованном замке. Карлик объясняет,
+      что с его помощью можно разбивать целые армии; позже меч трижды помогает
+      королевствам победить вражеские войска.
+    tags:
+      - magic-sword
+      - army-slaying
+      - victory
+
+  - id: inexhaustible-bread
+    name: "Неиссякаемый хлеб"
+    type: substance
+    description: >
+      Хлеб, найденный рядом с мечом в замке. Карлик сообщает, что он никогда
+      не кончается; принц с его помощью досыта кормит население трёх стран,
+      страдающих от голода.
+    tags:
+      - inexhaustible-food
+      - magical-bread
+      - famine
