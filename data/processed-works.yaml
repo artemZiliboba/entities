@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "cd45953366d44d005a06f8d2e0ee71d824911d86"
-work_count: 45
+master_sha: "64a0e1ac3c2fea0b2f03607786fea0c45a9b3fc0"
+work_count: 46
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -76,6 +76,10 @@ works:
   - id: the-twelve-dancing-princesses
     tradition: german-folklore
     path: data/works/german-folklore/the-twelve-dancing-princesses.yaml
+
+  - id: the-two-brothers
+    tradition: german-folklore
+    path: data/works/german-folklore/the-two-brothers.yaml
 
   - id: the-six-swans
     tradition: german-folklore
