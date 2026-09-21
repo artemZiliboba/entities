@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "14e97596730fc4348243aaa232fccb0667189c73"
-work_count: 53
+master_sha: "ce29a41b95dbefedc74b7664f350714de6f3b9cb"
+work_count: 54
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -188,6 +188,10 @@ works:
   - id: marya-morevna
     tradition: russian-folklore
     path: data/works/russian-folklore/marya-morevna.yaml
+
+  - id: finist-bright-falcon-feather
+    tradition: russian-folklore
+    path: data/works/russian-folklore/finist-bright-falcon-feather.yaml
 
   - id: ivan-tsarevich-firebird-grey-wolf
     tradition: russian-folklore
