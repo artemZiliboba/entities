@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "22bcf2f3d84338da322444dcd9eaf862d4e542c3"
-work_count: 50
+master_sha: "c510f926d2f2307d92ba6b91c3cbee92d5a82bd4"
+work_count: 51
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -180,6 +180,10 @@ works:
   - id: marya-morevna
     tradition: russian-folklore
     path: data/works/russian-folklore/marya-morevna.yaml
+
+  - id: ivan-tsarevich-firebird-grey-wolf
+    tradition: russian-folklore
+    path: data/works/russian-folklore/ivan-tsarevich-firebird-grey-wolf.yaml
 
   - id: vasilisa-the-beautiful
     tradition: russian-folklore
