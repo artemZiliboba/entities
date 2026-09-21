@@ -1,0 +1,151 @@
+id: iron-hans
+title: "Железный Ганс"
+original_title: "Der Eisenhans"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Kinder- und Hausmärchen"
+source:
+  title: "Der Eisenhans (KHM 136)"
+  url: "https://de.wikisource.org/wiki/Der_Eisenhans_(1857)"
+  note: >
+    Сказка братьев Гримм, KHM 136, по седьмому изданию Kinder- und Hausmärchen
+    (1857), Wikisource; страница дважды вычитана по источнику. Для англоязычной
+    сверки использован Project Gutenberg eBook #2591, Iron Hans. Детали более
+    ранних редакций и иных вариантов не смешивались.
+
+entities:
+  - id: iron-hans
+    name: "Железный Ганс"
+    type: character
+    description: >
+      Сверхъестественный дикий человек, живущий на дне лесного пруда и позднее
+      оказывающийся заколдованным королём. Он заранее знает скрытые события,
+      владеет несметными сокровищами, откликается на призыв воспитанника,
+      предоставляет ему коней, оружие и войско и в финале возвращает настоящий
+      королевский облик.
+    tags:
+      - enchanted-king
+      - wild-man
+      - magical-helper
+      - hidden-king
+
+  - id: iron-hans-enchantment
+    name: "Заклятие дикого человека"
+    type: spell
+    description: >
+      Старые чары, из-за которых настоящий король существует в облике
+      Железного Ганса — заросшего дикого человека. На свадебном пиру он прямо
+      сообщает, что был заколдован в этот облик.
+    tags:
+      - curse
+      - transformation
+      - enchanted-king
+
+  - id: golden-spring
+    name: "Золотой источник"
+    type: location
+    description: >
+      Кристально чистый источник в лесном владении Железного Ганса. Любое
+      прикосновение к его воде оставляет на попавшем в неё предмете постоянное
+      золотое покрытие; источник запрещено загрязнять.
+    tags:
+      - magical-spring
+      - gold
+      - transformation
+
+  - id: gilding-water
+    name: "Позолачивающая вода источника"
+    type: substance
+    description: >
+      Вода Золотого источника мгновенно и необратимо покрывает золотом всё,
+      что в неё попадает: сначала палец царевича, затем отдельный волос и,
+      наконец, все его волосы.
+    tags:
+      - magical-water
+      - gilding
+      - transformation
+
+  - id: golden-fish
+    name: "Золотая рыба источника"
+    type: animal
+    description: >
+      Золотая рыба, которая время от времени появляется в прозрачной воде
+      Золотого источника. Она является частью необычной сверхъестественной
+      среды владения Железного Ганса.
+    tags:
+      - golden-animal
+      - magical-spring
+      - fish
+
+  - id: golden-snake
+    name: "Золотая змея источника"
+    type: animal
+    description: >
+      Золотая змея, показывающаяся в воде Золотого источника наряду с золотой
+      рыбой. Текст представляет её как ещё одно чудесное существо источника.
+    tags:
+      - golden-animal
+      - magical-spring
+      - snake
+
+  - id: permanent-golden-hair
+    name: "Золотые волосы царевича"
+    type: phenomenon
+    description: >
+      После третьего нарушения запрета длинные волосы царевича падают в
+      источник и целиком превращаются в золото, сияя как солнце. Изменение
+      остаётся постоянным и позднее выдаёт его скрытую личность.
+    tags:
+      - golden-hair
+      - permanent-transformation
+      - magical-water
+
+  - id: iron-hans-summoning-call
+    name: "Призыв Железного Ганса"
+    type: spell
+    description: >
+      Дарованное царевичу правило помощи: оказавшись в беде, он должен прийти
+      к лесу и громко позвать Железного Ганса. Призыв немедленно вызывает
+      сверхъестественного покровителя, который предоставляет нужную помощь.
+    tags:
+      - summoning
+      - magical-helper
+      - forest
+
+  - id: summoned-warhorse
+    name: "Боевой конь Железного Ганса"
+    type: animal
+    description: >
+      Могучий конь, которого после призыва выводят из леса специально для
+      царевича. Он едва поддаётся управлению и заменяет хромую лошадь,
+      позволяя герою возглавить чудесно появившееся войско.
+    tags:
+      - magical-horse
+      - summoned-helper
+      - battle
+
+  - id: summoned-iron-army
+    name: "Железное войско"
+    type: phenomenon
+    description: >
+      Большой отряд воинов, полностью закованных в железо, который выходит
+      из леса вслед за боевым конём по воле Железного Ганса. Войско переламывает
+      ход проигранной битвы, а затем вместе с конём возвращается в лес.
+    tags:
+      - summoned-army
+      - magical-aid
+      - battle
+
+  - id: iron-hans-disenchantment
+    name: "Освобождение Железного Ганса от чар"
+    type: phenomenon
+    description: >
+      Финальное прекращение заклятия: на свадьбе вместо дикого человека
+      появляется величественный король. Железный Ганс прямо говорит царевичу,
+      что тот освободил его от прежних чар.
+    tags:
+      - disenchantment
+      - restoration
+      - true-form
