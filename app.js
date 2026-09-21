@@ -10,11 +10,11 @@ const humanize = value => safe(value).split('-').map(word => word.charAt(0).toUp
 const href = (...parts) => `#/${parts.map(encodeURIComponent).join('/')}`;
 
 async function loadData() {
-  const indexResponse = await fetch('data/processed-works.yaml');
+  const indexResponse = await fetch('data/processed-works.yaml', { cache: 'no-store' });
   if (!indexResponse.ok) throw new Error('Не удалось загрузить список произведений');
   const index = jsyaml.load(await indexResponse.text());
   const works = await Promise.all(index.works.map(async item => {
-    const response = await fetch(item.path);
+    const response = await fetch(item.path, { cache: 'no-store' });
     if (!response.ok) throw new Error(`Не удалось загрузить ${item.path}`);
     return { ...jsyaml.load(await response.text()), path:item.path };
   }));
