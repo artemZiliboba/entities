@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "51c72e3a6858e97263ad728be8b2794b672548e0"
-work_count: 52
+master_sha: "14e97596730fc4348243aaa232fccb0667189c73"
+work_count: 53
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -64,6 +64,10 @@ works:
   - id: the-goose-girl
     tradition: german-folklore
     path: data/works/german-folklore/the-goose-girl.yaml
+
+  - id: iron-hans
+    tradition: german-folklore
+    path: data/works/german-folklore/iron-hans.yaml
 
   - id: the-devil-with-the-three-golden-hairs
     tradition: german-folklore
