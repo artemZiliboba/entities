@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "c2f725d6c015b1f587f5343d6660c7337a0e3835"
-work_count: 49
+master_sha: "22bcf2f3d84338da322444dcd9eaf862d4e542c3"
+work_count: 50
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -176,6 +176,10 @@ works:
   - id: the-frog-princess
     tradition: russian-folklore
     path: data/works/russian-folklore/the-frog-princess.yaml
+
+  - id: marya-morevna
+    tradition: russian-folklore
+    path: data/works/russian-folklore/marya-morevna.yaml
 
   - id: vasilisa-the-beautiful
     tradition: russian-folklore
