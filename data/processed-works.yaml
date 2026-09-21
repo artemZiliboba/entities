@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "c510f926d2f2307d92ba6b91c3cbee92d5a82bd4"
-work_count: 51
+master_sha: "51c72e3a6858e97263ad728be8b2794b672548e0"
+work_count: 52
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -92,6 +92,10 @@ works:
   - id: the-six-swans
     tradition: german-folklore
     path: data/works/german-folklore/the-six-swans.yaml
+
+  - id: the-seven-ravens
+    tradition: german-folklore
+    path: data/works/german-folklore/the-seven-ravens.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
