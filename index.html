@@ -1,144 +1,40 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Открытая энциклопедия магических сущностей из фольклора, мифов и литературы" />
-  <meta name="theme-color" content="#0b1118" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Энциклопедия магических сущностей из сказок, мифов и литературы">
+  <meta name="theme-color" content="#050505">
   <title>Энциклопедия сущностей</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="app-shell">
-    <aside class="sidebar" id="sidebar" aria-label="Основная навигация">
-      <div class="sidebar-brand">
-        <span class="logo" aria-hidden="true">
-          <svg viewBox="0 0 48 48" role="img"><path d="M7 9c7 0 12 2 17 6v25c-5-4-10-6-17-6V9Zm34 0c-7 0-12 2-17 6v25c5-4 10-6 17-6V9Z"/><path d="M24 15v25"/></svg>
-        </span>
-        <span><strong>Энциклопедия</strong><small>сущностей</small></span>
-      </div>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="На главную">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2.5 35 11v18L20 37.5 5 29V11L20 2.5Zm0 0v17m15-8.5-15 8.5L5 11m0 18 15-9.5L35 29M12 7l8 5 8-5M12 33V23l-7-4m23 14V23l7-4"/></svg>
+      <span>Энциклопедия сущностей</span>
+    </a>
+    <nav class="header-nav" aria-label="Основная навигация">
+      <a href="#/about">О проекте</a>
+      <button class="search-button" id="searchToggle" type="button" aria-label="Открыть поиск">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+      </button>
+    </nav>
+  </header>
 
-      <nav class="sidebar-nav" id="sidebarNav">
-        <button class="nav-item active" type="button" data-section="overview"><span>⌂</span>Обзор</button>
-        <button class="nav-item" type="button" data-section="catalog"><span>▤</span>Все сущности</button>
-        <div class="nav-divider"></div>
-        <div id="typeNav" class="type-nav"></div>
-        <div class="nav-divider"></div>
-        <button class="nav-item" type="button" data-focus="tradition"><span>◉</span>Традиции</button>
-        <button class="nav-item" type="button" data-focus="work"><span>▣</span>Произведения</button>
-      </nav>
-
-      <div class="sidebar-foot">
-        <a class="nav-item" href="https://github.com/artemZiliboba/entities" target="_blank" rel="noreferrer"><span>↗</span>GitHub</a>
-      </div>
-    </aside>
-
-    <button class="sidebar-backdrop" id="sidebarBackdrop" type="button" aria-label="Закрыть меню"></button>
-
-    <div class="main-column">
-      <header class="mobile-header">
-        <button class="icon-button" id="menuToggle" type="button" aria-label="Открыть меню">☰</button>
-        <div class="mobile-brand">Энциклопедия сущностей</div>
-        <a class="icon-button" href="https://github.com/artemZiliboba/entities" target="_blank" rel="noreferrer" aria-label="Открыть GitHub">↗</a>
-      </header>
-
-      <main class="page">
-        <section class="hero" id="overview">
-          <div class="hero-copy">
-            <p class="eyebrow">Открытая энциклопедия</p>
-            <h1>Магические сущности<br />из сказок и мифов</h1>
-            <p class="lead">Персонажи, существа, артефакты, локации и другие удивительные объекты из мировой мифологии и литературы.</p>
-
-            <label class="hero-search" for="search">
-              <span aria-hidden="true">⌕</span>
-              <input id="search" type="search" placeholder="Найти сущность, произведение, традицию…" autocomplete="off" />
-              <kbd>/</kbd>
-            </label>
-          </div>
-
-          <div class="hero-ornament" aria-hidden="true">
-            <svg viewBox="0 0 520 300" preserveAspectRatio="xMidYMid slice">
-              <defs>
-                <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#283b4b"/><stop offset="1" stop-color="#0f1822"/></linearGradient>
-                <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e1bd7e"/><stop offset="1" stop-color="#7b5b30"/></linearGradient>
-              </defs>
-              <rect width="520" height="300" fill="url(#sky)"/>
-              <circle cx="415" cy="65" r="43" fill="#f3d7a1" opacity=".82"/>
-              <path d="M0 224 100 122l54 61 58-97 76 111 58-72 90 99 84-61v137H0Z" fill="#111a23"/>
-              <path d="M275 200v-70h18v-31h17v31h19v-49h18v49h18v-26h16v96Z" fill="url(#gold)" opacity=".88"/>
-              <path d="M0 244c68-20 123-21 184-6s120 13 176-3 104-14 160 1v64H0Z" fill="#091017"/>
-              <g fill="#c9a86b" opacity=".65"><circle cx="82" cy="62" r="2"/><circle cx="140" cy="38" r="1.5"/><circle cx="205" cy="72" r="2"/><circle cx="357" cy="41" r="1.5"/></g>
-            </svg>
-          </div>
-
-          <div class="stats" id="stats"></div>
-        </section>
-
-        <section class="explore-section" aria-labelledby="typesTitle">
-          <div class="section-heading">
-            <div><p class="eyebrow">Навигация</p><h2 id="typesTitle">Исследовать по типу</h2></div>
-            <button class="text-button" id="showAllTypes" type="button">Все сущности →</button>
-          </div>
-          <div class="type-grid" id="typeGrid"></div>
-        </section>
-
-        <section class="catalog-section" id="catalogSection" aria-labelledby="catalogTitle">
-          <div class="section-heading catalog-heading">
-            <div>
-              <p class="eyebrow">Каталог</p>
-              <h2 id="catalogTitle">Все сущности</h2>
-              <p class="result-count" id="resultTitle">Загрузка…</p>
-            </div>
-            <button class="filter-toggle" id="filterToggle" type="button" aria-expanded="false" aria-controls="filtersPanel">☷ <span>Фильтры</span><b id="activeFilterCount"></b></button>
-          </div>
-
-          <div class="quick-filters" id="quickFilters" aria-label="Быстрый фильтр по типу"></div>
-
-          <section class="filters-panel" id="filtersPanel" aria-label="Фильтры каталога">
-            <label class="field">
-              <span>Традиция</span>
-              <select id="traditionFilter"><option value="">Все традиции</option></select>
-            </label>
-            <label class="field">
-              <span>Произведение</span>
-              <select id="workFilter"><option value="">Все произведения</option></select>
-            </label>
-            <label class="field">
-              <span>Группировка</span>
-              <select id="groupBy">
-                <option value="none">Без группировки</option>
-                <option value="work">По произведению</option>
-                <option value="type">По типу</option>
-                <option value="tradition">По традиции</option>
-              </select>
-            </label>
-            <label class="field">
-              <span>Сортировка</span>
-              <select id="sortBy">
-                <option value="name">По названию</option>
-                <option value="work">По произведению</option>
-                <option value="type">По типу</option>
-              </select>
-            </label>
-            <button id="resetFilters" class="button secondary" type="button">Сбросить</button>
-          </section>
-
-          <div id="status" class="status">Загружаю YAML-файлы из репозитория…</div>
-          <section id="catalog" class="catalog" aria-live="polite"></section>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <span>Данные загружаются напрямую из YAML в репозитории.</span>
-        <a href="https://github.com/artemZiliboba/entities" target="_blank" rel="noreferrer">Предложить правку ↗</a>
-      </footer>
-    </div>
+  <div class="search-panel" id="searchPanel" hidden>
+    <label for="searchInput">Поиск по энциклопедии</label>
+    <div class="search-row"><input id="searchInput" type="search" placeholder="Название сущности или произведения…" autocomplete="off"><button id="searchClose" type="button" aria-label="Закрыть поиск">×</button></div>
   </div>
 
-  <dialog class="entity-dialog" id="entityDialog">
-    <button class="dialog-close" id="dialogClose" type="button" aria-label="Закрыть">×</button>
-    <div id="dialogContent"></div>
-  </dialog>
+  <main class="page" id="app" tabindex="-1">
+    <div class="loading">Загружаем энциклопедию…</div>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Энциклопедия сущностей</span>
+    <span><a href="https://github.com/artemZiliboba/entities" target="_blank" rel="noreferrer">GitHub</a><a href="https://github.com/artemZiliboba/entities/issues" target="_blank" rel="noreferrer">Обратная связь</a></span>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
   <script src="app.js"></script>
