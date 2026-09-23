@@ -1,0 +1,43 @@
+id: the-three-snake-leaves
+title: "Три змеиных листика"
+original_title: "Die drei Schlangenblätter"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Kinder- und Hausmärchen"
+source:
+  title: "Die drei Schlangenblätter (KHM 16)"
+  url: "https://de.wikisource.org/wiki/Die_drei_Schlangenbl%C3%A4tter_(1857)"
+  note: >
+    Сказка братьев Гримм, KHM 16, по седьмому изданию Kinder- und Hausmärchen
+    (1857), Wikisource. Для англоязычной сверки использован Project Gutenberg,
+    Household Tales by Brothers Grimm в переводе Маргарет Хант. Детали ранних
+    редакций и иных вариантов не смешивались.
+
+entities:
+  - id: three-snake-leaves
+    name: "Три змеиных листика"
+    type: plant
+    description: >
+      Три зелёных листа с чудесной силой восстановления жизни. Вторая змея
+      кладёт по одному листу на каждую рану разрубленной змеи, после чего части
+      срастаются и та оживает; позднее те же листья дважды возвращают к жизни
+      людей, если положить один на рот и два на глаза.
+    tags:
+      - resurrection
+      - magical-plant
+      - healing
+      - snake
+
+  - id: snake-leaf-resurrection
+    name: "Воскрешение змеиными листиками"
+    type: phenomenon
+    description: >
+      Повторяемый сверхъестественный эффект трёх листьев: они сначала сращивают
+      разрубленную на части змею и возвращают ей жизнь, затем оживляют умершую
+      королеву и позднее утонувшего молодого короля.
+    tags:
+      - resurrection
+      - restoration
+      - life-restoration

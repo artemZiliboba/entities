@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "bf2d09f4f45e0a56ea39f237e91d75de8b4f7bce"
-work_count: 55
+master_sha: "698d41f3cfdcb242d72969dd573c61af10a5d2d1"
+work_count: 56
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -92,6 +92,10 @@ works:
   - id: the-two-brothers
     tradition: german-folklore
     path: data/works/german-folklore/the-two-brothers.yaml
+
+  - id: the-three-snake-leaves
+    tradition: german-folklore
+    path: data/works/german-folklore/the-three-snake-leaves.yaml
 
   - id: the-six-swans
     tradition: german-folklore
