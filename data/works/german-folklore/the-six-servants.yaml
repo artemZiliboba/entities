@@ -1,0 +1,134 @@
+id: the-six-servants
+title: "Шесть слуг"
+original_title: "Die sechs Diener"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Kinder- und Hausmärchen"
+source:
+  title: "Die sechs Diener (KHM 134)"
+  url: "https://de.wikisource.org/wiki/Die_sechs_Diener_(1857)"
+  note: >
+    Сказка братьев Гримм, KHM 134, по седьмому изданию Kinder- und Hausmärchen
+    (1857), Wikisource; это редакция последней руки. Для англоязычной сверки
+    использовано издание Project Gutenberg. Детали ранних редакций и иных
+    пересказов не смешивались.
+
+entities:
+  - id: sorceress-queen
+    name: "Старая королева-колдунья"
+    type: character
+    description: >
+      Могущественная колдунья, испытывающая женихов своей дочери смертельными
+      заданиями. Она насылает на царевича и его спутников непреодолимый сон,
+      мгновенно переносит дочь за сотни часов пути внутрь заколдованной скалы
+      и позже отправляет войско в погоню.
+    tags:
+      - sorceress
+      - queen
+      - sleep-magic
+      - teleportation
+
+  - id: fat-servant
+    name: "Толстяк"
+    type: character
+    description: >
+      Сверхъестественный слуга, способный увеличивать толщину тела в тысячи раз,
+      выпивать целое море и поглощать невероятные объёмы пищи и вина. Позднее
+      он выплёвывает часть сохранённой морской воды и создаёт огромное озеро,
+      останавливающее преследующее войско.
+    tags:
+      - giant-appetite
+      - sea-drinking
+      - body-expansion
+      - magical-helper
+
+  - id: listener-servant
+    name: "Слухач"
+    type: character
+    description: >
+      Слуга с нечеловечески острым слухом: он слышит всё, что происходит в мире,
+      включая рост травы и далёкие разговоры. Благодаря этому находит похищенную
+      принцессу внутри скалы и заранее слышит приближение вражеских отрядов.
+    tags:
+      - supernatural-hearing
+      - clairaudience
+      - magical-helper
+
+  - id: long-servant
+    name: "Длинный"
+    type: character
+    description: >
+      Слуга, способный вытягивать тело до размеров выше самой высокой горы и
+      преодолевать огромные расстояния за считанные мгновения. Он помогает
+      достать кольцо из осушенного моря и переносит спутника и принцессу через
+      сотни часов пути.
+    tags:
+      - body-stretching
+      - supernatural-speed
+      - giant
+      - magical-helper
+
+  - id: shattering-gaze-servant
+    name: "Слуга с разрушающим взглядом"
+    type: character
+    description: >
+      Сверхъестественный слуга, вынужденный носить повязку на глазах: всё, на
+      что он посмотрит открытыми глазами, раскалывается на части. Его взгляд
+      разрушает заколдованную скалу и позже разбивает вооружённых всадников,
+      словно стекло.
+    tags:
+      - destructive-gaze
+      - supernatural-sight
+      - magical-helper
+
+  - id: frosty-servant
+    name: "Морозный слуга"
+    type: character
+    description: >
+      Человек с обратной реакцией на тепло и холод: чем жарче вокруг, тем сильнее
+      он мёрзнет, а лёд причиняет ему жар. Поэтому он без вреда выдерживает
+      трёхдневный костёр, воспринимая пламя как мучительный холод.
+    tags:
+      - fire-immunity
+      - inverted-temperature
+      - magical-helper
+
+  - id: farsighted-servant
+    name: "Дальнозоркий слуга"
+    type: character
+    description: >
+      Слуга, способный видеть через леса, поля, долины и горы по всему миру.
+      Он разглядывает кольцо на дне Красного моря и помогает точно определить
+      местонахождение предметов и людей на огромном расстоянии.
+    tags:
+      - supernatural-sight
+      - farsight
+      - magical-helper
+
+  - id: enchanted-sleep-and-abduction
+    name: "Чары сна и похищения принцессы"
+    type: spell
+    description: >
+      Заклятие старой королевы, которое одновременно погружает царевича и всех
+      шестерых слуг в глубокий сон и переносит принцессу далеко прочь, внутрь
+      скалы. Чары действуют до без четверти двенадцать, после чего спящие
+      внезапно просыпаются.
+    tags:
+      - magical-sleep
+      - abduction
+      - teleportation
+      - sorcery
+
+  - id: enchanted-rock-prison
+    name: "Заколдованная скала-тюрьма"
+    type: location
+    description: >
+      Скала за сотни часов пути, внутрь которой колдунья переносит принцессу.
+      Обычным способом пленницу не достать; тюрьма разрушается только после
+      того, как слуга с губительным взглядом смотрит на неё без повязки.
+    tags:
+      - enchanted-prison
+      - rock
+      - hidden-location
