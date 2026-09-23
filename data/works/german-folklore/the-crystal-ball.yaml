@@ -1,0 +1,156 @@
+id: the-crystal-ball
+title: "Хрустальный шар"
+original_title: "Die Kristallkugel"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Kinder- und Hausmärchen"
+source:
+  title: "Die Kristallkugel (KHM 197)"
+  url: "https://de.wikisource.org/wiki/Die_Kristallkugel_(1857)"
+  note: >
+    Сказка братьев Гримм, KHM 197, по седьмому изданию Kinder- und Hausmärchen
+    (1857), Wikisource. Детали ранних редакций и иных вариантов не смешивались.
+
+entities:
+  - id: sorceress-mother
+    name: "Мать-колдунья"
+    type: character
+    description: >
+      Могущественная колдунья, не доверяющая собственным сыновьям. Она
+      превращает старшего в орла, второго — в кита, а третьего намеревается
+      обратить в дикого зверя, из-за чего тот бежит из дома.
+    tags:
+      - sorceress
+      - transformation
+      - curse
+
+  - id: eagle-brother
+    name: "Брат-орёл"
+    type: character
+    description: >
+      Старший сын колдуньи, превращённый ею в орла. Он проводит жизнь в небе
+      и лишь два часа в сутки может возвращать человеческий облик.
+    tags:
+      - enchanted-brother
+      - eagle
+      - transformation
+
+  - id: whale-brother
+    name: "Брат-кит"
+    type: character
+    description: >
+      Второй сын колдуньи, превращённый в кита. Он живёт в глубине моря и,
+      подобно брату-орлу, получает человеческий облик только на два часа в день.
+    tags:
+      - enchanted-brother
+      - whale
+      - transformation
+
+  - id: giant-hat
+    name: "Шляпа переноса"
+    type: artifact
+    description: >
+      Волшебная шляпа, из-за которой спорят два великана. Стоит надеть её и
+      пожелать оказаться в определённом месте, как владелец мгновенно переносится
+      туда; с её помощью герой достигает замка Золотого солнца.
+    tags:
+      - magic-hat
+      - teleportation
+      - wish
+
+  - id: castle-of-golden-sun
+    name: "Замок Золотого солнца"
+    type: location
+    description: >
+      Заколдованный замок, стоящий на вершине стеклянной горы. В нём находится
+      пленённая принцесса, а разрушить чары можно только добыв хрустальный шар.
+    tags:
+      - enchanted-castle
+      - glass-mountain
+      - golden-sun
+
+  - id: enchanted-princess
+    name: "Заколдованная принцесса"
+    type: character
+    description: >
+      Принцесса замка Золотого солнца, чья настоящая красота скрыта чарами:
+      окружающие видят её старой и измождённой. Волшебное зеркало показывает
+      герою её истинный облик, а хрустальный шар способен разрушить заклятие.
+    tags:
+      - enchanted-princess
+      - illusion
+      - disenchantment
+
+  - id: true-form-mirror
+    name: "Зеркало истинного облика"
+    type: artifact
+    description: >
+      Зеркало, в котором заколдованная принцесса показывает герою свой настоящий
+      облик. Отражение снимает зрительный обман чар и открывает её действительную
+      красоту, хотя само заклятие ещё не разрушает.
+    tags:
+      - magic-mirror
+      - true-form
+      - revelation
+
+  - id: enchanted-aurochs
+    name: "Заколдованный тур"
+    type: creature
+    description: >
+      Свирепый тур у источника, которого герой должен победить ради спасения
+      принцессы. После его смерти из тела вылетает огненная птица, несущая
+      внутри яйцо с хрустальным шаром.
+    tags:
+      - enchanted-beast
+      - aurochs
+      - guardian
+
+  - id: fire-bird
+    name: "Огненная птица"
+    type: animal
+    description: >
+      Пылающая птица, вылетающая из убитого тура. Она несёт в себе раскалённое
+      яйцо с хрустальным шаром и пытается улететь, но брат-орёл перехватывает её
+      и заставляет уронить яйцо.
+    tags:
+      - fire-bird
+      - guardian
+      - magical-animal
+
+  - id: crystal-ball-egg
+    name: "Раскалённое яйцо хрустального шара"
+    type: artifact
+    description: >
+      Яйцо, скрытое внутри огненной птицы. Оно падает на рыбацкую хижину и
+      начинает её поджигать; брат-кит заливает огонь волнами, позволяя герою
+      достать заключённый внутри хрустальный шар.
+    tags:
+      - magical-egg
+      - fire
+      - crystal-ball
+
+  - id: crystal-ball
+    name: "Хрустальный шар"
+    type: artifact
+    description: >
+      Главный предмет чар, скрытый внутри яйца огненной птицы. Когда герой
+      приносит его колдуну и показывает шар, власть колдуна рушится, принцесса
+      освобождается, а её королевство возвращается к ней.
+    tags:
+      - crystal-ball
+      - disenchantment
+      - magical-artifact
+
+  - id: crystal-ball-disenchantment
+    name: "Разрушение чар хрустальным шаром"
+    type: phenomenon
+    description: >
+      Финальное прекращение колдовства после добычи хрустального шара: сила
+      колдуна исчезает, принцесса освобождается от наложенного на неё облика,
+      а власть над её королевством возвращается законной наследнице.
+    tags:
+      - disenchantment
+      - restoration
+      - crystal-ball

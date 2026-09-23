@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "698d41f3cfdcb242d72969dd573c61af10a5d2d1"
-work_count: 56
+master_sha: "99e3efa60ef7fc8aca3c5a0a943f3b7879ed0465"
+work_count: 57
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -68,6 +68,10 @@ works:
   - id: iron-hans
     tradition: german-folklore
     path: data/works/german-folklore/iron-hans.yaml
+
+  - id: the-crystal-ball
+    tradition: german-folklore
+    path: data/works/german-folklore/the-crystal-ball.yaml
 
   - id: the-devil-with-the-three-golden-hairs
     tradition: german-folklore
