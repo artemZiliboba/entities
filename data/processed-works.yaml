@@ -81,6 +81,10 @@ works:
     tradition: german-folklore
     path: data/works/german-folklore/the-golden-bird.yaml
 
+  - id: the-king-of-the-golden-mountain
+    tradition: german-folklore
+    path: data/works/german-folklore/the-king-of-the-golden-mountain.yaml
+
   - id: the-white-snake
     tradition: german-folklore
     path: data/works/german-folklore/the-white-snake.yaml
