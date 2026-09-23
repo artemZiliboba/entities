@@ -1,0 +1,156 @@
+id: the-king-of-the-golden-mountain
+title: "Король Золотой горы"
+original_title: "Der König vom goldenen Berge"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Kinder- und Hausmärchen"
+source:
+  title: "Der König vom goldenen Berg (KHM 92)"
+  url: "https://de.wikisource.org/wiki/Der_K%C3%B6nig_vom_goldenen_Berg_(1857)"
+  note: >
+    Сказка братьев Гримм, KHM 92, по седьмому изданию Kinder- und Hausmärchen
+    (1857), Wikisource; текст дважды вычитан по источнику. Для англоязычной
+    сверки использован Project Gutenberg eBook #2591, The King of the Golden
+    Mountain. Детали ранних редакций и иных вариантов не смешивались.
+
+entities:
+  - id: black-mannikin
+    name: "Чёрный человечек"
+    type: character
+    description: >
+      Сверхъестественный незнакомец, заключающий с разорившимся купцом договор:
+      в обмен на то, что первым встретит его дома, он обещает неисчерпаемое
+      богатство. Через месяц в доме действительно появляется большая куча денег,
+      а спустя двенадцать лет человечек приходит требовать обещанного сына.
+    tags:
+      - supernatural-bargain
+      - wealth
+      - pact
+
+  - id: enchanted-snake-princess
+    name: "Заколдованная принцесса-змея"
+    type: character
+    description: >
+      Королевская дочь, двенадцать лет находящаяся в облике змеи в заколдованном
+      замке. Она знает условия снятия чар, предупреждает юношу о трёх ночах
+      испытаний и после их завершения возвращает человеческий облик.
+    tags:
+      - enchanted-princess
+      - snake
+      - transformation
+      - disenchantment
+
+  - id: enchanted-golden-mountain-kingdom
+    name: "Заколдованное королевство Золотой горы"
+    type: location
+    description: >
+      Королевство с пустым заколдованным замком, где герой находит принцессу
+      в облике змеи. После трёх ночей испытаний чары снимаются, замок оживает,
+      а герой становится королём Золотой горы.
+    tags:
+      - enchanted-kingdom
+      - castle
+      - golden-mountain
+      - disenchantment
+
+  - id: chained-black-tormentors
+    name: "Чёрные мучители в цепях"
+    type: creature
+    description: >
+      Сверхъестественные чёрные мужчины, обвешанные цепями, которые три ночи
+      являются в замок и пытаются заставить героя заговорить. Их число растёт
+      с двенадцати до двадцати четырёх; в последнюю ночь они отрубают ему голову,
+      но ровно в полночь их власть прекращается.
+    tags:
+      - supernatural-tormentors
+      - chains
+      - midnight
+      - enchanted-castle
+
+  - id: three-night-silence-ordeal
+    name: "Трёхночное испытание молчанием"
+    type: spell
+    description: >
+      Условие освобождения заколдованной принцессы и её королевства: герой
+      должен три ночи переносить пытки сверхъестественных мучителей и ни разу
+      не ответить им. После третьей ночи и наступления полуночи чары оказываются
+      разрушены.
+    tags:
+      - disenchantment
+      - silence
+      - ordeal
+      - three-nights
+
+  - id: water-of-life
+    name: "Вода жизни"
+    type: substance
+    description: >
+      Чудесная вода во флаконе, которую освобождённая принцесса приносит после
+      третьей ночи. Она смазывает ею обезглавленного героя, после чего тот
+      немедленно возвращается к жизни совершенно здоровым.
+    tags:
+      - resurrection
+      - healing
+      - life-water
+
+  - id: wishing-ring
+    name: "Кольцо желаний"
+    type: artifact
+    description: >
+      Кольцо, подаренное королевой мужу перед поездкой. Оно мгновенно переносит
+      владельца и названных им людей туда, куда он пожелает; позднее королева
+      использует то же кольцо, чтобы вернуться с сыном на Золотую гору.
+    tags:
+      - wishing-ring
+      - teleportation
+      - magical-travel
+
+  - id: three-giants
+    name: "Три великана"
+    type: creature
+    description: >
+      Три великана, спорящие о наследстве отца. Их наследство состоит из трёх
+      явно волшебных предметов — меча, плаща и сапог; герой обманом получает
+      все три вещи для возвращения в своё королевство.
+    tags:
+      - giants
+      - magical-inheritance
+      - guardians
+
+  - id: heads-off-sword
+    name: "Меч «Головы долой»"
+    type: artifact
+    description: >
+      Волшебный меч из наследства великанов. По словесной команде он мгновенно
+      отрубает головы всем вокруг, кроме владельца; при проверке меч также
+      разрубает ствол дерева так легко, словно соломинку.
+    tags:
+      - magic-sword
+      - command
+      - decapitation
+
+  - id: invisibility-cloak
+    name: "Плащ-невидимка"
+    type: artifact
+    description: >
+      Волшебный плащ из наследства великанов. Надевший его становится невидимым;
+      при первой проверке герой также принимает облик мухи, а позднее незримым
+      проникает на свадебный пир в собственном замке.
+    tags:
+      - invisibility
+      - transformation
+      - magic-cloak
+
+  - id: wishing-boots
+    name: "Сапоги желаний"
+    type: artifact
+    description: >
+      Волшебные сапоги из наследства великанов. Достаточно надеть их и пожелать
+      оказаться в определённом месте, чтобы мгновенно туда перенестись; герой
+      таким способом возвращается к Золотой горе.
+    tags:
+      - magic-boots
+      - teleportation
+      - magical-travel
