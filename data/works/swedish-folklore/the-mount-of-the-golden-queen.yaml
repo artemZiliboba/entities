@@ -1,0 +1,70 @@
+id: the-mount-of-the-golden-queen
+title: "Гора Золотой Королевы"
+original_title: "The Mount of the Golden Queen"
+kind: folktale
+tradition:
+  - swedish-folklore
+collection: "The Swedish Fairy Book"
+source:
+  title: "The Swedish Fairy Book, Chapter XIV: The Mount of the Golden Queen"
+  url: "https://www.gutenberg.org/ebooks/37193"
+  note: "Ред. Klara Stroebe, пер. Frederick H. Martens; Project Gutenberg eBook #37193. В примечании к сказке указан Сёдерманланд и источник из собрания Gustav Erikson, сообщённый Dr. v. Sydow-Lund."
+
+entities:
+  - id: prophetic-dreams
+    name: "Вещие сны о Горе Золотой Королевы"
+    type: phenomenon
+    description: >
+      Повторяющиеся сны пастуха указывают ему цель путешествия и необходимые
+      приготовления; после третьего сна письмо и золотая лента, увиденные во сне,
+      оказываются у него наяву.
+    tags:
+      - dream
+      - prophecy
+      - materialization
+
+  - id: giant-siblings
+    name: "Великаны из земляных холмов"
+    type: creature
+    description: >
+      Две исполинские женщины и их ещё более высокий брат живут в земляных холмах.
+      Брат помогает путнику найти дорогу к Горе Золотой Королевы, созывая животных,
+      рыб и птиц.
+    tags:
+      - giant
+      - helper
+      - underground
+
+  - id: summoning-whistle
+    name: "Свисток великана"
+    type: artifact
+    description: >
+      Свисток, которым великан поочерёдно созывает всех животных земли, рыб вод
+      и птиц воздуха, чтобы разыскать того, кто знает путь к Горе Золотой Королевы.
+    tags:
+      - summoning
+      - animals
+      - magic-tool
+
+  - id: guiding-eagle
+    name: "Орёл-проводник"
+    type: animal
+    description: >
+      Орёл единственный знает, где находится Гора Золотой Королевы, и переносит
+      героя на спине через сушу и океан к входу в гору.
+    tags:
+      - guide
+      - flight
+      - helper
+
+  - id: golden-queen-mount
+    name: "Гора Золотой Королевы"
+    type: location
+    description: >
+      Отдалённая гора с железной дверью, за которой находится владение принцессы.
+      После того как она читает принесённое героем письмо, гора превращается
+      в великолепный замок со слугами и богатым убранством.
+    tags:
+      - transformation
+      - enchanted-location
+      - castle
