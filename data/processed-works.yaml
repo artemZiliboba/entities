@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
 master_sha: "aaa36e1271454be5e0d2b4908f4d27d8e904cc1a"
-work_count: 58
+work_count: 59
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
