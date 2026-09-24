@@ -1,0 +1,135 @@
+id: mother-holle
+title: "Госпожа Метелица"
+original_title: "Frau Holle"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 24"
+source:
+  title: "Grimm's Household Tales, Volume 1 (1884) — Mother Holle"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales%2C_Volume_1/Mother_Holle"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, соответствующий сказке KHM 24
+    «Frau Holle» в составе полного перевода издания братьев Гримм. Запись
+    следует этой версии и не смешивает детали иных переводов и пересказов.
+
+entities:
+  - id: mother-holle
+    name: "Госпожа Метелица"
+    type: character
+    description: >
+      Сверхъестественная хозяйка иного мира, у которой оказываются обе девушки.
+      Она связывает встряхивание своей постели со снегопадом на земле, награждает
+      прилежную девушку золотом, а ленивую — несмываемой смолой, после чего
+      возвращает обеих в человеческий мир.
+    tags:
+      - weather
+      - reward
+      - punishment
+      - otherworld
+
+  - id: holles-otherworld
+    name: "Мир Госпожи Метелицы"
+    type: location
+    description: >
+      Иной мир, куда обе девушки попадают после прыжка в колодец. Он выглядит
+      как солнечный цветущий луг с говорящими хлебами, яблоней и домом Госпожи
+      Метелицы и связан с обычным миром отдельными переходами.
+    tags:
+      - otherworld
+      - enchanted-location
+      - meadow
+
+  - id: well-passage
+    name: "Колодец-переход"
+    type: location
+    description: >
+      Колодец у дома вдовы, через который обе девушки одинаковым образом
+      попадают в мир Госпожи Метелицы: после прыжка каждая теряет сознание и
+      приходит в себя на солнечном лугу другого мира.
+    tags:
+      - portal
+      - well
+      - otherworld
+
+  - id: talking-bread
+    name: "Говорящие хлебы"
+    type: substance
+    description: >
+      Испечённые хлебы в печи, которые человеческим голосом просят вынуть их,
+      потому что они уже готовы и могут сгореть. Просьба повторяется при
+      прохождении обеих девушек через тот же путь.
+    tags:
+      - talking-food
+      - enchanted
+      - test
+
+  - id: talking-apple-tree
+    name: "Говорящая яблоня"
+    type: plant
+    description: >
+      Яблоня в мире Госпожи Метелицы, которая обращается к проходящим девушкам и
+      просит стряхнуть созревшие яблоки. Она служит повторяющимся испытанием
+      готовности помочь.
+    tags:
+      - talking-plant
+      - enchanted
+      - test
+
+  - id: snow-from-feathers
+    name: "Снег из перьев Госпожи Метелицы"
+    type: phenomenon
+    description: >
+      Волшебная связь между постелью Госпожи Метелицы и погодой на земле:
+      когда её постель хорошо встряхивают и перья летят по комнате, в обычном
+      мире идёт снег.
+    tags:
+      - snow
+      - weather
+      - sympathetic-magic
+
+  - id: return-gateway
+    name: "Ворота возвращения"
+    type: location
+    description: >
+      Большие ворота, через которые Госпожа Метелица выводит обеих девушек из
+      своего мира. После закрытия ворот каждая оказывается снова наверху, рядом
+      с домом матери, поэтому проход выполняет функцию перехода между мирами.
+    tags:
+      - portal
+      - gateway
+      - otherworld
+
+  - id: golden-rain
+    name: "Золотой дождь"
+    type: phenomenon
+    description: >
+      Магическая награда прилежной девушке: под воротами на неё обрушивается
+      золотой дождь, и золото остаётся на её теле, полностью покрывая её.
+    tags:
+      - gold
+      - reward
+      - transformation
+
+  - id: indelible-pitch
+    name: "Несмываемая смола"
+    type: substance
+    description: >
+      Наказание ленивой девушке: под теми же воротами на неё выливается котёл
+      смолы, которая остаётся на ней и не сходит до конца жизни.
+    tags:
+      - punishment
+      - curse
+      - indelible
+
+  - id: speaking-rooster
+    name: "Говорящий петух"
+    type: animal
+    description: >
+      Петух у колодца, который встречает каждую вернувшуюся девушку осмысленной
+      рифмованной фразой и объявляет окружающим, получила ли она золото или
+      вернулась покрытой смолой.
+    tags:
+      - talking-animal
+      - herald
+      - supernatural
