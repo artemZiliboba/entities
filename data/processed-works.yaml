@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "99e3efa60ef7fc8aca3c5a0a943f3b7879ed0465"
-work_count: 57
+master_sha: "aaa36e1271454be5e0d2b4908f4d27d8e904cc1a"
+work_count: 59
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -36,6 +36,10 @@ works:
   - id: the-snow-queen
     tradition: danish-literature
     path: data/works/danish-literature/the-snow-queen.yaml
+
+  - id: the-tinder-box
+    tradition: danish-literature
+    path: data/works/danish-literature/the-tinder-box.yaml
 
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
