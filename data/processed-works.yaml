@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d3b43df68f7b396f1b3d4ae72324117e2563941c"
-work_count: 60
+master_sha: "67499df5c350697a913dc68b3e6a6c8a5c95f96a"
+work_count: 61
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -124,6 +124,10 @@ works:
   - id: mother-holle
     tradition: german-folklore
     path: data/works/german-folklore/mother-holle.yaml
+
+  - id: rapunzel
+    tradition: german-folklore
+    path: data/works/german-folklore/rapunzel.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
