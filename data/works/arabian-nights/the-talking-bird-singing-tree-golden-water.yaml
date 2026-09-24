@@ -1,0 +1,114 @@
+id: the-talking-bird-singing-tree-golden-water
+title: "Говорящая птица, Поющее дерево и Золотая вода"
+original_title: "The Talking Bird, the Singing Tree, and the Golden Water"
+kind: folktale
+tradition:
+  - arabian-nights
+collection: "The Arabian Nights (1909)"
+source:
+  title: "The Arabian Nights (1909) — The Talking Bird, the Singing Tree, and the Golden Water"
+  url: "https://en.wikisource.org/wiki/The_Arabian_Nights_(1909)/The_Talking_Bird,_the_Singing_Tree,_and_the_Golden_Water"
+  note: >
+    Английская редакция из издания The Arabian Nights 1909 года, подготовленного
+    Kate Douglas Wiggin и Nora Archibald Smith. Запись следует именно этому
+    тексту и не смешивает детали других переводов и пересказов.
+
+entities:
+  - id: talking-bird
+    name: "Говорящая птица"
+    type: animal
+    description: >
+      Сверхъестественная птица, способная говорить человеческим языком,
+      давать точные указания, раскрывать скрытые сведения и направлять
+      Периезаду. Её пение привлекает множество других птиц, а позднее она
+      открывает императору правду о происхождении трёх детей.
+    tags:
+      - talking-animal
+      - knowledge
+      - guidance
+      - revelation
+
+  - id: singing-tree
+    name: "Поющее дерево"
+    type: plant
+    description: >
+      Волшебное дерево, листья которого непрерывно образуют гармонический
+      многоголосый концерт. Отломленная ветвь после посадки немедленно
+      укореняется и быстро вырастает в новое дерево с теми же свойствами.
+    tags:
+      - singing-plant
+      - propagation
+      - enchanted
+
+  - id: golden-water
+    name: "Золотая вода"
+    type: substance
+    description: >
+      Волшебная вода, одна малая порция которой после выливания в подготовленный
+      бассейн сама увеличивается до полного объёма и образует постоянный высокий
+      фонтан, не переполняющий бассейн.
+    tags:
+      - magical-water
+      - self-multiplication
+      - fountain
+
+  - id: life-sign-knife
+    name: "Нож — знак жизни Бахмана"
+    type: artifact
+    description: >
+      Нож, оставленный Бахманом сестре как сверхъестественный индикатор его
+      состояния. Пока он жив, клинок остаётся чистым; после превращения Бахмана
+      в камень на острие появляется кровь.
+    tags:
+      - life-sign
+      - divination
+      - blood
+
+  - id: life-sign-pearls
+    name: "Жемчужная нить — знак жизни Первиза"
+    type: artifact
+    description: >
+      Нить из ста жемчужин, оставленная Первизом сестре для наблюдения за его
+      судьбой. Пока он благополучен, жемчужины свободно скользят по нити; после
+      его превращения в камень они внезапно становятся неподвижными.
+    tags:
+      - life-sign
+      - divination
+      - pearls
+
+  - id: guiding-bowl
+    name: "Самодвижущаяся чаша-проводник"
+    type: artifact
+    description: >
+      Чаша, которую дервиш выдаёт путникам для поиска горы с чудесами. Брошенная
+      перед всадником, она сама катится по дороге, задавая маршрут, и
+      останавливается у подножия нужной горы.
+    tags:
+      - guidance
+      - self-moving
+      - quest
+
+  - id: mountain-petrification
+    name: "Окаменение на горе"
+    type: phenomenon
+    description: >
+      Сверхъестественное испытание на пути к Говорящей птице: невидимые голоса
+      пугают и провоцируют поднимающегося, а тот, кто оборачивается до достижения
+      вершины, мгновенно превращается в чёрный камень вместе со своим конём.
+    tags:
+      - petrification
+      - curse
+      - trial
+      - disembodied-voices
+
+  - id: restoring-water
+    name: "Вода, снимающая окаменение"
+    type: substance
+    description: >
+      Особая вода из небольшого кувшина на вершине горы. Если окропить ею
+      чёрные камни, превращённые путники и их лошади немедленно возвращаются
+      к своему естественному облику и жизни.
+    tags:
+      - restoration
+      - magical-water
+      - depetrification

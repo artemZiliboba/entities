@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "67499df5c350697a913dc68b3e6a6c8a5c95f96a"
-work_count: 61
+master_sha: "16915188873dd38be259208c20f0c6ae8a724682"
+work_count: 62
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -16,6 +16,10 @@ works:
   - id: aladdin-and-the-wonderful-lamp
     tradition: arabian-nights
     path: data/works/arabian-nights/aladdin-and-the-wonderful-lamp.yaml
+
+  - id: the-talking-bird-singing-tree-golden-water
+    tradition: arabian-nights
+    path: data/works/arabian-nights/the-talking-bird-singing-tree-golden-water.yaml
 
   - id: the-magic-ring
     tradition: armenian-folklore
