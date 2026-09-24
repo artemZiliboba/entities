@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "aaa36e1271454be5e0d2b4908f4d27d8e904cc1a"
-work_count: 59
+master_sha: "d3b43df68f7b396f1b3d4ae72324117e2563941c"
+work_count: 60
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -120,6 +120,10 @@ works:
   - id: the-seven-ravens
     tradition: german-folklore
     path: data/works/german-folklore/the-seven-ravens.yaml
+
+  - id: mother-holle
+    tradition: german-folklore
+    path: data/works/german-folklore/mother-holle.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
