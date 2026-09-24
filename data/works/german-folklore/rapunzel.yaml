@@ -1,0 +1,40 @@
+id: rapunzel
+title: "Рапунцель"
+original_title: "Rapunzel"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 12"
+source:
+  title: "Grimm's Household Tales, Volume 1 (1884) — Rapunzel"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales%2C_Volume_1/Rapunzel"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 12. Запись следует
+    именно этой редакции и не смешивает детали других изданий, переводов или
+    позднейших адаптаций.
+
+entities:
+  - id: enchantress
+    name: "Колдунья"
+    type: character
+    description: >
+      Сверхъестественный персонаж, прямо обозначенный в выбранном тексте как
+      enchantress и обладающий большой силой. Она владеет садом, требует
+      новорождённого ребёнка в обмен на разрешение брать рапунцель и затем
+      воспитывает и заточает названную ею Рапунцель.
+    tags:
+      - enchantress
+      - supernatural
+      - antagonist
+
+  - id: healing-tears
+    name: "Исцеляющие слёзы Рапунцель"
+    type: substance
+    description: >
+      Слёзы Рапунцель сверхъестественным образом возвращают зрение ослепшему
+      королевичу: две слезы попадают ему в глаза, после чего они вновь становятся
+      ясными и он снова видит.
+    tags:
+      - healing
+      - tears
+      - restoration
