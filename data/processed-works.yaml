@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "16915188873dd38be259208c20f0c6ae8a724682"
-work_count: 62
+master_sha: "f62ecb6cde29885b08bfee0339739113aa1752c3"
+work_count: 63
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -240,6 +240,10 @@ works:
   - id: the-sea-maiden
     tradition: scottish-folklore
     path: data/works/scottish-folklore/the-sea-maiden.yaml
+
+  - id: the-light-princess
+    tradition: scottish-literature
+    path: data/works/scottish-literature/the-light-princess.yaml
 
   - id: setuli-king-of-birds
     tradition: swazi-folklore
