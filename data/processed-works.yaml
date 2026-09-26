@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "126b7618d43469aa7e87889e0cffdc293757b5c9"
-work_count: 66
+master_sha: "7d9022d844ef8c88b75fc08d9b8b2a32bc280e97"
+work_count: 67
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -136,6 +136,10 @@ works:
   - id: brother-and-sister
     tradition: german-folklore
     path: data/works/german-folklore/brother-and-sister.yaml
+
+  - id: the-juniper-tree
+    tradition: german-folklore
+    path: data/works/german-folklore/the-juniper-tree.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
