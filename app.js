@@ -28,9 +28,12 @@ function row({ name, meta, url }) {
 function homeView() {
   const query = state.query.trim().toLocaleLowerCase('ru');
   const works = state.works.filter(work => !query || [work.title, work.original_title, ...(work.entities || []).flatMap(entity => [entity.name, entity.description])].join(' ').toLocaleLowerCase('ru').includes(query));
-  return `<h1>Магические сущности<br>из сказок и мифов</h1>
+  const entityCount = works.reduce((total, work) => total + (work.entities || []).length, 0);
+  return `<section class="home-hero"><span class="eyebrow">Открытая энциклопедия</span><h1>Магические сущности<br>из сказок и мифов</h1>
     <p class="intro">Персонажи, существа, артефакты, локации и другие удивительные объекты из мировой мифологии и литературы.</p>
-    ${works.length ? `<ol class="work-list">${works.map(work => row({name:work.title || work.id, meta:`${(work.entities || []).length} сущностей`, url:href('work',work.id)})).join('')}</ol>` : '<p class="empty">Ничего не найдено.</p>'}`;
+    <div class="home-stats"><span><b>${works.length}</b> произведений</span><span><b>${entityCount}</b> сущностей</span></div></section>
+    <section class="catalog-section"><div class="catalog-heading"><h2>${query ? 'Результаты поиска' : 'Произведения'}</h2><span>${works.length}</span></div>
+    ${works.length ? `<ol class="work-list">${works.map(work => row({name:work.title || work.id, meta:`${(work.entities || []).length} сущностей`, url:href('work',work.id)})).join('')}</ol>` : '<p class="empty">Ничего не найдено.</p>'}</section>`;
 }
 
 function workView(id) {
