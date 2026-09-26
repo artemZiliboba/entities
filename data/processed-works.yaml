@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "33d0226777f38e6eed3af9150567c04306fe2569"
-work_count: 64
+master_sha: "d91c567ac4f55eb838b35d4030551be6f6042654"
+work_count: 65
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -240,6 +240,10 @@ works:
   - id: the-sea-maiden
     tradition: scottish-folklore
     path: data/works/scottish-folklore/the-sea-maiden.yaml
+
+  - id: the-black-bull-of-norroway
+    tradition: scottish-folklore
+    path: data/works/scottish-folklore/the-black-bull-of-norroway.yaml
 
   - id: the-light-princess
     tradition: scottish-literature
