@@ -1,0 +1,110 @@
+id: brother-and-sister
+title: "Братец и сестрица"
+original_title: "Brüderchen und Schwesterchen"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 11"
+source:
+  title: "Grimm's Household Tales, Volume 1 (1884) — Brother and Sister"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales%2C_Volume_1/Brother_and_Sister"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 11. Запись следует
+    именно этой редакции и не смешивает детали других изданий, переводов или
+    позднейших адаптаций.
+
+entities:
+  - id: witch-stepmother
+    name: "Мачеха-ведьма"
+    type: character
+    description: >
+      Мачеха брата и сестры, прямо представленная как ведьма. Она заколдовывает
+      лесные источники, позднее вместе со своей дочерью проникает к королеве,
+      погубляет её и магически придаёт дочери облик законной жены короля.
+    tags:
+      - witch
+      - curse
+      - antagonist
+
+  - id: tiger-spring
+    name: "Источник превращения в тигра"
+    type: location
+    description: >
+      Первый из заколдованных ведьмой лесных источников. Его вода несёт
+      самостоятельное проклятие: выпивший из него должен превратиться в тигра;
+      сестра распознаёт угрозу и не даёт брату пить.
+    tags:
+      - enchanted-spring
+      - transformation
+      - tiger
+
+  - id: wolf-spring
+    name: "Источник превращения в волка"
+    type: location
+    description: >
+      Второй заколдованный источник, вода которого превращает выпившего в
+      волка. Брат снова удерживается от питья после предупреждения сестры.
+    tags:
+      - enchanted-spring
+      - transformation
+      - wolf
+
+  - id: roe-deer-spring
+    name: "Источник превращения в косулю"
+    type: location
+    description: >
+      Третий заколдованный источник. Брат не выдерживает жажды, пьёт воду и
+      немедленно превращается в молодую косулю, сохраняя связь с сестрой.
+    tags:
+      - enchanted-spring
+      - transformation
+      - roe-deer
+
+  - id: enchanted-roe-brother
+    name: "Братец в облике косули"
+    type: character
+    description: >
+      Брат после действия третьего источника остаётся человеком по сознанию,
+      но живёт в теле косули. Он понимает речь сестры, следует её правилам и
+      позднее возвращается в человеческий облик после гибели ведьмы.
+    tags:
+      - transformation
+      - enchanted-human
+      - roe-deer
+
+  - id: false-queen-glamour
+    name: "Чары облика ложной королевы"
+    type: spell
+    description: >
+      Заклятие ведьмы, придающее её одноглазой дочери внешность настоящей
+      королевы после убийства последней. Чары достаточно сильны, чтобы обмануть
+      окружающих, хотя отсутствующий глаз остаётся заметным ограничением.
+    tags:
+      - disguise
+      - glamour
+      - witchcraft
+
+  - id: queens-revenant
+    name: "Возвращающаяся королева"
+    type: character
+    description: >
+      Погубленная королева несколько ночей возвращается к своему ребёнку в
+      сверхъестественном облике, ухаживает за ним и исчезает до рассвета.
+      После того как король узнаёт её и обращается к ней, она окончательно
+      возвращается к жизни.
+    tags:
+      - revenant
+      - return-from-death
+      - mother
+
+  - id: witch-death-curse-release
+    name: "Снятие чар после гибели ведьмы"
+    type: phenomenon
+    description: >
+      С гибелью ведьмы прекращается её длительное превращающее воздействие:
+      брат, всё ещё живший в облике косули, снова принимает человеческий вид.
+      Это связывает его проклятие с продолжающейся силой ведьмы.
+    tags:
+      - curse-breaking
+      - restoration
+      - transformation
