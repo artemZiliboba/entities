@@ -55,15 +55,15 @@ function entityView(workId, entityId) {
     ...(aliases ? [['Также известен как', aliases]] : []), ...(work.author ? [['Автор', work.author]] : [])
   ];
   const prev = entities[index-1], next = entities[index+1];
-  return `<a class="back" href="${href('work',work.id)}">К списку сущностей</a><h1>${escapeHtml(entity.name || entity.id)}</h1>
-    <dl class="details">${details.map(([label,value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd>`).join('')}</dl>
-    <h2>Описание</h2><p class="description">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p>
+  return `<article class="entity-page"><div class="entity-top"><a class="back" href="${href('work',work.id)}">К списку сущностей</a><div class="top-position"><a class="circle-button" href="${prev ? href('entity',work.id,prev.id) : '#'}" ${prev ? '' : 'aria-disabled="true"'}>←</a><b>${index+1} / ${entities.length}</b><a class="circle-button" href="${next ? href('entity',work.id,next.id) : '#'}" ${next ? '' : 'aria-disabled="true"'}>→</a></div></div><h1>${escapeHtml(entity.name || entity.id)}</h1>
+    <dl class="details">${details.map(([label,value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd></div>`).join('')}</dl>
+    <section class="description-section"><h2>Описание</h2><p class="description">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p></section>
     <nav class="entity-pager" aria-label="Соседние сущности">
-      ${prev ? `<a class="pager-link" href="${href('entity',work.id,prev.id)}">← ${escapeHtml(prev.name || prev.id)}<small>Предыдущая</small></a>` : '<span></span>'}
+      ${prev ? `<a class="pager-link" href="${href('entity',work.id,prev.id)}"><span class="circle-button">←</span><span><small>Предыдущая</small><strong>${escapeHtml(prev.name || prev.id)}</strong></span></a>` : '<span></span>'}
       <span class="pager-center"><b>${index+1} / ${entities.length}</b><small>${escapeHtml(work.title || work.id)}</small></span>
-      ${next ? `<a class="pager-link pager-next" href="${href('entity',work.id,next.id)}">${escapeHtml(next.name || next.id)} →<small>Следующая</small></a>` : '<span></span>'}
+      ${next ? `<a class="pager-link pager-next" href="${href('entity',work.id,next.id)}"><span><small>Следующая</small><strong>${escapeHtml(next.name || next.id)}</strong></span><span class="circle-button">→</span></a>` : '<span></span>'}
     </nav>
-    ${related.length ? `<h2>Связанные сущности</h2><ol class="related-list">${related.map(item => row({name:item.name || item.id, meta:TYPES[item.type] || humanize(item.type), url:href('entity',work.id,item.id)})).join('')}</ol>` : ''}`;
+    ${related.length ? `<section class="related-section"><div class="section-heading"><h2>Связанные сущности</h2><a href="${href('work',work.id)}">Смотреть все&nbsp; →</a></div><ol class="related-list">${related.map(item => row({name:item.name || item.id, meta:TYPES[item.type] || humanize(item.type), url:href('entity',work.id,item.id)})).join('')}</ol></section>` : ''}</article>`;
 }
 
 function aboutView() { return `<a class="back" href="#/">На главную</a><h1>О проекте</h1><div class="about"><p>«Энциклопедия сущностей» — открытый каталог магических персонажей, существ, предметов и мест из фольклора и литературы разных народов.</p><p>Все материалы хранятся в открытом репозитории. Вы можете предложить уточнение или добавить новое произведение через GitHub.</p></div>`; }
