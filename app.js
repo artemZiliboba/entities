@@ -22,7 +22,7 @@ async function loadData() {
 }
 
 function row({ name, meta, url }) {
-  return `<li><a class="list-row" href="${url}"><span class="dot" aria-hidden="true"></span><span class="row-name">${escapeHtml(name)}</span><span class="row-meta">${escapeHtml(meta)}</span><span class="arrow" aria-hidden="true">→</span></a></li>`;
+  return `<li><a class="list-row" href="${url}"><span class="row-name">${escapeHtml(name)}</span><span class="row-meta">${escapeHtml(meta)}</span><span class="arrow" aria-hidden="true">→</span></a></li>`;
 }
 
 function homeView() {
@@ -58,12 +58,12 @@ function entityView(workId, entityId) {
   return `<a class="back" href="${href('work',work.id)}">К списку сущностей</a><h1>${escapeHtml(entity.name || entity.id)}</h1>
     <dl class="details">${details.map(([label,value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd>`).join('')}</dl>
     <h2>Описание</h2><p class="description">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p>
-    ${related.length ? `<h2>Связанные сущности</h2><ol class="related-list">${related.map(item => row({name:item.name || item.id, meta:TYPES[item.type] || humanize(item.type), url:href('entity',work.id,item.id)})).join('')}</ol>` : ''}
     <nav class="entity-pager" aria-label="Соседние сущности">
       ${prev ? `<a class="pager-link" href="${href('entity',work.id,prev.id)}">← ${escapeHtml(prev.name || prev.id)}<small>Предыдущая</small></a>` : '<span></span>'}
       <span class="pager-center"><b>${index+1} / ${entities.length}</b><small>${escapeHtml(work.title || work.id)}</small></span>
       ${next ? `<a class="pager-link pager-next" href="${href('entity',work.id,next.id)}">${escapeHtml(next.name || next.id)} →<small>Следующая</small></a>` : '<span></span>'}
-    </nav>`;
+    </nav>
+    ${related.length ? `<h2>Связанные сущности</h2><ol class="related-list">${related.map(item => row({name:item.name || item.id, meta:TYPES[item.type] || humanize(item.type), url:href('entity',work.id,item.id)})).join('')}</ol>` : ''}`;
 }
 
 function aboutView() { return `<a class="back" href="#/">На главную</a><h1>О проекте</h1><div class="about"><p>«Энциклопедия сущностей» — открытый каталог магических персонажей, существ, предметов и мест из фольклора и литературы разных народов.</p><p>Все материалы хранятся в открытом репозитории. Вы можете предложить уточнение или добавить новое произведение через GitHub.</p></div>`; }
