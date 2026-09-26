@@ -53,19 +53,6 @@ entities:
       - revelation
       - compulsion
 
-  - id: millstone-retribution
-    name: "Жернов возмездия"
-    type: artifact
-    description: >
-      Тяжёлый жернов, полученный птицей от мельников и затем сброшенный ею на
-      мачеху. В контексте сверхъестественного возвращения мальчика он становится
-      орудием преднамеренного возмездия, которое птица переносит и применяет
-      вопреки обычным физическим ограничениям.
-    tags:
-      - millstone
-      - retribution
-      - magical-carrier
-
   - id: bird-to-boy-restoration
     name: "Возвращение птицы в человеческий облик"
     type: phenomenon
