@@ -1,0 +1,79 @@
+id: the-juniper-tree
+title: "Можжевеловое дерево"
+original_title: "Von dem Machandelboom"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 47"
+source:
+  title: "Grimm's Household Tales, Volume 1 (1884) — The Juniper-Tree"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_1/The_Juniper-Tree"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 47. Запись следует
+    именно этой редакции и не смешивает детали других изданий, переводов или
+    позднейших адаптаций.
+
+entities:
+  - id: juniper-tree
+    name: "Можжевеловое дерево"
+    type: plant
+    description: >
+      Дерево, вокруг которого сосредоточена сверхъестественная линия сказки:
+      под ним мать желает ребёнка и позднее похоронена, к нему Марлен относит
+      кости убитого брата, после чего дерево окутывает необычный туман и огонь,
+      а из него возникает чудесная птица.
+    tags:
+      - juniper
+      - rebirth
+      - transformation
+
+  - id: reborn-bird
+    name: "Птица — возрождённый мальчик"
+    type: animal
+    description: >
+      Сверхъестественная птица, возникающая из можжевелового дерева после того,
+      как под ним складывают кости убитого мальчика. Она разумно действует,
+      поёт о собственной смерти, добывает три предмета и затем восстанавливается
+      в человеческом облике мальчика.
+    tags:
+      - magical-bird
+      - rebirth
+      - transformation
+      - revenant
+
+  - id: birds-song
+    name: "Песнь чудесной птицы"
+    type: spell
+    description: >
+      Повторяемая песня птицы сообщает правду об убийстве и необычайно
+      воздействует на слушателей: ремесленники и другие люди прекращают работу,
+      стремятся услышать её снова и отдают птице ценные предметы за повторение.
+    tags:
+      - magical-song
+      - revelation
+      - compulsion
+
+  - id: millstone-retribution
+    name: "Жернов возмездия"
+    type: artifact
+    description: >
+      Тяжёлый жернов, полученный птицей от мельников и затем сброшенный ею на
+      мачеху. В контексте сверхъестественного возвращения мальчика он становится
+      орудием преднамеренного возмездия, которое птица переносит и применяет
+      вопреки обычным физическим ограничениям.
+    tags:
+      - millstone
+      - retribution
+      - magical-carrier
+
+  - id: bird-to-boy-restoration
+    name: "Возвращение птицы в человеческий облик"
+    type: phenomenon
+    description: >
+      После гибели мачехи чудесная птица исчезает в огне и дыме, а на её месте
+      снова появляется живой мальчик. Превращение завершает его
+      сверхъестественное возвращение после смерти.
+    tags:
+      - transformation
+      - resurrection
+      - restoration
