@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d91c567ac4f55eb838b35d4030551be6f6042654"
-work_count: 65
+master_sha: "126b7618d43469aa7e87889e0cffdc293757b5c9"
+work_count: 66
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -132,6 +132,10 @@ works:
   - id: rapunzel
     tradition: german-folklore
     path: data/works/german-folklore/rapunzel.yaml
+
+  - id: brother-and-sister
+    tradition: german-folklore
+    path: data/works/german-folklore/brother-and-sister.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
