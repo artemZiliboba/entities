@@ -28,9 +28,12 @@ function row({ name, meta, url }) {
 function homeView() {
   const query = state.query.trim().toLocaleLowerCase('ru');
   const works = state.works.filter(work => !query || [work.title, work.original_title, ...(work.entities || []).flatMap(entity => [entity.name, entity.description])].join(' ').toLocaleLowerCase('ru').includes(query));
-  return `<h1>Магические сущности<br>из сказок и мифов</h1>
+  const entityCount = works.reduce((total, work) => total + (work.entities || []).length, 0);
+  return `<section class="home-hero"><span class="eyebrow">Открытая энциклопедия</span><h1>Магические сущности<br>из сказок и мифов</h1>
     <p class="intro">Персонажи, существа, артефакты, локации и другие удивительные объекты из мировой мифологии и литературы.</p>
-    ${works.length ? `<ol class="work-list">${works.map(work => row({name:work.title || work.id, meta:`${(work.entities || []).length} сущностей`, url:href('work',work.id)})).join('')}</ol>` : '<p class="empty">Ничего не найдено.</p>'}`;
+    <div class="home-stats"><span><b>${works.length}</b> произведений</span><span><b>${entityCount}</b> сущностей</span></div></section>
+    <section class="catalog-section"><div class="catalog-heading"><h2>${query ? 'Результаты поиска' : 'Произведения'}</h2><span>${works.length}</span></div>
+    ${works.length ? `<ol class="work-list">${works.map(work => row({name:work.title || work.id, meta:`${(work.entities || []).length} сущностей`, url:href('work',work.id)})).join('')}</ol>` : '<p class="empty">Ничего не найдено.</p>'}</section>`;
 }
 
 function workView(id) {
@@ -55,15 +58,15 @@ function entityView(workId, entityId) {
     ...(aliases ? [['Также известен как', aliases]] : []), ...(work.author ? [['Автор', work.author]] : [])
   ];
   const prev = entities[index-1], next = entities[index+1];
-  return `<a class="back" href="${href('work',work.id)}">К списку сущностей</a><h1>${escapeHtml(entity.name || entity.id)}</h1>
-    <dl class="details">${details.map(([label,value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd>`).join('')}</dl>
-    <h2>Описание</h2><p class="description">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p>
+  return `<article class="entity-page"><div class="entity-top"><a class="back" href="${href('work',work.id)}">К списку сущностей</a><div class="top-position"><a class="circle-button" href="${prev ? href('entity',work.id,prev.id) : '#'}" ${prev ? '' : 'aria-disabled="true"'}>←</a><b>${index+1} / ${entities.length}</b><a class="circle-button" href="${next ? href('entity',work.id,next.id) : '#'}" ${next ? '' : 'aria-disabled="true"'}>→</a></div></div><h1>${escapeHtml(entity.name || entity.id)}</h1>
+    <dl class="details">${details.map(([label,value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd></div>`).join('')}</dl>
+    <section class="description-section"><h2>Описание</h2><p class="description">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p></section>
     <nav class="entity-pager" aria-label="Соседние сущности">
-      ${prev ? `<a class="pager-link" href="${href('entity',work.id,prev.id)}">← ${escapeHtml(prev.name || prev.id)}<small>Предыдущая</small></a>` : '<span></span>'}
+      ${prev ? `<a class="pager-link" href="${href('entity',work.id,prev.id)}"><span class="circle-button">←</span><span><small>Предыдущая</small><strong>${escapeHtml(prev.name || prev.id)}</strong></span></a>` : '<span></span>'}
       <span class="pager-center"><b>${index+1} / ${entities.length}</b><small>${escapeHtml(work.title || work.id)}</small></span>
-      ${next ? `<a class="pager-link pager-next" href="${href('entity',work.id,next.id)}">${escapeHtml(next.name || next.id)} →<small>Следующая</small></a>` : '<span></span>'}
+      ${next ? `<a class="pager-link pager-next" href="${href('entity',work.id,next.id)}"><span><small>Следующая</small><strong>${escapeHtml(next.name || next.id)}</strong></span><span class="circle-button">→</span></a>` : '<span></span>'}
     </nav>
-    ${related.length ? `<h2>Связанные сущности</h2><ol class="related-list">${related.map(item => row({name:item.name || item.id, meta:TYPES[item.type] || humanize(item.type), url:href('entity',work.id,item.id)})).join('')}</ol>` : ''}`;
+    ${related.length ? `<section class="related-section"><div class="section-heading"><h2>Связанные сущности</h2><a href="${href('work',work.id)}">Смотреть все&nbsp; →</a></div><ol class="related-list">${related.map(item => row({name:item.name || item.id, meta:TYPES[item.type] || humanize(item.type), url:href('entity',work.id,item.id)})).join('')}</ol></section>` : ''}</article>`;
 }
 
 function aboutView() { return `<a class="back" href="#/">На главную</a><h1>О проекте</h1><div class="about"><p>«Энциклопедия сущностей» — открытый каталог магических персонажей, существ, предметов и мест из фольклора и литературы разных народов.</p><p>Все материалы хранятся в открытом репозитории. Вы можете предложить уточнение или добавить новое произведение через GitHub.</p></div>`; }
