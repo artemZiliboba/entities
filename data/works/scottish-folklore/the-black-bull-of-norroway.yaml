@@ -1,0 +1,97 @@
+id: the-black-bull-of-norroway
+title: "Чёрный бык Норроуэя"
+original_title: "The Black Bull of Norroway"
+kind: folktale
+tradition:
+  - scottish-folklore
+collection: "English Fairy Tales"
+source:
+  title: "English Fairy Tales (1890) — The Black Bull of Norroway"
+  url: "https://en.wikisource.org/wiki/English_Fairy_Tales/The_Black_Bull_of_Norroway"
+  note: >
+    Версия Джозефа Джейкобса из сборника English Fairy Tales (1890).
+    Запись следует именно этому тексту и не смешивает детали иных шотландских
+    вариантов, позднейших пересказов или адаптаций.
+
+entities:
+  - id: black-bull-of-norroway
+    name: "Чёрный бык Норроуэя"
+    type: creature
+    description: >
+      Заколдованный сверхъестественный бык, который увозит младшую сестру и
+      заботится о ней в пути. Он сражается с чудовищными противниками и в
+      конечном счёте оказывается связан с человеческим женихом героини.
+    tags:
+      - enchanted-creature
+      - transformation
+      - helper
+
+  - id: three-headed-giant
+    name: "Трёхголовый великан"
+    type: creature
+    description: >
+      Первый из сверхъестественных противников Чёрного быка. Великан обладает
+      тремя головами и вступает с быком в бой, который тот выигрывает.
+    tags:
+      - giant
+      - three-headed
+      - antagonist
+
+  - id: six-headed-giant
+    name: "Шестиголовый великан"
+    type: creature
+    description: >
+      Второй чудовищный противник быка, имеющий шесть голов. Бык побеждает его,
+      продолжая путь с девушкой.
+    tags:
+      - giant
+      - six-headed
+      - antagonist
+
+  - id: nine-headed-giant
+    name: "Девятиголовый великан"
+    type: creature
+    description: >
+      Третий и наиболее опасный многоголовый великан, с которым сражается
+      Чёрный бык. После этой битвы дальнейшая судьба быка меняется, и героиня
+      вынуждена продолжить поиски самостоятельно.
+    tags:
+      - giant
+      - nine-headed
+      - antagonist
+
+  - id: magic-apple
+    name: "Волшебное яблоко"
+    type: artifact
+    description: >
+      Один из трёх даров, полученных героиней в пути. Когда яблоко разбивают,
+      из него появляются драгоценности, которые она использует как плату за
+      возможность провести ночь рядом со своим заколдованным женихом.
+    tags:
+      - magic-fruit
+      - treasure
+      - quest
+
+  - id: magic-pear
+    name: "Волшебная груша"
+    type: artifact
+    description: >
+      Второй чудесный плод-дар. После раскрытия груши из неё появляются
+      драгоценности, позволяющие героине купить ещё одну ночь возле жениха.
+    tags:
+      - magic-fruit
+      - treasure
+      - quest
+
+  - id: magic-plum
+    name: "Волшебная слива"
+    type: artifact
+    description: >
+      Третий чудесный плод, скрывающий внутри драгоценности. Его содержимое
+      становится последней платой героини за доступ к жениху и помогает
+      завершить испытание разлукой.
+    tags:
+      - magic-fruit
+      - treasure
+      - quest
+
