@@ -1,0 +1,54 @@
+id: the-golden-goose
+title: "Золотой гусь"
+original_title: "Die goldene Gans"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 64"
+source:
+  title: "Kinder- und Haus-Märchen, Band 1 (1857) — Die goldene Gans"
+  url: "https://de.wikisource.org/wiki/Die_goldene_Gans_(1857)"
+  note: >
+    Немецкий текст 7-го издания 1857 года, последней прижизненной редакции
+    братьев Гримм. Запись следует именно этой версии и не смешивает детали
+    других изданий, переводов или адаптаций.
+
+entities:
+  - id: gray-little-man
+    name: "Серый человечек"
+    type: character
+    description: >
+      Сверхъестественный помощник, испытывающий трёх братьев. Он наказывает
+      старших за отказ поделиться едой, превращает скудную пищу Дурня в хороший
+      пирог и вино, указывает дерево с золотым гусём, а позднее обеспечивает
+      выполнение королевских испытаний и дарит чудесный корабль.
+    tags:
+      - supernatural-helper
+      - reward
+      - punishment
+      - transformation
+
+  - id: golden-goose
+    name: "Золотой гусь"
+    type: animal
+    description: >
+      Чудесный гусь с перьями из чистого золота, найденный в корнях указанного
+      серым человечком дерева. Любой, кто касается гуся или уже прилипшего к
+      нему человека, сам неотделимо прилипает, из-за чего за героем образуется
+      цепочка людей.
+    tags:
+      - golden-animal
+      - adhesion
+      - enchanted
+
+  - id: land-and-water-ship
+    name: "Корабль, идущий по суше и воде"
+    type: artifact
+    description: >
+      Волшебный корабль, который серый человечек дарит герою для последнего
+      испытания короля. Судно одинаково способно двигаться и по воде, и по суше,
+      что позволяет выполнить условие брака с принцессой.
+    tags:
+      - magic-ship
+      - land-travel
+      - water-travel
