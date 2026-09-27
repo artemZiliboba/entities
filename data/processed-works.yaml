@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "e09d53c78b39e5521de3990f34cda1136a23ab5e"
-work_count: 68
+master_sha: "37483f17b29d344c374dde9d5c9b3343c7f1b0dc"
+work_count: 69
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -88,6 +88,10 @@ works:
   - id: the-golden-bird
     tradition: german-folklore
     path: data/works/german-folklore/the-golden-bird.yaml
+
+  - id: the-golden-goose
+    tradition: german-folklore
+    path: data/works/german-folklore/the-golden-goose.yaml
 
   - id: the-king-of-the-golden-mountain
     tradition: german-folklore
