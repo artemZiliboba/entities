@@ -1,0 +1,87 @@
+id: the-raven
+title: "Ворон"
+original_title: "Die Rabe"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 93"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Raven"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Raven"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 93. Запись следует
+    именно этой редакции и не смешивает детали других изданий, переводов или
+    позднейших адаптаций.
+
+entities:
+  - id: raven-princess
+    name: "Принцесса в облике ворона"
+    type: character
+    description: >
+      Заколдованная королевская дочь, превращённая собственной матерью в
+      ворона. Она сохраняет разум и речь, ищет человека, способного освободить
+      её, и после выполнения условий снова обретает человеческий облик.
+    tags:
+      - transformation
+      - enchanted-princess
+      - raven
+
+  - id: raven-curse
+    name: "Заклятие превращения в ворона"
+    type: spell
+    description: >
+      Проклятие, наложенное королевой на дочь в минуту раздражения и немедленно
+      превратившее девочку в ворона. Снятие чар требует особого испытания и
+      соблюдения условий, сообщённых самой заколдованной принцессой.
+    tags:
+      - curse
+      - transformation
+      - raven
+
+  - id: enchanted-food-and-drink
+    name: "Усыпляющие еда и питьё"
+    type: substance
+    description: >
+      Пища и напиток, которые герой находит в саду во время испытания. Несмотря
+      на предупреждение принцессы, он трижды принимает их и каждый раз
+      погружается в непреодолимый сон, из-за чего пропускает её приход.
+    tags:
+      - enchanted-food
+      - sleep
+      - trial
+
+  - id: wishing-stick
+    name: "Волшебная палочка"
+    type: artifact
+    description: >
+      Один из трёх чудесных предметов, из-за которых ссорятся великаны.
+      Получив палочку, герой может пожеланием открыть любую дверь, что помогает
+      ему проникнуть в замок и продолжить поиски принцессы.
+    tags:
+      - magic-stick
+      - opening
+      - wish
+
+  - id: invisibility-cloak
+    name: "Плащ-невидимка"
+    type: artifact
+    description: >
+      Чудесный плащ из добычи великанов. Надевший его становится невидимым;
+      герой использует это свойство, чтобы незаметно пройти в замок.
+    tags:
+      - invisibility
+      - cloak
+      - magic-artifact
+
+  - id: seven-league-horse
+    name: "Волшебный конь"
+    type: animal
+    description: >
+      Третий чудесный предмет спора великанов — конь, способный переносить
+      всадника на огромные расстояния с необычайной быстротой. Герой использует
+      его, чтобы добраться до золотого замка.
+    tags:
+      - magical-horse
+      - rapid-travel
+      - quest
+
