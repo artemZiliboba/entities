@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "5d34787d22b6332f3947c1b283630b0569672e22"
-work_count: 70
+master_sha: "db2b29f3e578fca770ded01331c7c1a6a9ed7386"
+work_count: 71
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -188,6 +188,10 @@ works:
   - id: urashima-taro
     tradition: japanese-folklore
     path: data/works/japanese-folklore/urashima-taro.yaml
+
+  - id: kojiki-eight-forked-serpent
+    tradition: japanese-mythology
+    path: data/works/japanese-mythology/kojiki-eight-forked-serpent.yaml
 
   - id: the-bamboo-cutter-and-the-moon-child
     tradition: japanese-folklore
