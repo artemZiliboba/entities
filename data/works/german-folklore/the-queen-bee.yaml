@@ -26,18 +26,6 @@ entities:
       - petrification
       - trials
 
-  - id: gray-man
-    name: "Серый человечек"
-    type: character
-    description: >
-      Таинственный обитатель заколдованного замка, который кормит пришедших
-      братьев, проводит их к спальням и на следующий день предъявляет табличку
-      с тремя заданиями, определяющими возможность снять чары.
-    tags:
-      - supernatural
-      - castle
-      - trials
-
   - id: petrification-curse
     name: "Окаменение за неудачу"
     type: spell
