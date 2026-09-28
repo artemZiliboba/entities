@@ -1,0 +1,121 @@
+id: thors-journey-to-utgard
+title: "Путешествие Тора в Утгард"
+original_title: "Thor's Journey to Útgardr"
+kind: myth
+tradition:
+  - norse-mythology
+collection: "The Prose Edda — Gylfaginning, Chapters XLIV–XLVII"
+source:
+  title: "The Prose Edda (Brodeur, 1916) — Gylfaginning, XLIV–XLVII"
+  url: "https://en.wikisource.org/wiki/The_Prose_Edda_(1916_translation_by_Arthur_Gilchrist_Brodeur)/Gylfaginning"
+  note: >
+    Английский перевод Артура Гилкриста Бродера 1916 года. Запись ограничена
+    эпизодом путешествия Тора к Утгарда-Локи в главах XLIV–XLVII и не смешивает
+    детали соседних мифов или других переводов «Младшей Эдды».
+
+entities:
+  - id: thor
+    name: "Тор"
+    type: character
+    description: >
+      Ас Тор, прибывающий в Утгард вместе со спутниками и проходящий серию
+      обманных испытаний. Его сверхчеловеческая сила проявляется в попытках
+      ударить Скримира молотом, выпить из рога, поднять «кошку» и бороться
+      со Старостью.
+    tags:
+      - deity
+      - aesir
+      - strength
+      - thunder-god
+
+  - id: utgarda-loki-skrymir
+    name: "Утгарда-Локи / Скримир"
+    type: character
+    description: >
+      Великан и колдун, сначала встречающий Тора под именем Скримира, а затем
+      правящий Утгардом как Утгарда-Локи. Он прямо признаётся, что применял
+      обман зрения и иные чары, подменяя истинную природу испытаний и защищая
+      себя от ударов Тора.
+    tags:
+      - giant
+      - illusion
+      - magic
+      - trickster
+
+  - id: utgarda-loki-eye-illusions
+    name: "Чары обмана зрения Утгарда-Локи"
+    type: spell
+    description: >
+      Повторяемая магия Утгарда-Локи, скрывающая истинную природу происходящего.
+      С её помощью он подставляет гору под удары Тора, представляет природные
+      силы и космических существ в человеческих или животных обликах и после
+      разоблачения заставляет замок исчезнуть из виду.
+    tags:
+      - illusion
+      - deception
+      - protective-magic
+      - transformation-of-appearance
+
+  - id: logi-wildfire
+    name: "Логи — дикий огонь"
+    type: phenomenon
+    description: >
+      Сверхъестественный соперник Локи в состязании по еде. После испытания
+      Утгарда-Локи раскрывает, что Логи был диким огнём: поэтому он пожирает не
+      только мясо, но также кости и деревянное корыто.
+    tags:
+      - wildfire
+      - personification
+      - contest
+
+  - id: hugi-thought
+    name: "Хуги — мысль"
+    type: phenomenon
+    description: >
+      Соперник Тьяльви в беге, неизменно опережающий его с огромным отрывом.
+      Утгарда-Локи объясняет, что Хуги был его собственной мыслью, с быстротой
+      которой человеку невозможно состязаться.
+    tags:
+      - thought
+      - personification
+      - speed
+      - contest
+
+  - id: elli-old-age
+    name: "Элли — Старость"
+    type: phenomenon
+    description: >
+      Старуха, с которой Тор борется в последнем испытании. После состязания
+      раскрывается, что Элли является самой Старостью: никто, кто доживает до
+      неё, не способен окончательно устоять перед её силой.
+    tags:
+      - old-age
+      - personification
+      - wrestling
+      - inevitability
+
+  - id: midgard-serpent-cat
+    name: "Мировой змей в облике кошки"
+    type: creature
+    description: >
+      Йормунганд, Мировой змей, скрытый чарами под видом огромной серой кошки.
+      Тор пытается поднять её и, сам того не зная, приподнимает одну лапу
+      существа, опоясывающего весь мир.
+    tags:
+      - world-serpent
+      - disguise
+      - cosmic-creature
+      - trial
+
+  - id: sea-linked-drinking-horn
+    name: "Рог, соединённый с морем"
+    type: artifact
+    description: >
+      Чудесный питьевой рог из испытания Тора, другой конец которого незаметно
+      соединён с морем. Тор не может осушить его, но выпивает столько, что
+      понижение уровня моря становится причиной отливов.
+    tags:
+      - magical-horn
+      - sea
+      - tides
+      - trial

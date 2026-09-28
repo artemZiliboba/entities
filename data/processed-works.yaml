@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "db2b29f3e578fca770ded01331c7c1a6a9ed7386"
-work_count: 71
+master_sha: "341e6288dd5cb553cedef057b7bb9ef5690f34f4"
+work_count: 72
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -212,6 +212,10 @@ works:
   - id: binding-of-fenrir
     tradition: norse-mythology
     path: data/works/norse-mythology/binding-of-fenrir.yaml
+
+  - id: thors-journey-to-utgard
+    tradition: norse-mythology
+    path: data/works/norse-mythology/thors-journey-to-utgard.yaml
 
   - id: east-of-the-sun-west-of-the-moon
     tradition: norwegian-folklore
