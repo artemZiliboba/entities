@@ -1,0 +1,99 @@
+id: the-queen-bee
+title: "Пчелиная матка"
+original_title: "Die Bienenkönigin"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 62"
+source:
+  title: "Grimm's Household Tales, Volume 1 (1884) — The Queen Bee"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_1/The_Queen_Bee"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 62. Запись следует
+    именно этой редакции и не смешивает детали других изданий, переводов или
+    позднейших адаптаций.
+
+entities:
+  - id: enchanted-castle
+    name: "Заколдованный замок"
+    type: location
+    description: >
+      Замок, обитатели которого превращены в камень и могут быть освобождены
+      только после выполнения трёх заданий. Внутри герой встречает серого
+      человечка, задающего условия снятия чар.
+    tags:
+      - enchanted-castle
+      - petrification
+      - trials
+
+  - id: gray-man
+    name: "Серый человечек"
+    type: character
+    description: >
+      Таинственный обитатель заколдованного замка, который кормит пришедших
+      братьев, проводит их к спальням и на следующий день предъявляет табличку
+      с тремя заданиями, определяющими возможность снять чары.
+    tags:
+      - supernatural
+      - castle
+      - trials
+
+  - id: petrification-curse
+    name: "Окаменение за неудачу"
+    type: spell
+    description: >
+      Магическое наказание, связанное с испытаниями замка. Тот, кто берётся
+      выполнять задания и не справляется, превращается в камень; так старшие
+      братья оказываются окаменевшими до завершения испытаний младшим.
+    tags:
+      - petrification
+      - curse
+      - failure
+
+  - id: ant-king
+    name: "Муравьиный царь"
+    type: animal
+    description: >
+      Царь муравьёв, чьё жилище младший брат ранее защитил от разрушения.
+      Вместе с тысячами муравьёв он приходит на помощь и за короткое время
+      собирает рассыпавшийся в лесу жемчуг для первого задания.
+    tags:
+      - animal-helper
+      - ants
+      - gratitude
+
+  - id: duck-pair
+    name: "Две утки"
+    type: animal
+    description: >
+      Пара уток, спасённая младшим братом от старших. Во время второго задания
+      они ныряют на дно озера и достают ключ от спальни принцесс.
+    tags:
+      - animal-helper
+      - ducks
+      - gratitude
+
+  - id: queen-bee
+    name: "Пчелиная матка"
+    type: animal
+    description: >
+      Матка пчелиной семьи, которую младший брат не позволил сжечь ради мёда.
+      В последнем испытании она различает трёх спящих принцесс по следам
+      сладостей на губах и садится на ту, которая ела мёд, позволяя герою
+      сделать правильный выбор.
+    tags:
+      - animal-helper
+      - bee
+      - recognition
+
+  - id: castle-disenchantment
+    name: "Снятие чар с замка"
+    type: phenomenon
+    description: >
+      После успешного выполнения всех трёх заданий магическое состояние замка
+      прекращается: окаменевшие возвращаются к жизни, а три принцессы
+      освобождаются, завершая длительное заклятие.
+    tags:
+      - curse-breaking
+      - restoration
+      - castle
