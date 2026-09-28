@@ -1,0 +1,113 @@
+id: kojiki-eight-forked-serpent
+title: "Ямата-но-Ороти"
+original_title: "The Eight-Forked Serpent"
+kind: myth
+tradition:
+  - japanese-mythology
+collection: "Kojiki, Section XVIII"
+source:
+  title: "Kojiki (Chamberlain, 1882) — Section XVIII: The Eight-Forked Serpent"
+  url: "https://en.wikisource.org/wiki/Kojiki_(Chamberlain,_1882)/Section_18"
+  note: >
+    Английский перевод Бэзила Холла Чемберлена 1882 года. Запись следует
+    именно разделу XVIII «The Eight-Forked Serpent» и не смешивает детали
+    позднейших пересказов, других переводов или соседних эпизодов «Кодзики».
+
+entities:
+  - id: susanoo
+    name: "Сусаноо"
+    type: character
+    description: >
+      Небесное божество, изгнанное с небес и спустившееся в Идзумо. Он
+      договаривается о спасении Кусинада-химэ, превращает её в гребень,
+      организует ловушку с восемью чанами сакэ и убивает Ямата-но-Ороти.
+    tags:
+      - deity
+      - storm-god
+      - serpent-slayer
+      - transformation
+
+  - id: ashina-zuchi
+    name: "Асинадзути"
+    type: character
+    description: >
+      Земное божество, отец Кусинада-химэ и сын божества Ооямацуми. Он
+      рассказывает Сусаноо о ежегодных нападениях восьмиглавого змея и вместе
+      с женой выполняет указания по приготовлению ловушки.
+    tags:
+      - deity
+      - earthly-deity
+      - parent
+
+  - id: tena-zuchi
+    name: "Тэнадзути"
+    type: character
+    description: >
+      Земная богиня, жена Асинадзути и мать Кусинада-химэ. Вместе с мужем
+      соглашается доверить дочь Сусаноо и участвует в подготовке восьми чанов
+      крепкого сакэ для змея.
+    tags:
+      - deity
+      - earthly-deity
+      - parent
+
+  - id: kushinada-hime
+    name: "Кусинада-химэ"
+    type: character
+    description: >
+      Последняя из восьми дочерей Асинадзути и Тэнадзути, предназначенная
+      в жертву Ямата-но-Ороти. Сусаноо магически превращает её в частый гребень
+      и помещает в свою причёску на время сражения со змеем.
+    tags:
+      - enchanted-princess
+      - transformation
+      - deity-family
+
+  - id: oyamatsumi
+    name: "Ооямацуми"
+    type: character
+    description: >
+      Божество, названное в тексте отцом Асинадзути. В данном разделе оно
+      присутствует только в родословной, но его божественная природа указана
+      прямо.
+    tags:
+      - deity
+      - mountain-deity
+      - genealogy
+
+  - id: amaterasu
+    name: "Аматэрасу"
+    type: character
+    description: >
+      Небесная богиня, прямо названная старшей сестрой Сусаноо. После победы
+      над змеем Сусаноо сообщает ей о найденном внутри хвоста великом мече.
+    tags:
+      - deity
+      - heavenly-deity
+      - sun-goddess
+
+  - id: yamata-no-orochi
+    name: "Ямата-но-Ороти"
+    type: creature
+    description: >
+      Чудовищный змей Косэ с одним телом, восемью головами и восемью хвостами,
+      настолько огромный, что простирается через восемь долин и восемь холмов.
+      Он ежегодно пожирает одну из дочерей земных божеств, пока Сусаноо не
+      опьяняет его сакэ и не разрубает на части.
+    tags:
+      - serpent
+      - eight-headed
+      - monster
+      - sacrifice
+
+  - id: kushinada-comb-transformation
+    name: "Превращение Кусинада-химэ в гребень"
+    type: phenomenon
+    description: >
+      Сверхъестественное превращение, совершённое Сусаноо перед битвой:
+      Кусинада-химэ становится частым гребнем, который он закрепляет в волосах,
+      скрывая и защищая её во время столкновения с Ямата-но-Ороти.
+    tags:
+      - transformation
+      - protection
+      - divine-magic
