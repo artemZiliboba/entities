@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "37483f17b29d344c374dde9d5c9b3343c7f1b0dc"
-work_count: 69
+master_sha: "5d34787d22b6332f3947c1b283630b0569672e22"
+work_count: 70
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -148,6 +148,10 @@ works:
   - id: the-raven
     tradition: german-folklore
     path: data/works/german-folklore/the-raven.yaml
+
+  - id: the-queen-bee
+    tradition: german-folklore
+    path: data/works/german-folklore/the-queen-bee.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
