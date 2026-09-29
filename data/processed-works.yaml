@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "cd5a90f17c811bad4304a4b76897b849e1d0b080"
-work_count: 74
+master_sha: "0bea1c5f485935701746081e0d77daddec373709"
+work_count: 75
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -160,6 +160,10 @@ works:
   - id: the-queen-bee
     tradition: german-folklore
     path: data/works/german-folklore/the-queen-bee.yaml
+
+  - id: the-youth-who-went-forth-to-learn-fear
+    tradition: german-folklore
+    path: data/works/german-folklore/the-youth-who-went-forth-to-learn-fear.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
