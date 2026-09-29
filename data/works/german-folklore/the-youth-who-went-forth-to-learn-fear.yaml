@@ -86,14 +86,3 @@ entities:
       - treasure-guardian
       - strength-trial
 
-  - id: castle-treasure
-    name: "Три сундука сокровищ"
-    type: artifact
-    description: >
-      Три сундука золота, скрытые в заколдованном замке и открывающиеся герою
-      после завершения трёх ночей. Их хранитель заранее определяет три доли:
-      для бедных, короля и самого освободителя замка.
-    tags:
-      - hidden-treasure
-      - enchanted-castle
-      - reward
