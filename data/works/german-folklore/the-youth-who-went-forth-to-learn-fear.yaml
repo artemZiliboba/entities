@@ -1,0 +1,99 @@
+id: the-youth-who-went-forth-to-learn-fear
+title: "Сказка о том, кто ходил страху учиться"
+original_title: "Märchen von einem, der auszog das Fürchten zu lernen"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 4"
+source:
+  title: "Grimm's Household Tales, Volume 1 (1884) — The Story of the Youth Who Went Forth to Learn What Fear Was"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_1/The_Story_of_the_Youth_Who_Went_Forth_to_Learn_What_Fear_Was"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 4. Запись следует
+    именно этой редакции и не смешивает детали других изданий, переводов или
+    позднейших адаптаций.
+
+entities:
+  - id: haunted-castle
+    name: "Заколдованный замок"
+    type: location
+    description: >
+      Замок, где никто не решается провести три ночи из-за сверхъестественных
+      явлений. Король обещает замок и дочь тому, кто выдержит испытание и
+      освободит спрятанные в нём сокровища.
+    tags:
+      - haunted-castle
+      - three-nights
+      - supernatural-trial
+
+  - id: giant-black-cats
+    name: "Огромные чёрные кошки"
+    type: creature
+    description: >
+      Сверхъестественные кошки, появляющиеся в первую ночь. Одна предлагает
+      юноше сыграть в карты, после чего множество кошек и собак набрасывается
+      на него; герой отбивается и прогоняет их.
+    tags:
+      - giant-cat
+      - haunted-castle
+      - talking-animal
+
+  - id: giant-black-dogs
+    name: "Огромные чёрные собаки"
+    type: creature
+    description: >
+      Чудовищные чёрные собаки, присоединяющиеся к кошкам в первую ночь и
+      заполняющие комнату. Они участвуют в нападении на героя как часть
+      сверхъестественной своры замка.
+    tags:
+      - giant-dog
+      - haunted-castle
+      - supernatural-pack
+
+  - id: dismembered-dead-men
+    name: "Расчленённые мертвецы"
+    type: creature
+    description: >
+      Части человеческих тел, падающие ночью через дымоход и самостоятельно
+      соединяющиеся в девять мертвецов. Они приносят черепа и кости, играют
+      ими в кегли и продолжают действовать после сверхъестественной сборки.
+    tags:
+      - undead
+      - reanimation
+      - haunted-castle
+
+  - id: giant-dead-man
+    name: "Великан-мертвец"
+    type: creature
+    description: >
+      Огромный мертвец, принесённый в гробу в третью ночь. После того как герой
+      согревает тело, великан оживает, пытается задушить его и затем вновь
+      оказывается заперт в гробу.
+    tags:
+      - undead
+      - giant
+      - reanimation
+
+  - id: old-man-of-the-castle
+    name: "Старик из замка"
+    type: character
+    description: >
+      Таинственный старик, появляющийся после великана и вызывающий героя на
+      испытание силы. После поражения он показывает три сундука золота и
+      объявляет, как их следует разделить между бедными, королём и героем.
+    tags:
+      - supernatural
+      - treasure-guardian
+      - strength-trial
+
+  - id: castle-treasure
+    name: "Три сундука сокровищ"
+    type: artifact
+    description: >
+      Три сундука золота, скрытые в заколдованном замке и открывающиеся герою
+      после завершения трёх ночей. Их хранитель заранее определяет три доли:
+      для бедных, короля и самого освободителя замка.
+    tags:
+      - hidden-treasure
+      - enchanted-castle
+      - reward
