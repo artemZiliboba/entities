@@ -1,0 +1,108 @@
+id: thrymskvitha
+title: "Песнь о Трюме"
+original_title: "Þrymskviða"
+kind: poem
+tradition:
+  - norse-mythology
+collection: "The Poetic Edda"
+source:
+  title: "The Poetic Edda (Bellows, 1923) — Thrymskvitha"
+  url: "https://en.wikisource.org/wiki/The_Poetic_Edda_(tr._Bellows)/Thrymskvitha"
+  note: >
+    Английский перевод Генри Адамса Беллоуза 1923 года на Wikisource.
+    Запись следует именно тексту «Thrymskvitha / The Lay of Thrym» этого
+    издания и не смешивает детали других переводов или позднейших пересказов.
+
+entities:
+  - id: thor
+    name: "Тор"
+    type: character
+    description: >
+      Бог Тор, у которого похищен молот Мьёлльнир. Ради его возвращения он
+      отправляется в страну великанов под видом невесты Фрейи, а после того как
+      молот кладут ему на колени для свадебного освящения, возвращает оружие и
+      расправляется с Трюмом и его окружением.
+    tags:
+      - deity
+      - thunder-god
+      - hammer
+      - giant-slayer
+
+  - id: loki
+    name: "Локи"
+    type: character
+    description: >
+      Спутник Тора, который надевает перьевое одеяние Фрейи и летит в страну
+      великанов, чтобы выяснить судьбу Мьёлльнира. Затем он сопровождает Тора
+      в образе служанки и несколько раз речью прикрывает несоответствия
+      переодевания.
+    tags:
+      - deity
+      - trickster
+      - disguise
+      - messenger
+
+  - id: freyja
+    name: "Фрейя"
+    type: character
+    description: >
+      Богиня, у которой Тор и Локи просят перьевое одеяние для поисков молота.
+      Она отказывается становиться невестой Трюма, а её имя и образ затем
+      используются в плане возвращения Мьёлльнира.
+    tags:
+      - deity
+      - goddess
+      - feather-dress
+      - bride
+
+  - id: heimdall
+    name: "Хеймдалль"
+    type: character
+    description: >
+      Бог, предложивший переодеть Тора в невесту Фрейю. В тексте его знание
+      будущего прямо сравнивается со способностью ванов, что подчёркивает
+      сверхъестественный характер его прозорливости.
+    tags:
+      - deity
+      - foresight
+      - counsel
+      - aesir
+
+  - id: thrym
+    name: "Трюм"
+    type: creature
+    description: >
+      Повелитель великанов, укравший Мьёлльнир и спрятавший его глубоко под
+      землёй. Он требует Фрейю в жёны в обмен на молот, но становится жертвой
+      собственного свадебного обряда, когда оружие возвращается к Тору.
+    tags:
+      - giant
+      - antagonist
+      - hammer-theft
+      - jotun
+
+  - id: freyjas-feather-dress
+    name: "Перьевое одеяние Фрейи"
+    type: artifact
+    description: >
+      Чудесное одеяние, которое Фрейя одалживает Локи. Надев его, Локи
+      действительно летит из обители богов в страну великанов и обратно,
+      используя предмет как средство сверхъестественного воздушного пути.
+    tags:
+      - flight
+      - feather-dress
+      - magical-garment
+      - travel
+
+  - id: mjollnir
+    name: "Мьёлльнир"
+    type: artifact
+    description: >
+      Молот Тора, похищенный Трюмом и скрытый под землёй. В свадебном обряде
+      его приносят, чтобы освятить невесту, после чего Тор возвращает молот и
+      убивает им Трюма, его сестру и других великанов.
+    tags:
+      - magic-hammer
+      - consecration
+      - weapon
+      - thor
