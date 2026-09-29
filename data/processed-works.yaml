@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "0bea1c5f485935701746081e0d77daddec373709"
-work_count: 75
+master_sha: "f284e1b561f6440f85698a52f8830573fb7d36ed"
+work_count: 76
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -228,6 +228,10 @@ works:
   - id: thors-journey-to-utgard
     tradition: norse-mythology
     path: data/works/norse-mythology/thors-journey-to-utgard.yaml
+
+  - id: thrymskvitha
+    tradition: norse-mythology
+    path: data/works/norse-mythology/thrymskvitha.yaml
 
   - id: east-of-the-sun-west-of-the-moon
     tradition: norwegian-folklore
