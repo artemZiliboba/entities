@@ -1,0 +1,137 @@
+id: sleeping-beauty-in-the-wood
+title: "Спящая красавица"
+original_title: "La Belle au bois dormant"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Charles Perrault"
+collection: "The Blue Fairy Book"
+source:
+  title: "The Blue Fairy Book (1889) — The Sleeping Beauty in the Wood"
+  url: "https://en.wikisource.org/wiki/The_Blue_Fairy_Book/The_Sleeping_Beauty_in_the_Wood"
+  note: >
+    Английский текст в The Blue Fairy Book Эндрю Лэнга (1889), основанный
+    на старом английском переводе сказки Шарля Перро. Запись следует именно
+    этой редакции и не смешивает детали других переводов и позднейших версий.
+
+entities:
+  - id: old-fairy
+    name: "Старая фея"
+    type: character
+    description: >
+      Оскорблённая фея, не приглашённая на крестины принцессы. В качестве дара
+      она произносит роковое предсказание: принцесса должна уколоть руку
+      веретеном и умереть.
+    tags:
+      - fairy
+      - curse
+      - prophecy
+      - antagonist
+
+  - id: good-young-fairy
+    name: "Добрая молодая фея"
+    type: character
+    description: >
+      Одна из семи крёстных фей принцессы, которая сохраняет свой дар до конца,
+      чтобы смягчить злое предсказание. Она заменяет смерть столетним сном,
+      усыпляет двор вместе с принцессой и окружает дворец непроходимым лесом.
+    tags:
+      - fairy
+      - protection
+      - sleep-magic
+      - foresight
+
+  - id: christening-fairy-gifts
+    name: "Дары фей на крестинах"
+    type: phenomenon
+    description: >
+      Сверхъестественные дары, которыми первые шесть фей наделяют младенца:
+      необыкновенной красотой, умом, грацией, искусством танца, пения и игры
+      на музыкальных инструментах.
+    tags:
+      - fairy-gift
+      - blessing
+      - endowment
+
+  - id: spindle-death-curse
+    name: "Проклятие веретена"
+    type: spell
+    description: >
+      Заклятие старой феи, согласно которому принцесса должна проколоть руку
+      веретеном и погибнуть. Оно срабатывает спустя пятнадцать или шестнадцать
+      лет, когда веретено действительно ранит её.
+    tags:
+      - curse
+      - spindle
+      - fate
+
+  - id: hundred-year-sleep
+    name: "Столетний сон принцессы"
+    type: spell
+    description: >
+      Смягчающее заклятие молодой феи, которое не может отменить укол веретена,
+      но заменяет смерть глубоким сном на сто лет. По окончании срока принцессу
+      должен разбудить королевский сын.
+    tags:
+      - sleep
+      - curse-mitigation
+      - hundred-years
+
+  - id: sleeping-court-enchantment
+    name: "Сон всего двора"
+    type: spell
+    description: >
+      Отдельные чары молодой феи, наложенные после того, как принцесса уснула.
+      Прикосновением волшебной палочки она погружает в сон придворных, слуг,
+      животных и даже вертела у огня, чтобы все пробудились вместе с хозяйкой.
+    tags:
+      - sleep
+      - palace
+      - mass-enchantment
+
+  - id: enchanted-thorn-wood
+    name: "Заколдованный лес вокруг дворца"
+    type: location
+    description: >
+      Волшебная чаща из деревьев, кустов и колючек, мгновенно выросшая вокруг
+      дворца по воле доброй феи. Сто лет она делает дворец недоступным, а перед
+      предназначенным принцем сама расступается и снова смыкается за ним.
+    tags:
+      - enchanted-forest
+      - protection
+      - barrier
+
+  - id: seven-league-boots
+    name: "Семимильные сапоги"
+    type: artifact
+    description: >
+      Чудесные сапоги маленького карлика-посланника доброй феи. Каждый шаг в
+      них покрывает семь лиг, благодаря чему весть о случившемся быстро
+      достигает феи, находящейся за двенадцать тысяч лиг.
+    tags:
+      - seven-league-boots
+      - rapid-travel
+      - messenger
+
+  - id: dragon-chariot-team
+    name: "Драконы феи"
+    type: creature
+    description: >
+      Драконы, впряжённые в огненную колесницу доброй феи. Они доставляют её
+      из далёкого королевства Матакен к уснувшей принцессе примерно за час.
+    tags:
+      - dragon
+      - magical-transport
+      - fairy
+
+  - id: ogress-queen-mother
+    name: "Королева-мать-людоедка"
+    type: character
+    description: >
+      Мать принца, принадлежащая к роду огров и прямо называемая в тексте
+      людоедкой. Она испытывает сверхъестественно выраженную тягу к человеческому
+      мясу и пытается съесть невестку и обоих внуков.
+    tags:
+      - ogress
+      - cannibal
+      - supernatural-lineage
