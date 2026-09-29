@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "341e6288dd5cb553cedef057b7bb9ef5690f34f4"
-work_count: 72
+master_sha: "d4ba451ab9c143f7c32b514db0abfb4aab6e62b0"
+work_count: 73
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -64,6 +64,10 @@ works:
   - id: cinderella-perrault
     tradition: french-folklore
     path: data/works/french-folklore/cinderella-perrault.yaml
+
+  - id: the-yellow-dwarf
+    tradition: french-folklore
+    path: data/works/french-folklore/the-yellow-dwarf.yaml
 
   - id: jorinda-and-joringel
     tradition: german-folklore

@@ -1,0 +1,68 @@
+id: the-yellow-dwarf
+title: "Жёлтый карлик"
+original_title: "Le Nain jaune"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Marie-Catherine d'Aulnoy"
+collection: "The Fairy Tales of Madame d'Aulnoy"
+source:
+  title: "The Fairy Tales of Madame d'Aulnoy (1892) — The Yellow Dwarf"
+  url: "https://en.wikisource.org/wiki/The_Fairy_Tales_of_Madame_D%27Aulnoy/The_Yellow_Dwarf"
+  note: >
+    Английский перевод из издания 1892 года на Wikisource. Запись следует
+    именно тексту «The Yellow Dwarf» этого издания и не смешивает детали
+    других переводов, редакций или адаптаций.
+
+entities:
+  - id: yellow-dwarf
+    name: "Жёлтый карлик"
+    type: character
+    description: >
+      Сверхъестественный карлик, требующий принцессу Всепрекрасную в жёны,
+      появляется и исчезает необычным образом, похищает её, пользуется
+      заколдованными средствами и в финальной схватке смертельно ранит короля.
+    tags:
+      - dwarf
+      - supernatural
+      - antagonist
+      - abduction
+
+  - id: desert-fairy
+    name: "Фея Пустыни"
+    type: character
+    description: >
+      Могущественная фея, связанная с Жёлтым карликом и желающая получить
+      короля в мужья. Она применяет превращения и чары, удерживает короля,
+      создаёт препятствия и вмешивается в судьбу героев.
+    tags:
+      - fairy
+      - transformation
+      - antagonist
+      - enchantment
+
+  - id: mermaid
+    name: "Русалка"
+    type: creature
+    description: >
+      Благожелательная морская волшебница, которая спасает короля после
+      кораблекрушения, переносит его в безопасное место и снабжает чудесным
+      мечом, помогающим добраться до владений Жёлтого карлика.
+    tags:
+      - mermaid
+      - magical-helper
+      - sea
+      - rescue
+
+  - id: steel-sword
+    name: "Алмазный меч"
+    type: artifact
+    description: >
+      Чудесный меч, полученный королём от русалки. Его магическое свойство
+      позволяет владельцу переноситься туда, куда он желает, если держать меч
+      в руке; оружие также становится ключевым средством в финальной борьбе.
+    tags:
+      - magic-sword
+      - teleportation
+      - weapon
+
