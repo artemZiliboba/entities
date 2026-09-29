@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d4ba451ab9c143f7c32b514db0abfb4aab6e62b0"
-work_count: 73
+master_sha: "cd5a90f17c811bad4304a4b76897b849e1d0b080"
+work_count: 74
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -68,6 +68,10 @@ works:
   - id: the-yellow-dwarf
     tradition: french-folklore
     path: data/works/french-folklore/the-yellow-dwarf.yaml
+
+  - id: sleeping-beauty-in-the-wood
+    tradition: french-folklore
+    path: data/works/french-folklore/sleeping-beauty-in-the-wood.yaml
 
   - id: jorinda-and-joringel
     tradition: german-folklore
