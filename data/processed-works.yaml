@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f284e1b561f6440f85698a52f8830573fb7d36ed"
-work_count: 76
+master_sha: "cbecd3b3f86fd0f23a182acb8d0b8a7492488871"
+work_count: 77
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -72,6 +72,10 @@ works:
   - id: sleeping-beauty-in-the-wood
     tradition: french-folklore
     path: data/works/french-folklore/sleeping-beauty-in-the-wood.yaml
+
+  - id: beauty-and-the-beast
+    tradition: french-folklore
+    path: data/works/french-folklore/beauty-and-the-beast.yaml
 
   - id: jorinda-and-joringel
     tradition: german-folklore
