@@ -1,0 +1,64 @@
+id: the-griffin
+title: "Грифон"
+original_title: "Der Vogel Greif"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 165"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Griffin"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Griffin"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 165. Запись следует
+    именно этой редакции и не смешивает детали других переводов и вариантов.
+
+entities:
+  - id: griffin
+    name: "Грифон"
+    type: creature
+    description: >
+      Сверхъестественное крылатое существо, живущее далеко от человеческого
+      мира и обладающее знанием скрытых причин чужих бед. Ответы Грифона
+      позволяют герою решить несколько загадочных несчастий и завершить путь.
+    tags:
+      - griffin
+      - supernatural-creature
+      - hidden-knowledge
+
+  - id: healing-apples
+    name: "Исцеляющие яблоки"
+    type: substance
+    description: >
+      Яблоки, способные вылечить королевскую дочь. Именно их чудесное
+      лечебное действие запускает дальнейшие испытания героя и отличает их
+      от обычных плодов.
+    tags:
+      - healing
+      - apple
+      - cure
+
+  - id: land-and-water-ship
+    name: "Корабль, идущий по суше и воде"
+    type: artifact
+    description: >
+      Чудесное судно, требуемое королём как одно из испытаний. Оно способно
+      передвигаться не только по воде, но и по суше, нарушая обычные свойства
+      корабля и позволяя выполнить невыполнимое условие.
+    tags:
+      - magic-ship
+      - land-travel
+      - water-travel
+
+  - id: ferryman-binding
+    name: "Заклятие перевозчика"
+    type: phenomenon
+    description: >
+      Сверхъестественное состояние перевозчика, вынужденного бесконечно
+      переправлять путников. Освобождение возможно лишь тогда, когда он
+      передаст шест другому человеку, тем самым перенеся обязанность на нового
+      носителя.
+    tags:
+      - binding
+      - ferryman
+      - curse
+      - transfer
