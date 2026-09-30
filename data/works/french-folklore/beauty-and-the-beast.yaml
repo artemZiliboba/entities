@@ -1,0 +1,111 @@
+id: beauty-and-the-beast
+title: "Красавица и чудовище"
+original_title: "Beauty and the Beast"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Gabrielle-Suzanne de Villeneuve"
+collection: "The Blue Fairy Book"
+source:
+  title: "The Blue Fairy Book (1889) — Beauty and the Beast"
+  url: "https://en.wikisource.org/wiki/The_Blue_Fairy_Book/Beauty_and_the_Beast"
+  note: >
+    Английская адаптация Минни Райт в The Blue Fairy Book Эндрю Лэнга (1889),
+    указанная на Wikisource как версия сказки Габриэль-Сюзанны де Вильнёв.
+    Запись следует именно этому тексту и не смешивает детали иных переводов,
+    полной версии Вильнёв или позднейших адаптаций.
+
+entities:
+  - id: beast-prince
+    name: "Чудовище / заколдованный принц"
+    type: character
+    description: >
+      Принц, существующий под обликом чудовища из-за страшного заклятия.
+      Он сохраняет разум, речь и память, управляет необычным дворцом и после
+      согласия Красавицы выйти за него замуж мгновенно возвращается к своему
+      человеческому облику.
+    tags:
+      - enchanted-prince
+      - transformation
+      - beast
+      - curse
+
+  - id: beast-enchantment
+    name: "Заклятие Чудовища"
+    type: spell
+    description: >
+      Длительное колдовство, скрывающее принца под обликом чудовища.
+      Условие снятия чар связано с тем, что Красавица должна распознать его
+      истинную ценность вопреки внешности и согласиться стать его женой.
+    tags:
+      - curse
+      - transformation
+      - appearance
+      - curse-breaking
+
+  - id: guiding-fairy
+    name: "Фея-наставница"
+    type: character
+    description: >
+      Могущественная фея, являющаяся Красавице во сне и предупреждающая её
+      не доверять внешности. В финале она подтверждает снятие заклятия,
+      благословляет союз и сверхъестественно вызывает родственников на свадьбу.
+    tags:
+      - fairy
+      - guidance
+      - dreams
+      - curse-breaking
+
+  - id: enchanted-palace
+    name: "Заколдованный дворец Чудовища"
+    type: location
+    description: >
+      Дворец, где еда и развлечения появляются без видимых слуг, свечи
+      зажигаются сами, двери могут вести туда, куда пожелала Красавица, а
+      разные комнаты показывают чудесные представления. Пространство
+      систематически реагирует на нужды и желания обитательницы.
+    tags:
+      - enchanted-palace
+      - self-acting
+      - wish-responsive
+      - magical-location
+
+  - id: teleportation-ring
+    name: "Кольцо возвращения"
+    type: artifact
+    description: >
+      Волшебное кольцо, которое Чудовище даёт Красавице перед поездкой домой.
+      Если повернуть его на пальце и произнести желание вернуться, она засыпает
+      и просыпается вновь во дворце; тот же механизм обеспечивает переход
+      между домом семьи и владениями Чудовища.
+    tags:
+      - magic-ring
+      - teleportation
+      - return
+      - travel
+
+  - id: magic-horse
+    name: "Волшебный конь Чудовища"
+    type: animal
+    description: >
+      Необычайно быстрый конь, который самостоятельно доставляет купца к дому
+      и позднее снова привозит его с Красавицей к дворцу. Путь занимает
+      несоразмерно мало времени и не требует от всадника навигации.
+    tags:
+      - magical-horse
+      - rapid-travel
+      - guidance
+      - palace
+
+  - id: expanding-trunks
+    name: "Бездонные дорожные сундуки"
+    type: artifact
+    description: >
+      Сундуки во дворце, которые продолжают вмещать всё новые платья, драгоценности
+      и золото, несмотря на ожидаемый предел объёма. Их вместимость ведёт себя
+      явно сверхъестественно и позволяет отправить семье Красавицы огромный дар.
+    tags:
+      - magic-container
+      - expanding-space
+      - treasure
+      - gift
