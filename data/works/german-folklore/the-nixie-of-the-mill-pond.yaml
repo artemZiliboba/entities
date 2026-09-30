@@ -1,0 +1,106 @@
+id: the-nixie-of-the-mill-pond
+title: "Русалка мельничного пруда"
+original_title: "Die Nixe im Teich"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 181"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Nixie of the Mill-Pond"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Nixie_of_the_Mill-Pond"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 181. Запись следует
+    именно этой редакции и не смешивает детали других переводов или вариантов.
+
+entities:
+  - id: mill-pond-nixie
+    name: "Русалка мельничного пруда"
+    type: creature
+    description: >
+      Водяная сверхъестественная женщина, заключающая сделку с мельником,
+      позднее утаскивающая его сына под воду и удерживающая его в пруду.
+      После освобождения пленника она поднимает огромную волну, преследующую
+      бегущую пару.
+    tags:
+      - nixie
+      - water-spirit
+      - abduction
+      - bargain
+
+  - id: wise-old-woman
+    name: "Мудрая старуха"
+    type: character
+    description: >
+      Таинственная помощница, к которой жена пленённого приходит после
+      повторяющихся вещих снов. Она даёт три золотых предмета с точными
+      ритуальными инструкциями и в конце спасает супругов, превратив их
+      в земноводных перед настигающей волной.
+    tags:
+      - magical-helper
+      - dream-guide
+      - transformation
+      - rescue
+
+  - id: golden-comb
+    name: "Золотой гребень"
+    type: artifact
+    description: >
+      Первый чудесный предмет старухи. При использовании у пруда в полнолуние
+      и последующем помещении на берег он заставляет пленённого мужа впервые
+      показаться над водой.
+    tags:
+      - magic-comb
+      - full-moon
+      - summoning
+      - rescue
+
+  - id: golden-flute
+    name: "Золотая флейта"
+    type: artifact
+    description: >
+      Второй чудесный предмет. Когда жена играет на ней у пруда в полнолуние
+      и оставляет её на берегу, муж поднимается из воды уже наполовину.
+    tags:
+      - magic-flute
+      - music
+      - full-moon
+      - rescue
+
+  - id: golden-spinning-wheel
+    name: "Золотая прялка"
+    type: artifact
+    description: >
+      Третий чудесный предмет. Жена должна напрясть полную катушку при полной
+      луне и поставить прялку у воды; после этого муж поднимается из пруда
+      целиком и получает возможность бежать.
+    tags:
+      - magic-spinning-wheel
+      - full-moon
+      - liberation
+      - rescue
+
+  - id: amphibian-rescue-transformation
+    name: "Спасительное превращение в жабу и лягушку"
+    type: spell
+    description: >
+      Превращение, совершённое мудрой старухой, когда поднятая русалкой волна
+      почти настигает супругов. Женщина становится жабой, мужчина — лягушкой,
+      благодаря чему они переживают наводнение, хотя оказываются разлучены.
+    tags:
+      - transformation
+      - frog
+      - toad
+      - protection
+
+  - id: nixie-flood
+    name: "Наводнение русалки"
+    type: phenomenon
+    description: >
+      Сверхъестественная волна, поднятая разгневанной русалкой после побега
+      пленника. Вода выходит из пруда и преследует супругов по суше, пока
+      вмешательство старухи не позволяет им спастись.
+    tags:
+      - flood
+      - water-magic
+      - pursuit
+      - nixie
