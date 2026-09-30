@@ -1,0 +1,66 @@
+id: the-gnome
+title: "Гном"
+original_title: "Dat Erdmänneken"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 91"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Gnome"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Gnome"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 91. Запись следует
+    именно этой редакции и не смешивает детали других переводов и вариантов.
+
+entities:
+  - id: three-gnomes
+    name: "Три подземных гнома"
+    type: creature
+    description: >
+      Три маленьких подземных существа, связанные с исчезновением королевских
+      дочерей. Каждый живёт в отдельном подземном помещении и сталкивается с
+      героем перед освобождением одной из пленниц.
+    tags:
+      - gnome
+      - underground
+      - captor
+      - three
+
+  - id: underground-realm
+    name: "Подземный мир"
+    type: location
+    description: >
+      Скрытое пространство далеко под землёй, куда герой спускается в поисках
+      похищенных принцесс. В нём находятся отдельные жилища гномов и драконов,
+      а обычный путь обратно наверх зависит от верёвки спутников.
+    tags:
+      - underground
+      - otherworld
+      - captivity
+      - quest
+
+  - id: three-dragons
+    name: "Три многоглавых дракона"
+    type: creature
+    description: >
+      Три чудовищных дракона, охраняющие похищенных принцесс в подземном мире.
+      Они различаются числом голов и должны быть побеждены героем поочерёдно,
+      прежде чем пленницы смогут быть освобождены.
+    tags:
+      - dragon
+      - multi-headed
+      - guardian
+      - underground
+
+  - id: giant-bird
+    name: "Огромная птица"
+    type: animal
+    description: >
+      Гигантская птица, способная вынести героя из подземного мира на землю.
+      Для долгого подъёма её необходимо кормить мясом; когда запас заканчивается,
+      герой отдаёт ей часть собственной плоти и тем завершает возвращение.
+    tags:
+      - giant-bird
+      - magical-helper
+      - flight
+      - underworld-return
