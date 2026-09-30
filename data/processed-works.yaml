@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "a16506b7173bb41a40556b6b5254cfef8e0705dd"
-work_count: 78
+master_sha: "8d7caa150ead52fece120b2fd3103e077e7a9521"
+work_count: 79
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -172,6 +172,10 @@ works:
   - id: the-nixie-of-the-mill-pond
     tradition: german-folklore
     path: data/works/german-folklore/the-nixie-of-the-mill-pond.yaml
+
+  - id: the-griffin
+    tradition: german-folklore
+    path: data/works/german-folklore/the-griffin.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
