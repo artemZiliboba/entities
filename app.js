@@ -8,6 +8,7 @@ const GROUPS = [
   ['substance','Вещества','flask'], ['plant','Растения','leaf'], ['animal','Животные','paw'],
   ['phenomenon','Явления','target']
 ];
+const ALPHABET = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'.split('');
 const app = document.getElementById('app');
 const state = { works:[], query:'' };
 const safe = value => value == null ? '' : String(value);
@@ -58,6 +59,32 @@ function row({ name, meta, url }) {
   return `<li><a class="list-row" href="${url}"><span class="row-name">${escapeHtml(name)}</span><span class="row-meta">${escapeHtml(meta)}</span><span class="arrow" aria-hidden="true">→</span></a></li>`;
 }
 
+function firstLetter(value) {
+  return safe(value).trim().charAt(0).toLocaleUpperCase('ru');
+}
+
+function alphabetList(items, renderRow, listClass) {
+  const firstIndexes = new Map();
+  items.forEach((item, index) => {
+    const letter = firstLetter(item.name);
+    if (ALPHABET.includes(letter) && !firstIndexes.has(letter)) firstIndexes.set(letter, index);
+  });
+  const available = [...firstIndexes.keys()];
+  const nav = ALPHABET.map(letter => firstIndexes.has(letter)
+    ? `<a href="#letter-${letter}" data-letter="${letter}" ${letter === available[0] ? 'aria-current="true"' : ''}>${letter}</a>`
+    : `<span aria-disabled="true">${letter}</span>`).join('');
+  const rows = items.map((item, index) => {
+    const letter = firstLetter(item.name);
+    const anchor = firstIndexes.get(letter) === index ? ` id="letter-${letter}" data-letter-section="${letter}"` : '';
+    return `<li${anchor}>${renderRow(item)}</li>`;
+  }).join('');
+  return `<div class="alphabet-layout"><nav class="alphabet-nav" aria-label="Навигация по алфавиту">${nav}</nav><ol class="${listClass}">${rows}</ol></div>`;
+}
+
+function rowContent({ name, meta, url }) {
+  return `<a class="list-row" href="${url}"><span class="row-name">${escapeHtml(name)}</span><span class="row-meta">${escapeHtml(meta)}</span><span class="arrow" aria-hidden="true">→</span></a>`;
+}
+
 function homeView(active = 'works') {
   const query = state.query.trim().toLocaleLowerCase('ru');
   const works = state.works.filter(work => !query || [work.title, work.original_title, ...(work.entities || []).flatMap(entity => [entity.name, entity.description])].join(' ').toLocaleLowerCase('ru').includes(query));
@@ -69,15 +96,18 @@ function homeView(active = 'works') {
     <div class="home-stats"><span><b>${state.works.length}</b> произведений</span><span><b>${state.works.reduce((total, work) => total + (work.entities || []).length, 0)}</b> сущностей</span></div></section>
     ${groupNavigation(group[0])}
     <section class="catalog-section"><div class="catalog-heading"><h2>${query ? 'Результаты поиска' : group[1]}</h2><span>${count}</span></div>
-    ${count ? `<ol class="work-list">${active === 'works' ? works.map(work => row({name:work.title || work.id, meta:`${(work.entities || []).length} сущностей`, url:href('work',work.id)})).join('') : entities.map(entity => row({name:entity.name || entity.id, meta:entity.work.title || entity.work.id, url:href('entity',entity.work.id,entity.id)})).join('')}</ol>` : '<p class="empty">Ничего не найдено.</p>'}</section>`;
+    ${count ? alphabetList(active === 'works'
+      ? works.map(work => ({name:work.title || work.id, meta:`${(work.entities || []).length} сущностей`, url:href('work',work.id)}))
+      : entities.map(entity => ({name:entity.name || entity.id, meta:entity.work.title || entity.work.id, url:href('entity',entity.work.id,entity.id)})), rowContent, 'work-list') : '<p class="empty">Ничего не найдено.</p>'}</section>`;
 }
 
 function workView(id) {
   const work = state.works.find(item => item.id === id);
   if (!work) return notFound();
   const entities = [...(work.entities || [])].sort((a,b) => safe(a.name).localeCompare(safe(b.name),'ru'));
+  const rows = entities.map(entity => ({name:entity.name || entity.id, meta:TYPES[entity.type] || humanize(entity.type), url:href('entity',work.id,entity.id)}));
   return `<a class="back" href="#/">Все произведения</a><h1>${escapeHtml(work.title || work.id)}</h1><p class="subhead">${entities.length} сущностей</p>
-    <ol class="entity-list">${entities.map(entity => row({name:entity.name || entity.id, meta:TYPES[entity.type] || humanize(entity.type), url:href('entity',work.id,entity.id)})).join('')}</ol>`;
+    ${entities.length ? alphabetList(rows, rowContent, 'entity-list') : '<p class="empty">Сущности пока не добавлены.</p>'}`;
 }
 
 function entityView(workId, entityId) {
@@ -113,6 +143,20 @@ function render() {
   app.innerHTML = !parts.length ? homeView() : parts[0] === 'group' && GROUPS.some(([id]) => id === parts[1]) ? homeView(parts[1]) : parts[0] === 'work' ? workView(parts[1]) : parts[0] === 'entity' ? entityView(parts[1],parts[2]) : parts[0] === 'about' ? aboutView() : notFound();
   document.title = `${app.querySelector('h1')?.textContent.trim() || 'Энциклопедия сущностей'} — Энциклопедия сущностей`;
   window.scrollTo(0,0);
+  initAlphabetNavigation();
+}
+
+function initAlphabetNavigation() {
+  const nav = app.querySelector('.alphabet-nav');
+  if (!nav) return;
+  nav.addEventListener('click', event => {
+    const link = event.target.closest('a[data-letter]');
+    if (!link) return;
+    event.preventDefault();
+    document.getElementById(`letter-${link.dataset.letter}`)?.scrollIntoView({behavior:'smooth', block:'start'});
+    nav.querySelector('[aria-current]')?.removeAttribute('aria-current');
+    link.setAttribute('aria-current','true');
+  });
 }
 
 const searchPanel = document.getElementById('searchPanel');
