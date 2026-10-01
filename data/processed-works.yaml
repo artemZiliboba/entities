@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "8d7caa150ead52fece120b2fd3103e077e7a9521"
-work_count: 79
+master_sha: "c69f62ffeb4a1b6a290cd3f6fa0e8e438527b30d"
+work_count: 80
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -176,6 +176,10 @@ works:
   - id: the-griffin
     tradition: german-folklore
     path: data/works/german-folklore/the-griffin.yaml
+
+  - id: the-gnome
+    tradition: german-folklore
+    path: data/works/german-folklore/the-gnome.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
