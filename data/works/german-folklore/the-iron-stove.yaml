@@ -1,0 +1,91 @@
+id: the-iron-stove
+title: "Железная печь"
+original_title: "Der Eisenofen"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 127"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Iron Stove"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Iron_Stove"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 127. Запись следует
+    именно этой редакции и не смешивает детали других переводов и вариантов.
+
+entities:
+  - id: enchanted-prince
+    name: "Заколдованный принц"
+    type: character
+    description: >
+      Королевич, превращённый старой ведьмой и заключённый в железную печь
+      посреди леса. Освобождение зависит от выполнения условия принцессой,
+      после чего он вновь принимает человеческий облик.
+    tags:
+      - enchanted-prince
+      - curse
+      - transformation
+      - captivity
+
+  - id: iron-stove
+    name: "Железная печь"
+    type: artifact
+    description: >
+      Магическая железная оболочка и темница заколдованного принца. Она стоит
+      в лесу как устойчивый носитель его превращения и должна быть физически
+      вскрыта принцессой, чтобы завершить освобождение.
+    tags:
+      - enchanted-object
+      - prison
+      - iron
+      - curse
+
+  - id: frog-helper
+    name: "Лягушка-помощница"
+    type: animal
+    description: >
+      Говорящая лягушка, к которой принцесса обращается во время поисков.
+      Она предоставляет чудесную помощь и средства, позволяющие продолжить
+      путь к исчезнувшему принцу.
+    tags:
+      - talking-animal
+      - magical-helper
+      - frog
+      - quest
+
+  - id: fox-helper
+    name: "Лиса-помощница"
+    type: animal
+    description: >
+      Говорящая лиса, встреченная принцессой на следующем этапе поисков.
+      Она направляет её и даёт сверхъестественную помощь для дальнейшего пути.
+    tags:
+      - talking-animal
+      - magical-helper
+      - fox
+      - quest
+
+  - id: fish-helper
+    name: "Рыба-помощница"
+    type: animal
+    description: >
+      Говорящая рыба, выступающая третьим чудесным помощником принцессы.
+      Её помощь завершает цепочку сверхъестественных проводников, ведущих
+      героиню к месту, где находится принц.
+    tags:
+      - talking-animal
+      - magical-helper
+      - fish
+      - quest
+
+  - id: forgetting-enchantment
+    name: "Забвение принца"
+    type: spell
+    description: >
+      Магическое забывание, из-за которого принц после возвращения к своему
+      королевству утрачивает память о принцессе и готовится жениться на другой.
+      Чары становятся самостоятельным препятствием для воссоединения пары.
+    tags:
+      - forgetting
+      - memory
+      - separation
+      - enchantment
