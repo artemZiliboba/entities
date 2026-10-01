@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "c69f62ffeb4a1b6a290cd3f6fa0e8e438527b30d"
-work_count: 80
+master_sha: "63ebb960df7ac958ff213317211d7ef3e1f02e66"
+work_count: 81
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -180,6 +180,10 @@ works:
   - id: the-gnome
     tradition: german-folklore
     path: data/works/german-folklore/the-gnome.yaml
+
+  - id: the-two-kings-children
+    tradition: german-folklore
+    path: data/works/german-folklore/the-two-kings-children.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
