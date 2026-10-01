@@ -1,0 +1,104 @@
+id: the-two-kings-children
+title: "Дети двух королей"
+original_title: "Die beiden Königskinder"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 113"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Two Kings' Children"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Two_Kings%27_Children"
+  note: >
+    Английский перевод Маргарет Хант 1884 года, сказка KHM 113. Запись следует
+    именно этой редакции и не смешивает детали других переводов и вариантов.
+
+entities:
+  - id: giant
+    name: "Великан"
+    type: creature
+    description: >
+      Сверхъестественный хозяин, у которого королевич должен отработать три
+      дня ради принцессы. Он задаёт невыполнимые испытания, преследует беглецов
+      и распознаёт препятствия, созданные во время их волшебного побега.
+    tags:
+      - giant
+      - antagonist
+      - trials
+      - pursuit
+
+  - id: giants-daughter
+    name: "Дочь великана"
+    type: character
+    description: >
+      Принцесса и дочь великана, владеющая собственной магией. Она выполняет
+      вместо королевича три невозможных задания, организует побег и превращает
+      себя и спутника в разные образы, чтобы обмануть преследователей.
+    tags:
+      - magical-princess
+      - transformation
+      - helper
+      - escape
+
+  - id: enchanted-axe
+    name: "Саморубящий топор"
+    type: artifact
+    description: >
+      Топор, который по волшебной команде самостоятельно рубит лес, позволяя
+      выполнить первое задание великана без человеческого труда.
+    tags:
+      - magic-axe
+      - self-acting
+      - woodcutting
+      - trial
+
+  - id: enchanted-shovel
+    name: "Самокопающая лопата"
+    type: artifact
+    description: >
+      Лопата, самостоятельно работающая по приказу дочери великана и
+      выполняющая требуемую часть второго испытания.
+    tags:
+      - magic-shovel
+      - self-acting
+      - digging
+      - trial
+
+  - id: enchanted-pickaxe
+    name: "Самоработающая кирка"
+    type: artifact
+    description: >
+      Кирка, действующая без работника по волшебному приказу и вместе с
+      лопатой позволяющая завершить второе невозможное задание.
+    tags:
+      - magic-pickaxe
+      - self-acting
+      - digging
+      - trial
+
+  - id: three-transformations
+    name: "Три превращения беглецов"
+    type: spell
+    description: >
+      Повторяющаяся защитная магия дочери великана: во время погони она
+      превращает себя и королевича в пары иных образов, скрывая их от
+      преследователей и каждый раз восстанавливая человеческий облик после
+      ухода опасности.
+    tags:
+      - transformation
+      - disguise
+      - escape
+      - pursuit
+
+  - id: forgetting-kiss
+    name: "Поцелуй забвения"
+    type: spell
+    description: >
+      Магическое забывание, которое настигает королевича после возвращения
+      домой: вопреки предупреждению он допускает поцелуй и теряет память о
+      своей невесте, что становится самостоятельным препятствием для их
+      воссоединения.
+    tags:
+      - forgetting
+      - kiss
+      - memory
+      - separation
