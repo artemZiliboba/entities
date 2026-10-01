@@ -1,0 +1,108 @@
+id: momotaro
+title: "Момотаро, или Сын персика"
+original_title: "Momotaro, or the Story of the Son of a Peach"
+kind: folktale
+tradition:
+  - japanese-folklore
+collection: "The Japanese Fairy Book"
+source:
+  title: "The Japanese Fairy Book (1908) — Momotaro, or the Story of the Son of a Peach"
+  url: "https://en.wikisource.org/wiki/The_Japanese_Fairy_Book/Momotaro,_or_the_Story_of_the_Son_of_a_Peach"
+  note: >
+    Английская версия Ёэй Теодоры Одзаки из The Japanese Fairy Book (1908).
+    Запись следует именно этому тексту и не смешивает детали других японских
+    вариантов, позднейших пересказов или адаптаций.
+
+entities:
+  - id: momotaro
+    name: "Момотаро"
+    type: character
+    description: >
+      Чудесный мальчик, вышедший из огромного персика и объявивший себя
+      посланным Небом в ответ на молитвы бездетной старой пары. Он вырастает
+      необычайно сильным и мудрым и позднее побеждает демонов их островной
+      крепости.
+    tags:
+      - miraculous-birth
+      - heaven-sent
+      - superhuman-strength
+      - hero
+
+  - id: miraculous-peach
+    name: "Чудесный персик"
+    type: plant
+    description: >
+      Огромный персик, приплывающий по реке к старухе после заклинательной
+      песенки. Дома плод сам собой раскалывается, и из него выходит Момотаро,
+      что делает его непосредственным носителем чудесного рождения героя.
+    tags:
+      - peach
+      - miraculous-birth
+      - self-opening
+      - river
+
+  - id: peach-charm-verse
+    name: "Заклинательная песенка о персике"
+    type: spell
+    description: >
+      Старая песенка-заклинание, которую женщина вспоминает у реки. После её
+      исполнения плывущий далеко от берега персик начинает приближаться и
+      останавливается прямо перед ней.
+    tags:
+      - charm
+      - song
+      - attraction
+      - peach
+
+  - id: talking-dog
+    name: "Говорящий пёс"
+    type: animal
+    description: >
+      Огромный пёс, способный говорить с Момотаро человеческой речью,
+      договариваться о присоединении к походу и сознательно участвовать
+      в сражении против демонов.
+    tags:
+      - talking-animal
+      - dog
+      - companion
+      - warrior
+
+  - id: talking-monkey
+    name: "Говорящая обезьяна"
+    type: animal
+    description: >
+      Обезьяна, разговаривающая с Момотаро и добровольно вступающая в его
+      отряд. Она действует как разумный союзник во время похода и битвы на
+      острове демонов.
+    tags:
+      - talking-animal
+      - monkey
+      - companion
+      - warrior
+
+  - id: talking-pheasant
+    name: "Говорящий фазан"
+    type: animal
+    description: >
+      Разумный фазан, разговаривающий с людьми и животными, вступающий в
+      отряд Момотаро и самостоятельно летящий к крепости демонов, где
+      предъявляет им требование сдаться и участвует в бою.
+    tags:
+      - talking-animal
+      - pheasant
+      - flight
+      - companion
+
+  - id: island-demons
+    name: "Рогатые демоны острова"
+    type: creature
+    description: >
+      Людоедские демоны, живущие в укреплённом островном замке и совершающие
+      набеги на Японию. Они обладают рогами как знаком силы и власти, но после
+      поражения от Момотаро и его спутников их вождь ломает свои рога в знак
+      подчинения.
+    tags:
+      - demon
+      - oni
+      - horned
+      - cannibal
