@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "cb268a38d37e0f7ef69f2f581836759ae15b4b3d"
-work_count: 82
+master_sha: "0e9195a97755026570ffab0e32df1277568a9305"
+work_count: 83
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -232,6 +232,10 @@ works:
   - id: the-bamboo-cutter-and-the-moon-child
     tradition: japanese-folklore
     path: data/works/japanese-folklore/the-bamboo-cutter-and-the-moon-child.yaml
+
+  - id: momotaro
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/momotaro.yaml
 
   - id: the-woodman-and-the-mountain-fairies
     tradition: korean-folklore
