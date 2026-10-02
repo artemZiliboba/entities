@@ -1,0 +1,58 @@
+id: the-nightingale
+title: "Соловей"
+original_title: "Nattergalen"
+kind: story
+tradition:
+  - danish-literature
+author: "Hans Christian Andersen"
+collection: "Hans Andersen's Fairy Tales"
+source:
+  title: "Hans Andersen's Fairy Tales (1888) — The Nightingale"
+  url: "https://en.wikisource.org/wiki/Hans_Andersen%27s_Fairy_Tales/The_Nightingale"
+  note: >
+    Английский перевод Mrs. H. B. Paull, издание Frederick Warne and Co., 1888.
+    Запись следует именно этой редакции и не смешивает детали других переводов
+    и позднейших адаптаций.
+
+entities:
+  - id: living-nightingale
+    name: "Живой соловей"
+    type: animal
+    description: >
+      Настоящий соловей из императорского сада, чьё пение действует не только
+      эмоционально, но и сверхъестественно. Вернувшись к умирающему императору,
+      птица своим пением ослабляет власть Смерти, возвращает больному силы и
+      добивается его выздоровления.
+    tags:
+      - nightingale
+      - healing
+      - song
+      - magical-animal
+
+  - id: death
+    name: "Смерть"
+    type: character
+    description: >
+      Персонифицированная Смерть, сидящая у постели императора и готовящаяся
+      забрать его жизнь. Она слушает песню соловья, отдаёт императорские
+      регалии за продолжение пения и в конце покидает комнату в облике
+      холодного белого тумана.
+    tags:
+      - death
+      - personification
+      - supernatural
+      - apparition
+
+  - id: nightingale-healing-song
+    name: "Исцеляющая песнь соловья"
+    type: phenomenon
+    description: >
+      Сверхъестественное воздействие живого соловья на смертельно больного
+      императора. Во время пения призрачные образы исчезают, кровь снова
+      начинает течь быстрее, Смерть отступает, а император засыпает и
+      просыпается восстановившим силы.
+    tags:
+      - magical-song
+      - healing
+      - death-banishing
+      - restoration
