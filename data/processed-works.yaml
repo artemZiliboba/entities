@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "ad9764e1144544a63af8188803f99dab490c4a30"
-work_count: 89
+master_sha: "e3f7b2f2fff919c9dac5094809c3e9897811b58d"
+work_count: 90
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -208,6 +208,10 @@ works:
   - id: the-iron-stove
     tradition: german-folklore
     path: data/works/german-folklore/the-iron-stove.yaml
+
+  - id: the-blue-light
+    tradition: german-folklore
+    path: data/works/german-folklore/the-blue-light.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
