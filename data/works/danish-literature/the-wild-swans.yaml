@@ -1,0 +1,134 @@
+id: the-wild-swans
+title: "Дикие лебеди"
+original_title: "De vilde Svaner"
+kind: story
+tradition:
+  - danish-literature
+author: "Hans Christian Andersen"
+collection: "Hans Andersen's Fairy Tales"
+source:
+  title: "Hans Andersen's Fairy Tales (1888) — The Wild Swans"
+  url: "https://en.wikisource.org/wiki/Hans_Andersen%27s_Fairy_Tales/The_Wild_Swans"
+  note: >
+    Английский перевод Mrs. H. B. Paull, издание Frederick Warne and Co., 1888.
+    Запись следует именно этой редакции и не смешивает детали других переводов
+    и позднейших адаптаций.
+
+entities:
+  - id: witch-queen
+    name: "Королева-ведьма"
+    type: character
+    description: >
+      Злая мачеха Элизы и одиннадцати принцев, владеющая колдовством.
+      Она превращает братьев в диких лебедей, пытается обезобразить Элизу
+      с помощью заколдованных жаб и влияет чарами на короля и окружающих.
+    tags:
+      - witch
+      - queen
+      - curse
+      - antagonist
+
+  - id: eleven-swan-princes
+    name: "Одиннадцать принцев-лебедей"
+    type: character
+    description: >
+      Одиннадцать братьев Элизы, превращённых мачехой в диких лебедей.
+      Днём они сохраняют птичий облик и способность летать, а после захода
+      солнца временно снова становятся людьми.
+    tags:
+      - enchanted-princes
+      - swans
+      - transformation
+      - eleven
+
+  - id: swan-transformation-curse
+    name: "Заклятие превращения в лебедей"
+    type: spell
+    description: >
+      Длительные чары королевы, превращающие принцев в немых диких лебедей
+      днём и позволяющие им возвращать человеческий облик только после заката.
+      Окончательно снять заклятие можно лишь специальным ритуалом Элизы.
+    tags:
+      - curse
+      - transformation
+      - swans
+      - day-night-cycle
+
+  - id: dream-fairy
+    name: "Фея из сна"
+    type: character
+    description: >
+      Светлая фея, являющаяся Элизе во сне в облике, напоминающем старуху,
+      ранее указавшую путь к братьям. Она раскрывает точный способ снятия
+      заклятия и оставляет после пробуждения материальное подтверждение сна.
+    tags:
+      - fairy
+      - dream
+      - guidance
+      - curse-breaking
+
+  - id: magic-nettles
+    name: "Крапива для снятия чар"
+    type: plant
+    description: >
+      Особая жгучая крапива, которую Элиза должна сама собирать возле пещеры
+      и на кладбищенских могилах. После обработки из неё получают нити для
+      одиннадцати рубах, способных вернуть братьям человеческий облик.
+    tags:
+      - nettle
+      - ritual-material
+      - curse-breaking
+      - churchyard
+
+  - id: nettle-shirts
+    name: "Одиннадцать крапивных рубах"
+    type: artifact
+    description: >
+      Рубахи с длинными рукавами, сплетённые Элизой из волокон волшебной
+      крапивы в полном молчании. Когда она набрасывает их на лебедей,
+      заклятие разрушается; у младшего брата остаётся крыло из-за недоделанного
+      рукава последней рубахи.
+    tags:
+      - magical-garment
+      - curse-breaking
+      - transformation
+      - eleven
+
+  - id: witches-toads
+    name: "Три заколдованные жабы"
+    type: creature
+    description: >
+      Три ядовитые жабы, которых королева целует и помещает в купальню Элизы,
+      приказывая им сделать девушку ленивой, безобразной и злой. Колдовство
+      не действует из-за невинности Элизы, и жабы превращаются в красные маки.
+    tags:
+      - toad
+      - witchcraft
+      - failed-curse
+      - transformation
+
+  - id: churchyard-ghouls
+    name: "Кладбищенские гули"
+    type: creature
+    description: >
+      Сверхъестественные существа, которых Элиза видит ночью на кладбище.
+      Они вскрывают свежие могилы и пожирают тела, пока она собирает крапиву
+      для завершения рубах.
+    tags:
+      - ghoul
+      - undead
+      - churchyard
+      - cannibal
+
+  - id: blooming-funeral-pyre
+    name: "Чудесное цветение погребального костра"
+    type: phenomenon
+    description: >
+      После освобождения принцев дрова приготовленного для казни Элизы костра
+      внезапно пускают корни и ветви, превращаясь в цветущую изгородь из роз.
+      Белый цветок с неё возвращает обессиленной Элизе сознание.
+    tags:
+      - miracle
+      - roses
+      - restoration
+      - transformation
