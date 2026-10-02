@@ -81,8 +81,8 @@ function alphabetList(items, renderRow, listClass) {
   return `<div class="alphabet-layout"><nav class="alphabet-nav" aria-label="Навигация по алфавиту">${nav}</nav><ol class="${listClass}">${rows}</ol></div>`;
 }
 
-function rowContent({ name, meta, url }) {
-  return `<a class="list-row" href="${url}"><span class="row-name">${escapeHtml(name)}</span><span class="row-meta">${escapeHtml(meta)}</span><span class="arrow" aria-hidden="true">→</span></a>`;
+function rowContent({ name, meta, url, metaUrl }) {
+  return `<div class="list-row"><a class="row-name" href="${url}">${escapeHtml(name)}</a>${metaUrl ? `<a class="row-meta row-meta-link" href="${metaUrl}">${escapeHtml(meta)}</a>` : `<span class="row-meta">${escapeHtml(meta)}</span>`}<span class="arrow" aria-hidden="true">→</span></div>`;
 }
 
 function homeView(active = 'works') {
@@ -98,7 +98,7 @@ function homeView(active = 'works') {
     <section class="catalog-section"><div class="catalog-heading"><h2>${query ? 'Результаты поиска' : group[1]}</h2><span>${count}</span></div>
     ${count ? alphabetList(active === 'works'
       ? works.map(work => ({name:work.title || work.id, meta:`${(work.entities || []).length} сущностей`, url:href('work',work.id)}))
-      : entities.map(entity => ({name:entity.name || entity.id, meta:entity.work.title || entity.work.id, url:href('entity',entity.work.id,entity.id)})), rowContent, 'work-list') : '<p class="empty">Ничего не найдено.</p>'}</section>`;
+      : entities.map(entity => ({name:entity.name || entity.id, meta:entity.work.title || entity.work.id, metaUrl:href('work',entity.work.id), url:href('entity',entity.work.id,entity.id)})), rowContent, active === 'works' ? 'work-list' : 'work-list entity-catalog-list') : '<p class="empty">Ничего не найдено.</p>'}</section>`;
 }
 
 function workView(id) {
