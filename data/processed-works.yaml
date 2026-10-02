@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "85c946d6d3d834a9a641be40cd0ad301de394933"
-work_count: 88
+master_sha: "ad9764e1144544a63af8188803f99dab490c4a30"
+work_count: 89
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -60,6 +60,10 @@ works:
   - id: the-nightingale
     tradition: danish-literature
     path: data/works/danish-literature/the-nightingale.yaml
+
+  - id: the-flying-trunk
+    tradition: danish-literature
+    path: data/works/danish-literature/the-flying-trunk.yaml
 
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
