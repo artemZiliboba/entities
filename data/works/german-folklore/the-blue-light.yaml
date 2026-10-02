@@ -1,0 +1,70 @@
+id: the-blue-light
+title: "Синий огонёк"
+original_title: "Das blaue Licht"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Brothers Grimm"
+collection: "Grimm's Household Tales, Volume 2"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Blue Light"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Blue_Light"
+  note: >
+    Английский перевод Margaret Hunt, издание 1884 года. Запись следует именно
+    этой редакции сказки KHM 116 и не смешивает детали других редакций,
+    переводов или позднейших адаптаций.
+
+entities:
+  - id: witch
+    name: "Ведьма"
+    type: character
+    description: >
+      Старуха-ведьма, живущая в лесу и владеющая глубоким колодцем, где хранится
+      магический синий огонёк. Она отправляет солдата за огоньком, а затем
+      пытается оставить его умирать в колодце, когда тот отказывается отдать
+      находку до спасения.
+    tags:
+      - witch
+      - forest
+      - blue-light
+      - antagonist
+
+  - id: blue-light
+    name: "Синий огонёк"
+    type: artifact
+    description: >
+      Неугасимый синий огонёк, хранящийся у ведьмы в глубоком колодце. Когда
+      солдат зажигает от него трубку, появляется маленький чёрный человечек,
+      обязанный исполнять любые приказания владельца огонька.
+    tags:
+      - magical-light
+      - summoning
+      - servant
+      - artifact
+
+  - id: black-dwarf
+    name: "Маленький чёрный человечек"
+    type: creature
+    description: >
+      Сверхъестественный слуга, появляющийся всякий раз, когда владелец синего
+      огонька закуривает от него трубку. Он исполняет приказы солдата: спасает
+      его из колодца, наказывает ведьму, приносит принцессу и позднее защищает
+      хозяина от казни.
+    tags:
+      - dwarf
+      - summoned-servant
+      - supernatural
+      - blue-light
+
+  - id: blue-light-summoning
+    name: "Призыв слуги синим огоньком"
+    type: phenomenon
+    description: >
+      Повторяемый магический механизм: при раскуривании трубки от синего огонька
+      немедленно появляется маленький чёрный человечек и принимает приказ.
+      Связь действует многократно и сохраняется, пока огонёк остаётся у солдата.
+    tags:
+      - summoning
+      - blue-light
+      - pipe
+      - magical-service
