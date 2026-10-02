@@ -1,0 +1,30 @@
+id: the-flying-trunk
+title: "Летающий сундук"
+original_title: "Den flyvende Kuffert"
+kind: story
+tradition:
+  - danish-literature
+author: "Hans Christian Andersen"
+collection: "Hans Andersen's Fairy Tales"
+source:
+  title: "Hans Andersen's Fairy Tales (1888) — The Flying Trunk"
+  url: "https://en.wikisource.org/wiki/Hans_Andersen%27s_Fairy_Tales/The_Flying_Trunk"
+  note: >
+    Английский перевод Mrs. H. B. Paull, издание Frederick Warne and Co., 1888.
+    Запись следует именно этой редакции и не смешивает детали других переводов
+    и позднейших адаптаций.
+
+entities:
+  - id: flying-trunk
+    name: "Летающий сундук"
+    type: artifact
+    description: >
+      Волшебный сундук, подаренный разорившемуся купеческому сыну. Стоит
+      владельцу залезть внутрь и нажать замок, как сундук поднимается в воздух
+      и переносит его над облаками в далёкую страну, а затем служит для
+      повторных полётов к башне принцессы.
+    tags:
+      - flying
+      - trunk
+      - transport
+      - magical-artifact
