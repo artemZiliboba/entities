@@ -1,0 +1,81 @@
+id: the-seven-foals
+title: "Семь жеребят"
+original_title: "The Seven Foals"
+kind: folktale
+tradition:
+  - norwegian-folklore
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1912) — The Seven Foals"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/The_Seven_Foals"
+  note: >
+    Английский текст Джорджа Уэбба Дасента в издании Popular Tales from the
+    Norse (1912) на Wikisource. Запись следует именно этой версии и не смешивает
+    детали других переводов, редакций или позднейших пересказов.
+
+entities:
+  - id: seven-enchanted-princes
+    name: "Семь заколдованных принцев-жеребят"
+    type: character
+    description: >
+      Семеро братьев принцессы, превращённых троллем в жеребят. Они сохраняют
+      разум и речь, ежедневно принимают человеческий облик в церковном дворе,
+      а окончательно возвращаются к нему после выполнения условия снятия чар.
+    tags:
+      - enchanted-princes
+      - transformation
+      - foals
+      - seven
+
+  - id: ugly-troll
+    name: "Безобразный тролль"
+    type: creature
+    description: >
+      Сверхъестественное существо, прямо названное причиной превращения семи
+      принцев в жеребят. Сам тролль в действии не появляется, но его колдовство
+      определяет центральное состояние героев.
+    tags:
+      - troll
+      - curse
+      - transformation
+      - antagonist
+
+  - id: foal-transformation-curse
+    name: "Заклятие превращения в жеребят"
+    type: spell
+    description: >
+      Длительные чары тролля, удерживающие семерых принцев в облике жеребят
+      вне церковного двора. Внутри двора они временно становятся людьми, а
+      после выхода снова принимают животный облик.
+    tags:
+      - curse
+      - transformation
+      - foals
+      - conditional
+
+  - id: strength-giving-drink
+    name: "Напиток, дарующий силу"
+    type: substance
+    description: >
+      Жидкость из маленького кувшина в скрытой комнате. После трёх глотков
+      герой приобретает достаточно силы, чтобы легко размахивать большим
+      ржавым мечом, который до этого не мог поднять как следует.
+    tags:
+      - strength
+      - magical-drink
+      - empowerment
+      - trial
+
+  - id: curse-breaking-beheading
+    name: "Снятие чар отсечением голов"
+    type: phenomenon
+    description: >
+      Особое условие окончательного освобождения принцев: в день свадьбы герой
+      должен отрубить головы всем семи жеребятам и положить каждую голову у
+      хвоста соответствующего тела. После точного выполнения ритуала все
+      семеро сразу возвращаются в человеческий облик.
+    tags:
+      - curse-breaking
+      - ritual
+      - restoration
+      - transformation
