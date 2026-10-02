@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "dc5576d0c8a5934161031b4efe941ab6faeff855"
-work_count: 84
+master_sha: "3074cddd4b922610ce87177564d9b6c20f7a53c7"
+work_count: 85
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -44,6 +44,10 @@ works:
   - id: the-tinder-box
     tradition: danish-literature
     path: data/works/danish-literature/the-tinder-box.yaml
+
+  - id: the-little-mermaid
+    tradition: danish-literature
+    path: data/works/danish-literature/the-little-mermaid.yaml
 
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
