@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "3074cddd4b922610ce87177564d9b6c20f7a53c7"
-work_count: 85
+master_sha: "0ad81067aec2d7af194207bd87e0b9fa8545d644"
+work_count: 86
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -48,6 +48,10 @@ works:
   - id: the-little-mermaid
     tradition: danish-literature
     path: data/works/danish-literature/the-little-mermaid.yaml
+
+  - id: the-wild-swans
+    tradition: danish-literature
+    path: data/works/danish-literature/the-wild-swans.yaml
 
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
