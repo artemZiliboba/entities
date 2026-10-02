@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "13b676a295945811c699ff5db42713596b360adc"
-work_count: 87
+master_sha: "85c946d6d3d834a9a641be40cd0ad301de394933"
+work_count: 88
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -56,6 +56,10 @@ works:
   - id: the-red-shoes
     tradition: danish-literature
     path: data/works/danish-literature/the-red-shoes.yaml
+
+  - id: the-nightingale
+    tradition: danish-literature
+    path: data/works/danish-literature/the-nightingale.yaml
 
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
