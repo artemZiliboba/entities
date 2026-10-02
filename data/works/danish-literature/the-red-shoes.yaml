@@ -1,0 +1,84 @@
+id: the-red-shoes
+title: "Красные башмачки"
+original_title: "De røde Sko"
+kind: story
+tradition:
+  - danish-literature
+author: "Hans Christian Andersen"
+collection: "Hans Andersen's Fairy Tales"
+source:
+  title: "Hans Andersen's Fairy Tales (1888) — The Red Shoes"
+  url: "https://en.wikisource.org/wiki/Hans_Andersen%27s_Fairy_Tales/The_Red_Shoes"
+  note: >
+    Английский перевод Mrs. H. B. Paull, издание Frederick Warne and Co., 1888.
+    Запись следует именно этой редакции и не смешивает детали других переводов
+    и позднейших адаптаций.
+
+entities:
+  - id: enchanted-red-shoes
+    name: "Заколдованные красные башмачки"
+    type: artifact
+    description: >
+      Красные туфли Карен, которые после проклятия заставляют её непрерывно
+      танцевать вопреки собственной воле. Они несут девушку через поля,
+      кладбище и лес и продолжают плясать даже после того, как палач отрубает
+      ей ноги вместе с обувью.
+    tags:
+      - enchanted-shoes
+      - dancing
+      - curse
+      - compulsion
+
+  - id: old-soldier
+    name: "Старый солдат с рыжей бородой"
+    type: character
+    description: >
+      Таинственный старый солдат, который касается красных башмачков и
+      произносит пожелание, чтобы они крепко держались во время танца.
+      После этого обувь начинает действовать самостоятельно и принуждает
+      Карен к бесконечной пляске.
+    tags:
+      - supernatural-stranger
+      - curse
+      - shoes
+      - dancing
+
+  - id: dancing-curse
+    name: "Проклятие бесконечного танца"
+    type: spell
+    description: >
+      Принудительные чары, связанные с красными башмачками: Карен не может
+      остановить ноги или снять обувь и вынуждена танцевать день и ночь.
+      Действие продолжается до физического отсечения ног.
+    tags:
+      - curse
+      - dancing
+      - compulsion
+      - punishment
+
+  - id: angel
+    name: "Ангел"
+    type: character
+    description: >
+      Небесное существо, являющееся Карен после её раскаяния. Сначала ангел
+      преграждает ей путь к церкви как часть наказания, а позднее возвращается
+      с прощением и переносит церковь к дому девушки, завершая её духовное
+      освобождение.
+    tags:
+      - angel
+      - divine
+      - forgiveness
+      - apparition
+
+  - id: dancing-severed-feet
+    name: "Танцующие отсечённые ноги"
+    type: phenomenon
+    description: >
+      После того как палач отрубает Карен ноги вместе с красными башмачками,
+      отсечённые ноги продолжают самостоятельно плясать и неоднократно
+      появляются перед ней, не позволяя пройти к церкви.
+    tags:
+      - supernatural-dancing
+      - severed-feet
+      - haunting
+      - punishment
