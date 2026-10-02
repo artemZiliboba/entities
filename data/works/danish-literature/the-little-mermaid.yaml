@@ -1,0 +1,94 @@
+id: the-little-mermaid
+title: "Русалочка"
+original_title: "Den lille Havfrue"
+kind: story
+tradition:
+  - danish-literature
+author: "Hans Christian Andersen"
+collection: "Hans Andersen's Fairy Tales"
+source:
+  title: "Hans Andersen's Fairy Tales (1888) — The Little Mermaid"
+  url: "https://en.wikisource.org/wiki/Hans_Andersen%27s_Fairy_Tales/The_Little_Mermaid"
+  note: >
+    Английский перевод Mrs. H. B. Paull, издание Frederick Warne and Co., 1888.
+    Запись следует именно этой редакции и не смешивает детали других переводов
+    и позднейших адаптаций.
+
+entities:
+  - id: little-mermaid
+    name: "Русалочка"
+    type: character
+    description: >
+      Морская принцесса из народа русалок, способная жить под водой и обладающая
+      рыбьим хвостом. Ради человеческой жизни и надежды обрести бессмертную душу
+      она принимает магический напиток, теряет голос и получает человеческие ноги.
+    tags:
+      - mermaid
+      - transformation
+      - sea
+      - soul
+
+  - id: sea-witch
+    name: "Морская ведьма"
+    type: character
+    description: >
+      Колдунья, живущая за водоворотами в странном подводном лесу. Она готовит
+      превращающий напиток для Русалочки, забирает её голос как плату и позднее
+      передаёт через сестёр средство для обратного превращения.
+    tags:
+      - witch
+      - sea
+      - transformation
+      - bargain
+
+  - id: transformation-draught
+    name: "Напиток превращения"
+    type: substance
+    description: >
+      Магический напиток морской ведьмы, превращающий хвост Русалочки в
+      человеческие ноги. Превращение сопровождается сильной болью, лишает её
+      голоса и связывает дальнейшую судьбу с любовью принца.
+    tags:
+      - potion
+      - transformation
+      - voice
+      - legs
+
+  - id: return-knife
+    name: "Нож обратного превращения"
+    type: artifact
+    description: >
+      Волшебный нож, полученный сёстрами Русалочки у морской ведьмы ценой их
+      волос. Если Русалочка убьёт им принца до рассвета и его кровь попадёт на
+      её ноги, они снова срастутся в рыбий хвост.
+    tags:
+      - magic-knife
+      - transformation
+      - blood
+      - return
+
+  - id: daughters-of-the-air
+    name: "Дочери воздуха"
+    type: creature
+    description: >
+      Невидимые для людей воздушные существа без бессмертной души, способные
+      обрести её добрыми делами после долгого срока. После гибели морского тела
+      Русалочка становится одной из них и получает новый путь к бессмертию.
+    tags:
+      - air-spirit
+      - soul
+      - transformation
+      - invisible
+
+  - id: witch-polypi
+    name: "Хищные полипы у жилища ведьмы"
+    type: creature
+    description: >
+      Полуживотные-полурастения, образующие опасный лес возле дома морской
+      ведьмы. Их длинные подвижные отростки хватают всё, до чего могут
+      дотянуться, и удерживают добычу мёртвой хваткой.
+    tags:
+      - polyp
+      - hybrid-creature
+      - sea
+      - predatory
