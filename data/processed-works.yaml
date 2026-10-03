@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "8ebbf2eb45914f2dd8021e3239f1f5e831258dda"
-work_count: 91
+master_sha: "8664532793088bf279f733df845f58c5a4e95c1f"
+work_count: 92
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -172,6 +172,10 @@ works:
   - id: rapunzel
     tradition: german-folklore
     path: data/works/german-folklore/rapunzel.yaml
+
+  - id: fitchers-bird
+    tradition: german-folklore
+    path: data/works/german-folklore/fitchers-bird.yaml
 
   - id: brother-and-sister
     tradition: german-folklore
