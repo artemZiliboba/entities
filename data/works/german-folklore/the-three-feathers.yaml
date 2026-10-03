@@ -1,0 +1,122 @@
+id: the-three-feathers
+title: "Три пёрышка"
+original_title: "Die drei Federn"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Brothers Grimm"
+collection: "Grimm's Household Tales, Volume 2"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Three Feathers"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Three_Feathers"
+  note: >
+    Английский перевод Margaret Hunt, издание 1884 года. Запись следует именно
+    этой редакции сказки KHM 63 и не смешивает детали других редакций,
+    переводов или позднейших адаптаций.
+
+entities:
+  - id: great-toad
+    name: "Большая жаба"
+    type: creature
+    description: >
+      Сверхъестественная хозяйка подземного жилища, к которой трижды приходит
+      Простачок. Она понимает его просьбы, вызывает помощников и каждый раз
+      добывает невозможный дар для королевского испытания.
+    tags:
+      - toad
+      - underground
+      - magical-helper
+      - gifts
+
+  - id: little-toads
+    name: "Маленькие жабы-помощницы"
+    type: creature
+    description: >
+      Маленькие жабы, которых большая жаба вызывает рифмованной формулой.
+      Они приносят коробку и участвуют в исполнении её приказов, образуя
+      постоянную сверхъестественную свиту подземной хозяйки.
+    tags:
+      - toads
+      - helpers
+      - summoned
+      - underground
+
+  - id: magic-carpet
+    name: "Тончайший ковёр"
+    type: artifact
+    description: >
+      Ковёр, полученный Простачком от большой жабы для первого испытания.
+      Он настолько необыкновенно тонок и прекрасен, что превосходит работы
+      старших братьев и признаётся королём лучшим, однако собственной
+      действующей силы после получения не проявляет.
+    tags:
+      - carpet
+      - magical-gift
+      - contest
+      - toad
+
+  - id: magic-ring
+    name: "Драгоценное кольцо"
+    type: artifact
+    description: >
+      Кольцо, которое большая жаба даёт Простачку для второго испытания.
+      Оно превосходит принесённые братьями кольца и обеспечивает ему победу
+      в испытании, хотя отдельной активной способности текст не описывает.
+    tags:
+      - ring
+      - magical-gift
+      - contest
+      - toad
+
+  - id: transformed-maiden
+    name: "Превращённая дева"
+    type: character
+    description: >
+      Маленькая жаба, которую большая жаба помещает в выдолбленную морковь,
+      запряжённую шестью мышами. После того как Простачок получает этот экипаж,
+      жаба превращается в прекрасную девушку и становится его невестой.
+    tags:
+      - maiden
+      - toad
+      - transformation
+      - bride
+
+  - id: carrot-carriage
+    name: "Морковная карета"
+    type: artifact
+    description: >
+      Выдолбленная морковь, превращённая в экипаж для третьего испытания.
+      В неё запрягают шесть мышей, и она служит чудесным транспортом,
+      сопровождающим превращённую девушку.
+    tags:
+      - carriage
+      - carrot
+      - transformation
+      - magical-transport
+
+  - id: six-mouse-horses
+    name: "Шесть мышей-коней"
+    type: animal
+    description: >
+      Шесть мышей, которых запрягают в морковную карету; после передачи
+      чудесного экипажа они становятся конями и везут превращённую девушку
+      к королю.
+    tags:
+      - mice
+      - horses
+      - transformation
+      - carriage
+
+  - id: hoop-jumping-enchantment
+    name: "Чудесный прыжок через обруч"
+    type: phenomenon
+    description: >
+      В финальном испытании жена Простачка единственная из трёх женщин
+      благополучно прыгает через подвешенный обруч, тогда как жёны братьев
+      получают травмы. Её необыкновенная способность закрепляет право
+      Простачка на корону.
+    tags:
+      - hoop
+      - trial
+      - supernatural-feat
+      - princess
