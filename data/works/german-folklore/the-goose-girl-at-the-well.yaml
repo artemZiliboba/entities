@@ -1,0 +1,83 @@
+id: the-goose-girl-at-the-well
+title: "Гусятница у колодца"
+original_title: "Die Gänsehirtin am Brunnen"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Brothers Grimm"
+collection: "Grimm's Household Tales, Volume 2"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Goose-Girl at the Well"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Goose-Girl_at_the_Well"
+  note: >
+    Английский перевод Margaret Hunt, издание 1884 года. Запись следует именно
+    этой редакции сказки KHM 179 и не смешивает детали других редакций,
+    переводов или позднейших адаптаций.
+
+entities:
+  - id: old-woman
+    name: "Старая женщина"
+    type: character
+    description: >
+      Таинственная старуха, живущая в лесной глуши и обладающая явной
+      сверхъестественной силой. Она переносит огромную тяжесть, заставляет
+      юношу нести её и груз, устраивает судьбу изгнанной принцессы и в конце
+      исчезает, оставляя вместо хижины прекрасный дворец.
+    tags:
+      - old-woman
+      - enchantress
+      - forest
+      - transformation
+
+  - id: goose-girl-princess
+    name: "Принцесса-гусятница"
+    type: character
+    description: >
+      Изгнанная младшая дочь короля, живущая у старухи в облике невзрачной
+      гусятницы. Ночью у колодца она снимает кожу, скрывающую её настоящую
+      красоту, а после исполнения условий старухи окончательно возвращает
+      свой истинный облик и соединяется с графом.
+    tags:
+      - princess
+      - goose-girl
+      - disguise
+      - transformation
+
+  - id: disguise-skin
+    name: "Кожа личины гусятницы"
+    type: artifact
+    description: >
+      Сверхъестественная оболочка, которую принцесса снимает у колодца,
+      открывая свою настоящую красоту, и затем снова надевает. Она служит
+      устойчивым материальным носителем её изменённого внешнего облика.
+    tags:
+      - magical-skin
+      - disguise
+      - transformation
+      - princess
+
+  - id: pearl-tears
+    name: "Жемчужные слёзы"
+    type: phenomenon
+    description: >
+      Слёзы принцессы, превращающиеся в настоящие жемчужины. Именно эти
+      жемчужины старуха собирает и позднее передаёт королю как знак,
+      позволяющий связать гусятницу с его изгнанной младшей дочерью.
+    tags:
+      - tears
+      - pearls
+      - transformation
+      - recognition
+
+  - id: hut-to-palace-transformation
+    name: "Превращение хижины в дворец"
+    type: phenomenon
+    description: >
+      Финальное чудесное изменение жилища старухи: после её исчезновения
+      лесная хижина оказывается прекрасным дворцом, где принцесса и граф
+      продолжают жить после свадьбы.
+    tags:
+      - transformation
+      - hut
+      - palace
+      - enchantment
