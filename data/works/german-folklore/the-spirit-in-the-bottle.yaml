@@ -1,0 +1,44 @@
+id: the-spirit-in-the-bottle
+title: "Дух в бутылке"
+original_title: "Der Geist im Glas"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Brothers Grimm"
+collection: "Grimm's Household Tales, Volume 2"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Spirit in the Bottle"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Spirit_in_the_Bottle"
+  note: >
+    Английский перевод Margaret Hunt, издание 1884 года. Запись следует именно
+    этой редакции сказки KHM 99 и не смешивает детали других редакций,
+    переводов или позднейших адаптаций.
+
+entities:
+  - id: bottle-spirit
+    name: "Дух в бутылке"
+    type: creature
+    description: >
+      Огромный сверхъестественный дух, заключённый в стеклянной бутылке под
+      корнями дуба. Освобождённый юношей, он сначала угрожает ему смертью,
+      затем вновь уменьшается и входит в бутылку, а после повторного
+      освобождения награждает победившего его хитростью юношу.
+    tags:
+      - spirit
+      - bottle
+      - imprisonment
+      - giant
+
+  - id: healing-gilding-plaster
+    name: "Чудесный пластырь"
+    type: substance
+    description: >
+      Небольшой кусок пластыря, подаренный духом. Одной стороной он исцеляет
+      раны, а другой превращает железо и сталь в серебро, благодаря чему
+      юноша сначала проверяет его на дереве, а затем получает средства для
+      учёбы и становится знаменитым врачом.
+    tags:
+      - healing
+      - transmutation
+      - silver
+      - magical-medicine
