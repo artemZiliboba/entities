@@ -1,0 +1,71 @@
+id: fitchers-bird
+title: "Птичка Фитчера"
+original_title: "Fitchers Vogel"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Brothers Grimm"
+collection: "Grimm's Household Tales, Volume 1"
+source:
+  title: "Grimm's Household Tales, Volume 1 (1884) — Fitcher's Bird"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_1/Fitcher%27s_Bird"
+  note: >
+    Английский перевод Margaret Hunt, издание 1884 года. Запись следует именно
+    этой редакции сказки KHM 46 и не смешивает детали других редакций,
+    переводов или позднейших адаптаций.
+
+entities:
+  - id: sorcerer
+    name: "Колдун"
+    type: character
+    description: >
+      Злой колдун, принимающий вид нищего и похищающий девушек: стоит ему
+      коснуться человека, как тот вынужден забраться в его корзину, после чего
+      колдун уносит пленницу в свой дом. Он подвергает похищенных испытанию
+      запретной комнатой и убивает нарушивших запрет.
+    tags:
+      - sorcerer
+      - shapeshifting
+      - abduction
+      - antagonist
+
+  - id: magic-egg
+    name: "Волшебное яйцо"
+    type: artifact
+    description: >
+      Яйцо, которое колдун оставляет каждой пленнице как часть испытания.
+      Попавшая на него кровь из запретной комнаты не стирается и выдаёт
+      нарушение запрета; младшая сестра обманывает проверку, заранее убрав
+      яйцо в безопасное место.
+    tags:
+      - magic-egg
+      - blood
+      - test
+      - detection
+
+  - id: reviving-body-parts
+    name: "Оживление расчленённых сестёр"
+    type: phenomenon
+    description: >
+      Младшая сестра собирает разрубленные части тел двух старших сестёр,
+      правильно соединяет их, после чего части начинают двигаться, срастаются,
+      и обе девушки вновь становятся живыми.
+    tags:
+      - resurrection
+      - restoration
+      - sisters
+      - supernatural
+
+  - id: skull-bride
+    name: "Украшенный череп-невеста"
+    type: artifact
+    description: >
+      Череп с зубами, который младшая сестра украшает головным убором и
+      цветами и выставляет в окне как ложную невесту. Колдун и его спутники
+      принимают неподвижную фигуру за девушку, что помогает ей завершить
+      побег и ловушку.
+    tags:
+      - skull
+      - decoy
+      - bride
+      - deception
