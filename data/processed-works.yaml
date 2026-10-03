@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "e3f7b2f2fff919c9dac5094809c3e9897811b58d"
-work_count: 90
+master_sha: "8ebbf2eb45914f2dd8021e3239f1f5e831258dda"
+work_count: 91
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -104,6 +104,10 @@ works:
   - id: the-goose-girl
     tradition: german-folklore
     path: data/works/german-folklore/the-goose-girl.yaml
+
+  - id: the-goose-girl-at-the-well
+    tradition: german-folklore
+    path: data/works/german-folklore/the-goose-girl-at-the-well.yaml
 
   - id: iron-hans
     tradition: german-folklore
