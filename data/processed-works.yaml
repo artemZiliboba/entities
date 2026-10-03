@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "5cf4a490130f7a0d7ae496e881874f269111882e"
-work_count: 93
+master_sha: "3c65f9dbfcdcb54eadd30794b11355114aacaf10"
+work_count: 94
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -148,6 +148,10 @@ works:
   - id: the-two-brothers
     tradition: german-folklore
     path: data/works/german-folklore/the-two-brothers.yaml
+
+  - id: the-spirit-in-the-bottle
+    tradition: german-folklore
+    path: data/works/german-folklore/the-spirit-in-the-bottle.yaml
 
   - id: the-three-feathers
     tradition: german-folklore
