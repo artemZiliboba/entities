@@ -1,0 +1,92 @@
+id: the-blue-belt
+title: "Синий пояс"
+original_title: "Det blå Baand"
+kind: folktale
+tradition:
+  - norwegian-folklore
+author: "Peter Christen Asbjørnsen and Jørgen Moe"
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1859) — The Blue Belt"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/The_Blue_Belt"
+  note: >
+    Английский перевод George Webbe Dasent, издание 1859 года. Запись следует
+    именно этой версии сказки и не смешивает детали иных норвежских вариантов
+    или позднейших пересказов.
+
+entities:
+  - id: blue-strength-belt
+    name: "Синий пояс силы"
+    type: artifact
+    description: >
+      Синий пояс, найденный юношей в лесу. Надев его, он получает
+      сверхъестественную силу и становится способен сокрушать огромных
+      противников и выполнять невозможные для обычного человека действия.
+    tags:
+      - belt
+      - superhuman-strength
+      - empowerment
+      - magic
+
+  - id: old-troll
+    name: "Старый тролль"
+    type: creature
+    description: >
+      Огромный сверхъестественный противник, с которым сталкивается герой.
+      Его нечеловеческая природа и сила делают его одним из главных
+      препятствий на пути владельца синего пояса.
+    tags:
+      - troll
+      - giant
+      - antagonist
+      - strength
+
+  - id: troll-daughter
+    name: "Дочь тролля"
+    type: creature
+    description: >
+      Дочь старого тролля, принадлежащая к его сверхъестественному роду.
+      Она участвует в событиях тролльего дома и связана с опасностью,
+      угрожающей герою.
+    tags:
+      - troll
+      - daughter
+      - supernatural
+      - antagonist
+
+  - id: lion
+    name: "Чудесный лев"
+    type: animal
+    description: >
+      Лев, которого герой встречает и подчиняет благодаря своей необычайной
+      силе. Животное становится его постоянным спутником и помощником в
+      дальнейших испытаниях.
+    tags:
+      - lion
+      - animal-helper
+      - companion
+      - strength
+
+  - id: enchanted-princess
+    name: "Заколдованная принцесса"
+    type: character
+    description: >
+      Принцесса, находящаяся под сверхъестественной властью троллей и
+      освобождаемая героем после преодоления их испытаний.
+    tags:
+      - princess
+      - enchantment
+      - captive
+      - rescue
+
+  - id: troll-castle
+    name: "Замок троллей"
+    type: location
+    description: >
+      Жилище троллей и место сверхъестественных испытаний героя, связанное
+      с пленением принцессы и противостоянием владельцу синего пояса.
+    tags:
+      - castle
+      - trolls
+      - captivity
+      - otherworld
