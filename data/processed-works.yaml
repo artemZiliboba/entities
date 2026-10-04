@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d50d28a83eb513dcd704205b90e69a265c52ef00"
-work_count: 96
+master_sha: "b57379582061d60e06a46b40d8e10ef69d86b4da"
+work_count: 97
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -320,6 +320,10 @@ works:
   - id: the-seven-foals
     tradition: norwegian-folklore
     path: data/works/norwegian-folklore/the-seven-foals.yaml
+
+  - id: the-twelve-wild-ducks
+    tradition: norwegian-folklore
+    path: data/works/norwegian-folklore/the-twelve-wild-ducks.yaml
 
   - id: beowulf
     tradition: old-english-epic
