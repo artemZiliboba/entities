@@ -1,0 +1,68 @@
+id: the-devil-and-his-grandmother
+title: "Чёрт и его бабушка"
+original_title: "Der Teufel und seine Großmutter"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Brothers Grimm"
+collection: "Grimm's Household Tales, Volume 2"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Devil and his Grandmother"
+  url: "https://en.wikisource.org/wiki/Grimm%27s_Household_Tales,_Volume_2/The_Devil_and_his_Grandmother"
+  note: >
+    Английский перевод Margaret Hunt, издание 1884 года. Запись следует именно
+    этой редакции сказки KHM 125 и не смешивает детали других редакций,
+    переводов или позднейших адаптаций.
+
+entities:
+  - id: devil
+    name: "Чёрт"
+    type: character
+    description: >
+      Сверхъестественный хозяин трёх беглых солдат. Он заключает с ними
+      семилетний договор, даёт им магический кнут, а по истечении срока
+      намеревается забрать их, если они не разгадают три загадки.
+    tags:
+      - devil
+      - pact
+      - riddles
+      - antagonist
+
+  - id: devils-grandmother
+    name: "Бабушка чёрта"
+    type: character
+    description: >
+      Сверхъестественная старуха, живущая в доме чёрта. Она помогает одному
+      из солдат, прячет его от внука и хитростью выведывает ответы на три
+      загадки, благодаря чему солдаты освобождаются от договора.
+    tags:
+      - supernatural-helper
+      - devil
+      - grandmother
+      - riddles
+
+  - id: magic-whip
+    name: "Волшебный кнут"
+    type: artifact
+    description: >
+      Кнут, данный солдатам чёртом. Стоит ударить им по земле, как перед
+      владельцем появляется столько денег, сколько тот пожелает; благодаря
+      этому трое живут в достатке в течение семи лет.
+    tags:
+      - whip
+      - money
+      - conjuration
+      - devil
+
+  - id: devil-pact
+    name: "Семилетний договор с чёртом"
+    type: spell
+    description: >
+      Сверхъестественное соглашение, связывающее трёх солдат на семь лет:
+      они должны служить чёрту и соблюдать заданные условия, а в конце срока
+      могут освободиться лишь правильно ответив на три загадки.
+    tags:
+      - pact
+      - seven-years
+      - devil
+      - riddles
