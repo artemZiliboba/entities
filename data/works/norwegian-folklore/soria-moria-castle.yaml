@@ -53,19 +53,6 @@ entities:
       - antagonist
       - castle
 
-  - id: troll-sword
-    name: "Меч троллей"
-    type: artifact
-    description: >
-      Меч, висящий в замке и связанный с победой над троллями. Хальвор
-      получает указание выпить из фляги рядом с ним, после чего становится
-      достаточно силён, чтобы владеть тяжёлым оружием и сражаться с троллями.
-    tags:
-      - sword
-      - troll
-      - strength
-      - combat
-
   - id: strength-flask
     name: "Фляга силы"
     type: substance
@@ -78,19 +65,6 @@ entities:
       - strength
       - empowerment
       - combat
-
-  - id: soria-moria-castle
-    name: "Замок Сориа-Мориа"
-    type: location
-    description: >
-      Далёкий замок троллей, где удерживаются три принцессы и куда Хальвор
-      попадает после долгого пути. Он служит главным сверхъестественным
-      пространством сказки и местом трёх последовательных поединков.
-    tags:
-      - castle
-      - trolls
-      - princesses
-      - otherworld
 
   - id: magic-ring
     name: "Волшебное кольцо"
