@@ -1,0 +1,108 @@
+id: the-three-princesses-of-whiteland
+title: "Три принцессы Белой земли"
+original_title: "De tre prinsesser i Hvittenland"
+kind: folktale
+tradition:
+  - norwegian-folklore
+author: "Peter Christen Asbjørnsen and Jørgen Moe"
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1859) — The Three Princesses of Whiteland"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/The_Three_Princesses_of_Whiteland"
+  note: >
+    Английский перевод George Webbe Dasent, издание 1859 года. Запись следует
+    именно этой версии сказки и не смешивает детали иных норвежских вариантов,
+    позднейших пересказов или родственных сюжетов.
+
+entities:
+  - id: white-bear-prince
+    name: "Принц — белый медведь"
+    type: character
+    description: >
+      Заколдованный принц, который является в облике белого медведя и увозит
+      младшую принцессу. Ночью он принимает человеческий облик, но запрет
+      увидеть его нарушается, после чего он должен уйти в Белую землю.
+    tags:
+      - transformation
+      - white-bear
+      - prince
+      - enchantment
+
+  - id: troll-hag
+    name: "Троллиха"
+    type: creature
+    description: >
+      Сверхъестественная хозяйка Белой земли, удерживающая заколдованного
+      принца и намеренная выдать за него свою дочь. Её власть связана с
+      испытаниями, которые должна выполнить принцесса, чтобы вернуть мужа.
+    tags:
+      - troll
+      - antagonist
+      - whiteland
+      - enchantment
+
+  - id: troll-hags-daughter
+    name: "Дочь троллихи"
+    type: creature
+    description: >
+      Дочь троллихи, предназначенная матерью в невесты заколдованному принцу.
+      Она принадлежит к сверхъестественному дому троллей и участвует в
+      противостоянии принцессе в Белой земле.
+    tags:
+      - troll
+      - daughter
+      - rival-bride
+      - whiteland
+
+  - id: three-old-women
+    name: "Три старухи-помощницы"
+    type: character
+    description: >
+      Три таинственные старухи, которых принцесса последовательно встречает
+      во время поисков Белой земли. Каждая направляет её дальше и даёт
+      чудесный золотой предмет, необходимый для продолжения пути и выкупа
+      ночей рядом с заколдованным принцем.
+    tags:
+      - supernatural-helper
+      - old-women
+      - journey
+      - gifts
+
+  - id: north-wind
+    name: "Северный ветер"
+    type: phenomenon
+    description: >
+      Персонифицированный Северный ветер помогает принцессе добраться до
+      Белой земли: после того как другие помощники не знают дороги, он
+      переносит её через огромное расстояние к месту, где находится принц.
+    tags:
+      - wind
+      - supernatural-helper
+      - travel
+      - whiteland
+
+  - id: sleeping-draught
+    name: "Сонное питьё"
+    type: substance
+    description: >
+      Питьё, которое дают принцу перед ночными встречами с женой, из-за чего
+      он не просыпается и не слышит её. Лишь после предупреждения он избегает
+      напитка и остаётся бодрствовать.
+    tags:
+      - sleep
+      - potion
+      - enchantment
+      - obstacle
+
+  - id: whiteland
+    name: "Белая земля"
+    type: location
+    description: >
+      Далёкая сверхъестественная страна, куда уходит заколдованный принц и где
+      живёт троллиха. Обычные проводники не знают к ней дороги; принцессу туда
+      доставляет только Северный ветер.
+    tags:
+      - otherworld
+      - whiteland
+      - troll
+      - enchanted-realm
