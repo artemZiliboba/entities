@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d17365295ebead525ae92450f9c1b85a32aa6189"
-work_count: 99
+master_sha: "fc61eb1bf6060c624cea4d996b2faa59c9801322"
+work_count: 100
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -316,6 +316,10 @@ works:
   - id: soria-moria-castle
     tradition: norwegian-folklore
     path: data/works/norwegian-folklore/soria-moria-castle.yaml
+
+  - id: the-blue-belt
+    tradition: norwegian-folklore
+    path: data/works/norwegian-folklore/the-blue-belt.yaml
 
   - id: the-master-maid
     tradition: norwegian-folklore
