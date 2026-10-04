@@ -1,0 +1,71 @@
+id: the-young-giant
+title: "Юный великан"
+original_title: "Der junge Riese"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Brothers Grimm"
+collection: "Grimm's Household Tales, Volume 2"
+source:
+  title: "Grimm's Household Tales, Volume 2 (1884) — The Young Giant"
+  url: "https://en.wikisource.org/wiki/The_Young_Giant"
+  note: >
+    Английский перевод Margaret Hunt, издание 1884 года, соответствующее
+    окончательной редакции KHM 90. Запись следует именно этой версии и не
+    смешивает детали других переводов, ранних редакций и вариантов из примечаний.
+
+entities:
+  - id: old-giant
+    name: "Старый великан"
+    type: creature
+    description: >
+      Великан, забирающий крошечного мальчика у отца и выращивающий его у себя.
+      Он вскармливает ребёнка, многократно проверяет его силу вырыванием деревьев
+      и возвращает домой лишь после того, как тот становится великаном по росту
+      и силе.
+    tags:
+      - giant
+      - foster-parent
+      - supernatural-growth
+      - strength
+
+  - id: young-giant
+    name: "Юный великан"
+    type: character
+    description: >
+      Герой, первоначально ростом с большой палец, который после многолетнего
+      воспитания старым великаном становится исполински сильным. Он вырывает
+      дубы, переносит огромные тяжести, носит мельничный жернов как воротник и
+      выдерживает ночь в заколдованной мельнице.
+    tags:
+      - giant
+      - superhuman-strength
+      - transformation
+      - hero
+
+  - id: haunted-mill
+    name: "Заколдованная мельница"
+    type: location
+    description: >
+      Мельница, безопасная днём, но смертельно опасная ночью: прежних ночных
+      посетителей находили мёртвыми. После того как юный великан выдерживает
+      нападение её невидимых обитателей до рассвета, мельник объявляет, что
+      мельница освобождена от чар.
+    tags:
+      - haunted-mill
+      - night
+      - curse
+      - disenchantment
+
+  - id: invisible-mill-spirits
+    name: "Невидимые обитатели мельницы"
+    type: creature
+    description: >
+      Невидимые существа, действующие ночью в заколдованной мельнице. При них
+      стол, еда и стулья движутся сами, видны лишь руки или пальцы за трапезой,
+      а после тушения света невидимые противники нападают на героя до рассвета.
+    tags:
+      - invisible
+      - spirits
+      - haunted-mill
+      - attack

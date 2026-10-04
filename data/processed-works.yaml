@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "ef171f7e5e4e99569f1b56e341dddf1a60b7fea1"
-work_count: 95
+master_sha: "d50d28a83eb513dcd704205b90e69a265c52ef00"
+work_count: 96
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -208,6 +208,10 @@ works:
   - id: the-youth-who-went-forth-to-learn-fear
     tradition: german-folklore
     path: data/works/german-folklore/the-youth-who-went-forth-to-learn-fear.yaml
+
+  - id: the-young-giant
+    tradition: german-folklore
+    path: data/works/german-folklore/the-young-giant.yaml
 
   - id: the-nixie-of-the-mill-pond
     tradition: german-folklore
