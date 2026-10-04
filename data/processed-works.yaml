@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "3c65f9dbfcdcb54eadd30794b11355114aacaf10"
-work_count: 94
+master_sha: "ef171f7e5e4e99569f1b56e341dddf1a60b7fea1"
+work_count: 95
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -116,6 +116,10 @@ works:
   - id: the-crystal-ball
     tradition: german-folklore
     path: data/works/german-folklore/the-crystal-ball.yaml
+
+  - id: the-devil-and-his-grandmother
+    tradition: german-folklore
+    path: data/works/german-folklore/the-devil-and-his-grandmother.yaml
 
   - id: the-devil-with-the-three-golden-hairs
     tradition: german-folklore
