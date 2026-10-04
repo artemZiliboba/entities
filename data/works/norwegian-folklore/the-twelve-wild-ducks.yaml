@@ -1,0 +1,68 @@
+id: the-twelve-wild-ducks
+title: "Двенадцать диких уток"
+original_title: "De tolv villender"
+kind: folktale
+tradition:
+  - norwegian-folklore
+author: "Peter Christen Asbjørnsen and Jørgen Moe"
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1859) — The Twelve Wild Ducks"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/The_Twelve_Wild_Ducks"
+  note: >
+    Английский перевод George Webbe Dasent, издание 1859 года. Запись следует
+    именно этой версии сказки и не смешивает детали других норвежских вариантов,
+    позднейших пересказов или родственных сказок о братьях-птицах.
+
+entities:
+  - id: twelve-wild-duck-brothers
+    name: "Двенадцать братьев — диких уток"
+    type: character
+    description: >
+      Двенадцать братьев принцессы, превращённые в диких уток. Они прилетают
+      к сестре в человеческий дом, а освободить их от птичьего облика можно
+      лишь выполнив предписанную работу из пуха чертополоха в полном молчании.
+    tags:
+      - transformation
+      - brothers
+      - wild-ducks
+      - enchantment
+
+  - id: thistle-down-shirts
+    name: "Двенадцать рубашек из пуха чертополоха"
+    type: artifact
+    description: >
+      Одежда, которую сестра должна изготовить для заколдованных братьев:
+      собрать пух чертополоха, вычесать, спрясть, соткать и сшить двенадцать
+      рубашек. Надетые на братьев рубашки снимают их птичье превращение.
+    tags:
+      - disenchantment
+      - shirts
+      - thistle-down
+      - brothers
+
+  - id: silence-task
+    name: "Обет молчания при освобождении братьев"
+    type: spell
+    description: >
+      Условие снятия чар: пока принцесса изготавливает двенадцать рубашек, она
+      не должна ни говорить, ни смеяться, ни плакать. Нарушение условия лишило
+      бы братьев надежды вернуть человеческий облик.
+    tags:
+      - silence
+      - disenchantment
+      - task
+      - taboo
+
+  - id: magic-porridge
+    name: "Неиссякающая каша"
+    type: substance
+    description: >
+      Каша, оставленная братьями сестре в горшке: сколько бы она ни ела, еды
+      не становится меньше. Этот запас поддерживает её, пока она остаётся одна
+      и выполняет работу по освобождению братьев.
+    tags:
+      - inexhaustible-food
+      - porridge
+      - sustenance
+      - magic
