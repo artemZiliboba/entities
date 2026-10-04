@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "ebe78f16c9761a437c20b5d5a0b305a33177e903"
-work_count: 98
+master_sha: "d17365295ebead525ae92450f9c1b85a32aa6189"
+work_count: 99
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -312,6 +312,10 @@ works:
   - id: east-of-the-sun-west-of-the-moon
     tradition: norwegian-folklore
     path: data/works/norwegian-folklore/east-of-the-sun-west-of-the-moon.yaml
+
+  - id: soria-moria-castle
+    tradition: norwegian-folklore
+    path: data/works/norwegian-folklore/soria-moria-castle.yaml
 
   - id: the-master-maid
     tradition: norwegian-folklore
