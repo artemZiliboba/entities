@@ -1,0 +1,69 @@
+id: princess-on-the-glass-hill
+title: "Принцесса на стеклянной горе"
+original_title: "Prinsessen på glassberget"
+kind: folktale
+tradition:
+  - norwegian-folklore
+author: "Peter Christen Asbjørnsen and Jørgen Moe"
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1912) — Princess on the Glass Hill"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/Princess_on_the_Glass_Hill"
+  note: >
+    Английский перевод George Webbe Dasent в издании 1912 года на Wikisource.
+    Запись следует именно этой редакции и не смешивает детали других вариантов,
+    переводов или позднейших пересказов.
+
+entities:
+  - id: brass-horse
+    name: "Медный конь"
+    type: animal
+    description: >
+      Первый чудесный конь, появляющийся в ночь святого Иоанна после трёх
+      землетрясений и пожирающий траву на лугу. После приручения герой едет
+      на нём по стеклянной горе примерно до трети высоты.
+    tags:
+      - magical-horse
+      - brass
+      - glass-hill
+      - trial
+
+  - id: silver-horse
+    name: "Серебряный конь"
+    type: animal
+    description: >
+      Второй чудесный конь, появляющийся год спустя при тех же
+      сверхъестественных знаках. Он сильнее первого и позволяет герою подняться
+      примерно на две трети стеклянной горы.
+    tags:
+      - magical-horse
+      - silver
+      - glass-hill
+      - trial
+
+  - id: golden-horse
+    name: "Золотой конь"
+    type: animal
+    description: >
+      Третий и самый сильный чудесный конь, также приходящий в ночь святого
+      Иоанна после мощных землетрясений. На нём герой полностью взбирается на
+      стеклянную гору и получает третье золотое яблоко.
+    tags:
+      - magical-horse
+      - gold
+      - glass-hill
+      - trial
+
+  - id: horse-binding-steel
+    name: "Сталь из огнива, укрощающая коней"
+    type: artifact
+    description: >
+      Стальной предмет из огнива героя, который трижды проявляет одинаковый
+      сверхъестественный эффект: будучи брошенным через шею или гриву чудесного
+      коня, мгновенно лишает его возможности двигаться и делает полностью
+      послушным.
+    tags:
+      - steel
+      - binding
+      - taming
+      - magical-tool
