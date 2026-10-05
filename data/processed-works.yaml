@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d4d0adc42eff7f31f8b30b4b597494b47d6f3779"
-work_count: 103
+master_sha: "1e7ebc88694852837d5ec231248157067f0b1338"
+work_count: 104
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -328,6 +328,10 @@ works:
   - id: the-master-maid
     tradition: norwegian-folklore
     path: data/works/norwegian-folklore/the-master-maid.yaml
+
+  - id: the-lad-who-went-to-the-north-wind
+    tradition: norwegian-folklore
+    path: data/works/norwegian-folklore/the-lad-who-went-to-the-north-wind.yaml
 
   - id: the-three-princesses-of-whiteland
     tradition: norwegian-folklore
