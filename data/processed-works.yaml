@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "1e7ebc88694852837d5ec231248157067f0b1338"
-work_count: 104
+master_sha: "ad6a634413dd352a035b46301dff648a963c26ec"
+work_count: 105
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -320,6 +320,10 @@ works:
   - id: the-blue-belt
     tradition: norwegian-folklore
     path: data/works/norwegian-folklore/the-blue-belt.yaml
+
+  - id: the-giant-who-had-no-heart-in-his-body
+    tradition: norwegian-folklore
+    path: data/works/norwegian-folklore/the-giant-who-had-no-heart-in-his-body.yaml
 
   - id: princess-on-the-glass-hill
     tradition: norwegian-folklore
