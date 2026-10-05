@@ -1,0 +1,29 @@
+id: the-three-billy-goats-gruff
+title: "Три козла Брусе"
+original_title: "De tre bukkene Bruse"
+kind: folktale
+tradition:
+  - norwegian-folklore
+author: "Peter Christen Asbjørnsen and Jørgen Moe"
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1859) — The Three Billy-Goats Gruff"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/The_Three_Billy-Goats_Gruff"
+  note: >
+    Английский перевод George Webbe Dasent, издание 1859 года. Запись следует
+    именно этой версии сказки и не смешивает детали позднейших пересказов,
+    иллюстрированных адаптаций или других вариантов.
+
+entities:
+  - id: bridge-troll
+    name: "Тролль под мостом"
+    type: creature
+    description: >
+      Огромный тролль, живущий под мостом на пути к горному пастбищу.
+      Он поочерёдно останавливает трёх козлов Брусе и угрожает съесть каждого;
+      старший козёл в конце сталкивает его с моста и уничтожает.
+    tags:
+      - troll
+      - bridge
+      - antagonist
+      - giant

@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "5b00f86f346a8a3819efea255883a8b92729408a"
-work_count: 102
+master_sha: "d4d0adc42eff7f31f8b30b4b597494b47d6f3779"
+work_count: 103
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -332,6 +332,10 @@ works:
   - id: the-three-princesses-of-whiteland
     tradition: norwegian-folklore
     path: data/works/norwegian-folklore/the-three-princesses-of-whiteland.yaml
+
+  - id: the-three-billy-goats-gruff
+    tradition: norwegian-folklore
+    path: data/works/norwegian-folklore/the-three-billy-goats-gruff.yaml
 
   - id: the-seven-foals
     tradition: norwegian-folklore
