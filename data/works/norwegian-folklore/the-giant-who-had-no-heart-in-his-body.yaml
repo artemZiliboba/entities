@@ -1,0 +1,55 @@
+id: the-giant-who-had-no-heart-in-his-body
+title: "Великан, у которого не было сердца в теле"
+original_title: "Risen som ikke hadde noe hjerte på seg"
+kind: folktale
+tradition:
+  - norwegian-folklore
+author: "Peter Christen Asbjørnsen and Jørgen Moe"
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1859) — The Giant Who Had No Heart in His Body"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/The_Giant_Who_Had_No_Heart_in_His_Body"
+  note: >
+    Английский перевод George Webbe Dasent, издание 1859 года. Запись следует
+    именно этой версии сказки и не смешивает детали других вариантов или
+    позднейших пересказов.
+
+entities:
+  - id: heartless-giant
+    name: "Великан без сердца в теле"
+    type: creature
+    description: >
+      Сверхъестественный великан, удерживающий принцессу и превращающий
+      захваченных принцев в камень. Его жизнь вынесена из тела и связана
+      со спрятанным сердцем, поэтому обычное убийство не может его уничтожить.
+    tags:
+      - giant
+      - external-soul
+      - petrification
+      - antagonist
+
+  - id: giants-hidden-heart
+    name: "Спрятанное сердце великана"
+    type: artifact
+    description: >
+      Вынесенное из тела сердце великана, от которого напрямую зависит его
+      жизнь. Оно спрятано через цепочку вложенных тайников; когда сердце
+      сжимают и уничтожают, великан слабеет и погибает.
+    tags:
+      - heart
+      - external-soul
+      - life-link
+      - hidden
+
+  - id: petrification
+    name: "Окаменение принцев"
+    type: spell
+    description: >
+      Сверхъестественное превращение, которым великан обращает захваченных
+      старших братьев героя в камень. После гибели великана заколдованные
+      принцы возвращаются к жизни.
+    tags:
+      - petrification
+      - transformation
+      - princes
+      - curse
