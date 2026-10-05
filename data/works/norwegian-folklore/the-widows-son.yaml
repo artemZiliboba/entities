@@ -1,0 +1,90 @@
+id: the-widows-son
+title: "Сын вдовы"
+original_title: "Enkesønnen"
+kind: folktale
+tradition:
+  - norwegian-folklore
+author: "Peter Christen Asbjørnsen and Jørgen Moe"
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1859) — The Widow's Son"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/The_Widow%27s_Son"
+  note: >
+    Английский перевод George Webbe Dasent, издание 1859 года. Запись следует
+    именно этой версии сказки; детали иных норвежских вариантов и позднейших
+    пересказов не смешиваются.
+
+entities:
+  - id: three-headed-troll
+    name: "Трёхголовый тролль"
+    type: creature
+    description: >
+      Первый сверхъестественный противник сына вдовы, тролль с тремя головами.
+      Герой встречает его в ходе поисков похищенной принцессы и побеждает,
+      продолжая путь к более сильным троллям.
+    tags:
+      - troll
+      - three-heads
+      - antagonist
+      - quest
+
+  - id: six-headed-troll
+    name: "Шестиголовый тролль"
+    type: creature
+    description: >
+      Второй тролль, обладающий шестью головами и большей силой. Он составляет
+      отдельное препятствие в последовательности испытаний героя.
+    tags:
+      - troll
+      - six-heads
+      - antagonist
+      - quest
+
+  - id: nine-headed-troll
+    name: "Девятиголовый тролль"
+    type: creature
+    description: >
+      Самый сильный из трёх многоголовых троллей, противостоящих герою.
+      Победа над ним завершает основную цепь столкновений с троллями.
+    tags:
+      - troll
+      - nine-heads
+      - antagonist
+      - quest
+
+  - id: magic-sword
+    name: "Чудесный меч"
+    type: artifact
+    description: >
+      Особый меч, необходимый герою для противостояния сверхъестественным
+      противникам и связанный с решающими поединками сказки.
+    tags:
+      - sword
+      - combat
+      - trolls
+      - magic
+
+  - id: magic-flask
+    name: "Фляга силы"
+    type: substance
+    description: >
+      Напиток из чудесной фляги, который придаёт герою необычайную силу,
+      позволяя ему владеть тяжёлым оружием и сражаться с троллями.
+    tags:
+      - drink
+      - strength
+      - empowerment
+      - magic
+
+  - id: magic-ring
+    name: "Волшебное кольцо"
+    type: artifact
+    description: >
+      Кольцо со сверхъестественной функцией, помогающее герою преодолевать
+      расстояния и продолжать поиски в тех частях сказки, где обычного пути
+      недостаточно.
+    tags:
+      - ring
+      - transportation
+      - quest
+      - magic
