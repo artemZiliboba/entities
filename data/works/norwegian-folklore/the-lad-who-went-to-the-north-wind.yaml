@@ -1,0 +1,67 @@
+id: the-lad-who-went-to-the-north-wind
+title: "Парень, который ходил к Северному ветру"
+original_title: "Gutten som gikk til Nordenvinden"
+kind: folktale
+tradition:
+  - norwegian-folklore
+author: "Peter Christen Asbjørnsen and Jørgen Moe"
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1859) — The Lad Who Went to the North Wind"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/The_Lad_Who_Went_to_the_North_Wind"
+  note: >
+    Английский перевод George Webbe Dasent, издание 1859 года. Запись следует
+    именно этой версии сказки и не смешивает детали позднейших пересказов,
+    адаптаций или родственных сюжетов о чудесных дарах.
+
+entities:
+  - id: north-wind
+    name: "Северный ветер"
+    type: phenomenon
+    description: >
+      Персонифицированный Северный ветер, к которому парень трижды приходит
+      требовать возмещения за унесённую муку. Он разговаривает с героем и
+      последовательно вручает ему три чудесных дара.
+    tags:
+      - north-wind
+      - personification
+      - magical-donor
+      - gifts
+
+  - id: magic-tablecloth
+    name: "Скатерть-самобранка"
+    type: artifact
+    description: >
+      Первый дар Северного ветра. По приказу она сама накрывает стол и
+      предоставляет столько хорошей еды и питья, сколько пожелает владелец.
+    tags:
+      - tablecloth
+      - food
+      - self-serving
+      - magical-gift
+
+  - id: coin-making-ram
+    name: "Баран, дающий деньги"
+    type: animal
+    description: >
+      Второй чудесный дар Северного ветра. По специальной команде баран
+      производит золотые деньги, благодаря чему герой может получать богатство
+      без обычного заработка.
+    tags:
+      - ram
+      - gold
+      - money
+      - magical-animal
+
+  - id: beating-stick
+    name: "Палка, бьющая по приказу"
+    type: artifact
+    description: >
+      Третий дар Северного ветра. По команде палка самостоятельно выскакивает
+      и бьёт указанного человека, пока хозяин не велит ей остановиться; с её
+      помощью герой вынуждает вора вернуть подменённые чудесные дары.
+    tags:
+      - stick
+      - self-acting
+      - punishment
+      - recovery
