@@ -1,0 +1,30 @@
+id: the-cat-on-the-dovrefell
+title: "Кот на Довре"
+original_title: "Katten på Dovre"
+kind: folktale
+tradition:
+  - norwegian-folklore
+author: "Peter Christen Asbjørnsen and Jørgen Moe"
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1859) — The Cat on the Dovrefell"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/The_Cat_on_the_Dovrefell"
+  note: >
+    Английский перевод George Webbe Dasent, издание 1859 года. Запись следует
+    именно этой версии сказки и не смешивает детали иных вариантов или
+    позднейших пересказов.
+
+entities:
+  - id: dovrefell-trolls
+    name: "Тролли Довре"
+    type: creature
+    description: >
+      Группа троллей, ежегодно являющаяся в дом на Довре в канун Рождества,
+      изгоняющая хозяев и съедающая приготовленное угощение. В выбранной
+      редакции они действуют как единая безымянная группа сверхъестественных
+      существ и после встречи с белым медведем больше не возвращаются.
+    tags:
+      - trolls
+      - dovrefell
+      - christmas-eve
+      - supernatural
