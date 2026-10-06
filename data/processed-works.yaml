@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "0feba363dccb0feca5dbc8fbccf24d74179bc8bc"
-work_count: 110
+master_sha: "fa52efbd4b45e122b0b4f1c87fb6b1d81ea0fcc3"
+work_count: 111
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -412,6 +412,10 @@ works:
   - id: sivko-burko
     tradition: russian-folklore
     path: data/works/russian-folklore/sivko-burko.yaml
+
+  - id: the-magic-ring-afanasyev-191
+    tradition: russian-folklore
+    path: data/works/russian-folklore/the-magic-ring-afanasyev-191.yaml
 
   - id: bird-girl
     tradition: serbian-folklore
