@@ -53,19 +53,6 @@ entities:
       - kingdom
       - sea-tsar
 
-  - id: magical-tasks
-    name: "Невозможные задания Морского царя"
-    type: phenomenon
-    description: >
-      Серия сверхъестественно трудных испытаний, которые Морской царь
-      назначает царевичу. Василиса Премудрая выполняет их чудесным способом,
-      превращая заведомо невыполнимые требования в завершённую работу.
-    tags:
-      - trial
-      - impossible-task
-      - magic
-      - sea-tsar
-
   - id: escape-transformations
     name: "Превращения при бегстве"
     type: spell
@@ -78,16 +65,3 @@ entities:
       - escape
       - disguise
       - pursuit
-
-  - id: forgetfulness-curse
-    name: "Забвение Василисы"
-    type: spell
-    description: >
-      Сверхъестественное забвение, из-за которого царевич после возвращения
-      к родным перестаёт помнить Василису; позднее память о ней возвращается,
-      что позволяет завершить их разлуку.
-    tags:
-      - forgetfulness
-      - memory
-      - curse
-      - separation
