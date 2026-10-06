@@ -1,0 +1,55 @@
+id: the-three-aunts
+title: "Три тётушки"
+original_title: "De tre mostrene"
+kind: folktale
+tradition:
+  - norwegian-folklore
+author: "Peter Christen Asbjørnsen and Jørgen Moe"
+collection: "Popular Tales from the Norse"
+source:
+  title: "Popular Tales from the Norse (1859) — The Three Aunts"
+  url: "https://en.wikisource.org/wiki/Popular_Tales_from_the_Norse/The_Three_Aunts"
+  note: >
+    Английский перевод George Webbe Dasent, издание 1859 года. Запись следует
+    именно этой версии сказки и не смешивает детали других вариантов или
+    позднейших пересказов.
+
+entities:
+  - id: first-spinning-aunt
+    name: "Первая чудесная тётушка"
+    type: character
+    description: >
+      Первая из трёх загадочных старух, которые помогают девушке выполнить
+      непосильную работу с пряжей. Она принимает на себя часть задания и позже
+      появляется на свадьбе как родственница невесты.
+    tags:
+      - old-woman
+      - helper
+      - spinning
+      - supernatural
+
+  - id: second-spinning-aunt
+    name: "Вторая чудесная тётушка"
+    type: character
+    description: >
+      Вторая сверхъестественная помощница девушки, продолжающая чудесное
+      выполнение работы с пряжей. Её телесная особенность связывается с
+      многолетним трудом и становится частью урока для жениха.
+    tags:
+      - old-woman
+      - helper
+      - spinning
+      - supernatural
+
+  - id: third-spinning-aunt
+    name: "Третья чудесная тётушка"
+    type: character
+    description: >
+      Третья старуха-помощница, завершающая цепочку помощи в невозможном
+      прядильном испытании. Вместе с двумя другими она приходит на свадьбу и
+      своим видом убеждает жениха больше не заставлять невесту прясть.
+    tags:
+      - old-woman
+      - helper
+      - spinning
+      - supernatural
