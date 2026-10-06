@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "4bf485605e51bcea7900dc73a12e26ec3c7514ec"
-work_count: 106
+master_sha: "68990deebeaf5239a9c7822a058e29d760a912d8"
+work_count: 107
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -396,6 +396,10 @@ works:
   - id: vasilisa-the-beautiful
     tradition: russian-folklore
     path: data/works/russian-folklore/vasilisa-the-beautiful.yaml
+
+  - id: geese-swans
+    tradition: russian-folklore
+    path: data/works/russian-folklore/geese-swans.yaml
 
   - id: bird-girl
     tradition: serbian-folklore
