@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "1ff8c0f9ca648d7808ed0f25fc7101303fd4d3ee"
-work_count: 112
+master_sha: "c16092e7f4db3fbc8b1577f90577e5c383a5dca0"
+work_count: 113
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -420,6 +420,10 @@ works:
   - id: the-sea-tsar-and-vasilisa-the-wise
     tradition: russian-folklore
     path: data/works/russian-folklore/the-sea-tsar-and-vasilisa-the-wise.yaml
+
+  - id: the-flying-ship-russian
+    tradition: russian-folklore
+    path: data/works/russian-folklore/the-flying-ship-russian.yaml
 
   - id: bird-girl
     tradition: serbian-folklore
