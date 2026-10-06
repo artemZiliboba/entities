@@ -39,3 +39,16 @@ entities:
       - magical-horse
       - beauty
       - hero
+
+  - id: sivko-burko-summoning
+    name: "Призыв Сивка-бурка"
+    type: spell
+    description: >
+      Особая словесная формула, которой Иван вызывает волшебного коня.
+      После произнесения призыва Сивко-бурко появляется перед героем и
+      становится доступен ему для чудесной помощи.
+    tags:
+      - summoning
+      - magical-horse
+      - incantation
+      - helper
