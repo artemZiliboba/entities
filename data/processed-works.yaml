@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "ef5a036251f72381d3a0c56535d85f304176d18a"
-work_count: 108
+master_sha: "76b3018edd739d00c63a77d2de47957e759851a5"
+work_count: 109
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -404,6 +404,10 @@ works:
   - id: morozko
     tradition: russian-folklore
     path: data/works/russian-folklore/morozko.yaml
+
+  - id: at-the-pikes-command
+    tradition: russian-folklore
+    path: data/works/russian-folklore/at-the-pikes-command.yaml
 
   - id: bird-girl
     tradition: serbian-folklore
