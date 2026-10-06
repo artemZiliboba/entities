@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "68990deebeaf5239a9c7822a058e29d760a912d8"
-work_count: 107
+master_sha: "ef5a036251f72381d3a0c56535d85f304176d18a"
+work_count: 108
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -400,6 +400,10 @@ works:
   - id: geese-swans
     tradition: russian-folklore
     path: data/works/russian-folklore/geese-swans.yaml
+
+  - id: morozko
+    tradition: russian-folklore
+    path: data/works/russian-folklore/morozko.yaml
 
   - id: bird-girl
     tradition: serbian-folklore
