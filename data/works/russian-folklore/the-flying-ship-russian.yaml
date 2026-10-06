@@ -27,19 +27,6 @@ entities:
       - magical-transport
       - quest
 
-  - id: mysterious-old-man
-    name: "Таинственный старик"
-    type: character
-    description: >
-      Сверхъестественный помощник, который испытывает доброжелательность
-      героя, объясняет ему способ получить летучий корабль и тем самым
-      делает возможным выполнение царского условия.
-    tags:
-      - old-man
-      - magical-helper
-      - test
-      - guidance
-
   - id: far-hearer
     name: "Слухало"
     type: character
@@ -115,18 +102,5 @@ entities:
     tags:
       - frost
       - cold
-      - companion
-      - helper
-
-  - id: wood-carrier
-    name: "Носильщик дров"
-    type: character
-    description: >
-      Чудесный спутник, несущий огромную вязанку дров и обладающий
-      необычайной силой или особым свойством своего груза, которое
-      используется при выполнении царских условий.
-    tags:
-      - wood
-      - strength
       - companion
       - helper
