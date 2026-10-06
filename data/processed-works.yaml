@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "fa52efbd4b45e122b0b4f1c87fb6b1d81ea0fcc3"
-work_count: 111
+master_sha: "1ff8c0f9ca648d7808ed0f25fc7101303fd4d3ee"
+work_count: 112
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -416,6 +416,10 @@ works:
   - id: the-magic-ring-afanasyev-191
     tradition: russian-folklore
     path: data/works/russian-folklore/the-magic-ring-afanasyev-191.yaml
+
+  - id: the-sea-tsar-and-vasilisa-the-wise
+    tradition: russian-folklore
+    path: data/works/russian-folklore/the-sea-tsar-and-vasilisa-the-wise.yaml
 
   - id: bird-girl
     tradition: serbian-folklore
