@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Энциклопедия магических сущностей из сказок, мифов и литературы">
-  <meta name="theme-color" content="#050505">
+  <meta name="theme-color" content="#0b1115">
   <title>Энциклопедия сущностей</title>
-  <link rel="stylesheet" href="styles.css?v=9">
+  <script src="theme.js?v=1"></script>
+  <link rel="stylesheet" href="styles.css?v=10">
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
     </a>
     <nav class="header-nav" aria-label="Основная навигация">
       <a href="#/about">О проекте</a>
+      <button class="theme-button" id="themeToggle" type="button" aria-label="Тёмная тема" aria-pressed="false" title="Тёмная тема" hidden>
+        <svg class="theme-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg>
+        <svg class="theme-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+      </button>
       <button class="search-button" id="searchToggle" type="button" aria-label="Открыть поиск">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
       </button>
