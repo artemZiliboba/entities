@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "c16092e7f4db3fbc8b1577f90577e5c383a5dca0"
-work_count: 113
+master_sha: "a25d774fddc8d698be5d794a162023fcdc81c109"
+work_count: 114
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -392,6 +392,10 @@ works:
   - id: ivan-tsarevich-firebird-grey-wolf
     tradition: russian-folklore
     path: data/works/russian-folklore/ivan-tsarevich-firebird-grey-wolf.yaml
+
+  - id: koshchei-the-deathless-156
+    tradition: russian-folklore
+    path: data/works/russian-folklore/koshchei-the-deathless-156.yaml
 
   - id: vasilisa-the-beautiful
     tradition: russian-folklore
