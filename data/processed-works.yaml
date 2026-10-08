@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "a25d774fddc8d698be5d794a162023fcdc81c109"
-work_count: 114
+master_sha: "c4241786e6bc69170d4df11c105ceebe5ff68a26"
+work_count: 115
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -389,6 +389,9 @@ works:
     tradition: russian-folklore
     path: data/works/russian-folklore/finist-bright-falcon-feather.yaml
 
+  - id: ivan-bykovich-afanasyev-137
+    tradition: russian-folklore
+    path: data/works/russian-folklore/ivan-bykovich-afanasyev-137.yaml
   - id: ivan-tsarevich-firebird-grey-wolf
     tradition: russian-folklore
     path: data/works/russian-folklore/ivan-tsarevich-firebird-grey-wolf.yaml
