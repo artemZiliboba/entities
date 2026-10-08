@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "c4241786e6bc69170d4df11c105ceebe5ff68a26"
-work_count: 115
+master_sha: "b8c68f63f34e7c96578c0d2869c52aa8f23cea13"
+work_count: 116
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -125,6 +125,9 @@ works:
     tradition: german-folklore
     path: data/works/german-folklore/the-devil-with-the-three-golden-hairs.yaml
 
+  - id: the-gold-children-grimm-85
+    tradition: german-folklore
+    path: data/works/german-folklore/the-gold-children-grimm-85.yaml
   - id: the-golden-bird
     tradition: german-folklore
     path: data/works/german-folklore/the-golden-bird.yaml

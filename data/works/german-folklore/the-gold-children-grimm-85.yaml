@@ -1,0 +1,88 @@
+id: the-gold-children-grimm-85
+title: "Золотые дети"
+original_title: "Die Goldkinder"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, № 85"
+author: "Братья Гримм"
+source:
+  title: "Die Goldkinder (1857), Kinder- und Hausmärchen, 7-е издание, том 1, с. 425–430"
+  url: "https://de.wikisource.org/wiki/Die_Goldkinder_(1857)"
+  note: >
+    Использована редакция 1857 года (KHM 85, седьмое издание).
+    Сверена с полным текстом перевода Маргарет Хант в Project Gutenberg,
+    https://www.gutenberg.org/files/5314/5314-h/5314-h.htm.
+    Сведения иных редакций не смешивались.
+entities:
+  - id: speaking-golden-fish
+    name: "Говорящая золотая рыба"
+    type: animal
+    description: >
+      Чудесная рыба, дважды превращающая хижину рыбака в замок
+      с неиссякаемым запасом еды при условии сохранения тайны.
+      На третью встречу велит разделить её тело на шесть частей:
+      съеденные и посаженные части вызывают рождение золотых близнецов,
+      жеребят и лилий.
+    tags:
+      - wish-granting
+      - speaking-animal
+      - transformation
+  - id: enchanted-food-cupboard
+    name: "Шкаф с неиссякаемой едой"
+    type: artifact
+    description: >
+      Шкаф в подаренном рыбой замке, где при открытии находятся
+      разнообразные готовые блюда в желаемом количестве.
+      Исчезает вместе с замком после разглашения рыбаком тайны.
+    tags:
+      - food
+      - abundance
+      - enchanted-object
+  - id: golden-twin-brothers
+    name: "Золотые братья-близнецы"
+    type: character
+    description: >
+      Два сына рыбака, рождённые после того, как их мать съела части
+      волшебной рыбы. Их тела целиком золотые; судьбы каждого из братьев
+      связаны с одной из золотых лилий, оставленных у отца.
+    tags:
+      - miraculous-birth
+      - twins
+      - golden
+  - id: golden-life-lilies
+    name: "Золотые лилии жизни"
+    type: plant
+    description: >
+      Две золотые лилии, выросшие из зарытых частей чудесной рыбы.
+      Каждая показывает состояние соответствующего золотого брата:
+      свежая означает здоровье, увядшая — болезнь или беду,
+      упавшая — смерть. После спасения окаменевшего брата его лилия
+      вновь поднимается и цветёт.
+    tags:
+      - life-link
+      - divination
+      - plant
+  - id: golden-foals
+    name: "Золотые жеребята"
+    type: animal
+    description: >
+      Два золотых жеребёнка, рождённых кобылой после поедания
+      частей чудесной рыбы. Растут вместе с золотыми братьями
+      и становятся их верховыми конями; самостоятельных
+      сверхъестественных способностей текст им не приписывает.
+    tags:
+      - miraculous-birth
+      - golden
+      - horses
+  - id: petrifying-witch
+    name: "Ведьма, обращающая в камень"
+    type: character
+    description: >
+      Лесная ведьма, живущая в маленьком доме. После угрозы её собаке
+      обращает одного золотого брата в камень, а затем по требованию
+      другого возвращает ему человеческий облик одним прикосновением пальца.
+    tags:
+      - witch
+      - petrification
+      - restoration
