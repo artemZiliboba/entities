@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "b8c68f63f34e7c96578c0d2869c52aa8f23cea13"
-work_count: 116
+master_sha: "3624a3673d0901dbd2a7a97eb9a229f2eb956ccc"
+work_count: 117
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -407,6 +407,9 @@ works:
     tradition: russian-folklore
     path: data/works/russian-folklore/vasilisa-the-beautiful.yaml
 
+  - id: go-i-know-not-where-afanasyev-212
+    tradition: russian-folklore
+    path: data/works/russian-folklore/go-i-know-not-where-afanasyev-212.yaml
   - id: geese-swans
     tradition: russian-folklore
     path: data/works/russian-folklore/geese-swans.yaml
