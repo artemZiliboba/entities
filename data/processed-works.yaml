@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "3624a3673d0901dbd2a7a97eb9a229f2eb956ccc"
-work_count: 117
+master_sha: "018ee4b7cd7a432bb96c08f4539addcbda4f77de"
+work_count: 118
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -379,6 +379,10 @@ works:
   - id: youth-without-age-and-life-without-death
     tradition: romanian-folklore
     path: data/works/romanian-folklore/youth-without-age-and-life-without-death.yaml
+
+  - id: baba-yaga-and-zamoryshek-afanasyev-105
+    tradition: russian-folklore
+    path: data/works/russian-folklore/baba-yaga-and-zamoryshek-afanasyev-105.yaml
 
   - id: the-frog-princess
     tradition: russian-folklore
