@@ -10,7 +10,10 @@ const GROUPS = [
 ];
 const ALPHABET = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'.split('');
 const app = document.getElementById('app');
-const state = { works:[], query:'' };
+const state = { works:[], query:'', ready:false };
+const MIN_PRELOADER_DURATION = 2000;
+const DATA_LOAD_TIMEOUT = 30000;
+const PRELOADER_FADE_DURATION = 400;
 const safe = value => value == null ? '' : String(value);
 const escapeHtml = value => safe(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const humanize = value => safe(value).split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -43,12 +46,12 @@ function groupNavigation(active) {
   return `<nav class="group-nav" aria-label="Разделы энциклопедии">${visible.map(([id,label,glyph]) => `<a class="group-tab${active === id ? ' active' : ''}" href="${id === 'works' ? '#/' : href('group',id)}" ${active === id ? 'aria-current="page"' : ''}>${icon(glyph)}<span>${label}</span></a>`).join('')}<button class="group-tab more-groups${moreActive ? ' active' : ''}" type="button" data-open-menu ${moreActive ? 'aria-current="page"' : ''}>${icon('sparkles')}<span>Ещё</span><b aria-hidden="true">⌄</b></button></nav>`;
 }
 
-async function loadData() {
-  const indexResponse = await fetch('data/processed-works.yaml', { cache: 'no-store' });
+async function loadData(signal) {
+  const indexResponse = await fetch('data/processed-works.yaml', { cache: 'no-store', signal });
   if (!indexResponse.ok) throw new Error('Не удалось загрузить список произведений');
   const index = jsyaml.load(await indexResponse.text());
   const works = await Promise.all(index.works.map(async item => {
-    const response = await fetch(item.path, { cache: 'no-store' });
+    const response = await fetch(item.path, { cache: 'no-store', signal });
     if (!response.ok) throw new Error(`Не удалось загрузить ${item.path}`);
     return { ...jsyaml.load(await response.text()), path:item.path };
   }));
@@ -139,6 +142,7 @@ function aboutView() { return `<a class="back" href="#/">На главную</a>
 function notFound() { return '<h1>Страница не найдена</h1><p><a href="#/">Вернуться на главную</a></p>'; }
 
 function render() {
+  if (!state.ready) return;
   const parts = location.hash.replace(/^#\/?/,'').split('/').filter(Boolean).map(decodeURIComponent);
   app.innerHTML = !parts.length ? homeView() : parts[0] === 'group' && GROUPS.some(([id]) => id === parts[1]) ? homeView(parts[1]) : parts[0] === 'work' ? workView(parts[1]) : parts[0] === 'entity' ? entityView(parts[1],parts[2]) : parts[0] === 'about' ? aboutView() : notFound();
   document.title = `${app.querySelector('h1')?.textContent.trim() || 'Энциклопедия сущностей'} — Энциклопедия сущностей`;
@@ -179,4 +183,72 @@ menuBackdrop.addEventListener('click', closeMenu);
 document.getElementById('sectionMenuLinks').addEventListener('click', closeMenu);
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
 
-loadData().then(() => { fillMenu(); render(); }).catch(error => { console.error(error); app.innerHTML = `<p class="empty">${escapeHtml(error.message)}. Попробуйте обновить страницу.</p>`; });
+const preloader = document.getElementById('preloader');
+const siteContent = document.getElementById('siteContent');
+const preloaderError = document.getElementById('preloaderError');
+const preloaderLabel = document.getElementById('preloaderLabel');
+const preloaderRetry = document.getElementById('preloaderRetry');
+let initializing = false;
+
+function dismissPreloader() {
+  // Render underneath the fixed overlay; keep controls inert until it is gone.
+  preloader.classList.add('is-leaving');
+  document.documentElement.classList.remove('preloading');
+  let removed = false;
+  const finish = () => {
+    if (removed) return;
+    removed = true;
+    preloader.remove();
+    siteContent.inert = false;
+  };
+  preloader.addEventListener('transitionend', event => {
+    if (event.target === preloader && event.propertyName === 'opacity') finish();
+  });
+  // Also clean up if a transition is disabled or its event is not delivered.
+  setTimeout(finish, PRELOADER_FADE_DURATION + 50);
+}
+
+async function initializeWithPreloader(startTime = performance.now()) {
+  if (initializing || state.ready) return;
+  initializing = true;
+  siteContent.inert = true;
+  preloader.classList.remove('has-error');
+  preloaderError.hidden = true;
+  preloaderLabel.textContent = 'Загружаем энциклопедию…';
+  preloader.setAttribute('aria-busy', 'true');
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), DATA_LOAD_TIMEOUT);
+  try {
+    // allSettled also holds early failures until the minimum display time.
+    const [result] = await Promise.allSettled([
+      loadData(controller.signal).finally(() => clearTimeout(timeout)),
+      new Promise(resolve => setTimeout(resolve,
+        Math.max(0, MIN_PRELOADER_DURATION - (performance.now() - startTime))))
+    ]);
+    if (result.status === 'rejected') throw result.reason;
+    state.ready = true;
+    fillMenu();
+    render();
+    dismissPreloader();
+  } catch (error) {
+    controller.abort();
+    state.ready = false;
+    console.error(error);
+    preloader.classList.add('has-error');
+    preloaderError.hidden = false;
+    preloaderLabel.textContent = 'Ошибка загрузки энциклопедии.';
+    preloader.setAttribute('aria-busy', 'false');
+    preloaderRetry.focus();
+  } finally {
+    clearTimeout(timeout);
+    initializing = false;
+  }
+}
+
+preloaderRetry.addEventListener('click', () => {
+  // Reload also retries the existing CDN script if the YAML parser failed to load.
+  if (typeof jsyaml === 'undefined') location.reload();
+  else initializeWithPreloader();
+});
+initializeWithPreloader(window.appInitializationStartedAt);
