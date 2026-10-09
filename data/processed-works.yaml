@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "7b976a246c8fd73a5479f70d939209f2c43a677c"
-work_count: 119
+master_sha: "f0e6e2263489db6a3409e6102f7a188e17221b60"
+work_count: 120
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -383,6 +383,10 @@ works:
   - id: crystal-mountain-afanasyev-162
     tradition: russian-folklore
     path: data/works/russian-folklore/crystal-mountain-afanasyev-162.yaml
+
+  - id: nikita-kozhemyaka-afanasyev-148
+    tradition: russian-folklore
+    path: data/works/russian-folklore/nikita-kozhemyaka-afanasyev-148.yaml
 
   - id: baba-yaga-and-zamoryshek-afanasyev-105
     tradition: russian-folklore
