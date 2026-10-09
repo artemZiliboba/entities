@@ -6,10 +6,25 @@
   <meta name="description" content="Энциклопедия магических сущностей из сказок, мифов и литературы">
   <meta name="theme-color" content="#0b1115">
   <title>Энциклопедия сущностей</title>
+  <script>
+    window.appInitializationStartedAt = performance.now();
+    document.documentElement.classList.add('preloading');
+  </script>
   <script src="theme.js?v=1"></script>
-  <link rel="stylesheet" href="styles.css?v=10">
+  <link rel="stylesheet" href="styles.css?v=12">
 </head>
 <body>
+  <div class="preloader" id="preloader" role="status" aria-live="polite" aria-busy="true">
+    <div class="preloader-rings" aria-hidden="true"><span></span><span></span><span></span></div>
+    <span class="preloader-label" id="preloaderLabel">Загружаем энциклопедию…</span>
+    <div class="preloader-error" id="preloaderError" hidden>
+      <h1>Не удалось загрузить энциклопедию</h1>
+      <p>Проверьте подключение к интернету и попробуйте ещё раз.</p>
+      <button id="preloaderRetry" type="button">Повторить загрузку</button>
+    </div>
+  </div>
+  <noscript><p class="empty">Для загрузки энциклопедии включите JavaScript в браузере.</p></noscript>
+  <div id="siteContent">
   <header class="site-header">
     <a class="brand" href="#/" aria-label="На главную">
       <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2.5 35 11v18L20 37.5 5 29V11L20 2.5Zm0 0v17m15-8.5-15 8.5L5 11m0 18 15-9.5L35 29M12 7l8 5 8-5M12 33V23l-7-4m23 14V23l7-4"/></svg>
@@ -33,9 +48,7 @@
     <div class="search-row"><input id="searchInput" type="search" placeholder="Название сущности или произведения…" autocomplete="off"><button id="searchClose" type="button" aria-label="Закрыть поиск">×</button></div>
   </div>
 
-  <main class="page" id="app" tabindex="-1">
-    <div class="loading">Загружаем энциклопедию…</div>
-  </main>
+  <main class="page" id="app" tabindex="-1"></main>
 
   <div class="menu-backdrop" id="menuBackdrop" hidden></div>
   <aside class="section-menu" id="sectionMenu" aria-labelledby="sectionMenuTitle" aria-hidden="true">
@@ -48,7 +61,9 @@
     <span><a href="https://github.com/artemZiliboba/entities" target="_blank" rel="noreferrer">GitHub</a><a href="https://github.com/artemZiliboba/entities/issues" target="_blank" rel="noreferrer">Обратная связь</a></span>
   </footer>
 
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-  <script src="app.js?v=8"></script>
+  <script src="app.js?v=9"></script>
 </body>
 </html>
