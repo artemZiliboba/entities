@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "df5fef5ff72385d1adb5afa27af4b7a2039190f3"
-work_count: 121
+master_sha: "ce8388c2878c1875e3f26ccf9108efc7fb1badc8"
+work_count: 122
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -96,6 +96,10 @@ works:
   - id: beauty-and-the-beast
     tradition: french-folklore
     path: data/works/french-folklore/beauty-and-the-beast.yaml
+
+  - id: three-little-men-in-the-wood-grimm-13
+    tradition: german-folklore
+    path: data/works/german-folklore/three-little-men-in-the-wood-grimm-13.yaml
 
   - id: jorinda-and-joringel
     tradition: german-folklore
