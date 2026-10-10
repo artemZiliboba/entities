@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "8e5b0496d24c48bef2f576718bdb9f413df6c12d"
-work_count: 124
+master_sha: "ee51965c5e277e3068b0585db186fa2f857d3115"
+work_count: 125
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -383,6 +383,10 @@ works:
   - id: what-the-rose-did-to-the-cypress
     tradition: persian-folklore
     path: data/works/persian-folklore/what-the-rose-did-to-the-cypress.yaml
+
+  - id: glass-mountain-polish-lang-1894
+    tradition: polish-folklore
+    path: data/works/polish-folklore/glass-mountain-polish-lang-1894.yaml
 
   - id: the-whirlwind
     tradition: polish-folklore
