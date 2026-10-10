@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f0e6e2263489db6a3409e6102f7a188e17221b60"
-work_count: 120
+master_sha: "df5fef5ff72385d1adb5afa27af4b7a2039190f3"
+work_count: 121
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -379,6 +379,10 @@ works:
   - id: youth-without-age-and-life-without-death
     tradition: romanian-folklore
     path: data/works/romanian-folklore/youth-without-age-and-life-without-death.yaml
+
+  - id: sun-moon-and-raven-voronovich-afanasyev-92
+    tradition: russian-folklore
+    path: data/works/russian-folklore/sun-moon-and-raven-voronovich-afanasyev-92.yaml
 
   - id: crystal-mountain-afanasyev-162
     tradition: russian-folklore
