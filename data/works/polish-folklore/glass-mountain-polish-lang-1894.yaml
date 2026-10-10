@@ -1,0 +1,71 @@
+id: glass-mountain-polish-lang-1894
+title: "Стеклянная гора (польская сказка)"
+original_title: "The Glass Mountain"
+kind: folktale
+tradition:
+  - polish-folklore
+collection: "The Yellow Fairy Book, под редакцией Эндрю Лэнга (1894)"
+source:
+  title: "The Glass Mountain, польская сказка по Клетке, The Yellow Fairy Book (1894)"
+  url: "https://www.gutenberg.org/files/640/640-h/640-h.htm"
+  note: "Только польская сказка «The Glass Mountain» (примечание 16: From the Polish. Kletke) из The Yellow Fairy Book, 1894. Не смешивать с норвежской «Princess on the Glass Hill» и русской «Хрустальная гора»."
+entities:
+  - id: enchanted-glass-mountain
+    name: "Стеклянная гора с заколдованным замком"
+    type: location
+    description: >
+      Недоступная стеклянная гора, на вершине которой находится
+      золотой замок с заколдованной принцессой. Скользкие склоны
+      препятствуют спасателям добраться до вершины; замок охраняют
+      орёл и дракон. Магический доступ в замок открывается тому,
+      кто сорвёт золотое яблоко.
+    tags:
+      - enchanted-location
+      - glass-mountain
+  - id: magical-golden-apple-tree
+    name: "Яблоня с чудесными золотыми яблоками"
+    type: plant
+    description: >
+      Яблоня растёт у золотого замка на вершине стеклянной горы.
+      Сорванное с неё золотое яблоко даёт право войти в замок;
+      кожура яблока мгновенно исцеляет раны юноши, а брошенное
+      в охраняющего вход дракона яблоко заставляет того исчезнуть.
+    tags:
+      - healing
+      - magical-fruit
+      - access
+  - id: guardian-eagle-reviving-blood
+    name: "Орёл-страж с оживляющей кровью"
+    type: animal
+    description: >
+      Огромный орёл охраняет яблоню и замок, сбивает всадника
+      с горы и подхватывает юношу когтями, подняв его к вершине.
+      Юноша отрезает орлу лапы; птица впоследствии погибает.
+      Её кровь чудесным образом возвращает к жизни людей
+      и лошадей, прежде погибших на склонах стеклянной горы.
+    tags:
+      - guardian
+      - resurrection
+      - giant-bird
+  - id: golden-castle-dragon
+    name: "Дракон у ворот золотого замка"
+    type: creature
+    description: >
+      Большой дракон охраняет дверь золотого замка на вершине
+      стеклянной горы. Когда юноша бросает в него одно из
+      волшебных золотых яблок, дракон мгновенно исчезает
+      и проход в замок открывается.
+    tags:
+      - dragon
+      - guardian
+  - id: speaking-messenger-swallow
+    name: "Говорящая ласточка-вестница"
+    type: animal
+    description: >
+      Ласточка служит посыльной в золотом замке. По свистку
+      юноши она прилетает, выслушивает поручение и возвращается
+      с понятным человеческим ответом: кровь погибшего орла
+      воскресила всех жертв стеклянной горы.
+    tags:
+      - talking-animal
+      - messenger
