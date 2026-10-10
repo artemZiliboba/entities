@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "ee51965c5e277e3068b0585db186fa2f857d3115"
-work_count: 125
+master_sha: "36aed020021088913a44e7ab75a02f1e202fde78"
+work_count: 126
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -28,6 +28,10 @@ works:
   - id: the-grateful-tartaro-and-the-heren-suge
     tradition: basque-folklore
     path: data/works/basque-folklore/the-grateful-tartaro-and-the-heren-suge.yaml
+
+  - id: flower-queens-daughter-bukovinian-1894
+    tradition: bukovinian-folklore
+    path: data/works/bukovinian-folklore/flower-queens-daughter-bukovinian-1894.yaml
 
   - id: the-bird-with-nine-heads
     tradition: chinese-folklore
