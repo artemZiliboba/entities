@@ -1,0 +1,154 @@
+id: flower-queens-daughter-bukovinian-1894
+title: "Дочь королевы цветов"
+original_title: "The Flower Queen's Daughter"
+kind: folktale
+tradition:
+  - bukovinian-folklore
+collection: "The Yellow Fairy Book, Andrew Lang (1894)"
+source:
+  title: "The Flower Queen's Daughter, The Yellow Fairy Book (1894), pp. 192–197"
+  url: "https://www.gutenberg.org/files/28314/28314-h/28314-h.htm"
+  note: "Конкретная англоязычная редакция 1894 года; примечание 23 связывает сказку с Heinrich von Wlislocki, Märchen und Sagen der Bukowinaer und Siebenbürger Armenier (1891). Использован только полный текст раздела The Flower Queen's Daughter, без смешения с другими вариантами."
+entities:
+  - id: benevolent-fairy-in-disguise
+    name: "Добрая фея в облике старухи"
+    type: character
+    description: >
+      Притворяется бедной женщиной, упавшей в канаву. За помощь
+      дарит принцу волшебный колокольчик и объясняет, как вызвать
+      трёх царей животных. После этого её хижина вместе с ней
+      внезапно исчезает; принц понимает, что встретил фею.
+    tags:
+      - fairy
+      - disguise
+      - supernatural-helper
+  - id: threefold-summoning-bell
+    name: "Колокольчик трёх призывов"
+    type: artifact
+    description: >
+      Подарок доброй феи: один звон вызывает царя орлов,
+      два звона — царя лисиц, три — царя рыб. Каждый
+      из призванных повелителей приходит на помощь принцу
+      при поиске исчезающей кобылицы.
+    tags:
+      - summoning
+      - enchanted-bell
+  - id: king-of-eagles
+    name: "Царь орлов"
+    type: animal
+    description: >
+      Говорящий повелитель орлов, который появляется после
+      одного звона колокольчика, знает, что кобылица матери
+      драконов скрывается среди облаков, и собирает тысячи
+      орлов, чтобы вернуть её принцу.
+    tags:
+      - talking-animal
+      - ruler-of-animals
+      - summoning
+  - id: king-of-foxes
+    name: "Царь лисиц"
+    type: animal
+    description: >
+      Говорящий повелитель лисиц, который является после
+      двух ударов колокольчика. Знает, что исчезнувшая
+      кобылица прячется внутри холма, и созывает тысячи
+      лисиц, которые находят и приводят её.
+    tags:
+      - talking-animal
+      - ruler-of-animals
+      - summoning
+  - id: king-of-fishes
+    name: "Царь рыб"
+    type: animal
+    description: >
+      Говорящий повелитель рыб, которого принц вызывает
+      тремя ударами колокольчика. Он знает, что кобылица
+      скрывается в реке, и собирает морских рыб,
+      которые возвращают её к вечеру.
+    tags:
+      - talking-animal
+      - ruler-of-animals
+      - summoning
+  - id: dragon-mother
+    name: "Трёхглавая мать драконов"
+    type: creature
+    description: >
+      Трёхглавая мать драконов живёт в золотом замке,
+      где устраивает ночные балы и удерживает дочь
+      королевы цветов. Заставляет принца три дня
+      пасти кобылицу, способную мгновенно исчезать;
+      награждает его плащами из меди, серебра и золота
+      и отдаёт жеребёнка за успешную службу.
+    tags:
+      - dragon
+      - three-headed
+      - supernatural-antagonist
+  - id: dragon-captor
+    name: "Дракон — похититель дочери королевы цветов"
+    type: creature
+    description: >
+      Дракон держит дочь королевы цветов в плену.
+      Попеременно бодрствует целый год и спит
+      целый год. После побега пленницы его
+      пробуждают родственники-драконы, и он
+      собирается осадить дворец королевы цветов.
+    tags:
+      - dragon
+      - captor
+      - enchanted-sleep
+  - id: seven-guardian-dragons
+    name: "Семь драконов у ворот замка"
+    type: creature
+    description: >
+      Семь говорящих драконов охраняют ворота
+      золотого замка матери драконов. Они
+      допрашивают пришедшего принца; старший
+      из них проводит его к хозяйке замка.
+      Группа выступает отдельной стражей.
+    tags:
+      - dragon
+      - guardian
+      - talking-creature
+  - id: vanishing-dragon-mare
+    name: "Исчезающая кобылица матери драконов"
+    type: animal
+    description: >
+      Кобылица трижды исчезает сразу после
+      выхода на пастбище: в первый день
+      оказывается среди облаков, во второй
+      прячется внутри холма, в третий — в реке.
+      Её каждый раз возвращают собранные
+      царями животных орлы, лисицы или рыбы.
+    tags:
+      - supernatural-escape
+      - shapeshifting
+  - id: flower-queen
+    name: "Королева цветов"
+    type: character
+    description: >
+      Владычица цветов и мать похищенной девушки.
+      После её возвращения заставляет вырасти
+      вокруг дворца лес из цветов высотой до неба,
+      через который драконы не могут пройти.
+      Разрешает дочери выйти за принца при условии,
+      что каждую зиму та будет возвращаться
+      к матери в подземный дворец.
+    tags:
+      - flower-magic
+      - supernatural-ruler
+      - seasonal-cycle
+  - id: flower-queens-daughter
+    name: "Дочь королевы цветов"
+    type: character
+    description: >
+      Пленница дракона, одетая в платье из цветов.
+      Подсказывает принцу попросить в награду
+      жеребёнка кобылицы и вместе с ним бежит
+      из замка матери драконов. По условию матери
+      каждую зиму живёт в её подземном дворце,
+      а летом возвращается к супругу.
+      Собственной колдовской силы текст не показывает.
+    tags:
+      - supernatural-lineage
+      - seasonal-cycle
+      - captive-princess
