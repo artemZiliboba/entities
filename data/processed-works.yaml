@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "94f587b09c9a61de82a03e38211662c206dbde38"
-work_count: 131
+master_sha: "16708eca92dcc1d0b4564eb4ce0c76990bb205a3"
+work_count: 132
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -275,6 +275,10 @@ works:
   - id: ghvthisavari
     tradition: georgian-folklore
     path: data/works/georgian-folklore/ghvthisavari.yaml
+
+  - id: golden-crab-greek-lang-1894
+    tradition: greek-folklore
+    path: data/works/greek-folklore/golden-crab-greek-lang-1894.yaml
 
   - id: odyssey-book-x
     tradition: greek-mythology
