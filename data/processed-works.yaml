@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "51be476835243617ea5c65e34a552a28c6109f19"
-work_count: 128
+master_sha: "278e52d743d39bcab42165bb4bd0b1fa994234e9"
+work_count: 129
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -68,6 +68,10 @@ works:
   - id: rose-elf-andersen-howitt-1846
     tradition: danish-literature
     path: data/works/danish-literature/rose-elf-andersen-howitt-1846.yaml
+
+  - id: elfin-mount-andersen-1913
+    tradition: danish-literature
+    path: data/works/danish-literature/elfin-mount-andersen-1913.yaml
 
   - id: garden-of-paradise-andersen-wonderful-stories
     tradition: danish-literature
