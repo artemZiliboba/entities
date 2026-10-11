@@ -1,0 +1,52 @@
+id: swineherd-andersen-gutenberg-1597
+title: "Свинопас"
+original_title: "The Swineherd"
+kind: story
+tradition:
+  - danish-literature
+author: "Ханс Кристиан Андерсен"
+collection: "Andersen's Fairy Tales (английская редакция Project Gutenberg № 1597)"
+source:
+  title: "The Swineherd, Andersen's Fairy Tales, Project Gutenberg eBook 1597"
+  url: "https://www.gutenberg.org/files/1597/1597-h/1597-h.htm"
+  note: "Прочитан весь раздел THE SWINEHERD, от заголовка до THE REAL PRINCESS, в конкретном английском тексте Project Gutenberg № 1597. Датировка оригинального произведения не приравнивается к дате цифровой публикации. Иные переводы не смешивались."
+entities:
+  - id: sorrow-forgetting-rose
+    name: "Роза, заставляющая забыть печали"
+    type: plant
+    description: >
+      Роза на кусте, выросшем над могилой отца принца.
+      Куст расцветает лишь раз в пять лет и приносит
+      единственный цветок; аромат этой розы заставляет
+      вдохнувшего его забыть все заботы и печали.
+      Принц посылает розу принцессе в подарок, но
+      та отвергает её, узнав, что цветок настоящий.
+    tags:
+      - enchanted-flower
+      - forgetfulness
+  - id: all-kitchens-revealing-pot
+    name: "Горшочек, раскрывающий запахи всех кухонь"
+    type: artifact
+    description: >
+      Кухонный горшочек, сделанный принцем в облике
+      свинопаса. Когда он кипит, подвешенные к нему
+      колокольчики играют мелодию; если подержать
+      палец в его пару, можно по запаху узнать,
+      какие блюда готовят на каждом очаге города.
+      Принц продаёт горшочек принцессе за десять поцелуев.
+    tags:
+      - enchanted-pot
+      - distant-perception
+      - music
+  - id: all-melodies-rattle
+    name: "Трещотка всех мелодий"
+    type: artifact
+    description: >
+      Музыкальная трещотка, изготовленная принцем,
+      скрывающимся под видом свинопаса. При вращении
+      воспроизводит все вальсы и танцевальные мелодии,
+      когда-либо звучавшие со времени сотворения мира.
+      Принц требует за неё сто поцелуев принцессы.
+    tags:
+      - enchanted-instrument
+      - music
