@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "288fd5808310088c9651c81d1c31d27fe70a58fc"
-work_count: 130
+master_sha: "94f587b09c9a61de82a03e38211662c206dbde38"
+work_count: 131
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -72,6 +72,10 @@ works:
   - id: swineherd-andersen-gutenberg-1597
     tradition: danish-literature
     path: data/works/danish-literature/swineherd-andersen-gutenberg-1597.yaml
+
+  - id: steadfast-tin-soldier-stickney-32571
+    tradition: danish-literature
+    path: data/works/danish-literature/steadfast-tin-soldier-stickney-32571.yaml
 
   - id: elfin-mount-andersen-1913
     tradition: danish-literature
