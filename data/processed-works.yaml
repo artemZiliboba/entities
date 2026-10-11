@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "278e52d743d39bcab42165bb4bd0b1fa994234e9"
-work_count: 129
+master_sha: "288fd5808310088c9651c81d1c31d27fe70a58fc"
+work_count: 130
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -68,6 +68,10 @@ works:
   - id: rose-elf-andersen-howitt-1846
     tradition: danish-literature
     path: data/works/danish-literature/rose-elf-andersen-howitt-1846.yaml
+
+  - id: swineherd-andersen-gutenberg-1597
+    tradition: danish-literature
+    path: data/works/danish-literature/swineherd-andersen-gutenberg-1597.yaml
 
   - id: elfin-mount-andersen-1913
     tradition: danish-literature
