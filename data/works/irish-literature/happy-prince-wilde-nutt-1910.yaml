@@ -1,0 +1,77 @@
+id: happy-prince-wilde-nutt-1910
+title: "Счастливый принц"
+original_title: "The Happy Prince"
+kind: story
+tradition:
+  - irish-literature
+author: "Оскар Уайльд"
+collection: "The Happy Prince and Other Tales (David Nutt, London, seventh impression, 1910)"
+source:
+  title: "The Happy Prince, The Happy Prince and Other Tales (David Nutt, 1910)"
+  url: "https://www.gutenberg.org/files/902/902-h/902-h.htm"
+  note: "Полный раздел The Happy Prince в лондонском издании David Nutt, seventh impression (1910), Project Gutenberg № 902, от заголовка до The Nightingale and the Rose. Впервые сборник издан в 1888 году; детали других сказок сборника не использованы."
+entities:
+  - id: sentient-happy-prince-statue
+    name: "Ожившая статуя Счастливого принца"
+    type: artifact
+    description: >
+      Позолоченная статуя умершего принца на высокой колонне.
+      Сохраняет сознание, речь и способность плакать, видит
+      бедность и страдания жителей города, хотя не может
+      сойти с постамента. Просит ласточку раздать беднякам
+      рубин с рукояти меча, два сапфира-глаза и листки позолоты.
+      После гибели ласточки свинцовое сердце статуи раскалывается.
+    tags:
+      - sentient-statue
+      - animated-object
+      - compassion
+  - id: speaking-swallow
+    name: "Говорящая ласточка — посланник принца"
+    type: animal
+    description: >
+      Ласточка, способная разговаривать со статуей Счастливого
+      принца и сознательно выполнять её просьбы. Вместо перелёта
+      в Египет остаётся зимой в городе, переносит драгоценности
+      и золото бедным, а после потери принцем зрения рассказывает
+      ему о происходящем. Погибает от холода у его ног.
+      В финале ей обещано вечное пение в райском саду.
+    tags:
+      - talking-bird
+      - messenger
+      - self-sacrifice
+  - id: unmeltable-lead-heart
+    name: "Неплавящееся свинцовое сердце"
+    type: artifact
+    description: >
+      Сердце внутри статуи Счастливого принца, которое
+      раскалывается надвое после смерти ласточки.
+      Когда статую переплавляют в печи, сердце не плавится,
+      несмотря на то что остальной металл расплавлен.
+      Ангел приносит его Богу как одну из двух самых
+      драгоценных вещей города.
+    tags:
+      - indestructible-object
+      - sacred-relic
+  - id: angel-collecting-city-treasures
+    name: "Ангел, собирающий сокровища города"
+    type: character
+    description: >
+      Один из ангелов Бога, получивший приказ принести
+      две самые драгоценные вещи города. Выбирает
+      расколотое свинцовое сердце статуи и тело погибшей
+      ласточки. Бог одобряет этот выбор.
+    tags:
+      - angel
+      - divine-messenger
+  - id: god-of-happy-prince
+    name: "Бог в сказке о Счастливом принце"
+    type: character
+    description: >
+      Божественный персонаж заключительной сцены сказки.
+      Повелевает ангелу найти две самые драгоценные вещи
+      в городе и принимает сердце статуи и мёртвую ласточку.
+      Обещает птице вечное пение в райском саду,
+      а принцу — пребывание в золотом городе.
+    tags:
+      - deity
+      - divine-judgment

@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "16708eca92dcc1d0b4564eb4ce0c76990bb205a3"
-work_count: 132
+master_sha: "b0bdcf0da7a2f49118e4bf73f6e8515fe4624391"
+work_count: 133
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -299,6 +299,10 @@ works:
   - id: punchkin
     tradition: indian-folklore
     path: data/works/indian-folklore/punchkin.yaml
+
+  - id: happy-prince-wilde-nutt-1910
+    tradition: irish-literature
+    path: data/works/irish-literature/happy-prince-wilde-nutt-1910.yaml
 
   - id: children-of-lir
     tradition: irish-mythology
