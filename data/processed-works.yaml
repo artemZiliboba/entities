@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "36aed020021088913a44e7ab75a02f1e202fde78"
-work_count: 126
+master_sha: "fc5b20b1764556c0500368e77ee6163135b44ae4"
+work_count: 127
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -64,6 +64,10 @@ works:
   - id: the-nightingale
     tradition: danish-literature
     path: data/works/danish-literature/the-nightingale.yaml
+
+  - id: garden-of-paradise-andersen-wonderful-stories
+    tradition: danish-literature
+    path: data/works/danish-literature/garden-of-paradise-andersen-wonderful-stories.yaml
 
   - id: the-flying-trunk
     tradition: danish-literature
