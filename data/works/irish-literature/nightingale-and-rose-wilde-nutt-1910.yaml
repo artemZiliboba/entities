@@ -1,0 +1,69 @@
+id: nightingale-and-rose-wilde-nutt-1910
+title: "Соловей и роза"
+original_title: "The Nightingale and the Rose"
+kind: story
+tradition:
+  - irish-literature
+author: "Оскар Уайльд"
+collection: "The Happy Prince and Other Tales (David Nutt, London, seventh impression, 1910)"
+source:
+  title: "The Nightingale and the Rose, The Happy Prince and Other Tales (1910)"
+  url: "https://www.gutenberg.org/files/902/902-h/902-h.htm"
+  note: "Полный раздел The Nightingale and the Rose, строки 186–282 Project Gutenberg № 902, по седьмому изданию David Nutt (1910). Первое издание сборника — 1888. Другие рассказы и варианты не смешивались."
+entities:
+  - id: speaking-sacrificial-nightingale
+    name: "Говорящий соловей, создавший алую розу"
+    type: animal
+    description: >
+      Соловей понимает людей и разговаривает с растениями и животными. Ради студента поёт ночью, прижавшись грудью к шипу красного розового куста. Его кровь и песня создают алую розу, а сам он погибает.
+    tags:
+      - talking-bird
+  - id: white-speaking-rose-tree
+    name: "Говорящий куст белых роз"
+    type: plant
+    description: >
+      Розовый куст посреди газона разговаривает с соловьём, объясняет, что даёт только белые цветы, и направляет его к кусту у солнечных часов.
+    tags:
+      - speaking-plant
+  - id: yellow-speaking-rose-tree
+    name: "Говорящий куст жёлтых роз"
+    type: plant
+    description: >
+      Куст у старых солнечных часов разговаривает с соловьём. Даёт только жёлтые розы и отправляет птицу к третьему кусту под окном студента.
+    tags:
+      - speaking-plant
+  - id: red-rose-tree-blood-magic
+    name: "Куст красных роз, принимающий песню и кровь"
+    type: plant
+    description: >
+      Куст под окном студента объясняет соловью, как вырастить розу из ночной песни и крови, проходящей через шип в его жилы. Подгоняет птицу во время обряда; на его ветви расцветает необычайная алая роза.
+    tags:
+      - blood-magic
+  - id: speaking-holm-oak
+    name: "Говорящий каменный дуб"
+    type: plant
+    description: >
+      Дуб, на котором соловей свил гнездо, понимает речь птицы, печалится о её предстоящей смерти и просит спеть напоследок.
+    tags:
+      - speaking-tree
+  - id: speaking-green-lizard
+    name: "Говорящая зелёная ящерица"
+    type: animal
+    description: >
+      Зелёная ящерица спрашивает, почему студент плачет, и насмешливо реагирует на рассказ о недостающей красной розе.
+    tags:
+      - talking-animal
+  - id: speaking-butterfly
+    name: "Говорящая бабочка"
+    type: animal
+    description: >
+      Бабочка, летящая за солнечным лучом, вступает в разговор о слезах студента и удивляется причине его горя.
+    tags:
+      - talking-insect
+  - id: speaking-daisy
+    name: "Говорящая маргаритка"
+    type: plant
+    description: >
+      Маргаритка шепчет соседнему цветку вопрос о том, почему плачет студент.
+    tags:
+      - speaking-flower
