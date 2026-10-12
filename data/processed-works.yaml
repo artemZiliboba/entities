@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "0fc7afa6ea2d2a63c2d6e312bd60a3400137a754"
-work_count: 134
+master_sha: "5fcf119b051a8e7c10f3ac51b6c798c00ce7b54e"
+work_count: 135
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -303,6 +303,10 @@ works:
   - id: selfish-giant-wilde-celt-1987
     tradition: irish-literature
     path: data/works/irish-literature/selfish-giant-wilde-celt-1987.yaml
+
+  - id: nightingale-and-rose-wilde-nutt-1910
+    tradition: irish-literature
+    path: data/works/irish-literature/nightingale-and-rose-wilde-nutt-1910.yaml
 
   - id: happy-prince-wilde-nutt-1910
     tradition: irish-literature
