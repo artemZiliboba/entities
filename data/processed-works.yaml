@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "079a691d492d26cebfe2c10d62f5bd31fc67b329"
-work_count: 137
+master_sha: "00d6dfceac99d445969b9bec6f38102a5c898663"
+work_count: 138
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -12,6 +12,10 @@ works:
   - id: the-wonderful-wizard-of-oz
     tradition: american-literature
     path: data/works/american-literature/the-wonderful-wizard-of-oz.yaml
+
+  - id: ali-baba-forty-thieves-lang-1889
+    tradition: arabian-nights
+    path: data/works/arabian-nights/ali-baba-forty-thieves-lang-1889.yaml
 
   - id: aladdin-and-the-wonderful-lamp
     tradition: arabian-nights
