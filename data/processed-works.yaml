@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "00d6dfceac99d445969b9bec6f38102a5c898663"
-work_count: 138
+master_sha: "7985fbe1cbb65117d32dc02efffb5dde48470981"
+work_count: 139
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -16,6 +16,10 @@ works:
   - id: ali-baba-forty-thieves-lang-1889
     tradition: arabian-nights
     path: data/works/arabian-nights/ali-baba-forty-thieves-lang-1889.yaml
+
+  - id: bronze-ring-lang-1889
+    tradition: anatolian-folklore
+    path: data/works/anatolian-folklore/bronze-ring-lang-1889.yaml
 
   - id: aladdin-and-the-wonderful-lamp
     tradition: arabian-nights
