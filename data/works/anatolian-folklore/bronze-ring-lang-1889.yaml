@@ -1,0 +1,76 @@
+id: bronze-ring-lang-1889
+title: "Бронзовое кольцо"
+original_title: "The Bronze Ring"
+kind: folktale
+tradition:
+  - anatolian-folklore
+collection: "The Blue Fairy Book (edited by Andrew Lang, 1889)"
+source:
+  title: "The Bronze Ring, The Blue Fairy Book (1889), Project Gutenberg #503"
+  url: "https://www.gutenberg.org/files/503/503-h/503-h.htm"
+  note: "Полный раздел THE BRONZE RING, строки 94–328 Project Gutenberg № 503, сборник The Blue Fairy Book под редакцией Эндрю Лэнга (1889); примечание ссылается на Traditions Populaires de l’Asie Mineure, Carnoy et Nicolaides (Paris, 1889). Соседние сказки и другие версии не смешивались."
+entities:
+  - id: wish-granting-bronze-ring
+    name: "Бронзовое кольцо, исполняющее желания"
+    type: artifact
+    description: >
+      Бронзовое кольцо, которое подчиняется своему владельцу и немедленно исполняет его распоряжения: создаёт корабли и экипажи, изменяет их вид и возвращает прежний облик. Кольцо переходит от царя к сыну садовника, затем к колдуну и обратно.
+    tags:
+      - wish-granting
+      - magic-ring
+  - id: genii-of-bronze-ring
+    name: "Джинны бронзового кольца"
+    type: creature
+    description: >
+      Подчинённые кольцу джинны исполняют желания его обладателя. Текст прямо называет их исполнителями превращения золотого корабля и команды и последующего восстановления судна.
+    tags:
+      - genii
+      - servitude
+  - id: three-dog-ashes-rejuvenation
+    name: "Обряд омоложения с пеплом трёх собак"
+    type: spell
+    description: >
+      По указанию старой нищенки сын садовника сжигает отдельно белую, чёрную и красную собак, собирает пепел и посыпает им собранные кости сваренного в котле старого царя. Царь оживает и вновь становится молодым. Это отдельное чудо, не связанное с кольцом.
+    tags:
+      - rejuvenation
+      - resurrection
+  - id: speaking-mouse-queen
+    name: "Говорящая королева мышей"
+    type: animal
+    description: >
+      Правительница мышиного острова созывает совет и посылает говорящих мышей к капитану, чтобы остановить истребление её подданных кошками. Затем поручает трём путешественницам найти похищенное кольцо.
+    tags:
+      - talking-animal
+      - mouse-queen
+  - id: speaking-mouse-envoys
+    name: "Говорящие мыши-посланники"
+    type: animal
+    description: >
+      Группа мышей, которые от имени королевы разговаривают с человеком-капитаном и договариваются об условии спасения острова: возврате украденного бронзового кольца.
+    tags:
+      - talking-animal
+      - envoys
+  - id: blind-ring-finding-mouse
+    name: "Слепая мышь, нашедшая кольцо"
+    type: animal
+    description: >
+      Одна из трёх говорящих мышей, отправленных за кольцом. Охраняет лодку, затем находит потерянное кольцо внутри мёртвой рыбы и зовёт спутниц. Спорит с ними о заслугах в спасении.
+    tags:
+      - talking-animal
+      - quest
+  - id: lame-ring-retrieving-mouse
+    name: "Хромая мышь, похитившая кольцо"
+    type: animal
+    description: >
+      Одна из трёх говорящих мышей. Пока колдун спит, хватает кольцо, выскочившее из его рта, и уносит к лодке; позже участвует в ссоре, из-за которой кольцо падает в море.
+    tags:
+      - talking-animal
+      - quest
+  - id: cropped-eared-pepper-mouse
+    name: "Мышь с обрезанными ушами и перцем"
+    type: animal
+    description: >
+      Одна из трёх говорящих мышей. Смазывает хвост маслом и перцем, подносит к носу спящего колдуна и заставляет его чихнуть, так что волшебное кольцо выпадает изо рта.
+    tags:
+      - talking-animal
+      - quest
