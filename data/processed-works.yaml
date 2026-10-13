@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f863cc74c7d30c7f181c40ce4721b356c465c70d"
-work_count: 140
+master_sha: "7b285e735d939e7eb3eb636eca30768a21ea1de1"
+work_count: 141
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -128,6 +128,10 @@ works:
   - id: sleeping-beauty-in-the-wood
     tradition: french-folklore
     path: data/works/french-folklore/sleeping-beauty-in-the-wood.yaml
+
+  - id: white-cat-daulnoy-lang-1889
+    tradition: french-folklore
+    path: data/works/french-folklore/white-cat-daulnoy-lang-1889.yaml
 
   - id: puss-in-boots-lang-1889
     tradition: french-folklore
