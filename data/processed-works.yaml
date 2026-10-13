@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "0452bd26d1c7278e0de3e317a390806a9f194f0c"
-work_count: 136
+master_sha: "079a691d492d26cebfe2c10d62f5bd31fc67b329"
+work_count: 137
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -96,6 +96,10 @@ works:
   - id: the-dragon-of-the-north
     tradition: estonian-folklore
     path: data/works/estonian-folklore/the-dragon-of-the-north.yaml
+
+  - id: christmas-carol-dickens-1843-gutenberg46
+    tradition: english-literature
+    path: data/works/english-literature/christmas-carol-dickens-1843-gutenberg46.yaml
 
   - id: alices-adventures-in-wonderland
     tradition: english-literature
