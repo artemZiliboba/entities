@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "5fcf119b051a8e7c10f3ac51b6c798c00ce7b54e"
-work_count: 135
+master_sha: "0452bd26d1c7278e0de3e317a390806a9f194f0c"
+work_count: 136
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -299,6 +299,10 @@ works:
   - id: punchkin
     tradition: indian-folklore
     path: data/works/indian-folklore/punchkin.yaml
+
+  - id: canterville-ghost-wilde-1906
+    tradition: irish-literature
+    path: data/works/irish-literature/canterville-ghost-wilde-1906.yaml
 
   - id: selfish-giant-wilde-celt-1987
     tradition: irish-literature
