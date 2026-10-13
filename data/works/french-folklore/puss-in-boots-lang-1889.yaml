@@ -1,0 +1,39 @@
+id: puss-in-boots-lang-1889
+title: "Кот в сапогах"
+original_title: "The Master Cat; or, Puss in Boots"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Шарль Перро (литературная обработка)"
+collection: "The Blue Fairy Book (edited by Andrew Lang, 1889)"
+source:
+  title: "The Master Cat; or, Puss in Boots, The Blue Fairy Book (1889)"
+  url: "https://en.wikisource.org/wiki/The_Blue_Fairy_Book/The_Master_cat%3B_or%2C_Puss_in_boots"
+  note: "Полный самостоятельный раздел сказки в The Blue Fairy Book под редакцией Эндрю Лэнга (1889), с указанием Charles Perrault. В предисловии сборника сказки Перро названы перепечаткой английского перевода XVIII века. Другие версии и экранизации не использовались."
+entities:
+  - id: master-cat-puss-in-boots
+    name: "Говорящий Кот в сапогах"
+    type: animal
+    description: >
+      Кот, доставшийся младшему сыну мельника, владеет
+      человеческой речью и сознательно общается с королём,
+      крестьянами и великаном-оборотнем. Он ходит в сапогах,
+      пользуется мешком, устраивает ловушки и обманом
+      выдаёт хозяина за маркиза Карабаса. Его необыкновенная
+      речь прямо показана, однако сапоги и мешок
+      не обладают собственной магической силой.
+    tags:
+      - talking-animal
+      - trickster
+  - id: shapeshifting-ogre
+    name: "Великан-оборотень из замка"
+    type: creature
+    description: >
+      Богатый владелец замка умеет по своей воле
+      принимать облик различных животных. По просьбе
+      Кота превращается в льва, затем возвращает
+      прежний вид; после насмешливого вызова
+      становится мышью, и Кот съедает его.
+    tags:
+      - ogre
+      - shapeshifting
