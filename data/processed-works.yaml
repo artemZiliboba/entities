@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "508b70900a530017793165b8003e8d1231031793"
-work_count: 142
+master_sha: "531428ffdf67528bccbd20efaff140b802847135"
+work_count: 143
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -343,6 +343,10 @@ works:
   - id: children-of-lir
     tradition: irish-mythology
     path: data/works/irish-mythology/children-of-lir.yaml
+
+  - id: enchanted-snake-basile-lang-1892
+    tradition: italian-folklore
+    path: data/works/italian-folklore/enchanted-snake-basile-lang-1892.yaml
 
   - id: pinocchio
     tradition: italian-literature
