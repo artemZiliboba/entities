@@ -1,0 +1,62 @@
+id: canterville-ghost-wilde-1906
+title: "Кентервильское привидение"
+original_title: "The Canterville Ghost"
+kind: story
+tradition:
+  - irish-literature
+author: "Оскар Уайльд"
+collection: "The Canterville Ghost (John W. Luce and Company, Boston and London, 1906)"
+source:
+  title: "The Canterville Ghost, illustrated by Wallace Goldsmith (1906)"
+  url: "https://www.gutenberg.org/files/14522/14522-h/14522-h.htm"
+  note: "Полный текст глав I–VII из издания John W. Luce and Company (1906), Project Gutenberg № 14522. Рассказ впервые опубликован в 1887 году; описана именно эта редакция, без заимствований из других версий."
+entities:
+  - id: sir-simon-canterville-ghost
+    name: "Призрак сэра Саймона де Кентервиля"
+    type: creature
+    description: >
+      Дух убитого в XVI веке сэра Саймона обитает в Кентервильском замке около трёхсот лет. Разговаривает с живыми, светится, проходит сквозь стены и людей, меняет обличья, способен исчезать и появляться. Просит Вирджинию помолиться за него, чтобы обрести покой.
+    tags:
+      - ghost
+      - shapeshifting
+      - haunting
+  - id: speaking-tapestry-hunters
+    name: "Ожившие охотники на гобелене"
+    type: character
+    description: >
+      В комнате с гобеленами вышитые маленькие охотники оживают, трубят в рожки, машут руками и словами предупреждают Вирджинию, чтобы она вернулась, когда призрак ведёт её к тайному проходу.
+    tags:
+      - animated-image
+      - warning
+  - id: speaking-chimneypiece-beasts
+    name: "Говорящие чудовища каминной резьбы"
+    type: creature
+    description: >
+      Вырезанные на камине чудовища с ящеричьими хвостами и выпученными глазами моргают и предупреждают Вирджинию, что она может не вернуться, когда та следует за призраком.
+    tags:
+      - animated-sculpture
+      - warning
+  - id: canterville-peace-prophecy
+    name: "Пророчество об освобождении Кентервиля"
+    type: phenomenon
+    description: >
+      Шестистрочное пророчество на окне библиотеки связывает окончание проклятия с молитвой за грешника, слезами ребёнка и цветением бесплодного миндаля. После помощи Вирджинии призраку засохшее миндальное дерево зацветает, что она принимает как знак прощения.
+    tags:
+      - prophecy
+      - redemption
+  - id: canterville-hidden-portal
+    name: "Исчезающая стена тайного прохода"
+    type: location
+    description: >
+      Когда призрак произносит непонятные Вирджинии слова, стена комнаты с гобеленами рассеивается словно туман и открывает вход в тёмную пещеру. Девочка следует за ним; обшивка вновь смыкается. Позже Вирджиния возвращается через скрытый проход и показывает семье место гибели сэра Саймона.
+    tags:
+      - magical-passage
+      - hidden-place
+  - id: miraculous-almond-blossoming
+    name: "Чудесное цветение засохшего миндаля"
+    type: plant
+    description: >
+      Старое засохшее миндальное дерево неожиданно расцветает после освобождения духа сэра Саймона. Его цветение предсказано в пророчестве и воспринимается Вирджинией как подтверждение прощения призрака.
+    tags:
+      - miraculous-bloom
+      - redemption
