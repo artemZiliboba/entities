@@ -1,0 +1,109 @@
+id: white-cat-daulnoy-lang-1889
+title: "Белая кошка"
+original_title: "The White Cat"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Мари-Катрин д’Онуа (литературная обработка)"
+collection: "The Blue Fairy Book (edited by Andrew Lang, 1889)"
+source:
+  title: "The White Cat, The Blue Fairy Book (1889), Wikisource"
+  url: "https://en.wikisource.org/wiki/The_Blue_Fairy_Book/The_White_Cat"
+  note: "Полный самостоятельный текст THE WHITE CAT из The Blue Fairy Book (1889) под редакцией Эндрю Лэнга. В конце текста указано La Chatte blanche, Madame la Comtesse d’Aulnoy. Из других переводов и версий детали не заимствованы."
+entities:
+  - id: enchanted-white-cat-princess
+    name: "Белая кошка — заколдованная принцесса"
+    type: character
+    description: >
+      Принцесса, превращённая феями в белую кошку за отказ выйти замуж за короля карликов. Разговаривает с принцем и правит кошачьим двором. По её просьбе принц отрубает ей голову, после чего чары рассеиваются и она возвращает человеческий облик.
+    tags:
+      - transformation
+      - enchanted-princess
+  - id: fairy-sisters-of-orchard
+    name: "Феи — хозяйки волшебного сада"
+    type: creature
+    description: >
+      Группа сестёр-фей, которые выращивают чудесные плоды, требуют дочь королевы в обмен на урожай, похищают принцессу, превращают её в кошку и заколдовывают придворных. Одна из них вызывает плоды свистом и приказом; другая прибывает верхом на драконе.
+    tags:
+      - fairies
+      - enchantment
+  - id: fire-breathing-fairy-dragon
+    name: "Огнедышащий дракон фей"
+    type: creature
+    description: >
+      Дракон, посланный феями для устрашения короля: пожирает встречных и сжигает всё вокруг дыханием. Позже следует за феями на цепях и проглатывает возлюбленного принцессы, когда тот помогает ей бежать.
+    tags:
+      - dragon
+      - fire-breath
+  - id: invisible-castle-servants
+    name: "Невидимые слуги замка"
+    type: character
+    description: >
+      Слуги дворца Белой кошки, которых феи сделали невидимыми, оставив видимыми только руки. Их парящие руки несут факелы, открывают двери, одевают принца, подают блюда и управляют повседневной жизнью замка.
+    tags:
+      - invisibility
+      - enchanted-court
+  - id: enchanted-cat-courtiers
+    name: "Придворные, превращённые в кошек"
+    type: character
+    description: >
+      Вельможи и дамы двора принцессы, которых феи подвергли тому же превращению, что и её. В облике кошек они устраивают представления, охоты и пиры; после освобождения принцессы появляются в человеческом виде, неся кошачьи шкуры.
+    tags:
+      - transformation
+      - enchanted-court
+  - id: living-wooden-horse
+    name: "Оживший деревянный конь"
+    type: artifact
+    description: >
+      Деревянный конь, который скачет как живой и несёт принца из замка Белой кошки домой за двенадцать часов. Принц видит, как конь самостоятельно резвится во дворе.
+    tags:
+      - animated-object
+      - magical-transport
+  - id: forgetfulness-draught
+    name: "Напиток забвения"
+    type: substance
+    description: >
+      Напиток в хрустальном кубке, после которого принц забывает своё происхождение, братьев и поручение короля, оставаясь счастливым рядом с Белой кошкой. Память возвращается, когда она напоминает ему о сроке.
+    tags:
+      - forgetfulness
+      - enchanted-drink
+  - id: acorn-with-tiny-dog
+    name: "Жёлудь с крошечной собачкой"
+    type: artifact
+    description: >
+      Жёлудь, подаренный Белой кошкой принцу: внутри помещается живая лающая собачка, которая после открытия появляется на подушке, встаёт и танцует. Необычное вместилище позволяет доставить её ко двору короля.
+    tags:
+      - impossible-container
+      - miniature-animal
+  - id: nested-nuts-with-endless-muslin
+    name: "Орехи с чудесным муслином"
+    type: artifact
+    description: >
+      Волшебная последовательность вложенных оболочек — грецкий орех, лесной орех, вишнёвая косточка, зерно пшеницы и просяное зёрнышко. В последнем скрыт отрез муслина длиной четыреста локтей, который шесть раз проходит сквозь игольное ушко.
+    tags:
+      - impossible-container
+      - magical-textile
+  - id: fairy-orchard-trees
+    name: "Плодовые деревья волшебного сада"
+    type: plant
+    description: >
+      Деревья в саду фей, чьи необыкновенно вкусные плоды по свисту и приказу старой феи сами прибывают к королеве. Неприступность садовой стены и необычные свойства плодов подчёркивают зачарованность владений.
+    tags:
+      - fairy-orchard
+      - animated-fruit
+  - id: talking-parrot-in-tower
+    name: "Говорящий попугай из башни"
+    type: animal
+    description: >
+      Попугай, составлявший компанию юной принцессе в башне фей. В её рассказе прямо сказано, что он, как и маленькая собака, умел разговаривать.
+    tags:
+      - talking-animal
+      - tower
+  - id: talking-dog-in-tower
+    name: "Говорящая собака из башни"
+    type: animal
+    description: >
+      Маленькая собака, жившая вместе с попугаем у принцессы в заточении. По рассказу принцессы, оба животных умели говорить.
+    tags:
+      - talking-animal
+      - tower
