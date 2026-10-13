@@ -1,0 +1,85 @@
+id: christmas-carol-dickens-1843-gutenberg46
+title: "Рождественская песнь в прозе"
+original_title: "A Christmas Carol. In Prose. Being a Ghost Story of Christmas"
+kind: story
+tradition:
+  - english-literature
+author: "Чарльз Диккенс"
+collection: "A Christmas Carol (first edition, 1843; illustrations by John Leech)"
+source:
+  title: "A Christmas Carol, Project Gutenberg eBook #46, 1843 first-edition illustrations"
+  url: "https://www.gutenberg.org/files/46/46-h/46-h.htm"
+  note: "Полный текст пяти строф STAVE ONE–FIVE из Project Gutenberg № 46, представляющего оригинальное издание 1843 года с иллюстрациями Джона Лича. Другие редакции и экранизации не смешивались."
+entities:
+  - id: jacob-marley-ghost
+    name: "Призрак Джейкоба Марли"
+    type: creature
+    description: >
+      Прозрачный дух умершего компаньона Скруджа. Проходит сквозь закрытую дверь, разговаривает, носит тяжёлую цепь своих земных поступков и предупреждает о визитах трёх духов Рождества.
+    tags:
+      - ghost
+      - warning
+  - id: ghost-of-christmas-past
+    name: "Дух Прошлого Рождества"
+    type: creature
+    description: >
+      Первый из трёх духов, одновременно напоминающий ребёнка и старика; от его головы исходит свет. Переносит Скруджа к сценам его детства и молодости, которые нельзя изменить. Свет не удаётся погасить даже специальным колпаком.
+    tags:
+      - christmas-spirit
+      - past
+  - id: ghost-of-christmas-present
+    name: "Дух Нынешнего Рождества"
+    type: creature
+    description: >
+      Весёлый великан в зелёной одежде, показывающий Скруджу празднование Рождества в городе и за его пределами. Умеет менять размер, перемещать спутника между местами и благословлять людей светом своего факела. В полночь его краткая жизнь завершается.
+    tags:
+      - christmas-spirit
+      - present
+  - id: ghost-of-christmas-yet-to-come
+    name: "Дух Грядущего Рождества"
+    type: creature
+    description: >
+      Безмолвная фигура в тёмном одеянии, показывающая Скруджу возможные последствия его нынешней жизни, включая собственную заброшенную могилу. Не говорит, а указывает рукой; показанное будущее допускает изменение.
+    tags:
+      - christmas-spirit
+      - future
+  - id: wandering-penitent-ghosts
+    name: "Скитающиеся призраки умерших грешников"
+    type: creature
+    description: >
+      Группа умерших людей, видимых Скруджу за окном после визита Марли. Они блуждают в воздухе, стонут и носят цепи; в наказание не могут помогать живым, хотя теперь желают этого. Среди них показан дух с железным сейфом на ноге.
+    tags:
+      - wandering-spirits
+      - penance
+  - id: ignorance-child
+    name: "Мальчик Невежество"
+    type: character
+    description: >
+      Ужасающий истощённый мальчик, которого Дух Нынешнего Рождества показывает под своей одеждой. Назван Невежеством и воплощает социальный порок; дух особенно предупреждает об опасности его будущего.
+    tags:
+      - allegory
+      - ignorance
+  - id: want-child
+    name: "Девочка Нужда"
+    type: character
+    description: >
+      Истощённая девочка, появляющаяся рядом с Невежеством из-под одежды Духа Нынешнего Рождества. Названа Нуждой и представляет бедность и лишения, порождённые обществом.
+    tags:
+      - allegory
+      - want
+  - id: marley-forged-chain
+    name: "Посмертная цепь Марли"
+    type: artifact
+    description: >
+      Призрачная цепь из касс, ключей, замков, бухгалтерских книг, документов и кошелей. По словам Марли, он сам выковал её звено за звеном своими поступками при жизни; после смерти она сковывает его и служит видимым знаком наказания.
+    tags:
+      - ghostly-chain
+      - punishment
+  - id: christmas-present-torch
+    name: "Благословляющий факел Духа Рождества"
+    type: artifact
+    description: >
+      Светящийся факел Духа Нынешнего Рождества, напоминающий рог изобилия. Дух окропляет им праздничную пищу и дома, а несколько капель его жидкости мгновенно прекращают ссору между прохожими.
+    tags:
+      - magical-torch
+      - blessing
