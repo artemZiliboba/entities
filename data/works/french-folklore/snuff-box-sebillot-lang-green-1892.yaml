@@ -1,0 +1,44 @@
+id: snuff-box-sebillot-lang-green-1892
+title: "Волшебная табакерка"
+original_title: "The Snuff-Box"
+kind: folktale
+tradition:
+  - french-folklore
+collection: "The Green Fairy Book (edited by Andrew Lang, 1892)"
+source:
+  title: "The Snuff-Box, The Green Fairy Book, Project Gutenberg #7277"
+  url: "https://www.gutenberg.org/files/7277/7277-h/7277-h.htm"
+  note: "Полный самостоятельный раздел THE SNUFF-BOX, строки 1340–1372 электронной версии Project Gutenberg № 7277, The Green Fairy Book под редакцией Эндрю Лэнга (1892). Под сказкой указано Sebillot — фольклорист Поль Себийо. Детали соседних сказок и иных редакций не смешивались."
+entities:
+  - id: speaking-wish-granting-snuff-box
+    name: "Говорящая табакерка, исполняющая желания"
+    type: artifact
+    description: >
+      Найденная юношей табакерка при открытии крышки спрашивает на испанском языке, чего желает владелец, и немедленно исполняет его просьбы. Она наполняет шляпу золотом, создаёт дворец, переносит его через Красное море и возвращает обратно. Действует и в руках похитившей её королевы.
+    tags:
+      - wish-granting
+      - speaking-object
+  - id: personified-moon
+    name: "Говорящая Луна"
+    type: character
+    description: >
+      Луна в облике живого существа возвращается домой к матери, чует присутствие человека и разговаривает с путешественником. Не зная, где находится похищенный дворец, советует обратиться к Солнцу, которое странствует дальше.
+    tags:
+      - personification
+      - celestial-being
+  - id: personified-sun
+    name: "Говорящее Солнце"
+    type: character
+    description: >
+      Солнце приходит домой к матери, замечает запах человека и по её просьбе беседует с гостем. Не видев похищенного дворца, направляет героя к Ветру, который бывает повсюду.
+    tags:
+      - personification
+      - celestial-being
+  - id: personified-south-wind
+    name: "Говорящий Южный ветер"
+    type: character
+    description: >
+      Южный ветер является к своей матери, сотрясая дом, и разговаривает с путешественником. Он видел похищенный дворец за Красным морем и сообщает герою его местонахождение; ранее безуспешно пытался сдвинуть хотя бы одну черепицу дворца.
+    tags:
+      - personification
+      - wind-spirit
