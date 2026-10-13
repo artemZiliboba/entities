@@ -1,0 +1,28 @@
+id: ali-baba-forty-thieves-lang-1889
+title: "Али-Баба и сорок разбойников"
+original_title: "The Forty Thieves"
+kind: folktale
+tradition:
+  - arabian-nights
+collection: "The Blue Fairy Book (edited by Andrew Lang, 1889)"
+source:
+  title: "The Forty Thieves, The Blue Fairy Book (1889), Project Gutenberg #503"
+  url: "https://www.gutenberg.org/files/503/503-h/503-h.htm"
+  note: "Полный раздел THE FORTY THIEVES, строки 2544–2598 электронной версии Project Gutenberg № 503, сборник The Blue Fairy Book под редакцией Эндрю Лэнга (1889). Только данная сокращённая английская редакция; подробности других версий «Тысячи и одной ночи» не смешивались."
+entities:
+  - id: open-sesame-enchanted-cave-door
+    name: "Волшебная дверь пещеры «Сезам, откройся!»"
+    type: location
+    description: >
+      Скрытая в скалах дверь сокровищницы сорока разбойников.
+      По произнесённым словам «Сезам, откройся!» она сама
+      открывается, а по словам «Сезам, закройся!» закрывается.
+      Али-Баба пользуется ею после того, как подслушивает
+      атамана. Касим попадает внутрь, но не может выйти,
+      потому что забывает нужное слово и безуспешно
+      называет другие злаки. Сокровища внутри сами по себе
+      не проявляют волшебных свойств.
+    tags:
+      - enchanted-door
+      - spoken-password
+      - hidden-treasury
