@@ -46,14 +46,23 @@ function groupNavigation(active) {
   return `<nav class="group-nav" aria-label="Разделы энциклопедии">${visible.map(([id,label,glyph]) => `<a class="group-tab${active === id ? ' active' : ''}" href="${id === 'works' ? '#/' : href('group',id)}" ${active === id ? 'aria-current="page"' : ''}>${icon(glyph)}<span>${label}</span></a>`).join('')}<button class="group-tab more-groups${moreActive ? ' active' : ''}" type="button" data-open-menu ${moreActive ? 'aria-current="page"' : ''}>${icon('sparkles')}<span>Ещё</span><b aria-hidden="true">⌄</b></button></nav>`;
 }
 
-async function loadData(signal) {
+async function loadData(signal, onProgress) {
   const indexResponse = await fetch('data/processed-works.yaml', { cache: 'no-store', signal });
   if (!indexResponse.ok) throw new Error('Не удалось загрузить список произведений');
   const index = jsyaml.load(await indexResponse.text());
+  let loadedWorks = 0;
+  let loadedEntities = 0;
   const works = await Promise.all(index.works.map(async item => {
     const response = await fetch(item.path, { cache: 'no-store', signal });
     if (!response.ok) throw new Error(`Не удалось загрузить ${item.path}`);
-    return { ...jsyaml.load(await response.text()), path:item.path };
+    const work = { ...jsyaml.load(await response.text()), path:item.path };
+    // A failed attempt may still have parsing callbacks queued after abort.
+    if (!signal.aborted) {
+      loadedWorks += 1;
+      loadedEntities += (work.entities || []).length;
+      onProgress(loadedWorks, loadedEntities);
+    }
+    return work;
   }));
   state.works = works.sort((a,b) => safe(a.title).localeCompare(safe(b.title),'ru'));
 }
@@ -190,6 +199,56 @@ const preloaderLabel = document.getElementById('preloaderLabel');
 const preloaderRetry = document.getElementById('preloaderRetry');
 let initializing = false;
 
+function createPreloaderCounters() {
+  const elements = [document.getElementById('preloaderWorks'), document.getElementById('preloaderEntities')];
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let current = [0, 0];
+  let from = current;
+  let target = current;
+  let startedAt = 0;
+  let frame = null;
+  let complete;
+  const draw = () => elements.forEach((element, index) => {
+    element.textContent = Math.floor(current[index]).toLocaleString('ru');
+  });
+  const tick = now => {
+    // The frame timestamp can precede an update received within the same frame.
+    const progress = Math.max(0, Math.min(1, (now - startedAt) / 650));
+    const eased = 1 - Math.pow(1 - progress, 3);
+    current = progress === 1 ? target : target.map((value, index) => from[index] + (value - from[index]) * eased);
+    draw();
+    if (progress < 1) frame = requestAnimationFrame(tick);
+    else {
+      frame = null;
+      complete?.();
+    }
+  };
+  draw();
+  return {
+    update(works, entities) {
+      if (frame !== null) cancelAnimationFrame(frame);
+      target = [works, entities];
+      if (reducedMotion) {
+        current = target;
+        frame = null;
+        draw();
+        return;
+      }
+      from = current;
+      startedAt = performance.now();
+      frame = requestAnimationFrame(tick);
+    },
+    finish() {
+      return frame === null ? Promise.resolve() : new Promise(resolve => { complete = resolve; });
+    },
+    cancel() {
+      if (frame !== null) cancelAnimationFrame(frame);
+      frame = null;
+      complete?.();
+    }
+  };
+}
+
 function dismissPreloader() {
   // Render underneath the fixed overlay; keep controls inert until it is gone.
   preloader.classList.add('is-leaving');
@@ -216,23 +275,28 @@ async function initializeWithPreloader(startTime = performance.now()) {
   preloaderError.hidden = true;
   preloaderLabel.textContent = 'Загружаем энциклопедию…';
   preloader.setAttribute('aria-busy', 'true');
+  const counters = createPreloaderCounters();
 
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), DATA_LOAD_TIMEOUT);
   try {
     // allSettled also holds early failures until the minimum display time.
     const [result] = await Promise.allSettled([
-      loadData(controller.signal).finally(() => clearTimeout(timeout)),
+      loadData(controller.signal, counters.update).finally(() => clearTimeout(timeout)),
       new Promise(resolve => setTimeout(resolve,
         Math.max(0, MIN_PRELOADER_DURATION - (performance.now() - startTime))))
     ]);
     if (result.status === 'rejected') throw result.reason;
+    await counters.finish();
     state.ready = true;
     fillMenu();
     render();
+    preloaderLabel.textContent = `Загружено произведений: ${state.works.length}, сущностей: ${state.works.reduce((total, work) => total + (work.entities || []).length, 0)}.`;
+    preloader.setAttribute('aria-busy', 'false');
     dismissPreloader();
   } catch (error) {
     controller.abort();
+    counters.cancel();
     state.ready = false;
     console.error(error);
     preloader.classList.add('has-error');
