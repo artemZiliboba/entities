@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "ee1573829dbdd6372b04217243cf948f5d5a04eb"
-work_count: 147
+master_sha: "24439874486fbdcb47b4842924f6b71cf9a7ef02"
+work_count: 148
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -247,6 +247,10 @@ works:
   - id: the-seven-ravens
     tradition: german-folklore
     path: data/works/german-folklore/the-seven-ravens.yaml
+
+  - id: magic-swan-kletke-lang-1892
+    tradition: german-folklore
+    path: data/works/german-folklore/magic-swan-kletke-lang-1892.yaml
 
   - id: mother-holle
     tradition: german-folklore

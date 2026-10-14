@@ -1,0 +1,38 @@
+id: magic-swan-kletke-lang-1892
+title: "Волшебный лебедь"
+original_title: "The Magic Swan"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "The Green Fairy Book (edited by Andrew Lang, 1892)"
+source:
+  title: "The Magic Swan, The Green Fairy Book, Project Gutenberg #7277"
+  url: "https://www.gutenberg.org/files/7277/7277-h/7277-h.htm"
+  note: "Прочитан полный самостоятельный текст THE MAGIC SWAN (строки 1760–1814 в HTML Project Gutenberg № 7277). Сказка напечатана с атрибуцией Kletke; использована только редакция сборника The Green Fairy Book (1892) под редакцией Эндрю Лэнга, без смешения с другими версиями."
+entities:
+  - id: magic-sticking-swan
+    name: "Волшебный лебедь, удерживающий прикоснувшихся"
+    type: animal
+    description: >
+      Прекрасный лебедь, которого Петер забирает у спящего хозяина
+      по совету старушки. Если кто-то касается птицы или уже
+      приклеившегося к ней человека, лебедь кричит, а после слов
+      Петера «Лебедь, держи крепко!» новый участник оказывается
+      не в силах оторваться. Так возникает цепочка из шести
+      пленников, а затем к ней присоединяется принцесса.
+      В конце сказки лебедь улетает и исчезает из виду.
+    tags:
+      - enchanted-animal
+      - magical-adhesion
+  - id: swan-release-stick
+    name: "Палочка, освобождающая пленников лебедя"
+    type: artifact
+    description: >
+      Маленькая палочка, которую старушка вручает Петеру вместе
+      с указаниями о волшебном лебеде. Прикосновение палочки
+      снимает неразрывное сцепление с птицей и другими людьми:
+      при дворе Петер последовательно освобождает шестерых
+      пленников, касаясь каждого палочкой.
+    tags:
+      - release
+      - magic-wand
