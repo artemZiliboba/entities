@@ -1,0 +1,79 @@
+id: pretty-goldilocks-daulnoy-lang-1889
+title: "Прекрасная Златовласка"
+original_title: "The Story of Pretty Goldilocks"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Мари-Катрин д’Онуа (литературная обработка)"
+collection: "The Blue Fairy Book (edited by Andrew Lang, 1889)"
+source:
+  title: "The Story of Pretty Goldilocks, The Blue Fairy Book (1889), Wikisource"
+  url: "https://en.wikisource.org/wiki/The_Blue_Fairy_Book/The_Story_of_Pretty_Goldilocks"
+  note: "Прочитан полный самостоятельный раздел THE STORY OF PRETTY GOLDILOCKS (строки 112–276 страницы Wikisource), сборник The Blue Fairy Book под редакцией Эндрю Лэнга (1889). Под сказкой указано Madame d’Aulnoy. Другие варианты сказки The Fair with Golden Hair не смешивались."
+entities:
+  - id: speaking-golden-carp
+    name: "Говорящая золотая карпиха"
+    type: animal
+    description: >
+      Золотая карпиха благодарит Шармана за спасение человеческой речью, а позднее возвращает потерянное кольцо принцессы Златовласки, найдя его в реке. Кольцо служит знаком для испытания и не наделено собственными чарами.
+    tags:
+      - talking-animal
+      - grateful-animal
+  - id: speaking-raven
+    name: "Говорящий ворон"
+    type: animal
+    description: >
+      Ворон обещает герою отплатить за спасение от орла, а при схватке с великаном Галифроном налетает ему на голову, ослепляет и отвлекает ударами клюва и крыльев. После победы вновь разговаривает с героем.
+    tags:
+      - talking-animal
+      - grateful-animal
+  - id: speaking-owl
+    name: "Говорящая сова"
+    type: animal
+    description: >
+      Сова, спасённая героем из силка, умеет разговаривать и знает все ходы Мрачной пещеры. Она незаметно пролетает мимо драконов, набирает во флакон воду из Источника здоровья и красоты и возвращается к герою.
+    tags:
+      - talking-animal
+      - grateful-animal
+  - id: speaking-dog-frisk
+    name: "Говорящий пёс Фриск"
+    type: animal
+    description: >
+      Маленький пёс Фриск разговаривает со своим хозяином Шарманом, поддерживает его, советует при испытаниях, а позднее передаёт новости и просьбы между узником и королевой Златовлаской.
+    tags:
+      - talking-animal
+      - companion
+  - id: giant-galifron
+    name: "Великан Галифрон"
+    type: creature
+    description: >
+      Чудовищный великан ростом выше деревьев, угрожающий королевству Златовласки и пожирающий людей. Его громогласный голос оглушает слушателей. Герой побеждает его благодаря помощи говорящего ворона.
+    tags:
+      - giant
+      - man-eater
+  - id: dragons-of-gloomy-cavern
+    name: "Драконы Мрачной пещеры"
+    type: creature
+    description: >
+      Два дракона охраняют вход в пещеру, где находится Источник здоровья и красоты, и не пропускают людей. У показанного дракона из пасти и глаз вырывается пламя; его тело жёлто-зелёное, когти алые.
+    tags:
+      - dragon
+      - fire-breath
+      - guardians
+  - id: fountain-of-health-and-beauty-water
+    name: "Вода Источника здоровья и красоты"
+    type: substance
+    description: >
+      Чудесная вода из глубины Мрачной пещеры сохраняет красоту красивых, делает некрасивых прекрасными, сохраняет молодость и возвращает её старым. Златовласка требует принести эту воду до согласия на свадьбу.
+    tags:
+      - rejuvenation
+      - beauty
+      - magic-water
+  - id: eternal-sleep-water
+    name: "Вода вечного сна"
+    type: substance
+    description: >
+      Особая вода, которой в королевстве усыпляют неугодных людей навсегда. Служанка по ошибке подменяет ею разбитый флакон с водой Источника красоты; король умывает ею лицо, засыпает и больше не просыпается.
+    tags:
+      - enchanted-sleep
+      - fatal-water
