@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "0209b9af648ea0c37bb8b19c5de89126c9c745f4"
-work_count: 146
+master_sha: "ee1573829dbdd6372b04217243cf948f5d5a04eb"
+work_count: 147
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -315,6 +315,10 @@ works:
   - id: golden-crab-greek-lang-1894
     tradition: greek-folklore
     path: data/works/greek-folklore/golden-crab-greek-lang-1894.yaml
+
+  - id: terrible-head-lang-blue-1889
+    tradition: greek-mythology
+    path: data/works/greek-mythology/terrible-head-lang-blue-1889.yaml
 
   - id: odyssey-book-x
     tradition: greek-mythology
