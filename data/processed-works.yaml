@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "24439874486fbdcb47b4842924f6b71cf9a7ef02"
-work_count: 148
+master_sha: "aac6e870b82fc9918c3d0c9e332eeab177728e33"
+work_count: 149
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -263,6 +263,10 @@ works:
   - id: fitchers-bird
     tradition: german-folklore
     path: data/works/german-folklore/fitchers-bird.yaml
+
+  - id: caliph-stork-hauff-lang-1892
+    tradition: german-literature
+    path: data/works/german-literature/caliph-stork-hauff-lang-1892.yaml
 
   - id: brother-and-sister
     tradition: german-folklore
