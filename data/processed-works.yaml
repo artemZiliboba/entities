@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "668a92c13be9f7a9e48a4421799e1dee2cad3bf1"
-work_count: 144
+master_sha: "5544ed172a06d55de2c0294b94d13f42051ef4f0"
+work_count: 145
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -136,6 +136,10 @@ works:
   - id: snuff-box-sebillot-lang-green-1892
     tradition: french-folklore
     path: data/works/french-folklore/snuff-box-sebillot-lang-green-1892.yaml
+
+  - id: golden-blackbird-sebillot-lang-1892
+    tradition: french-folklore
+    path: data/works/french-folklore/golden-blackbird-sebillot-lang-1892.yaml
 
   - id: pretty-goldilocks-daulnoy-lang-1889
     tradition: french-folklore

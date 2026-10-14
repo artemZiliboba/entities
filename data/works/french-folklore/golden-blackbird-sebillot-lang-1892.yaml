@@ -1,0 +1,42 @@
+id: golden-blackbird-sebillot-lang-1892
+title: "Золотой чёрный дрозд"
+original_title: "The Golden Blackbird"
+kind: folktale
+tradition:
+  - french-folklore
+collection: "The Green Fairy Book (edited by Andrew Lang, 1892)"
+source:
+  title: "The Golden Blackbird, The Green Fairy Book, Project Gutenberg #7277"
+  url: "https://www.gutenberg.org/files/7277/7277-h/7277-h.htm"
+  note: "Полный самостоятельный раздел THE GOLDEN BLACKBIRD сборника The Green Fairy Book (1892), редактор Эндрю Лэнг. Под текстом указано Sébillot (Поль Себийо). Сверен также отдельный текст https://sacred-texts.com/neu/lfb/gn/gnfb16.htm. Другие версии не смешивались."
+entities:
+  - id: golden-blackbird
+    name: "Золотой чёрный дрозд"
+    type: animal
+    description: >
+      Редкая золотая птица, которую чужеземный лекарь называет
+      единственным средством исцеления тяжело больного отца
+      трёх братьев. В деревянной клетке она неподвижна,
+      словно мёртвая; при прикосновении к прутьям золотой
+      клетки оживает и громко свистит, поднимая тревогу.
+      Позже узнаёт младшего сына и радостно поёт при его
+      появлении. Излечение отца самой птицей в сюжете
+      непосредственно не показано.
+    tags:
+      - magical-bird
+      - healing-quest
+  - id: seven-mile-striding-hare
+    name: "Говорящий заяц-семимильник"
+    type: animal
+    description: >
+      Заяц разговаривает с младшим сыном, знает путь к
+      Золотому дрозду и Фарфоровой деве и переносит юношу
+      на спине, делая по семь миль за один прыжок.
+      Он предупреждает о ловушке с золотой клеткой,
+      помогает добыть птицу и деву, а после предательства
+      братьев возвращается и помогает герою выбраться
+      из озера.
+    tags:
+      - talking-animal
+      - supernatural-speed
+      - helper
