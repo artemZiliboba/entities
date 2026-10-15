@@ -1,0 +1,55 @@
+id: toads-and-diamonds-perrault-lang-1889
+title: "Жабы и алмазы"
+original_title: "Toads and Diamonds"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Шарль Перро; перевод Роберта Сэмбера"
+collection: "The Blue Fairy Book (edited by Andrew Lang, 1889)"
+source:
+  title: "Toads and Diamonds, The Blue Fairy Book (1889), Wikisource"
+  url: "https://en.wikisource.org/wiki/The_Blue_Fairy_Book/Toads_and_Diamonds"
+  note: "Прочитан полный самостоятельный текст строк 126–175 на Wikisource: сказка Шарля Перро в переводе Роберта Сэмбера, опубликованная в The Blue Fairy Book под редакцией Эндрю Лэнга (1889). Другие версии «Les Fées» не смешивались."
+entities:
+  - id: disguised-testing-fairy
+    name: "Фея, испытывающая сестёр у источника"
+    type: character
+    description: >
+      Одна и та же фея появляется сначала как бедная
+      крестьянка, а затем как богато одетая дама.
+      Она испытывает вежливость двух сестёр, попросив
+      напиться воды у источника, и своей волей
+      наделяет каждую из них противоположным
+      сверхъестественным даром.
+    tags:
+      - fairy
+      - disguise
+      - enchantment
+  - id: flower-and-jewel-speech-gift
+    name: "Дар цветов и драгоценных камней за каждое слово"
+    type: spell
+    description: >
+      Награда младшей сестре за доброту к фее.
+      При каждом произнесённом ею слове изо рта
+      появляются цветок либо драгоценный камень:
+      в тексте показаны розы, жемчуг и алмазы.
+      Дар продолжает действовать после возвращения
+      домой и во время разговора с принцем.
+    tags:
+      - blessing
+      - magical-speech
+      - materialization
+  - id: snake-and-toad-speech-curse
+    name: "Проклятие змей и жаб за каждое слово"
+    type: spell
+    description: >
+      Наказание старшей сестре за грубость к той же
+      фее, явившейся под видом знатной дамы.
+      С каждым словом из её рта выпадают змея
+      или жаба; после возвращения домой изо рта
+      девушки выходят две гадюки и две жабы.
+      Заклятие не снимается до конца сказки.
+    tags:
+      - curse
+      - magical-speech
+      - animal-materialization
