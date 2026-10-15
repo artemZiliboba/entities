@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "efb1e54c1213f106ae89b7f074a70189e4165f6a"
-work_count: 151
+master_sha: "cf2a145f1f4c659a8f40322de837337fae10acf0"
+work_count: 152
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -156,6 +156,10 @@ works:
   - id: pretty-goldilocks-daulnoy-lang-1889
     tradition: french-folklore
     path: data/works/french-folklore/pretty-goldilocks-daulnoy-lang-1889.yaml
+
+  - id: prince-hyacinth-leprince-lang-1889
+    tradition: french-folklore
+    path: data/works/french-folklore/prince-hyacinth-leprince-lang-1889.yaml
 
   - id: puss-in-boots-lang-1889
     tradition: french-folklore
