@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "49776be92447b7000aee270b6d7644d684d07ba5"
-work_count: 154
+master_sha: "5b2fd26aa9778ec063e3979387ad825937b63a13"
+work_count: 155
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -100,6 +100,10 @@ works:
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
     path: data/works/egyptian-literature/the-shipwrecked-sailor.yaml
+
+  - id: gold-spinners-kreutzwald-lang-1889
+    tradition: estonian-folklore
+    path: data/works/estonian-folklore/gold-spinners-kreutzwald-lang-1889.yaml
 
   - id: the-dragon-of-the-north
     tradition: estonian-folklore
