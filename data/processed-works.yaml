@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d08481e6843f8af28fbd8e9f4ef10e30fea75848"
-work_count: 150
+master_sha: "efb1e54c1213f106ae89b7f074a70189e4165f6a"
+work_count: 151
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -132,6 +132,10 @@ works:
   - id: wonderful-sheep-daulnoy-lang-1889
     tradition: french-folklore
     path: data/works/french-folklore/wonderful-sheep-daulnoy-lang-1889.yaml
+
+  - id: toads-and-diamonds-perrault-lang-1889
+    tradition: french-folklore
+    path: data/works/french-folklore/toads-and-diamonds-perrault-lang-1889.yaml
 
   - id: white-cat-daulnoy-lang-1889
     tradition: french-folklore
