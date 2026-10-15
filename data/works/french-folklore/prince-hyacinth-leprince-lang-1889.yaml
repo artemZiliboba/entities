@@ -1,0 +1,84 @@
+id: prince-hyacinth-leprince-lang-1889
+title: "Принц Гиацинт и милая маленькая принцесса"
+original_title: "Prince Hyacinth and the Dear Little Princess"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Мадам Лепренс де Бомон"
+collection: "The Blue Fairy Book (edited by Andrew Lang, 1889)"
+source:
+  title: "Prince Hyacinth and the Dear Little Princess, The Blue Fairy Book, Project Gutenberg #503"
+  url: "https://www.gutenberg.org/files/503/503-h/503-h.htm"
+  note: "Полный самостоятельный текст PRINCE HYACINTH AND THE DEAR LITTLE PRINCESS, строки 329–398 HTML-издания Project Gutenberg №503; в конце указан французский оригинал Le Prince Desir et la Princesse Mignonne, Madame Leprince de Beaumont. Зафиксирована редакция The Blue Fairy Book (1889); сведения из других версий не заимствованы."
+entities:
+  - id: cat-disguised-enchanter
+    name: "Колдун в облике кота"
+    type: character
+    description: >
+      Колдун скрывается в облике большого кота принцессы.
+      Когда король наступает ему на хвост, колдовское
+      обличье исчезает и появляется высокий мужчина.
+      Колдун объявляет условие проклятия будущего сына
+      короля, затем внезапно исчезает. Много лет спустя
+      он столь же внезапно появляется и уносит невесту
+      принца Гиацинта.
+    tags:
+      - sorcerer
+      - shapeshifting
+      - abduction
+  - id: fairy-of-the-first-princess
+    name: "Фея, подсказавшая способ снять первые чары"
+    type: character
+    description: >
+      К ней обращается король, желающий жениться на
+      принцессе, которой мешают существующие чары.
+      Фея сообщает, что избранником принцессы станет
+      человек, сумевший наступить на хвост её коту.
+      После выполнения условия кот оказывается колдуном,
+      а принцесса получает возможность выйти замуж.
+      Собственного наложения чар этой феей текст не описывает.
+    tags:
+      - fairy
+      - enchantment-knowledge
+  - id: old-fairy-of-the-cave
+    name: "Старая фея из пещеры"
+    type: character
+    description: >
+      Пожилая фея, некогда дружившая с отцом принца
+      Гиацинта, принимает его в своей пещере и пытается
+      объяснить, что его нос слишком длинный.
+      Когда слова не помогают, она заключает похищенную
+      принцессу в хрустальный дворец, чтобы принц
+      самостоятельно осознал свой недостаток.
+      После разрушения дворца освобождает принцессу.
+    tags:
+      - fairy
+      - enchanted-prison
+  - id: hyacinth-nose-curse
+    name: "Проклятие длинного носа принца Гиацинта"
+    type: spell
+    description: >
+      Колдун предрекает королю, что его сын не будет
+      счастлив, пока не признает, что нос у него слишком
+      длинный. Гиацинт рождается с необыкновенно
+      большим носом, но из-за лести окружающих
+      не замечает своего недостатка. После того
+      как он вслух признаёт длину носа, его
+      нос становится обычным.
+    tags:
+      - curse
+      - transformation
+      - self-knowledge
+  - id: crystal-palace-prison
+    name: "Хрустальный дворец-тюрьма"
+    type: location
+    description: >
+      Старая фея помещает принцессу в хрустальный
+      дворец и ставит его на пути Гиацинта.
+      Принц не может разрушить стены силой.
+      Когда он признаёт, что его нос слишком
+      длинный, дворец мгновенно разлетается
+      на осколки, освобождая пленницу.
+    tags:
+      - enchanted-prison
+      - conditional-release
