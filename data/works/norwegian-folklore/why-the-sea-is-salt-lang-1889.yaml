@@ -1,0 +1,31 @@
+id: why-the-sea-is-salt-lang-1889
+title: "Почему море солёное"
+original_title: "Why the Sea is Salt"
+kind: folktale
+tradition:
+  - norwegian-folklore
+collection: "The Blue Fairy Book (edited by Andrew Lang, 1889)"
+source:
+  title: "Why the Sea is Salt, The Blue Fairy Book (1889), Wikisource"
+  url: "https://en.wikisource.org/wiki/The_Blue_Fairy_Book/Why_the_Sea_is_Salt"
+  note: "Прочитан полный самостоятельный текст строк 132–175 Wikisource. Норвежская сказка из собрания Асбьёрнсена и Му в переводе Маргарет Рейн Хант, опубликованная в The Blue Fairy Book (1889) под редакцией Эндрю Лэнга. Другие варианты, включая изложение Дасента и предание о мельнице Гротти, не смешивались."
+entities:
+  - id: inexhaustible-magic-hand-mill
+    name: "Волшебная ручная мельница, производящая всё заказанное"
+    type: artifact
+    description: >
+      Небольшая ручная мельница, которую бедняк выменивает на
+      окорок у обитателей Чертога мертвецов. По приказу
+      она производит скатерть, еду, питьё, деньги и другие
+      названные вещи, не нуждаясь в сырье. Чтобы остановить
+      помол, требуется особый способ, известный бедняку
+      от старого дровосека. Его богатый брат не умеет
+      остановить мельницу и едва не оказывается погребён
+      под селёдкой и кашей. Позже капитан покупает мельницу
+      и приказывает ей молоть соль, но тоже не знает
+      способа остановки: корабль тонет, а мельница
+      продолжает молоть соль на дне моря.
+    tags:
+      - inexhaustible-production
+      - enchanted-object
+      - etiological-myth
