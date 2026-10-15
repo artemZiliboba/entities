@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "a41b68d78d45200128435d356b67b7157da4b3ee"
-work_count: 156
+master_sha: "67cb846f8b0fc05e9140fdf498655122960b15dd"
+work_count: 157
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -152,6 +152,10 @@ works:
   - id: enchanted-watch-deulin-lang-1892
     tradition: french-folklore
     path: data/works/french-folklore/enchanted-watch-deulin-lang-1892.yaml
+
+  - id: fairy-gifts-caylus-lang-1892
+    tradition: french-folklore
+    path: data/works/french-folklore/fairy-gifts-caylus-lang-1892.yaml
 
   - id: felicia-pot-pinks-daulnoy-lang-1889
     tradition: french-folklore
