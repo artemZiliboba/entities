@@ -1,0 +1,46 @@
+id: prince-darling-lang-1889
+title: "Принц Дорогой"
+original_title: "Prince Darling"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Жанна-Мари Лепренс де Бомон; перевод Минни Райт"
+collection: "The Blue Fairy Book (edited by Andrew Lang, 1889)"
+source:
+  title: "Prince Darling, The Blue Fairy Book (1889), Wikisource"
+  url: "https://en.wikisource.org/wiki/The_Blue_Fairy_Book/Prince_Darling"
+  note: "Прочитана полная редакция Prince Darling из The Blue Fairy Book (1889), строки 123–246 Wikisource; автор Лепренс де Бомон, перевод Минни Райт. Иные версии не смешивались."
+entities:
+  - id: fairy-truth
+    name: "Фея Истина"
+    type: character
+    description: >
+      Испытывает доброту короля в облике белого кролика, дарит
+      его сыну кольцо и наставляет его. За дурные поступки
+      превращает принца в чудовище, затем по мере исправления
+      в собаку и голубя и, наконец, возвращает человеческий
+      облик. Появляется также под видом старого отшельника.
+    tags:
+      - fairy
+      - shapeshifting
+  - id: warning-gold-ring
+    name: "Золотое кольцо, предупреждающее о дурных поступках"
+    type: artifact
+    description: >
+      Подаренное феей кольцо колет палец принца при плохом
+      поступке. Чем серьёзнее проступок, тем сильнее укол.
+      Принц снимает его, но после исправления вновь носит.
+    tags:
+      - magical-warning
+  - id: enchanted-prince-darling
+    name: "Заколдованный принц Дорогой"
+    type: character
+    description: >
+      Сохраняет сознание, будучи превращён феей сначала
+      в чудовище с головой льва, рогами быка, волчьими
+      лапами и змеиным телом, затем в маленькую собаку
+      и белого голубя. После раскаяния вновь становится
+      человеком. Собственной магией не владеет.
+    tags:
+      - enchanted-person
+      - transformation
