@@ -158,3 +158,25 @@ h2 { letter-spacing:-.025em; }
   }
   .alphabet-nav a,.alphabet-nav span { flex:0 0 30px; width:30px; height:30px; border-radius:4px; }
 }
+
+/* Entity detail consistency: make related rows match the main catalog. */
+.entity-page .related-list .list-row a.row-name:link,
+.entity-page .related-list .list-row a.row-name:visited,
+.entity-page .related-list .list-row a.row-name:hover,
+.entity-page .related-list .list-row a.row-name:focus-visible,
+.entity-page .related-list .list-row a.row-meta-link:link,
+.entity-page .related-list .list-row a.row-meta-link:visited,
+.entity-page .related-list .list-row a.row-meta-link:hover,
+.entity-page .related-list .list-row a.row-meta-link:focus-visible {
+  text-decoration:none !important;
+  border-bottom:0;
+  box-shadow:none;
+}
+.entity-page .related-list .list-row a.row-name { color:var(--ink); }
+.entity-page .related-list .list-row:hover a.row-name,
+.entity-page .related-list .list-row:focus-within a.row-name { color:var(--accent); }
+.entity-page .description-section { padding-top:4px; }
+.entity-page .description-section h2 { margin:30px 0 13px; }
+@media (max-width:800px) {
+  .entity-page .description-section h2 { margin:22px 0 11px; }
+}
