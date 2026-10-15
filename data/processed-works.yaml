@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "aac6e870b82fc9918c3d0c9e332eeab177728e33"
-work_count: 149
+master_sha: "d08481e6843f8af28fbd8e9f4ef10e30fea75848"
+work_count: 150
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -128,6 +128,10 @@ works:
   - id: sleeping-beauty-in-the-wood
     tradition: french-folklore
     path: data/works/french-folklore/sleeping-beauty-in-the-wood.yaml
+
+  - id: wonderful-sheep-daulnoy-lang-1889
+    tradition: french-folklore
+    path: data/works/french-folklore/wonderful-sheep-daulnoy-lang-1889.yaml
 
   - id: white-cat-daulnoy-lang-1889
     tradition: french-folklore
