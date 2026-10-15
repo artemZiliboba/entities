@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "7a96feb2b26f674b20a62a181ad621f2da5ed7db"
-work_count: 157
+master_sha: "8f67c6867b818d50dd4af6fc8a80fded41cd7233"
+work_count: 158
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -527,6 +527,10 @@ works:
   - id: sun-moon-and-raven-voronovich-afanasyev-92
     tradition: russian-folklore
     path: data/works/russian-folklore/sun-moon-and-raven-voronovich-afanasyev-92.yaml
+
+  - id: chudesnaya-rubashka-afanasyev-208
+    tradition: russian-folklore
+    path: data/works/russian-folklore/chudesnaya-rubashka-afanasyev-208.yaml
 
   - id: crystal-mountain-afanasyev-162
     tradition: russian-folklore
