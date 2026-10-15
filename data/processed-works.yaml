@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "0d797777c226cf8aa30cc63e6a2745836bb689b8"
-work_count: 153
+master_sha: "49776be92447b7000aee270b6d7644d684d07ba5"
+work_count: 154
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -483,6 +483,10 @@ works:
   - id: the-twelve-wild-ducks
     tradition: norwegian-folklore
     path: data/works/norwegian-folklore/the-twelve-wild-ducks.yaml
+
+  - id: why-the-sea-is-salt-lang-1889
+    tradition: norwegian-folklore
+    path: data/works/norwegian-folklore/why-the-sea-is-salt-lang-1889.yaml
 
   - id: the-widows-son
     tradition: norwegian-folklore
