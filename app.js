@@ -166,7 +166,7 @@ function initAlphabetNavigation() {
     const link = event.target.closest('a[data-letter]');
     if (!link) return;
     event.preventDefault();
-    document.getElementById(`letter-${link.dataset.letter}`)?.scrollIntoView({behavior:'smooth', block:'start'});
+    document.getElementById(`letter-${link.dataset.letter}`)?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'});
     nav.querySelector('[aria-current]')?.removeAttribute('aria-current');
     link.setAttribute('aria-current','true');
   });
