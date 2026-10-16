@@ -362,3 +362,22 @@ h2{margin:48px 0 18px;font-size:clamp(25px,2.4vw,32px);line-height:1.18;letter-s
   .entity-page .entity-pager .pager-link strong{max-width:100px;font-size:13px}
 }
 @media(prefers-reduced-motion:reduce){.back-to-top{transition:none}}
+
+/* Quiet navigation typography: secondary to the entry itself. */
+.entity-page .entity-pager .pager-link strong{
+  max-width:158px;
+  font-family:var(--sans);
+  font-size:13px;
+  font-weight:500;
+  line-height:1.4;
+  letter-spacing:0;
+  color:var(--secondary);
+  text-wrap:pretty;
+}
+.entity-page .entity-pager .pager-link:hover strong{color:var(--accent)}
+@media(max-width:800px){
+  .entity-page .entity-pager .pager-link strong{max-width:112px;font-size:12px;line-height:1.35}
+}
+@media(max-width:380px){
+  .entity-page .entity-pager .pager-link strong{max-width:90px;font-size:11px}
+}
