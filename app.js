@@ -192,6 +192,10 @@ function initAlphabetNavigation() {
     if (link && !link.hasAttribute('aria-current')) {
       nav.querySelector('[aria-current]')?.removeAttribute('aria-current');
       link.setAttribute('aria-current', 'true');
+      if (nav.scrollWidth > nav.clientWidth) {
+        const left = link.offsetLeft - nav.offsetLeft - (nav.clientWidth - link.offsetWidth) / 2;
+        nav.scrollTo({left: Math.max(0, left), behavior:'auto'});
+      }
     }
     queued = false;
   };
