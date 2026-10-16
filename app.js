@@ -118,8 +118,8 @@ function workView(id) {
   if (!work) return notFound();
   const entities = [...(work.entities || [])].sort((a,b) => safe(a.name).localeCompare(safe(b.name),'ru'));
   const rows = entities.map(entity => ({name:entity.name || entity.id, meta:TYPES[entity.type] || humanize(entity.type), url:href('entity',work.id,entity.id)}));
-  return `<a class="back" href="#/">Все произведения</a><h1>${escapeHtml(work.title || work.id)}</h1><p class="subhead">${entities.length} сущностей</p>
-    ${entities.length ? alphabetList(rows, rowContent, 'entity-list') : '<p class="empty">Сущности пока не добавлены.</p>'}`;
+  return `<section class="work-page"><div class="work-intro"><a class="back" href="#/">Все произведения</a><span class="eyebrow">Произведение · Каталог сущностей</span><h1>${escapeHtml(work.title || work.id)}</h1><p class="subhead">${entities.length} сущностей</p></div>
+    ${entities.length ? alphabetList(rows, rowContent, 'entity-list') : '<p class="empty">Сущности пока не добавлены.</p>'}</section>`;
 }
 
 function entityView(workId, entityId) {
