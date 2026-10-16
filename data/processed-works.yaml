@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "8f67c6867b818d50dd4af6fc8a80fded41cd7233"
-work_count: 158
+master_sha: "3898b9076c846cb42b287c6e64aa8445611490d1"
+work_count: 159
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -585,6 +585,10 @@ works:
   - id: at-the-pikes-command
     tradition: russian-folklore
     path: data/works/russian-folklore/at-the-pikes-command.yaml
+
+  - id: petukh-i-zhernovki-afanasyev-188
+    tradition: russian-folklore
+    path: data/works/russian-folklore/petukh-i-zhernovki-afanasyev-188.yaml
 
   - id: sivko-burko
     tradition: russian-folklore
