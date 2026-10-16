@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "3db3a45e16411ece37be49cd129bb87c16454fd7"
-work_count: 162
+master_sha: "a20c300094666af4edb6d3b0c90bdf4b3857fc62"
+work_count: 163
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -104,6 +104,10 @@ works:
   - id: jack-and-the-beanstalk-jacobs-1890
     tradition: english-folklore
     path: data/works/english-folklore/jack-and-the-beanstalk-jacobs-1890.yaml
+
+  - id: three-heads-of-the-well-jacobs-1890
+    tradition: english-folklore
+    path: data/works/english-folklore/three-heads-of-the-well-jacobs-1890.yaml
 
   - id: tom-tit-tot-jacobs-1890
     tradition: english-folklore
