@@ -1,0 +1,31 @@
+id: reluctant-dragon-grahame-1898
+title: "Дракон, который не хотел сражаться"
+original_title: "The Reluctant Dragon"
+kind: story
+tradition:
+  - english-literature
+author: "Kenneth Grahame"
+collection: "Dream Days (1898)"
+source:
+  title: "Dream days/The reluctant dragon — Wikisource"
+  url: "https://en.wikisource.org/wiki/Dream_days/The_reluctant_dragon"
+  note: "Полностью прочитан рассказ The Reluctant Dragon из Dream Days (1898), строки 103–392 страницы Wikisource, включая рамочный рассказ о детях. Использован текст Кеннета Грэма, без добавлений из анимационной экранизации 1941 года и иных адаптаций."
+entities:
+  - id: peaceful-blue-dragon
+    name: "Миролюбивый синий дракон"
+    type: creature
+    description: >
+      Огромный дракон с сине-зелёной чешуёй, когтями и шипастым
+      хвостом живёт в пещере на холмах. Умеет говорить, сочинять
+      стихи и рассказывать о давних временах, когда драконов
+      было много. Хотя он способен выдыхать дым и пламя,
+      предпочитает спокойную жизнь и не желает сражаться.
+      По договорённости с мальчиком и святым Георгием
+      изображает битву, в которой рыцарь поражает его
+      копьём в заранее выбранное безболезненное место.
+      После этого дракон мирно участвует в деревенском пире.
+    tags:
+      - dragon
+      - fire-breathing
+      - speech
+      - peaceful-monster
