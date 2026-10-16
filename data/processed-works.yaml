@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "0abad1c3d0b6833475409e1cbc7b3e33fe43faf6"
-work_count: 166
+master_sha: "f094e62057e4f8d6930cb9b0fb6d8ada1f2edec0"
+work_count: 167
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -140,6 +140,10 @@ works:
   - id: alices-adventures-in-wonderland
     tradition: english-literature
     path: data/works/english-literature/alices-adventures-in-wonderland.yaml
+
+  - id: velveteen-rabbit-williams-1922
+    tradition: english-literature
+    path: data/works/english-literature/velveteen-rabbit-williams-1922.yaml
 
   - id: kalevala-rune-x
     tradition: finnish-mythology
