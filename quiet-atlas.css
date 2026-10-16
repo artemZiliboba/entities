@@ -327,3 +327,38 @@ h2{margin:48px 0 18px;font-size:clamp(25px,2.4vw,32px);line-height:1.18;letter-s
   .entity-page .related-section{margin-top:36px}
   .entity-page .section-heading h2{font-size:25px}
 }
+
+/* Pager typography follows the catalogue, not the tiny utility labels. */
+.entity-page .entity-pager .pager-link{display:flex;align-items:center;gap:13px;min-width:0}
+.entity-page .entity-pager .pager-link>span:not(.circle-button){display:block;min-width:0}
+.entity-page .entity-pager .pager-link strong{
+  display:block;max-width:185px;color:var(--ink);
+  font:500 17px/1.35 var(--serif);letter-spacing:-.01em;
+  overflow-wrap:anywhere;text-decoration:none;
+}
+.entity-page .entity-pager .pager-link:hover strong{color:var(--accent)}
+.entity-page .entity-pager .pager-next{text-align:right;justify-self:end}
+.entity-page .entity-pager .pager-center{font-variant-numeric:tabular-nums}
+.back-to-top{
+  position:fixed;z-index:20;right:max(24px,calc((100vw - 1240px)/2));
+  bottom:28px;display:grid;place-items:center;
+  width:48px;height:48px;padding:12px;
+  border:1px solid var(--line);border-radius:50%;
+  background:var(--paper);color:var(--accent);
+  box-shadow:0 5px 22px rgba(0,0,0,.16);cursor:pointer;
+  transition:transform .18s ease,background-color .18s ease;
+}
+.back-to-top[hidden]{display:none!important}
+.back-to-top:hover{transform:translateY(-3px);background:var(--hero)}
+.back-to-top svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:800px){
+  .entity-page .entity-pager .pager-link strong{max-width:125px;font-size:14px;line-height:1.3}
+  .entity-page .entity-pager .pager-link{gap:7px}
+  .entity-page .entity-pager .pager-link>span:not(.circle-button){display:block}
+  .entity-page .entity-pager .pager-next{text-align:right}
+  .back-to-top{right:16px;bottom:20px;width:44px;height:44px;padding:10px}
+}
+@media(max-width:380px){
+  .entity-page .entity-pager .pager-link strong{max-width:100px;font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){.back-to-top{transition:none}}
