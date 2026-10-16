@@ -1,0 +1,56 @@
+id: jack-and-the-beanstalk-jacobs-1890
+title: "Джек и бобовый стебель"
+original_title: "Jack and the Beanstalk"
+kind: folktale
+tradition:
+  - english-folklore
+collection: "English Fairy Tales (Joseph Jacobs, 1890)"
+source:
+  title: "English Fairy Tales/Jack and the Beanstalk — Wikisource"
+  url: "https://en.wikisource.org/wiki/English_Fairy_Tales/Jack_and_the_Beanstalk"
+  note: "Полностью прочитана редакция Джозефа Джейкобса из English Fairy Tales (1890), стр. 59–68, Wikisource. Не смешивались версии Бенджамина Табарта (1807) и Эндрю Лэнга из The Red Fairy Book (1890)."
+entities:
+  - id: magic-beans-and-sky-high-stalk
+    name: "Волшебные бобы и небесный стебель"
+    type: plant
+    description: >
+      Полученные Джеком в обмен на корову необычные бобы за одну ночь
+      прорастают гигантским стеблем, достигающим неба. По нему можно
+      взобраться к дороге, ведущей к дому великана. Джек несколько раз
+      пользуется этим проходом и в конце подрубает стебель, отчего
+      преследующий его великан падает.
+    tags:
+      - rapid-growth
+      - skyward-passage
+  - id: man-eating-ogre
+    name: "Великан-людоед"
+    type: creature
+    description: >
+      Огромный обитатель дома над облаками питается людьми и чувствует
+      запах англичанина, даже когда Джек скрывается. В его доме находятся
+      курица, несущая золотые яйца, и говорящая арфа. После кражи арфы
+      великан преследует Джека по бобовому стеблю и гибнет при падении.
+    tags:
+      - ogre
+      - giant
+  - id: golden-egg-laying-hen
+    name: "Курица, несущая золотые яйца"
+    type: animal
+    description: >
+      Приказ великана или Джека снести яйцо заставляет курицу откладывать
+      яйцо из чистого золота. Джек похищает её из дома великана; позднее
+      золотые яйца обеспечивают ему и матери достаток.
+    tags:
+      - golden-eggs
+      - magical-animal
+  - id: singing-talking-golden-harp
+    name: "Поющая и говорящая золотая арфа"
+    type: artifact
+    description: >
+      Золотая арфа по приказу великана сама исполняет прекрасную песню,
+      усыпляющую хозяина. Когда Джек похищает её, арфа громко зовёт
+      хозяина, пробуждая его и вызывая погоню.
+    tags:
+      - enchanted-instrument
+      - self-playing
+      - speech
