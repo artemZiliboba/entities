@@ -1,0 +1,72 @@
+id: witch-and-her-servants-kletke-lang-1894
+title: "Ведьма и её слуги"
+original_title: "The Witch and Her Servants"
+kind: folktale
+tradition:
+  - russian-folklore
+collection: "The Yellow Fairy Book (Andrew Lang, 1894)"
+source:
+  title: "The Witch and her Servants, The Yellow Fairy Book, Wikisource"
+  url: "https://en.wikisource.org/wiki/The_Yellow_Fairy_Book/The_Witch_and_her_Servants"
+  note: "Полный текст, строки 116–326 Wikisource, стр. 161–177 The Yellow Fairy Book (1894). Атрибуция: From the Russian. Kletke. Другие варианты не смешивались."
+entities:
+  - id: three-enchanted-fruit-trees
+    name: "Три чудесных плодовых дерева"
+    type: plant
+    description: >
+      Деревья из подаренных волшебником семян приносят золотистые спелые плоды. Если снять незрелый плод, остальные портятся.
+  - id: militza-swan-maiden
+    name: "Царевна Милица — белая птица"
+    type: character
+    description: >
+      Царевна прилетает к деревьям в облике белой птицы и возвращается в человеческий облик, когда Иванич касается её крыльев. Позднее исчезает в белом облаке.
+  - id: guiding-diamond-ring
+    name: "Путеводный бриллиантовый перстень"
+    type: artifact
+    description: >
+      Подаренный Милицей перстень указывает путь к ней: камень ярко блестит на правильной дороге и тускнеет при неверном выборе.
+  - id: prickly-forest-guardian
+    name: "Колючий хозяин леса"
+    type: creature
+    description: >
+      Маленький колючий человек сопровождается двумя львами, привязанными к его бороде. Он владеет лесной стражей и даёт Иваничу льва для безопасного прохода.
+  - id: witch-corva
+    name: "Ведьма Корва"
+    type: character
+    description: >
+      Ведьма заставляет своих слуг стеречь кобылу и жеребёнка. Она наводит сон на Иванича и велит лошадям прятаться в воде, облаках и курятнике.
+  - id: speaking-mare
+    name: "Говорящая кобыла"
+    type: animal
+    description: >
+      Кобыла Корвы разговаривает с Иваничем, умеет прятаться в реке и облаках и советует выбрать в награду её жеребёнка.
+  - id: flying-foal
+    name: "Летающий жеребёнок"
+    type: animal
+    description: >
+      Жеребёнок ведьминой кобылы способен пересечь огромные расстояния за считанные минуты и летать по воздуху с всадником.
+  - id: grateful-fish
+    name: "Благодарная рыба"
+    type: animal
+    description: >
+      Спасённая Иваничем говорящая рыба оставляет чешуйку для вызова. Призванная рыба помогает вернуть лошадей из реки.
+  - id: grateful-eagle
+    name: "Благодарный орёл"
+    type: animal
+    description: >
+      Спасённый от воронов говорящий орёл дарит перо для вызова и вместе с другими орлами возвращает лошадей из облаков.
+  - id: grateful-fox
+    name: "Благодарная лисица"
+    type: animal
+    description: >
+      Спасённая из капкана говорящая лисица даёт два волоска для вызова и хитростью помогает вернуть лошадей из курятника.
+  - id: cauldron-sorcerer
+    name: "Волшебник из котла"
+    type: character
+    description: >
+      Освободившись из котла с кипящей смолой после помощи Иванича, колдун переносит Милицу и её дворец в далёкую страну. Позднее встречается Иваничу в летящей карете.
+  - id: militza-binding-hair
+    name: "Заколдованный локон Милицы"
+    type: artifact
+    description: >
+      Ведьма тайком срезала прядь волос Милицы и благодаря этому получила власть над царевной. Судьба локона далее не уточняется.
