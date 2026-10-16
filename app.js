@@ -118,8 +118,8 @@ function workView(id) {
   if (!work) return notFound();
   const entities = [...(work.entities || [])].sort((a,b) => safe(a.name).localeCompare(safe(b.name),'ru'));
   const rows = entities.map(entity => ({name:entity.name || entity.id, meta:TYPES[entity.type] || humanize(entity.type), url:href('entity',work.id,entity.id)}));
-  return `<a class="back" href="#/">Все произведения</a><h1>${escapeHtml(work.title || work.id)}</h1><p class="subhead">${entities.length} сущностей</p>
-    ${entities.length ? alphabetList(rows, rowContent, 'entity-list') : '<p class="empty">Сущности пока не добавлены.</p>'}`;
+  return `<section class="work-page"><div class="work-intro"><a class="back" href="#/">Все произведения</a><span class="eyebrow">Произведение · Каталог сущностей</span><h1>${escapeHtml(work.title || work.id)}</h1><p class="subhead">${entities.length} сущностей</p></div>
+    ${entities.length ? alphabetList(rows, rowContent, 'entity-list') : '<p class="empty">Сущности пока не добавлены.</p>'}</section>`;
 }
 
 function entityView(workId, entityId) {
@@ -140,9 +140,9 @@ function entityView(workId, entityId) {
     <dl class="details">${details.map(([label,value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd></div>`).join('')}</dl>
     <section class="description-section"><h2>Описание</h2><p class="description">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p></section>
     <nav class="entity-pager" aria-label="Соседние сущности">
-      ${prev ? `<a class="pager-link" href="${href('entity',work.id,prev.id)}"><span class="circle-button">←</span><span><small>Предыдущая</small><strong>${escapeHtml(prev.name || prev.id)}</strong></span></a>` : '<span></span>'}
+      ${prev ? `<a class="pager-link" aria-label="Предыдущая сущность: ${escapeHtml(prev.name || prev.id)}" href="${href('entity',work.id,prev.id)}"><span class="circle-button" aria-hidden="true">←</span><span><strong>${escapeHtml(prev.name || prev.id)}</strong></span></a>` : '<span></span>'}
       <span class="pager-center"><b>${index+1} / ${entities.length}</b><small>${escapeHtml(work.title || work.id)}</small></span>
-      ${next ? `<a class="pager-link pager-next" href="${href('entity',work.id,next.id)}"><span><small>Следующая</small><strong>${escapeHtml(next.name || next.id)}</strong></span><span class="circle-button">→</span></a>` : '<span></span>'}
+      ${next ? `<a class="pager-link pager-next" aria-label="Следующая сущность: ${escapeHtml(next.name || next.id)}" href="${href('entity',work.id,next.id)}"><span><strong>${escapeHtml(next.name || next.id)}</strong></span><span class="circle-button" aria-hidden="true">→</span></a>` : '<span></span>'}
     </nav>
     ${related.length ? `<section class="related-section"><div class="section-heading"><h2>В этом произведении</h2><a href="${href('work',work.id)}">Все</a></div><ol class="related-list">${related.map(item => row({name:item.name || item.id, meta:TYPES[item.type] || humanize(item.type), url:href('entity',work.id,item.id)})).join('')}</ol></section>` : ''}</article>`;
 }
@@ -150,8 +150,11 @@ function entityView(workId, entityId) {
 function aboutView() { return `<a class="back" href="#/">На главную</a><h1>О проекте</h1><div class="about"><p>«Энциклопедия сущностей» — открытый каталог магических персонажей, существ, предметов и мест из фольклора и литературы разных народов.</p><p>Все материалы хранятся в открытом репозитории. Вы можете предложить уточнение или добавить новое произведение через GitHub.</p></div>`; }
 function notFound() { return '<h1>Страница не найдена</h1><p><a href="#/">Вернуться на главную</a></p>'; }
 
+let alphabetScrollCleanup = null;
 function render() {
   if (!state.ready) return;
+  alphabetScrollCleanup?.();
+  alphabetScrollCleanup = null;
   const parts = location.hash.replace(/^#\/?/,'').split('/').filter(Boolean).map(decodeURIComponent);
   app.innerHTML = !parts.length ? homeView() : parts[0] === 'group' && GROUPS.some(([id]) => id === parts[1]) ? homeView(parts[1]) : parts[0] === 'work' ? workView(parts[1]) : parts[0] === 'entity' ? entityView(parts[1],parts[2]) : parts[0] === 'about' ? aboutView() : notFound();
   document.title = `${app.querySelector('h1')?.textContent.trim() || 'Энциклопедия сущностей'} — Энциклопедия сущностей`;
@@ -166,10 +169,48 @@ function initAlphabetNavigation() {
     const link = event.target.closest('a[data-letter]');
     if (!link) return;
     event.preventDefault();
-    document.getElementById(`letter-${link.dataset.letter}`)?.scrollIntoView({behavior:'smooth', block:'start'});
+    document.getElementById(`letter-${link.dataset.letter}`)?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'});
     nav.querySelector('[aria-current]')?.removeAttribute('aria-current');
     link.setAttribute('aria-current','true');
   });
+  const sections = [...app.querySelectorAll('li[data-letter-section]')];
+  const links = [...nav.querySelectorAll('a[data-letter]')];
+  let queued = false;
+  let frame = null;
+  const syncLetter = () => {
+    if (!nav.isConnected) {
+      window.removeEventListener('scroll', onScroll);
+      return;
+    }
+    let active = sections[0];
+    for (const section of sections) {
+      if (section.getBoundingClientRect().top <= 150) active = section;
+      else break;
+    }
+    const letter = active?.dataset.letterSection;
+    const link = links.find(item => item.dataset.letter === letter);
+    if (link && !link.hasAttribute('aria-current')) {
+      nav.querySelector('[aria-current]')?.removeAttribute('aria-current');
+      link.setAttribute('aria-current', 'true');
+      if (nav.scrollWidth > nav.clientWidth) {
+        const left = link.offsetLeft - nav.offsetLeft - (nav.clientWidth - link.offsetWidth) / 2;
+        nav.scrollTo({left: Math.max(0, left), behavior:'auto'});
+      }
+    }
+    queued = false;
+  };
+  const onScroll = () => {
+    if (!queued) {
+      queued = true;
+      frame = requestAnimationFrame(syncLetter);
+    }
+  };
+  window.addEventListener('scroll', onScroll, {passive:true});
+  alphabetScrollCleanup = () => {
+    window.removeEventListener('scroll', onScroll);
+    if (frame !== null) cancelAnimationFrame(frame);
+  };
+  syncLetter();
 }
 
 const searchPanel = document.getElementById('searchPanel');
@@ -191,6 +232,27 @@ document.getElementById('menuClose').addEventListener('click', closeMenu);
 menuBackdrop.addEventListener('click', closeMenu);
 document.getElementById('sectionMenuLinks').addEventListener('click', closeMenu);
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
+
+
+const backToTop = document.getElementById('backToTop');
+if (backToTop) {
+  let scrollTicking = false;
+  const syncBackToTop = () => {
+    backToTop.hidden = window.scrollY < 420;
+    scrollTicking = false;
+  };
+  window.addEventListener('scroll', () => {
+    if (!scrollTicking) {
+      scrollTicking = true;
+      requestAnimationFrame(syncBackToTop);
+    }
+  }, { passive: true });
+  window.addEventListener('hashchange', () => requestAnimationFrame(syncBackToTop));
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  });
+  syncBackToTop();
+}
 
 const preloader = document.getElementById('preloader');
 const siteContent = document.getElementById('siteContent');
