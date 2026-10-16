@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "9b03a1efc99c8570f6b3ecdbd28f889a5d021833"
-work_count: 160
+master_sha: "a45f4ff873925c8a04de2f11bf91f7257d9d5645"
+work_count: 161
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -100,6 +100,10 @@ works:
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
     path: data/works/egyptian-literature/the-shipwrecked-sailor.yaml
+
+  - id: tom-tit-tot-jacobs-1890
+    tradition: english-folklore
+    path: data/works/english-folklore/tom-tit-tot-jacobs-1890.yaml
 
   - id: gold-spinners-kreutzwald-lang-1889
     tradition: estonian-folklore
