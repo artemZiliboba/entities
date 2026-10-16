@@ -381,3 +381,27 @@ h2{margin:48px 0 18px;font-size:clamp(25px,2.4vw,32px);line-height:1.18;letter-s
 @media(max-width:380px){
   .entity-page .entity-pager .pager-link strong{max-width:90px;font-size:11px}
 }
+
+/* Compact mobile pager: arrows only, with the entry position centered. */
+@media(max-width:800px){
+  .entity-page .entity-pager{
+    display:grid;
+    grid-template-columns:44px minmax(0,1fr) 44px;
+    align-items:center;
+    column-gap:12px;
+    min-height:94px;
+  }
+  .entity-page .entity-pager .pager-link{min-width:0;justify-content:flex-start}
+  .entity-page .entity-pager .pager-next{justify-content:flex-end}
+  .entity-page .entity-pager .pager-link>span:not(.circle-button){display:none}
+  .entity-page .entity-pager .pager-link .circle-button{
+    display:grid;place-items:center;flex:0 0 44px;
+    width:44px;height:44px;
+  }
+  .entity-page .entity-pager .pager-center{
+    min-width:0;text-align:center;
+  }
+  .entity-page .entity-pager .pager-center small{
+    display:block;max-width:100%;overflow-wrap:break-word;
+  }
+}
