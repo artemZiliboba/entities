@@ -1,0 +1,26 @@
+id: tom-tit-tot-jacobs-1890
+title: "Том-Тит-Тот"
+original_title: "Tom Tit Tot"
+kind: folktale
+tradition:
+  - english-folklore
+collection: "English Fairy Tales (Joseph Jacobs, 1890)"
+source:
+  title: "English Fairy Tales/Tom Tit Tot — Wikisource"
+  url: "https://en.wikisource.org/wiki/English_Fairy_Tales/Tom_Tit_Tot"
+  note: "Прочитан полный текст Tom Tit Tot в English Fairy Tales Джозефа Джейкобса (1890), строки 104–245 Викитеки. Использована только эта редакция; детали иных вариантов не добавлялись."
+entities:
+  - id: tom-tit-tot-imp
+    name: "Том-Тит-Тот — чертёнок-прядильщик"
+    type: creature
+    description: >
+      Маленькое чёрное хвостатое существо предлагает королеве каждый день
+      превращать доставленный лён в пять готовых мотков пряжи. Взамен оно
+      требует угадать его имя за месяц: каждый вечер разрешает три попытки,
+      а в случае неудачи обещает забрать женщину себе. Существо прилетает
+      к окну, прядёт на маленькой прялке и исчезает навсегда, когда королева
+      называет услышанное от короля имя Том-Тит-Тот.
+    tags:
+      - imp
+      - supernatural-spinning
+      - secret-name
