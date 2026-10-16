@@ -170,6 +170,34 @@ function initAlphabetNavigation() {
     nav.querySelector('[aria-current]')?.removeAttribute('aria-current');
     link.setAttribute('aria-current','true');
   });
+  const sections = [...app.querySelectorAll('li[data-letter-section]')];
+  let queued = false;
+  const syncLetter = () => {
+    if (!nav.isConnected) {
+      window.removeEventListener('scroll', onScroll);
+      return;
+    }
+    let active = sections[0];
+    for (const section of sections) {
+      if (section.getBoundingClientRect().top <= 150) active = section;
+      else break;
+    }
+    const letter = active?.dataset.letterSection;
+    const link = [...nav.querySelectorAll('a[data-letter]')].find(item => item.dataset.letter === letter);
+    if (link && !link.hasAttribute('aria-current')) {
+      nav.querySelector('[aria-current]')?.removeAttribute('aria-current');
+      link.setAttribute('aria-current', 'true');
+    }
+    queued = false;
+  };
+  const onScroll = () => {
+    if (!queued) {
+      queued = true;
+      requestAnimationFrame(syncLetter);
+    }
+  };
+  window.addEventListener('scroll', onScroll, {passive:true});
+  syncLetter();
 }
 
 const searchPanel = document.getElementById('searchPanel');
