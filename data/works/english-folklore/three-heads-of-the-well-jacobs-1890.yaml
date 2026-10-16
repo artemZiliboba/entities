@@ -1,0 +1,71 @@
+id: three-heads-of-the-well-jacobs-1890
+title: "Три головы из колодца"
+original_title: "The Three Heads of the Well"
+kind: folktale
+tradition:
+  - english-folklore
+collection: "English Fairy Tales (Joseph Jacobs, 1890)"
+source:
+  title: "English Fairy Tales/The Three Heads of the Well, Wikisource"
+  url: "https://en.wikisource.org/wiki/English_Fairy_Tales/The_Three_Heads_of_the_Well"
+  note: "Прочитан полный самостоятельный текст, строки 100–163 страницы Wikisource, из English Fairy Tales Джозефа Джейкобса (1890). Использована только эта редакция, без переноса деталей других вариантов."
+entities:
+  - id: thorn-hedge-opening-wand
+    name: "Жезл, открывающий терновую изгородь"
+    type: artifact
+    description: >
+      Старик у пещеры даёт принцессе жезл и учит трижды ударить им, попросив изгородь пропустить её. После этого плотные заросли расступаются и открывают проход к колодцу.
+    tags:
+      - wand
+      - passage
+  - id: enchanted-thorn-hedge
+    name: "Заколдованная терновая изгородь"
+    type: plant
+    description: >
+      Густая живая изгородь преграждает путь к колодцу. По просьбе и ударам жезла она расступается перед доброй принцессой; перед грубой падчерицей смыкается, когда та пытается пролезть через просвет.
+    tags:
+      - enchanted-barrier
+      - moving-plant
+  - id: first-golden-head
+    name: "Первая золотая голова колодца"
+    type: creature
+    description: >
+      Первая из трёх говорящих золотых голов поднимается из колодца, просит вымыть и причесать её. В награду за доброту наделяет принцессу красотой, способной очаровать могущественного принца; жестокую падчерицу поражает болезнью лица.
+    tags:
+      - blessing
+      - curse
+      - beauty
+  - id: second-golden-head
+    name: "Вторая золотая голова колодца"
+    type: creature
+    description: >
+      Вторая говорящая голова получает от доброй девушки уход и дарует ей необычайно прекрасный голос, превосходящий соловьиный. За грубое обращение насылает на падчерицу резкий, неприятный голос.
+    tags:
+      - blessing
+      - curse
+      - voice
+  - id: third-golden-head
+    name: "Третья золотая голова колодца"
+    type: creature
+    description: >
+      Третья голова в благодарность предрекает принцессе удачу и брак с могущественным королём; за жестокость назначает падчерице в мужья бедного деревенского сапожника. Оба предсказания сбываются.
+    tags:
+      - blessing
+      - curse
+      - fate
+  - id: healing-leprosy-ointment
+    name: "Целебная мазь от болезни лица"
+    type: substance
+    description: >
+      Бедный сапожник получает от старого отшельника коробочку мази, которая излечивает поражённое проклятием лицо падчерицы и возвращает ей прежний цвет кожи.
+    tags:
+      - healing
+      - ointment
+  - id: healing-voice-spirits
+    name: "Целебный напиток для голоса"
+    type: substance
+    description: >
+      Отшельник отдаёт сапожнику бутылку спиртового средства против хриплого голоса. Применённое вместе с мазью, оно в течение нескольких недель избавляет падчерицу от вызванной золотой головой резкости голоса.
+    tags:
+      - healing
+      - voice
