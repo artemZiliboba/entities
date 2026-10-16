@@ -1,0 +1,57 @@
+id: ass-table-stick-jacobs-1890
+title: "Осёл, стол и дубинка"
+original_title: "The Ass, the Table, and the Stick"
+kind: folktale
+tradition:
+  - english-folklore
+collection: "English Fairy Tales (Joseph Jacobs, 1890), tale XXXIX"
+source:
+  title: "English Fairy Tales/The Ass, the Table, and the Stick — Wikisource"
+  url: "https://en.wikisource.org/wiki/English_Fairy_Tales/The_Ass,_the_Table,_and_the_Stick"
+  note: "Полностью прочитана самостоятельная сказка № XXXIX в редакции Джозефа Джейкобса, English Fairy Tales (1890), текст Wikisource, строки 30–63. Другие варианты сюжета о чудесных дарах не смешивались."
+entities:
+  - id: money-braying-donkey
+    name: "Осёл, роняющий деньги"
+    type: animal
+    description: >
+      Осёл по кличке Недди достаётся Джеку в награду за службу старушке.
+      Когда хозяин тянет его за уши, осёл начинает кричать, и из его рта
+      выпадают серебряные и золотые монеты. Трактирщик подменяет его
+      обычным ослом, но Джек впоследствии возвращает чудесное животное.
+    tags:
+      - money-production
+      - magical-animal
+  - id: self-setting-table
+    name: "Самонакрывающийся стол"
+    type: artifact
+    description: >
+      Стол, полученный Джеком от столяра после года службы, по словесному
+      приказу самостоятельно покрывается разнообразной готовой едой.
+      Трактирщик тайно заменяет его похожим обычным столом; позднее
+      Джек заставляет вора вернуть подлинный предмет.
+    tags:
+      - self-setting-table
+      - food-production
+  - id: self-striking-cudgel
+    name: "Самобьющая дубинка"
+    type: artifact
+    description: >
+      Дубинка, сделанная помощником Джека из ветки дерева, по команде
+      вылетает из рук хозяина и самостоятельно избивает указанного
+      человека. Джек с её помощью вынуждает трактирщика вернуть
+      осла и стол, а позднее направляет её против девушек,
+      претендующих на его богатство.
+    tags:
+      - enchanted-weapon
+      - self-moving
+  - id: diamond-tears
+    name: "Слёзы, превращающиеся в алмазы"
+    type: phenomenon
+    description: >
+      Когда возлюбленная Джека плачет из-за его грубых слов,
+      её слёзы наполняют передник алмазами. Текст описывает
+      это чудесное появление драгоценных камней однократно,
+      не называя причины или условий повторения.
+    tags:
+      - diamond-tears
+      - miraculous-transformation
