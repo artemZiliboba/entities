@@ -150,8 +150,11 @@ function entityView(workId, entityId) {
 function aboutView() { return `<a class="back" href="#/">На главную</a><h1>О проекте</h1><div class="about"><p>«Энциклопедия сущностей» — открытый каталог магических персонажей, существ, предметов и мест из фольклора и литературы разных народов.</p><p>Все материалы хранятся в открытом репозитории. Вы можете предложить уточнение или добавить новое произведение через GitHub.</p></div>`; }
 function notFound() { return '<h1>Страница не найдена</h1><p><a href="#/">Вернуться на главную</a></p>'; }
 
+let alphabetScrollCleanup = null;
 function render() {
   if (!state.ready) return;
+  alphabetScrollCleanup?.();
+  alphabetScrollCleanup = null;
   const parts = location.hash.replace(/^#\/?/,'').split('/').filter(Boolean).map(decodeURIComponent);
   app.innerHTML = !parts.length ? homeView() : parts[0] === 'group' && GROUPS.some(([id]) => id === parts[1]) ? homeView(parts[1]) : parts[0] === 'work' ? workView(parts[1]) : parts[0] === 'entity' ? entityView(parts[1],parts[2]) : parts[0] === 'about' ? aboutView() : notFound();
   document.title = `${app.querySelector('h1')?.textContent.trim() || 'Энциклопедия сущностей'} — Энциклопедия сущностей`;
@@ -171,7 +174,9 @@ function initAlphabetNavigation() {
     link.setAttribute('aria-current','true');
   });
   const sections = [...app.querySelectorAll('li[data-letter-section]')];
+  const links = [...nav.querySelectorAll('a[data-letter]')];
   let queued = false;
+  let frame = null;
   const syncLetter = () => {
     if (!nav.isConnected) {
       window.removeEventListener('scroll', onScroll);
@@ -183,7 +188,7 @@ function initAlphabetNavigation() {
       else break;
     }
     const letter = active?.dataset.letterSection;
-    const link = [...nav.querySelectorAll('a[data-letter]')].find(item => item.dataset.letter === letter);
+    const link = links.find(item => item.dataset.letter === letter);
     if (link && !link.hasAttribute('aria-current')) {
       nav.querySelector('[aria-current]')?.removeAttribute('aria-current');
       link.setAttribute('aria-current', 'true');
@@ -193,10 +198,14 @@ function initAlphabetNavigation() {
   const onScroll = () => {
     if (!queued) {
       queued = true;
-      requestAnimationFrame(syncLetter);
+      frame = requestAnimationFrame(syncLetter);
     }
   };
   window.addEventListener('scroll', onScroll, {passive:true});
+  alphabetScrollCleanup = () => {
+    window.removeEventListener('scroll', onScroll);
+    if (frame !== null) cancelAnimationFrame(frame);
+  };
   syncLetter();
 }
 
