@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "81e285cc8655135b05f1b22795a3616be3d3b860"
-work_count: 165
+master_sha: "0abad1c3d0b6833475409e1cbc7b3e33fe43faf6"
+work_count: 166
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -9,6 +9,10 @@ note: >
   затем подтверждайте отсутствие записи непосредственно в дереве data/works/.
 
 works:
+  - id: birth-of-huitzilopochtli-spence-1913
+    tradition: aztec-mythology
+    path: data/works/aztec-mythology/birth-of-huitzilopochtli-spence-1913.yaml
+
   - id: the-wonderful-wizard-of-oz
     tradition: american-literature
     path: data/works/american-literature/the-wonderful-wizard-of-oz.yaml
