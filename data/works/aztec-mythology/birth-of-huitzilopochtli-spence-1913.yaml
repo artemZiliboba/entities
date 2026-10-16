@@ -1,0 +1,49 @@
+id: birth-of-huitzilopochtli-spence-1913
+title: "Рождение Уицилопочтли"
+original_title: "Huitzilopochtli, the War-God"
+kind: myth
+tradition:
+  - aztec-mythology
+collection: "The Myths of Mexico and Peru (Lewis Spence, 1913), Chapter II"
+source:
+  title: "The Myths of Mexico and Peru/Chapter II — Wikisource"
+  url: "https://en.wikisource.org/wiki/The_Myths_of_Mexico_and_Peru/Chapter_II"
+  note: "Раздел Huitzilopochtli, the War-God, от начала мифа о Коатепеке до бегства уцелевших братьев, строки 227–249. Пересказ Льюиса Спенса (1913), не первичный доколониальный документ; не смешивались позднейшие варианты."
+entities:
+  - id: coatlicue-mother
+    name: "Коатликуэ"
+    type: character
+    description: >
+      Мать Уицилопочтли и других детей, живущая возле горы Коатепек.
+      Во время молитвы подбирает упавший с неба разноцветный комок перьев
+      и прячет у груди, после чего чудесным образом беременеет.
+      Ещё до рождения сын утешает её и предупреждает об опасности.
+    tags:
+      - divine-mother
+      - miraculous-conception
+  - id: huitzilopochtli-war-god
+    name: "Уицилопочтли"
+    type: character
+    description: >
+      Ацтекский бог войны, говорящий с матерью и братом ещё до рождения.
+      Появляется на свет уже вооружённым синими копьём и щитом;
+      поражает сестру Койольшауки змеевидной молнией и четырежды
+      преследует нападавших братьев вокруг горы, после чего
+      большинство из них погибает или сдаётся.
+    tags:
+      - deity
+      - war-god
+      - lightning
+      - miraculous-birth
+  - id: miraculous-feather-ball
+    name: "Небесный комок разноцветных перьев"
+    type: artifact
+    description: >
+      Небольшой яркий комок перьев падает сверху к ногам молящейся
+      Коатликуэ. Она помещает его за пазуху, собираясь принести
+      в дар божеству, и позднее обнаруживает необычную беременность,
+      из которой рождается бог Уицилопочтли.
+      Текст не сообщает о других свойствах перьев.
+    tags:
+      - miraculous-conception
+      - feathers
