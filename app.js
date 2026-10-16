@@ -192,6 +192,27 @@ menuBackdrop.addEventListener('click', closeMenu);
 document.getElementById('sectionMenuLinks').addEventListener('click', closeMenu);
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
 
+
+const backToTop = document.getElementById('backToTop');
+if (backToTop) {
+  let scrollTicking = false;
+  const syncBackToTop = () => {
+    backToTop.hidden = window.scrollY < 420;
+    scrollTicking = false;
+  };
+  window.addEventListener('scroll', () => {
+    if (!scrollTicking) {
+      scrollTicking = true;
+      requestAnimationFrame(syncBackToTop);
+    }
+  }, { passive: true });
+  window.addEventListener('hashchange', () => requestAnimationFrame(syncBackToTop));
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  });
+  syncBackToTop();
+}
+
 const preloader = document.getElementById('preloader');
 const siteContent = document.getElementById('siteContent');
 const preloaderError = document.getElementById('preloaderError');
