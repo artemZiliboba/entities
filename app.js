@@ -140,9 +140,9 @@ function entityView(workId, entityId) {
     <dl class="details">${details.map(([label,value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd></div>`).join('')}</dl>
     <section class="description-section"><h2>Описание</h2><p class="description">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p></section>
     <nav class="entity-pager" aria-label="Соседние сущности">
-      ${prev ? `<a class="pager-link" href="${href('entity',work.id,prev.id)}"><span class="circle-button">←</span><span><small>Предыдущая</small><strong>${escapeHtml(prev.name || prev.id)}</strong></span></a>` : '<span></span>'}
+      ${prev ? `<a class="pager-link" aria-label="Предыдущая сущность: ${escapeHtml(prev.name || prev.id)}" href="${href('entity',work.id,prev.id)}"><span class="circle-button" aria-hidden="true">←</span><span><strong>${escapeHtml(prev.name || prev.id)}</strong></span></a>` : '<span></span>'}
       <span class="pager-center"><b>${index+1} / ${entities.length}</b><small>${escapeHtml(work.title || work.id)}</small></span>
-      ${next ? `<a class="pager-link pager-next" href="${href('entity',work.id,next.id)}"><span><small>Следующая</small><strong>${escapeHtml(next.name || next.id)}</strong></span><span class="circle-button">→</span></a>` : '<span></span>'}
+      ${next ? `<a class="pager-link pager-next" aria-label="Следующая сущность: ${escapeHtml(next.name || next.id)}" href="${href('entity',work.id,next.id)}"><span><strong>${escapeHtml(next.name || next.id)}</strong></span><span class="circle-button" aria-hidden="true">→</span></a>` : '<span></span>'}
     </nav>
     ${related.length ? `<section class="related-section"><div class="section-heading"><h2>В этом произведении</h2><a href="${href('work',work.id)}">Все</a></div><ol class="related-list">${related.map(item => row({name:item.name || item.id, meta:TYPES[item.type] || humanize(item.type), url:href('entity',work.id,item.id)})).join('')}</ol></section>` : ''}</article>`;
 }
