@@ -258,3 +258,20 @@ h2{margin:48px 0 18px;font-size:clamp(25px,2.4vw,32px);line-height:1.18;letter-s
 @media(prefers-reduced-motion:reduce){
   .alphabet-layout .list-row .arrow{transition:none}
 }
+
+/* Alphabet chapter headings: visible editorial landmarks. */
+.alphabet-layout li[data-letter-section]:not(:first-child){margin-top:34px}
+.alphabet-layout li[data-letter-section]::before{
+  margin:0 0 7px;
+  padding:15px 8px 12px;
+  font:500 26px/1.1 var(--serif);
+  letter-spacing:-.025em;
+  color:var(--accent);
+}
+@media(max-width:800px){
+  .alphabet-layout li[data-letter-section]:not(:first-child){margin-top:25px}
+  .alphabet-layout li[data-letter-section]::before{
+    padding:12px 4px 10px;
+    font-size:23px;
+  }
+}
