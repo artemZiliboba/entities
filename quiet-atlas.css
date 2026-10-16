@@ -89,6 +89,9 @@ h2{margin:48px 0 18px;font-size:clamp(25px,2.4vw,32px);line-height:1.18;letter-s
 .list-row .row-meta{color:var(--muted);font-size:12px}
 .list-row .row-meta-link,.list-row .row-name,.back,.pager-link,.section-heading>a,
 .header-nav a,.site-footer a,.section-menu nav a{text-decoration:none}
+.list-row a,.related-list a,.list-row a:visited,.related-list a:visited{
+  text-decoration:none!important;
+}
 .list-row a:hover,.section-heading>a:hover,.back:hover,.site-footer a:hover{color:var(--accent);text-decoration:none}
 .entity-catalog-list .list-row{grid-template-columns:minmax(0,1fr) 26px}
 .entity-catalog-list .row-name,.entity-catalog-list .row-meta{grid-column:1}
@@ -101,9 +104,12 @@ h2{margin:48px 0 18px;font-size:clamp(25px,2.4vw,32px);line-height:1.18;letter-s
 }
 .alphabet-layout{grid-template-columns:48px minmax(0,1fr);gap:24px}
 .alphabet-nav{
+  box-sizing:border-box;width:48px;min-width:0;
   gap:2px;padding:8px 4px;border:1px solid var(--line);
   border-radius:2px;background:var(--alphabet);
+  overflow-x:hidden;overflow-y:auto;scrollbar-width:none;
 }
+.alphabet-nav::-webkit-scrollbar{display:none;width:0;height:0}
 .alphabet-nav a,.alphabet-nav span{width:34px;height:30px;border-radius:2px;font-size:12px}
 .alphabet-nav a:hover{background:var(--alphabet-hover);color:var(--ink)}
 .alphabet-nav a[aria-current]{background:var(--accent);color:var(--paper)}
@@ -175,7 +181,7 @@ h2{margin:48px 0 18px;font-size:clamp(25px,2.4vw,32px);line-height:1.18;letter-s
   .alphabet-nav{
     position:sticky;top:0;z-index:5;display:flex;
     width:calc(100% + 36px);margin-inline:-18px;padding:8px 18px;
-    border-inline:0;border-radius:0;overflow-x:auto;scrollbar-width:none;
+    border-inline:0;border-radius:0;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;
   }
   .alphabet-nav a,.alphabet-nav span{flex:0 0 34px;width:34px;height:36px}
   .alphabet-layout li[data-letter-section]{scroll-margin-top:65px}
