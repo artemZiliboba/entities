@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "3898b9076c846cb42b287c6e64aa8445611490d1"
-work_count: 159
+master_sha: "9b03a1efc99c8570f6b3ecdbd28f889a5d021833"
+work_count: 160
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -566,6 +566,10 @@ works:
   - id: koshchei-the-deathless-156
     tradition: russian-folklore
     path: data/works/russian-folklore/koshchei-the-deathless-156.yaml
+
+  - id: witch-and-her-servants-kletke-lang-1894
+    tradition: russian-folklore
+    path: data/works/russian-folklore/witch-and-her-servants-kletke-lang-1894.yaml
 
   - id: vasilisa-the-beautiful
     tradition: russian-folklore
