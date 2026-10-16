@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "7a4f19b05c6ec10bec24d2730f78334c23d10954"
-work_count: 164
+master_sha: "81e285cc8655135b05f1b22795a3616be3d3b860"
+work_count: 165
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -100,6 +100,10 @@ works:
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
     path: data/works/egyptian-literature/the-shipwrecked-sailor.yaml
+
+  - id: ass-table-stick-jacobs-1890
+    tradition: english-folklore
+    path: data/works/english-folklore/ass-table-stick-jacobs-1890.yaml
 
   - id: fairy-ointment-jacobs-1890
     tradition: english-folklore
