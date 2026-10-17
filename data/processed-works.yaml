@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "5d7712ae760ea654aff0eeb02c0af209031ce9fa"
-work_count: 168
+master_sha: "f95301dc91aec1d27a919d213e5cfd3f96fa98cd"
+work_count: 169
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -136,6 +136,10 @@ works:
   - id: christmas-carol-dickens-1843-gutenberg46
     tradition: english-literature
     path: data/works/english-literature/christmas-carol-dickens-1843-gutenberg46.yaml
+
+  - id: book-of-beasts-nesbit-1900
+    tradition: english-literature
+    path: data/works/english-literature/book-of-beasts-nesbit-1900.yaml
 
   - id: alices-adventures-in-wonderland
     tradition: english-literature
