@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f95301dc91aec1d27a919d213e5cfd3f96fa98cd"
-work_count: 169
+master_sha: "147448d6fc53b23c83177011623564a7f435f86c"
+work_count: 170
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -144,6 +144,10 @@ works:
   - id: alices-adventures-in-wonderland
     tradition: english-literature
     path: data/works/english-literature/alices-adventures-in-wonderland.yaml
+
+  - id: deliverers-country-nesbit-1900
+    tradition: english-literature
+    path: data/works/english-literature/deliverers-country-nesbit-1900.yaml
 
   - id: reluctant-dragon-grahame-1898
     tradition: english-literature
