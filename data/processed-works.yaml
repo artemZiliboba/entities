@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "147448d6fc53b23c83177011623564a7f435f86c"
-work_count: 170
+master_sha: "8403236fd833cbc397644727329d8a10c7cac7cf"
+work_count: 171
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -148,6 +148,10 @@ works:
   - id: deliverers-country-nesbit-1900
     tradition: english-literature
     path: data/works/english-literature/deliverers-country-nesbit-1900.yaml
+
+  - id: ice-dragon-nesbit-1900
+    tradition: english-literature
+    path: data/works/english-literature/ice-dragon-nesbit-1900.yaml
 
   - id: reluctant-dragon-grahame-1898
     tradition: english-literature
