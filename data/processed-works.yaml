@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "8403236fd833cbc397644727329d8a10c7cac7cf"
-work_count: 171
+master_sha: "089b813f985dbcc21b1b35c9578c6eaa55f746e2"
+work_count: 172
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -156,6 +156,10 @@ works:
   - id: reluctant-dragon-grahame-1898
     tradition: english-literature
     path: data/works/english-literature/reluctant-dragon-grahame-1898.yaml
+
+  - id: uncle-james-purple-stranger-nesbit-1900
+    tradition: english-literature
+    path: data/works/english-literature/uncle-james-purple-stranger-nesbit-1900.yaml
 
   - id: velveteen-rabbit-williams-1922
     tradition: english-literature
