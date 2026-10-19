@@ -5,7 +5,7 @@
 **Открытая структурированная база магических персонажей, существ, артефактов, мест, заклинаний и явлений из фольклора, мифологии и литературы.**
 
 [![GitHub Pages](https://img.shields.io/github/actions/workflow/status/artemZiliboba/entities/pages.yml?branch=master&label=GitHub%20Pages&logo=github)](https://artemziliboba.github.io/entities/)
-[![Works](https://img.shields.io/badge/works-113-8A2BE2)](data/processed-works.yaml)
+[![Works](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2FartemZiliboba%2Fentities%2Fmaster%2Fdata%2Fprocessed-works.yaml&query=%24.work_count&label=works&color=8A2BE2)](data/processed-works.yaml)
 [![Data format](https://img.shields.io/badge/data-YAML-CB171E?logo=yaml&logoColor=white)](data/works/)
 [![Schema](https://img.shields.io/badge/schema-JSON%20Schema-blue)](schema/work.schema.json)
 
@@ -21,7 +21,7 @@
 
 Каждое произведение хранится отдельно и описывает только те магические сущности, которые подтверждаются выбранным первичным или авторитетным источником. Для фольклорных текстов с несколькими версиями фиксируется конкретный вариант: детали разных редакций не смешиваются.
 
-Сейчас каталог содержит **113 произведений** из разных традиций и литературных корпусов. Веб-интерфейс собирает их в удобную энциклопедию с поиском, навигацией и светлой/тёмной темой.
+Каталог содержит произведения из разных традиций и литературных корпусов. Актуальное количество отображается в бейдже **works** выше и берётся из поля `work_count` в [реестре](data/processed-works.yaml). Веб-интерфейс собирает их в удобную энциклопедию с поиском, навигацией и светлой/тёмной темой.
 
 > 🌐 **Текущая версия энциклопедии:**  
 > **https://artemziliboba.github.io/entities/**
