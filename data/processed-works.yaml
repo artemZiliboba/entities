@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "543c889e23ebf6659455c197699cd7deb4a630e3"
-work_count: 173
+master_sha: "74c9941e617b05f825204cac352e3aef8cd7e74c"
+work_count: 174
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -148,6 +148,10 @@ works:
   - id: deliverers-country-nesbit-1900
     tradition: english-literature
     path: data/works/english-literature/deliverers-country-nesbit-1900.yaml
+
+  - id: fiery-dragon-nesbit-1900
+    tradition: english-literature
+    path: data/works/english-literature/fiery-dragon-nesbit-1900.yaml
 
   - id: ice-dragon-nesbit-1900
     tradition: english-literature
