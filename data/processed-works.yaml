@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "74c9941e617b05f825204cac352e3aef8cd7e74c"
-work_count: 174
+master_sha: "d3bb1e2087a7a37a7d3b2b34864b71a4db0e49a1"
+work_count: 175
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -9,6 +9,10 @@ note: >
   затем подтверждайте отсутствие записи непосредственно в дереве data/works/.
 
 works:
+  - id: the-pink-grimm-taylor-edwardes-2591
+    tradition: german-folklore
+    path: data/works/german-folklore/the-pink-grimm-taylor-edwardes-2591.yaml
+
   - id: birth-of-huitzilopochtli-spence-1913
     tradition: aztec-mythology
     path: data/works/aztec-mythology/birth-of-huitzilopochtli-spence-1913.yaml
