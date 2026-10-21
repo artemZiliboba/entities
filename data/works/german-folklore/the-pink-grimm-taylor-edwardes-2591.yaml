@@ -1,0 +1,55 @@
+id: the-pink-grimm-taylor-edwardes-2591
+title: "Гвоздика"
+original_title: "Die Nelke"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Kinder- und Hausmärchen, KHM 76"
+source:
+  title: "Grimms' Fairy Tales, The Pink, Project Gutenberg eBook #2591"
+  url: "https://www.gutenberg.org/files/2591/2591-h/2591-h.htm"
+  note: "Использован полный текст The Pink в переводе, основанном на работах Edgar Taylor и Marian Edwardes, Project Gutenberg #2591; другие редакции не смешивались."
+entities:
+  - id: wish-granting-prince
+    name: "Королевич, исполняющий желания"
+    type: character
+    description: "Королевский сын, которому дарована способность осуществлять собственные желания. Он создаёт дворец, вызывает животных, превращает людей и возвращает им прежний облик."
+    tags:
+      - wish-magic
+      - transformation
+  - id: announcing-angel
+    name: "Ангел-предвестник"
+    type: character
+    description: "Небесный посланник, сообщающий королеве, что у неё родится сын, чьи желания будут исполняться."
+    tags:
+      - angel
+      - prophecy
+  - id: dove-angels
+    name: "Два ангела в облике белых голубей"
+    type: creature
+    description: "Два небесных ангела, которые в облике белых голубей дважды в день приносят заключённой королеве пищу на протяжении семи лет; после её смерти садятся на могилу."
+    tags:
+      - angel
+      - shapeshifting
+      - helper
+  - id: wish-fulfillment-power
+    name: "Дар исполняющихся желаний"
+    type: phenomenon
+    description: "Сверхъестественная способность королевича немедленно воплощать произнесённые или задуманные желания, включая появление дворца, лестницы, людей и животных, а также превращения."
+    tags:
+      - wish-magic
+  - id: enchanted-poodle
+    name: "Чёрный пудель с золотым ошейником"
+    type: animal
+    description: "Облик, в который королевич превращает похитившего его повара. Пудель вынужден поедать раскалённые угли, пока из пасти не вырывается пламя; впоследствии королевич возвращает ему человеческий облик."
+    tags:
+      - transformation
+      - punishment
+  - id: transformed-pink
+    name: "Гвоздика — превращённая девушка"
+    type: plant
+    description: "Цветок, в который королевич по своему желанию превращает любимую девушку, чтобы взять её с собой. Позднее он возвращает ей человеческий облик перед королём."
+    tags:
+      - transformation
+      - enchanted-plant
