@@ -1,0 +1,45 @@
+id: well-of-the-worlds-end-jacobs-1890
+title: "Колодец на краю света"
+original_title: "The Well of the World's End"
+kind: folktale
+tradition:
+  - english-folklore
+collection: "English Fairy Tales (Joseph Jacobs, 1890)"
+source:
+  title: "Joseph Jacobs, English Fairy Tales (1890), The Well of the World's End"
+  url: "https://en.wikisource.org/wiki/English_Fairy_Tales"
+  note: "Сказка № 41, The Well of the World's End, страницы 224–229 из English Fairy Tales Джозефа Джейкобса (1890). Использована редакция Джейкобса, составленная им из нескольких указанных источников; параллельные версии из примечаний не смешивались."
+entities:
+  - id: enchanted-frog-prince
+    name: "Заколдованный принц-лягушка"
+    type: character
+    description: >-
+      Королевич, которого злой волшебник превратил в большую говорящую лягушку.
+      У колодца на краю света он объясняет девушке, как удержать воду в решете.
+      После того как девушка исполняет его просьбы в течение ночи и отрубает
+      ему голову, он возвращается в человеческий облик и женится на ней.
+    tags:
+      - enchanted-prince
+      - talking-animal
+      - transformation
+  - id: wicked-magician
+    name: "Злой волшебник"
+    type: character
+    description: >-
+      Неназванный чародей, который, согласно рассказу освобождённого принца,
+      наложил на него заклятие и превратил в лягушку. Других действий
+      волшебника в этой редакции не описано.
+    tags:
+      - sorcerer
+      - curse
+  - id: frog-enchantment
+    name: "Заклятие лягушачьего облика"
+    type: spell
+    description: >-
+      Наложенное злым волшебником превращение принца в лягушку.
+      Снять чары можно лишь тогда, когда девушка выполнит просьбы лягушки
+      в течение целой ночи и затем отрубит ей голову.
+    tags:
+      - transformation
+      - curse
+      - disenchantment
