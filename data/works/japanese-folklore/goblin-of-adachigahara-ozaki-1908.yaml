@@ -1,0 +1,29 @@
+id: goblin-of-adachigahara-ozaki-1908
+title: "Демон Адатигэхары"
+original_title: "The Goblin of Adachigahara"
+kind: folktale
+tradition:
+  - japanese-folklore
+collection: "Japanese Fairy Tales"
+author: "Ёи Теодора Одзаки (английская литературная обработка)"
+source:
+  title: "Yei Theodora Ozaki, Japanese Fairy Tales (1908), The Goblin of Adachigahara"
+  url: "https://www.gutenberg.org/cache/epub/4018/pg4018-images.html"
+  note: "Только глава The Goblin of Adachigahara в английской обработке Ёи Теодоры Одзаки, издание 1908 года (Project Gutenberg #4018). В предисловии Одзаки отмечает адаптацию японских рассказов; другие версии легенды об онибаба не смешиваются."
+entities:
+  - id: adachigahara-onibaba
+    name: "Онибаба Адатигэхары"
+    type: creature
+    description: >-
+      Людоедский демон, обитающий в одинокой хижине на равнине Адатигэхара
+      в провинции Муцу. Принимает облик приветливой старухи, заманивает
+      путников на ночлег и пожирает их. Когда буддийский паломник
+      обнаруживает человеческие кости в запретной комнате, демон
+      преследует его, обнаруживая страшный облик; с рассветом исчезает.
+    aliases:
+      - "Демон Адатигэхары"
+      - "Старуха-людоедка"
+    tags:
+      - oni
+      - shapeshifting
+      - cannibal
