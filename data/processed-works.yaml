@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "509ea9ab87f930dc1d2f90794410993d7139843d"
-work_count: 177
+master_sha: "7042ce0c1be3981b9afe3db9eb677bcbfb7f5ba6"
+work_count: 178
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -136,6 +136,10 @@ works:
   - id: tom-tit-tot-jacobs-1890
     tradition: english-folklore
     path: data/works/english-folklore/tom-tit-tot-jacobs-1890.yaml
+
+  - id: well-of-the-worlds-end-jacobs-1890
+    tradition: english-folklore
+    path: data/works/english-folklore/well-of-the-worlds-end-jacobs-1890.yaml
 
   - id: gold-spinners-kreutzwald-lang-1889
     tradition: estonian-folklore
