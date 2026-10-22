@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "7042ce0c1be3981b9afe3db9eb677bcbfb7f5ba6"
-work_count: 178
+master_sha: "3795125f8dd04b87c1214cef80c37593b41e2e1e"
+work_count: 179
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -487,6 +487,10 @@ works:
   - id: the-bamboo-cutter-and-the-moon-child
     tradition: japanese-folklore
     path: data/works/japanese-folklore/the-bamboo-cutter-and-the-moon-child.yaml
+
+  - id: goblin-of-adachigahara-ozaki-1908
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/goblin-of-adachigahara-ozaki-1908.yaml
 
   - id: momotaro
     tradition: japanese-folklore
