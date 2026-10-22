@@ -1,0 +1,64 @@
+id: master-and-his-pupil-jacobs-1890
+title: "Учитель и его ученик"
+original_title: "The Master and His Pupil"
+kind: folktale
+tradition:
+  - english-folklore
+collection: "English Fairy Tales (Joseph Jacobs, 1890)"
+source:
+  title: "Joseph Jacobs, English Fairy Tales (1890), The Master and His Pupil"
+  url: "https://www.gutenberg.org/cache/epub/7439/pg7439-images.html"
+  note: "Использован только текст The Master and His Pupil из сборника Джозефа Джейкобса English Fairy Tales; примечания о параллелях и другие версии не включены."
+entities:
+  - id: sorcerer-master
+    name: "Учёный чародей"
+    type: character
+    description: "Учитель, знающий тайны духовного мира и формулы вызова и изгнания демонов. Владеет магической книгой, всевидящим зеркалом и раковиной, передающей чужие слова; в конце рассказа изгоняет Вельзевула."
+    tags:
+      - sorcerer
+      - demon-summoning
+  - id: black-book-of-spirits
+    name: "Чёрная книга духов"
+    type: artifact
+    description: "Большая книга в чёрном кожаном переплёте с железными застёжками, прикованная к столу. Содержит сведения о небесных существах и демонах, их именах и способах призыва и подчинения; прочитанная учеником формула вызывает Вельзевула."
+    tags:
+      - grimoire
+      - summoning
+  - id: all-seeing-mirror
+    name: "Всевидящее зеркало"
+    type: artifact
+    description: "Зеркало учителя, в котором можно наблюдать происходящее в мире. Ученик без знания нужных слов видит в нём лишь дым и облака."
+    tags:
+      - divination
+  - id: whispering-shell
+    name: "Говорящая раковина"
+    type: artifact
+    description: "Раковина, которая, если приложить её к уху, передаёт слова любого человека, о котором пожелает узнать хозяин. Неопытный ученик слышит лишь неясный шум."
+    tags:
+      - distant-hearing
+  - id: alchemical-apparatus
+    name: "Алхимические приборы"
+    type: artifact
+    description: "Принадлежащие учителю приспособления для превращения меди в золото и свинца в серебро. Ученик пытается использовать их без необходимых слов, но терпит неудачу."
+    tags:
+      - alchemy
+      - transmutation
+  - id: beelzebub
+    name: "Вельзевул"
+    type: creature
+    description: "Огнедышащий демон с горящими глазами, вызванный учеником из книги. Требует задания и без остановки носит воду для цветка, затапливая комнату; учитель отправляет его обратно в огненную обитель."
+    tags:
+      - demon
+      - summoning
+  - id: demon-summoning-words
+    name: "Формула призыва демона"
+    type: spell
+    description: "Слова из чёрной книги, которые ученик читает вслух, вызывая появление Вельзевула с громом и сотрясением дома."
+    tags:
+      - summoning
+  - id: demon-dismissal-words
+    name: "Формула изгнания демона"
+    type: spell
+    description: "Известные учителю слова, которыми он прекращает опасную службу Вельзевула и возвращает его в огненную обитель."
+    tags:
+      - banishment
