@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "5861994b4f1d063bb801d03e50ffbbd14748b9c1"
-work_count: 176
+master_sha: "509ea9ab87f930dc1d2f90794410993d7139843d"
+work_count: 177
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -124,6 +124,10 @@ works:
   - id: jack-the-giant-killer-jacobs-1890
     tradition: english-folklore
     path: data/works/english-folklore/jack-the-giant-killer-jacobs-1890.yaml
+
+  - id: master-and-his-pupil-jacobs-1890
+    tradition: english-folklore
+    path: data/works/english-folklore/master-and-his-pupil-jacobs-1890.yaml
 
   - id: three-heads-of-the-well-jacobs-1890
     tradition: english-folklore
