@@ -1,0 +1,38 @@
+id: fisherman-and-the-genie-lang-1898
+title: "Рыбак и джинн"
+original_title: "The Story of the Fisherman"
+kind: folktale
+tradition:
+  - arabian-nights
+collection: "The Arabian Nights' Entertainments"
+author: "Эндрю Лэнг (составитель и редактор)"
+source:
+  title: "Andrew Lang (ed.), The Arabian Nights' Entertainments (1898), The Story of the Fisherman"
+  url: "https://www.gutenberg.org/files/128/128-h/128-h.htm"
+  note: "Рассматривается только начальный эпизод главы The Story of the Fisherman — от четырёх забросов сети до повторного запечатывания джинна и его обещания награды; вставная повесть о царе и лекаре Дубане и дальнейшая история заколдованного озера не входят в эту запись. Английская редакция Эндрю Лэнга 1898 года; другие версии не смешивались."
+entities:
+  - id: rebellious-jar-genie
+    name: "Джинн из медного сосуда"
+    type: creature
+    description: >-
+      Огромный джинн, восставший против царя джиннов и заточённый
+      в сосуд с заколдованной свинцовой крышкой. Может обращаться
+      в дым и снова принимать исполинский облик. После освобождения
+      грозит рыбаку смертью, но тот хитростью заставляет его
+      вернуться в сосуд и запирает вновь.
+    tags:
+      - jinn
+      - shapeshifting
+      - imprisonment
+  - id: enchanted-sealed-vessel
+    name: "Сосуд с зачарованной печатью"
+    type: artifact
+    description: >-
+      Медный сосуд, запечатанный свинцовой крышкой с печатью
+      царя джиннов. Наложенное на крышку заклятие не позволяет
+      заключённому джинну выйти, даже когда он превращается
+      в дым. Рыбак открывает сосуд, а затем снова запирает
+      джинна той же крышкой.
+    tags:
+      - magical-seal
+      - containment
