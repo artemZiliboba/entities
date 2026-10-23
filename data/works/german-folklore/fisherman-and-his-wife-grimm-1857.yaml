@@ -1,0 +1,29 @@
+id: fisherman-and-his-wife-grimm-1857
+title: "О рыбаке и его жене"
+original_title: "Von dem Fischer un syner Fru"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 19"
+author: "Филипп Отто Рунге; братья Гримм (редакторы)"
+source:
+  title: "Brüder Grimm, Kinder- und Haus-Märchen, 7. Auflage (1857), KHM 19: Von dem Fischer un syner Fru"
+  url: "https://de.wikisource.org/wiki/Von_dem_Fischer_un_syner_Fru_(1857)"
+  note: "Нижненемецкий текст седьмого издания 1857 года (Ausgabe letzter Hand), том 1, страницы 100–108; использован именно KHM 19, а не пересказы и иные редакции."
+entities:
+  - id: enchanted-flounder-prince
+    name: "Заколдованный принц-камбала"
+    type: animal
+    description: >-
+      Большая говорящая камбала, утверждающая, что на самом деле является
+      заколдованным принцем. После освобождения рыбаком исполняет просьбы
+      его жены Ильзебилль: дарует дом и дворец, делает её королём,
+      императором и папой римским. Когда она требует стать подобной Богу,
+      рыба возвращает супругов в прежнюю жалкую хижину.
+      Происхождение и условия снятия заклятия в сказке не раскрываются.
+    aliases:
+      - "Волшебная камбала"
+    tags:
+      - enchanted-prince
+      - talking-animal
+      - wish-granting
