@@ -1,0 +1,37 @@
+id: hana-saka-jijii-ozaki-1908
+title: "Старик, заставивший засохшие деревья цвести"
+original_title: "The Story of the Old Man Who Made Withered Trees to Flower"
+kind: folktale
+tradition:
+  - japanese-folklore
+collection: "Japanese Fairy Tales"
+author: "Ёи Теодора Одзаки (английская обработка)"
+source:
+  title: "Yei Theodora Ozaki, Japanese Fairy Tales (1908), The Story of the Old Man Who Made Withered Trees to Flower"
+  url: "https://www.gutenberg.org/files/4018/4018-h/4018-h.htm"
+  note: "Использована только одноимённая глава из английской обработки Ёи Теодоры Одзаки, Japanese Fairy Tales (1908), Project Gutenberg #4018. Другие версии сказки Ханасака-дзидзии не смешивались."
+entities:
+  - id: miraculous-rice-mortar
+    name: "Чудесная ступа из дерева над могилой Сиро"
+    type: artifact
+    description: >-
+      Деревянная ступа, изготовленная добрым стариком из ствола дерева,
+      под которым был похоронен его пёс Сиро. При толчении риса
+      в ней количество пищи многократно увеличивается, а рисовые лепёшки
+      появляются словно сами собой. У жестокого соседа ступа не даёт
+      съедобных лепёшек; сосед разбивает и сжигает её.
+    tags:
+      - food-multiplication
+      - magical-object
+  - id: blossom-making-ashes
+    name: "Пепел, заставляющий деревья цвести"
+    type: substance
+    description: >-
+      Пепел, оставшийся после сожжения чудесной ступы. Когда добрый
+      старик рассыпает его по ветвям, деревья мгновенно покрываются
+      цветами даже поздней осенью; с его помощью он оживляет цветение
+      засохшей вишни в саду даймё. У завистливого соседа пепел
+      не вызывает цветения.
+    tags:
+      - magical-ashes
+      - plant-growth
