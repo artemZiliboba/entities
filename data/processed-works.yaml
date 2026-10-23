@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "3795125f8dd04b87c1214cef80c37593b41e2e1e"
-work_count: 179
+master_sha: "3a6f49986372baab3eae5b39577e942ac5c016d4"
+work_count: 180
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -479,6 +479,10 @@ works:
   - id: urashima-taro
     tradition: japanese-folklore
     path: data/works/japanese-folklore/urashima-taro.yaml
+
+  - id: tongue-cut-sparrow-ozaki-1908
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/tongue-cut-sparrow-ozaki-1908.yaml
 
   - id: kojiki-eight-forked-serpent
     tradition: japanese-mythology
