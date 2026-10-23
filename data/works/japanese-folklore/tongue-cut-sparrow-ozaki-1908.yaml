@@ -1,0 +1,57 @@
+id: tongue-cut-sparrow-ozaki-1908
+title: "Воробей с отрезанным языком"
+original_title: "The Tongue-Cut Sparrow"
+kind: folktale
+tradition:
+  - japanese-folklore
+collection: "Japanese Fairy Tales"
+author: "Ёи Теодора Одзаки (английская обработка)"
+source:
+  title: "Yei Theodora Ozaki, Japanese Fairy Tales (1908), The Tongue-Cut Sparrow"
+  url: "https://www.gutenberg.org/files/4018/4018-h/4018-h.htm"
+  note: "Только The Tongue-Cut Sparrow в обработке Ёи Теодоры Одзаки, издание 1908 года, Project Gutenberg #4018; другие версии Сита-кири судзумэ не смешивались."
+entities:
+  - id: lady-sparrow
+    name: "Госпожа Воробьиха"
+    type: animal
+    description: >-
+      Волшебная говорящая воробьиха, любимая птица доброго старика.
+      После того как жена старика отрезает ей язык, у неё вырастает новый.
+      Она приглашает старика в дом в бамбуковой роще, где живёт с семьёй
+      волшебных воробьёв, и вручает ему шкатулку с сокровищами.
+    aliases:
+      - "Судзумэ-сан"
+    tags:
+      - talking-animal
+      - fairy
+      - regeneration
+  - id: fairy-sparrow-family
+    name: "Семья волшебных воробьёв"
+    type: creature
+    description: >-
+      Родственники и дочери госпожи Воробьихи, живущие в благоустроенном
+      доме среди бамбука. Они прислуживают гостям, танцуют в человеческих
+      одеждах и вместе с хозяйкой решают наказать жестокую старуху.
+    tags:
+      - fairy
+      - talking-animal
+  - id: box-of-horrors
+    name: "Шкатулка с чудовищами"
+    type: artifact
+    description: >-
+      Большая подарочная шкатулка, которую жадная старуха выбирает у
+      волшебных воробьёв. Когда она открывает её по дороге домой,
+      изнутри выскакивают устрашающие сверхъестественные существа,
+      приводящие её в ужас.
+    tags:
+      - supernatural-container
+      - punishment
+  - id: box-monsters
+    name: "Чудовища из большой шкатулки"
+    type: creature
+    description: >-
+      Страшные существа, вырывающиеся из большой шкатулки, взятой старухой
+      у волшебных воробьёв. Они пугают её и обращают в бегство.
+    tags:
+      - monster
+      - punishment
