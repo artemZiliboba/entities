@@ -1,0 +1,32 @@
+id: rumpelstilzchen-grimm-1857
+title: "Румпельштильцхен"
+original_title: "Rumpelstilzchen"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Hausmärchen, KHM 55"
+author: "Братья Гримм (собиратели и редакторы)"
+source:
+  title: "Brüder Grimm, Kinder- und Hausmärchen, 7. Auflage (1857), Nr. 55: Rumpelstilzchen"
+  url: "https://de.wikisource.org/wiki/Rumpelstilzchen_(1857)"
+  note: "Использован полный немецкий текст KHM 55 из седьмого издания 1857 года (Ausgabe letzter Hand), том 1, страницы 281–284; варианты 1812 года и позднейшие пересказы не смешивались."
+entities:
+  - id: rumpelstilzchen
+    name: "Румпельштильцхен"
+    type: creature
+    description: >-
+      Таинственный маленький человечек, трижды появляющийся перед дочерью
+      мельника в запертой комнате и прядущий солому в золото. За первые
+      две ночи получает ожерелье и кольцо, а за третью требует её первого
+      ребёнка после восшествия на престол. Позднее соглашается отказаться
+      от ребёнка, если королева за три дня назовёт его имя. Узнав, что
+      имя раскрыто, в ярости проваливает ногу в землю и разрывает себя
+      надвое. Превращение соломы в золото — его собственное волшебное
+      умение, а не свойство прялки.
+    aliases:
+      - "Румпельстильцхен"
+      - "Rumpelstiltskin"
+    tags:
+      - supernatural-helper
+      - transmutation
+      - secret-name
