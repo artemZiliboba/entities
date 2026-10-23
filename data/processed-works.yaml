@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "203a8b5625916edfd22b1f305fa39de1822d13f5"
-work_count: 182
+master_sha: "a95d399b83afe1394fc8d5e72b5f81b0fdc1f7cf"
+work_count: 183
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -16,6 +16,10 @@ works:
   - id: rumpelstilzchen-grimm-1857
     tradition: german-folklore
     path: data/works/german-folklore/rumpelstilzchen-grimm-1857.yaml
+
+  - id: fisherman-and-his-wife-grimm-1857
+    tradition: german-folklore
+    path: data/works/german-folklore/fisherman-and-his-wife-grimm-1857.yaml
 
   - id: birth-of-huitzilopochtli-spence-1913
     tradition: aztec-mythology
