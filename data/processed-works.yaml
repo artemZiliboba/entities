@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "80f03b448955c1eaae1de3cdc3f01974084a36ab"
-work_count: 184
+master_sha: "d44905c37c06af38e8da75984522b621a2490959"
+work_count: 185
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -499,6 +499,10 @@ works:
   - id: kojiki-eight-forked-serpent
     tradition: japanese-mythology
     path: data/works/japanese-mythology/kojiki-eight-forked-serpent.yaml
+
+  - id: popol-vuh-vukub-cakix-spence-1908
+    tradition: kiche-maya-mythology
+    path: data/works/kiche-maya-mythology/popol-vuh-vukub-cakix-spence-1908.yaml
 
   - id: the-bamboo-cutter-and-the-moon-child
     tradition: japanese-folklore
