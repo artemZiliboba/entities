@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d44905c37c06af38e8da75984522b621a2490959"
-work_count: 185
+master_sha: "4070b79f2c91232822296ba3632bfef7ee5f3700"
+work_count: 186
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -459,6 +459,10 @@ works:
   - id: punchkin
     tradition: indian-folklore
     path: data/works/indian-folklore/punchkin.yaml
+
+  - id: demon-with-the-matted-hair-jacobs-1892
+    tradition: indian-folklore
+    path: data/works/indian-folklore/demon-with-the-matted-hair-jacobs-1892.yaml
 
   - id: canterville-ghost-wilde-1906
     tradition: irish-literature
