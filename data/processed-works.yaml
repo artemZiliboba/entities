@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "4070b79f2c91232822296ba3632bfef7ee5f3700"
-work_count: 186
+master_sha: "f2cd15e1f8dd6f4ad0b800490271df346c784d10"
+work_count: 187
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -547,6 +547,10 @@ works:
   - id: thrymskvitha
     tradition: norse-mythology
     path: data/works/norse-mythology/thrymskvitha.yaml
+
+  - id: skirnismol-bellows-1923
+    tradition: norse-mythology
+    path: data/works/norse-mythology/skirnismol-bellows-1923.yaml
 
   - id: east-of-the-sun-west-of-the-moon
     tradition: norwegian-folklore
