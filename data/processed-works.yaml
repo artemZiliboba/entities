@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "ad589aa1460a092ca71a1ac57024558e5074a185"
-work_count: 190
+master_sha: "b0aa7c16e68b77d9d7e31847b81cff157f6d677d"
+work_count: 191
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -123,6 +123,10 @@ works:
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
     path: data/works/egyptian-literature/the-shipwrecked-sailor.yaml
+
+  - id: legend-of-ra-and-isis-budge-1912
+    tradition: egyptian-mythology
+    path: data/works/egyptian-mythology/legend-of-ra-and-isis-budge-1912.yaml
 
   - id: ass-table-stick-jacobs-1890
     tradition: english-folklore
