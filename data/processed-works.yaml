@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "b0aa7c16e68b77d9d7e31847b81cff157f6d677d"
-work_count: 191
+master_sha: "50e1ebb0595925bc29e9381fa20490d13621750e"
+work_count: 192
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -454,6 +454,10 @@ works:
   - id: maui-the-fisherman
     tradition: hawaiian-mythology
     path: data/works/hawaiian-mythology/maui-the-fisherman.yaml
+
+  - id: maui-snaring-the-sun-hawaiian-westervelt-1910
+    tradition: hawaiian-mythology
+    path: data/works/hawaiian-mythology/maui-snaring-the-sun-hawaiian-westervelt-1910.yaml
 
   - id: the-glass-axe
     tradition: hungarian-folklore
