@@ -1,0 +1,32 @@
+id: magic-kettle-lang-1903
+title: "Волшебный чайник"
+original_title: "The Magic Kettle"
+kind: folktale
+tradition:
+  - japanese-folklore
+collection: "The Crimson Fairy Book"
+author: "Эндрю Лэнг (редактор сборника)"
+source:
+  title: "Andrew Lang (ed.), The Crimson Fairy Book (1903), The Magic Kettle"
+  url: "https://www.gutenberg.org/cache/epub/2435/pg2435-images.html"
+  note: "Прочитан полный рассказ The Magic Kettle из английского адаптированного сборника 1903 года; в конце указан источник 'Adapted from Japanische Mährchen'. Это именно адаптация Лэнга, не реконструкция японского оригинала. Сюжетные детали иных вариантов Бунбуку-тягама не смешивались."
+entities:
+  - id: shape-shifting-tanuki-kettle
+    name: "Тануки — волшебный чайник"
+    type: creature
+    description: >-
+      Сверхъестественный тануки, принимающий форму старого железного
+      чайника. Когда чайник нагревается на огне, его ручка становится
+      головой, носик превращается в хвост и появляются четыре лапы.
+      Тануки снова обращается в чайник, а ночью самостоятельно
+      возвращается к звериному облику. С согласия тануки торговец
+      Дзимму показывает публике превращения и танцы, благодаря
+      которым зарабатывает состояние. В сказке это одно существо
+      в двух обличьях, а не отдельный одушевлённый предмет.
+    aliases:
+      - "Чайник-тануки"
+      - "Бунбуку-тягама"
+    tags:
+      - tanuki
+      - shapeshifting
+      - enchanted-object-form

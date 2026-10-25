@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f2cd15e1f8dd6f4ad0b800490271df346c784d10"
-work_count: 187
+master_sha: "f358ad8a3e29a8838314045801d5a1489569b013"
+work_count: 188
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -519,6 +519,10 @@ works:
   - id: hana-saka-jijii-ozaki-1908
     tradition: japanese-folklore
     path: data/works/japanese-folklore/hana-saka-jijii-ozaki-1908.yaml
+
+  - id: magic-kettle-lang-1903
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/magic-kettle-lang-1903.yaml
 
   - id: momotaro
     tradition: japanese-folklore
