@@ -1,0 +1,60 @@
+id: how-sky-gods-stories-became-spider-stories-rattray-1930
+title: "Как истории небесного бога стали историями Паука"
+original_title: "How it came about that the Sky-god's stories came to be known as Spider-stories"
+kind: folktale
+tradition:
+  - akan-ashanti-folklore
+collection: "Akan-Ashanti Folk-Tales"
+author: "Роберт Сазерленд Рэттрей (собиратель и переводчик)"
+source:
+  title: "R. S. Rattray, Akan-Ashanti Folk-Tales (Oxford: Clarendon Press, 1930), tale no. 17, pp. 54–59"
+  url: "https://books.google.com/books?id=_-qBAAAAMAAJ"
+  note: "Рассказ № 17, 'How it came about that the Sky-god's stories came to be known as Spider-stories', в билингвальном сборнике Рэттрея 1930 года, с. 54–59. Используется именно версия с четырьмя требуемыми пленниками и матерью Ананси, а не поздние детские пересказы с тремя животными или волшебной шкатулкой."
+entities:
+  - id: kwaku-anansi
+    name: "Кваку Ананси"
+    type: character
+    description: >-
+      Говорящий паук-трикстер, который решает выкупить у небесного
+      бога право на все истории. Хитростью ловит питона Онини,
+      леопарда Осебо, шершней Ммоборо и фею Ммоатиа,
+      после чего приводит пленников к Ньяме и получает
+      истории в своё владение. Его хитрость не описана
+      как самостоятельное колдовство.
+    aliases:
+      - "Ананси"
+      - "Паук"
+    tags:
+      - trickster
+      - talking-animal
+  - id: nyankonpon
+    name: "Ньянконпон"
+    type: character
+    description: >-
+      Небесный бог, первоначальный владелец историй.
+      Назначает Ананси выкуп: питона, леопарда, фею
+      и шершней. Когда Ананси приносит требуемых
+      пленников и собственную мать, созывает
+      совет старейшин и передаёт истории Ананси,
+      после чего их начинают называть историями Паука.
+    aliases:
+      - "Ньяме"
+      - "Небесный бог"
+    tags:
+      - sky-god
+      - divine-authority
+  - id: mmoatia-fairy
+    name: "Ммоатиа"
+    type: creature
+    description: >-
+      Лесная фея из числа существ, которых небесный бог
+      требует в качестве платы за истории.
+      Ананси ловит её при помощи липкой куклы-приманки,
+      которую она касается и к которой прилипает.
+      В рассказе она выступает как самостоятельное
+      сверхъестественное существо.
+    aliases:
+      - "Фея"
+    tags:
+      - fairy
+      - forest-spirit
