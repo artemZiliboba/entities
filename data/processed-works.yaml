@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "8a1f26fc2ece5bb687bc672ebbfa564f217888c4"
-work_count: 189
+master_sha: "ad589aa1460a092ca71a1ac57024558e5074a185"
+work_count: 190
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -470,6 +470,10 @@ works:
   - id: canterville-ghost-wilde-1906
     tradition: irish-literature
     path: data/works/irish-literature/canterville-ghost-wilde-1906.yaml
+
+  - id: horned-women-jacobs-1892
+    tradition: irish-folklore
+    path: data/works/irish-folklore/horned-women-jacobs-1892.yaml
 
   - id: selfish-giant-wilde-celt-1987
     tradition: irish-literature
