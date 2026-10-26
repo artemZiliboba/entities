@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d9d1dca3a44cd84500a2cb549501208520f4c6e2"
-work_count: 193
+master_sha: "74a93807d2dfbe632d281ba3ede5dd3dab199c1b"
+work_count: 194
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -211,6 +211,10 @@ works:
   - id: kalevala-rune-x
     tradition: finnish-mythology
     path: data/works/finnish-mythology/kalevala-rune-x.yaml
+
+  - id: kalevala-rune-xv-crawford-1888
+    tradition: finnish-mythology
+    path: data/works/finnish-mythology/kalevala-rune-xv-crawford-1888.yaml
 
   - id: cinderella-perrault
     tradition: french-folklore
