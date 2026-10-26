@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "50e1ebb0595925bc29e9381fa20490d13621750e"
-work_count: 192
+master_sha: "d9d1dca3a44cd84500a2cb549501208520f4c6e2"
+work_count: 193
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -772,3 +772,7 @@ works:
   - id: pwyll-prince-of-dyfed
     tradition: welsh-mythology
     path: data/works/welsh-mythology/pwyll-prince-of-dyfed.yaml
+
+  - id: branwen-daughter-of-llyr-guest-1877
+    tradition: welsh-mythology
+    path: data/works/welsh-mythology/branwen-daughter-of-llyr-guest-1877.yaml
