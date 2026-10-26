@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "3b46b89b7ce8e8dcd16d3f025faddfb550403edc"
-work_count: 195
+master_sha: "aa483d9463ef3b5983595aa370d8531d8cf7641e"
+work_count: 196
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -784,3 +784,7 @@ works:
   - id: branwen-daughter-of-llyr-guest-1877
     tradition: welsh-mythology
     path: data/works/welsh-mythology/branwen-daughter-of-llyr-guest-1877.yaml
+
+  - id: manawydan-son-of-llyr-guest
+    tradition: welsh-mythology
+    path: data/works/welsh-mythology/manawydan-son-of-llyr-guest.yaml
