@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "fa2771c60aa7ed633427308b7ce9e7a925cae1d9"
-work_count: 197
+master_sha: "a04e28a0ca34ad9d42c2548368a15c60281df9b1"
+work_count: 198
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -658,6 +658,10 @@ works:
   - id: youth-without-age-and-life-without-death
     tradition: romanian-folklore
     path: data/works/romanian-folklore/youth-without-age-and-life-without-death.yaml
+
+  - id: enchanted-pig-lang-red-1890
+    tradition: romanian-folklore
+    path: data/works/romanian-folklore/enchanted-pig-lang-red-1890.yaml
 
   - id: sun-moon-and-raven-voronovich-afanasyev-92
     tradition: russian-folklore
