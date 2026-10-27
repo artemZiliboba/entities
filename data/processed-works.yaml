@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "aa483d9463ef3b5983595aa370d8531d8cf7641e"
-work_count: 196
+master_sha: "fa2771c60aa7ed633427308b7ce9e7a925cae1d9"
+work_count: 197
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -788,3 +788,7 @@ works:
   - id: manawydan-son-of-llyr-guest
     tradition: welsh-mythology
     path: data/works/welsh-mythology/manawydan-son-of-llyr-guest.yaml
+
+  - id: math-son-of-mathonwy-guest-1877
+    tradition: welsh-mythology
+    path: data/works/welsh-mythology/math-son-of-mathonwy-guest-1877.yaml
