@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "a04e28a0ca34ad9d42c2548368a15c60281df9b1"
-work_count: 198
+master_sha: "8317b1438f304771646ec3bed656b6ce454d84a3"
+work_count: 199
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -275,6 +275,10 @@ works:
   - id: beauty-and-the-beast
     tradition: french-folklore
     path: data/works/french-folklore/beauty-and-the-beast.yaml
+
+  - id: blue-bird-daulnoy-lang-green-1892
+    tradition: french-folklore
+    path: data/works/french-folklore/blue-bird-daulnoy-lang-green-1892.yaml
 
   - id: three-musicians-grimm-lang-1892
     tradition: german-folklore
