@@ -1,0 +1,32 @@
+id: phoenix-bird-andersen-1863
+title: "Птица Феникс"
+original_title: "Fugl Phønix"
+kind: story
+tradition:
+  - danish-literature
+author: "Ханс Кристиан Андерсен"
+collection: "Eventyr og Historier (датский текст 1863 года)"
+source:
+  title: "Hans Christian Andersen, Fugl Phønix (1863), complete Danish text"
+  url: "https://www.hcandersen-homepage.dk/?page_id=1319"
+  note: "Прочитан полный датский текст Fugl Phønix (1863) в публикации H.C. Andersen Information; сверка с английским переводом The Phoenix Bird (1863): https://www.hcandersen-homepage.dk/?page_id=1924 . Не смешивается с эпизодом о фениксе из другой сказки Андерсена «Райский сад»."
+entities:
+  - id: phoenix
+    name: "Птица Феникс"
+    type: creature
+    description: >-
+      Единственная в мире чудесная птица, впервые появившаяся из розы
+      под Древом познания в раю. Когда искра с огненного меча ангела
+      сожгла её гнездо, птица погибла, но из красного раскалённого яйца
+      родился новый Феникс. С тех пор раз в сто лет она сгорает
+      в собственном гнезде и возрождается из яйца. В рассказе
+      Феникс также является людям в разных образах — мотылька,
+      ворона, лебедя — и олицетворяет поэзию, вдохновение
+      и бессмертие искусства.
+    aliases:
+      - "Fugl Phønix"
+      - "The Phoenix Bird"
+    tags:
+      - rebirth
+      - fire
+      - poetry
