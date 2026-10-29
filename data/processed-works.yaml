@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "12252a6e65a130563ed7f52c6d4055ab4fa60795"
-work_count: 203
+master_sha: "600f1f5d48cb6e49277d5b43001a808ba9fa05c9"
+work_count: 204
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -51,6 +51,10 @@ works:
   - id: the-talking-bird-singing-tree-golden-water
     tradition: arabian-nights
     path: data/works/arabian-nights/the-talking-bird-singing-tree-golden-water.yaml
+
+  - id: ebony-horse-burton-1885
+    tradition: arabian-nights
+    path: data/works/arabian-nights/ebony-horse-burton-1885.yaml
 
   - id: the-magic-ring
     tradition: armenian-folklore
