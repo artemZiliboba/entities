@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d8a71af8e329d74c7434d6bdb8ba9b7065880f23"
-work_count: 202
+master_sha: "12252a6e65a130563ed7f52c6d4055ab4fa60795"
+work_count: 203
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -570,6 +570,10 @@ works:
   - id: the-children-of-the-mist
     tradition: maori-folklore
     path: data/works/maori-folklore/the-children-of-the-mist.yaml
+
+  - id: magical-wooden-head-grey-1855
+    tradition: maori-folklore
+    path: data/works/maori-folklore/magical-wooden-head-grey-1855.yaml
 
   - id: binding-of-fenrir
     tradition: norse-mythology
