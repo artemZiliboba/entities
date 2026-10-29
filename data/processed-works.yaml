@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "fba795865d1092bdb89b1e840c33deb81c6e1163"
-work_count: 201
+master_sha: "d8a71af8e329d74c7434d6bdb8ba9b7065880f23"
+work_count: 202
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -772,6 +772,10 @@ works:
   - id: the-black-bull-of-norroway
     tradition: scottish-folklore
     path: data/works/scottish-folklore/the-black-bull-of-norroway.yaml
+
+  - id: battle-of-the-birds-jacobs-1892
+    tradition: scottish-folklore
+    path: data/works/scottish-folklore/battle-of-the-birds-jacobs-1892.yaml
 
   - id: the-light-princess
     tradition: scottish-literature
