@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "8317b1438f304771646ec3bed656b6ce454d84a3"
-work_count: 199
+master_sha: "5c707a2f8321f973a46b40adaab688bfdc4e88e2"
+work_count: 200
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -578,6 +578,10 @@ works:
   - id: thrymskvitha
     tradition: norse-mythology
     path: data/works/norse-mythology/thrymskvitha.yaml
+
+  - id: volundarkvitha-bellows-1923
+    tradition: norse-mythology
+    path: data/works/norse-mythology/volundarkvitha-bellows-1923.yaml
 
   - id: skirnismol-bellows-1923
     tradition: norse-mythology
