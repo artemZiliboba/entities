@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "5c707a2f8321f973a46b40adaab688bfdc4e88e2"
-work_count: 200
+master_sha: "fba795865d1092bdb89b1e840c33deb81c6e1163"
+work_count: 201
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -119,6 +119,10 @@ works:
   - id: the-flying-trunk
     tradition: danish-literature
     path: data/works/danish-literature/the-flying-trunk.yaml
+
+  - id: phoenix-bird-andersen-1863
+    tradition: danish-literature
+    path: data/works/danish-literature/phoenix-bird-andersen-1863.yaml
 
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
