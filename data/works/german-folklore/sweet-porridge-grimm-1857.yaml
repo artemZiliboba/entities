@@ -1,0 +1,18 @@
+id: sweet-porridge-grimm-1857
+title: "Сладкая каша"
+original_title: "Der süße Brei"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Haus-Märchen, № 103, седьмое издание (1857)"
+author: "Братья Гримм (составители)"
+source:
+  title: "Der süße Brei, Kinder- und Haus-Märchen, 7. Auflage (1857), Band 2, S. 90"
+  url: "https://de.wikisource.org/wiki/Der_s%C3%BC%C3%9Fe_Brei_(1857)"
+  note: "Прочитан весь немецкий текст KHM 103 на странице 90 седьмого издания 1857 года; Wikisource сообщает о двойной вычитке по источнику. Другие редакции не смешивались."
+entities:
+  - id: magic-porridge-pot
+    name: "Волшебный горшочек с кашей"
+    type: artifact
+    description: >-
+      Маленький горшочек, подаренный бедной девочке пожилой женщиной в лесу. На слова «Горшочек, вари» он сам начинает готовить сладкую пшённую кашу, а на слова «Горшочек, стой» прекращает варить. Когда мать девочки забывает вторую команду, горшочек переполняется и каша затопляет дома и улицу; вернувшаяся девочка останавливает его правильными словами.
