@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f41e70f5b4ddc6849b8a68018ce9be9420306897"
-work_count: 208
+master_sha: "f9ffc63f440d3c831ab5f531a113cd1598101b8e"
+work_count: 209
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -466,6 +466,10 @@ works:
   - id: sweet-porridge-grimm-1857
     tradition: german-folklore
     path: data/works/german-folklore/sweet-porridge-grimm-1857.yaml
+
+  - id: twelve-brothers-grimm-1857
+    tradition: german-folklore
+    path: data/works/german-folklore/twelve-brothers-grimm-1857.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
