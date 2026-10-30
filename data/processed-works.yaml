@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f36df56c0e58b83fbeb1c91d86cb151fb418ab3c"
-work_count: 206
+master_sha: "fe29b45ed06a6a08feffc450a5732edf55b0a54b"
+work_count: 207
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -458,6 +458,10 @@ works:
   - id: hans-my-hedgehog-grimm-1857
     tradition: german-folklore
     path: data/works/german-folklore/hans-my-hedgehog-grimm-1857.yaml
+
+  - id: three-languages-grimm-1857
+    tradition: german-folklore
+    path: data/works/german-folklore/three-languages-grimm-1857.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
