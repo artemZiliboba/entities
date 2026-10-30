@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "7b907fa90bf1f29b16fba781c5275d4a2cdbe858"
-work_count: 205
+master_sha: "f36df56c0e58b83fbeb1c91d86cb151fb418ab3c"
+work_count: 206
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -454,6 +454,10 @@ works:
   - id: snow-white-and-rose-red-grimm-1857
     tradition: german-folklore
     path: data/works/german-folklore/snow-white-and-rose-red-grimm-1857.yaml
+
+  - id: hans-my-hedgehog-grimm-1857
+    tradition: german-folklore
+    path: data/works/german-folklore/hans-my-hedgehog-grimm-1857.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
