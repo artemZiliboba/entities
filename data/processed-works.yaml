@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f9ffc63f440d3c831ab5f531a113cd1598101b8e"
-work_count: 209
+master_sha: "b6d4fddb8df36546dd288e978091809efbe810ab"
+work_count: 210
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -470,6 +470,10 @@ works:
   - id: twelve-brothers-grimm-1857
     tradition: german-folklore
     path: data/works/german-folklore/twelve-brothers-grimm-1857.yaml
+
+  - id: godfather-death-grimm-1857
+    tradition: german-folklore
+    path: data/works/german-folklore/godfather-death-grimm-1857.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
