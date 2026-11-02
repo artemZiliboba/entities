@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "bac60b3d229a018648fbe31a778dd8b4ed5fc376"
-work_count: 212
+master_sha: "ec84b3560950672cae967c2bab2e2b9bdcd817ad"
+work_count: 213
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -482,6 +482,10 @@ works:
   - id: elf-godmother-grimm-1857
     tradition: german-folklore
     path: data/works/german-folklore/elf-godmother-grimm-1857.yaml
+
+  - id: changeling-grimm-khm39-1857
+    tradition: german-folklore
+    path: data/works/german-folklore/changeling-grimm-khm39-1857.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
