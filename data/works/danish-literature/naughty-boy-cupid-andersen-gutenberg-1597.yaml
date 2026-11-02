@@ -1,0 +1,23 @@
+id: naughty-boy-cupid-andersen-gutenberg-1597
+title: "Шалун"
+original_title: "Den uartige Dreng"
+kind: story
+tradition:
+  - danish-literature
+author: "Ханс Кристиан Андерсен"
+collection: "Andersen's Fairy Tales, Project Gutenberg eBook #1597"
+source:
+  title: "The Naughty Boy, Andersen's Fairy Tales, Project Gutenberg eBook #1597"
+  url: "https://www.gutenberg.org/files/1597/1597-h/1597-h.htm"
+  note: "Полностью прочитан отдельный английский рассказ THE NAUGHTY BOY между THE DREAM OF LITTLE TUK и THE RED SHOES в Project Gutenberg #1597, текст Dianne Bean и David Widger. Датский оригинал Den uartige Dreng и другие переводы не смешивались."
+entities:
+  - id: cupid-naughty-boy
+    name: "Амур — озорной мальчик"
+    type: character
+    description: >-
+      Мальчик с золотистыми волосами, который просится переждать дождь у старого поэта и называет себя Купидоном. Согревшись у очага, он пускает стрелу в сердце гостеприимного хозяина и убегает. Далее он незаметно преследует людей, маскируется под студента и появляется в других местах, поражая своими стрелами даже пожилых людей. Текст прямо связывает его действия с любовными переживаниями и сердечной болью.
+  - id: cupids-bow-and-arrows
+    name: "Лук и стрелы Амура"
+    type: artifact
+    description: >-
+      Оружие Купидона, которым он поражает человеческие сердца. Несмотря на дождь, мальчик обнаруживает, что лук высох и не испортился, после чего стреляет в приютившего его поэта прямо в сердце. Позднее Купидон скрытно поражает стрелами студентов, девушек и других людей; это волшебное действие представлено как источник сердечных страданий.
