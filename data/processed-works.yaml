@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "2823caa099cd54f4573cc904887b84fb2e93e886"
-work_count: 214
+master_sha: "cd1bf1f70bb5e2cb8d4f7094519be96b212da8e3"
+work_count: 215
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -554,6 +554,10 @@ works:
   - id: happy-prince-wilde-nutt-1910
     tradition: irish-literature
     path: data/works/irish-literature/happy-prince-wilde-nutt-1910.yaml
+
+  - id: star-child-wilde-methuen-1915
+    tradition: irish-literature
+    path: data/works/irish-literature/star-child-wilde-methuen-1915.yaml
 
   - id: children-of-lir
     tradition: irish-mythology
