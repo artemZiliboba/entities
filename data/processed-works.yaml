@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "cd1bf1f70bb5e2cb8d4f7094519be96b212da8e3"
-work_count: 215
+master_sha: "c68d0a933e7d3bfc394e018e5bf1f09a0d8e184a"
+work_count: 216
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -558,6 +558,10 @@ works:
   - id: star-child-wilde-methuen-1915
     tradition: irish-literature
     path: data/works/irish-literature/star-child-wilde-methuen-1915.yaml
+
+  - id: young-king-wilde-methuen-1915
+    tradition: irish-literature
+    path: data/works/irish-literature/young-king-wilde-methuen-1915.yaml
 
   - id: children-of-lir
     tradition: irish-mythology
