@@ -1,0 +1,18 @@
+id: the-shadow-andersen-gutenberg-1597
+title: "Тень"
+original_title: "Skyggen"
+kind: story
+tradition:
+  - danish-literature
+author: "Ханс Кристиан Андерсен"
+collection: "Andersen's Fairy Tales (Project Gutenberg eBook #1597), рассказ The Shadow"
+source:
+  title: "The Shadow, Andersen's Fairy Tales, Project Gutenberg eBook #1597"
+  url: "https://www.gutenberg.org/files/1597/1597-h/1597-h.htm#link2H_4_0014"
+  note: "Использован полный английский текст The Shadow из издания Project Gutenberg #1597. Это один перевод, без смешения с датским оригиналом Skyggen (1847) и иными переводами; имя переводчика в данном издании не указано."
+entities:
+  - id: emancipated-shadow
+    name: "Ожившая тень учёного"
+    type: creature
+    description: >-
+      Тень учёного, отделившаяся от хозяина после того, как он шутливо отправил её в дом напротив. Тень самостоятельно странствует, подглядывает за людьми и постепенно приобретает человеческое тело, одежду и положение в обществе. Спустя годы она возвращается, выдаёт учёного за собственную тень и добивается брака с принцессой. Когда учёный пытается раскрыть обман, ожившая тень организует его заключение и казнь.
