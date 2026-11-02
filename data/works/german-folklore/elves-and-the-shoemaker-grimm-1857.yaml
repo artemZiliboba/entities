@@ -1,0 +1,18 @@
+id: elves-and-the-shoemaker-grimm-1857
+title: "Эльфы и сапожник"
+original_title: "Die Wichtelmänner. Erstes Märchen"
+kind: folktale
+tradition:
+  - german-folklore
+collection: "Kinder- und Haus-Märchen, KHM 39, первая из трёх сказок, 7. Auflage (1857)"
+author: "Братья Гримм (составители)"
+source:
+  title: "Die Wichtelmänner. Erstes Märchen, Kinder- und Haus-Märchen, Band 1, 7. Auflage (1857), S. 205–207"
+  url: "https://de.wikisource.org/wiki/Die_Wichtelm%C3%A4nner_(1857)"
+  note: "Полностью прочитана только первая из трёх самостоятельных историй KHM 39 в издании 1857 года (S. 205–207), по немецкому тексту Wikisource, вычитанному по сканам. Вторую и третью истории не смешивали с первой."
+entities:
+  - id: two-shoemaking-elves
+    name: "Два ночных эльфа-сапожника"
+    type: creature
+    description: >-
+      Двое маленьких обнажённых человечков, которые в полночь тайно приходят в мастерскую бедного сапожника и с необыкновенной быстротой и мастерством сшивают обувь из подготовленной кожи. Их помощь повторяется ночь за ночью, пока сапожник не становится состоятельным. Получив от супругов сшитую специально для них одежду и маленькие башмачки, эльфы радуются, танцуют и навсегда покидают мастерскую.
