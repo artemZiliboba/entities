@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "b6d4fddb8df36546dd288e978091809efbe810ab"
-work_count: 210
+master_sha: "f738c3fa62da2a5ea9e9da324f7f2b5591da9996"
+work_count: 211
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -474,6 +474,10 @@ works:
   - id: godfather-death-grimm-1857
     tradition: german-folklore
     path: data/works/german-folklore/godfather-death-grimm-1857.yaml
+
+  - id: elves-and-the-shoemaker-grimm-1857
+    tradition: german-folklore
+    path: data/works/german-folklore/elves-and-the-shoemaker-grimm-1857.yaml
 
   - id: ghvthisavari
     tradition: georgian-folklore
