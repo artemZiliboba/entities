@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "ec84b3560950672cae967c2bab2e2b9bdcd817ad"
-work_count: 213
+master_sha: "2823caa099cd54f4573cc904887b84fb2e93e886"
+work_count: 214
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -127,6 +127,10 @@ works:
   - id: phoenix-bird-andersen-1863
     tradition: danish-literature
     path: data/works/danish-literature/phoenix-bird-andersen-1863.yaml
+
+  - id: the-shadow-andersen-gutenberg-1597
+    tradition: danish-literature
+    path: data/works/danish-literature/the-shadow-andersen-gutenberg-1597.yaml
 
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
