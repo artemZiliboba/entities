@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "121a04f1846896be80ea5e025edc0667f1a20c41"
-work_count: 217
+master_sha: "3c9c967dc13a8d0a168d4ac6ddfffd73dc6eb38a"
+work_count: 218
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -135,6 +135,10 @@ works:
   - id: naughty-boy-cupid-andersen-gutenberg-1597
     tradition: danish-literature
     path: data/works/danish-literature/naughty-boy-cupid-andersen-gutenberg-1597.yaml
+
+  - id: elderbush-andersen-gutenberg-1597
+    tradition: danish-literature
+    path: data/works/danish-literature/elderbush-andersen-gutenberg-1597.yaml
 
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
