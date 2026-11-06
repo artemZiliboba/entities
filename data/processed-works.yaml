@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "33d941fe99d16a805a4bcb877b0961bf809296f5"
-work_count: 219
+master_sha: "4edeacbb73de0a8a4d9c65dc321ef1621b977043"
+work_count: 220
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -67,6 +67,10 @@ works:
   - id: flower-queens-daughter-bukovinian-1894
     tradition: bukovinian-folklore
     path: data/works/bukovinian-folklore/flower-queens-daughter-bukovinian-1894.yaml
+
+  - id: stones-five-colors-empress-jokwa-ozaki-1908
+    tradition: chinese-mythology
+    path: data/works/chinese-mythology/stones-five-colors-empress-jokwa-ozaki-1908.yaml
 
   - id: the-bird-with-nine-heads
     tradition: chinese-folklore
