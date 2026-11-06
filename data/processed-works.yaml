@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "3c9c967dc13a8d0a168d4ac6ddfffd73dc6eb38a"
-work_count: 218
+master_sha: "33d941fe99d16a805a4bcb877b0961bf809296f5"
+work_count: 219
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -139,6 +139,10 @@ works:
   - id: elderbush-andersen-gutenberg-1597
     tradition: danish-literature
     path: data/works/danish-literature/elderbush-andersen-gutenberg-1597.yaml
+
+  - id: goblin-and-huckster-andersen-dulcken
+    tradition: danish-literature
+    path: data/works/danish-literature/goblin-and-huckster-andersen-dulcken.yaml
 
   - id: the-shipwrecked-sailor
     tradition: egyptian-literature
