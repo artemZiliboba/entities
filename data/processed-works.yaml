@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "369449ccbf129a59df4c9a94dfe4fa345d07f040"
-work_count: 221
+master_sha: "916dca2951b195010c52e23be9d26605abe90457"
+work_count: 222
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -630,6 +630,10 @@ works:
   - id: ogre-of-rashomon-ozaki-1908
     tradition: japanese-folklore
     path: data/works/japanese-folklore/ogre-of-rashomon-ozaki-1908.yaml
+
+  - id: how-old-man-lost-his-wen-ozaki-1908
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/how-old-man-lost-his-wen-ozaki-1908.yaml
 
   - id: the-woodman-and-the-mountain-fairies
     tradition: korean-folklore
