@@ -1,0 +1,17 @@
+id: ogre-of-rashomon-ozaki-1908
+title: "Они у ворот Расёмон"
+original_title: "The Ogre of Rashomon"
+kind: folktale
+tradition:
+  - japanese-folklore
+collection: "Japanese Fairy Tales (Yei Theodora Ozaki, 1908)"
+source:
+  title: "The Ogre of Rashomon, Yei Theodora Ozaki, Japanese Fairy Tales (1908)"
+  url: "https://www.gutenberg.org/files/4018/4018-h/4018-h.htm"
+  note: "Полный английский рассказ THE OGRE OF RASHOMON из сборника Japanese Fairy Tales в пересказе Еи Теодоры Одзаки, 1908; сопоставлен с полной публикацией Lit2Go Университета Южной Флориды. Это один конкретный вариант; иные рассказы об они, Райко и Ватанабэ не смешивались."
+entities:
+  - id: rashomon-oni
+    name: "Они у ворот Расёмон"
+    type: creature
+    description: >-
+      Огромный они, нападающий по вечерам на путников у ворот Расёмон в Киото. Он выше ворот, его глаза сверкают, а из пасти при дыхании вырывается пламя. В поединке с воином Ватанабэ теряет руку и спасается бегством. Позднее принимает облик старой кормилицы Ватанабэ, выманивает у него отрубленную руку, возвращает её себе и вновь превращается в великана, после чего скрывается сквозь крышу в тумане и облаках. Впоследствии перестаёт тревожить город.
