@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "871cf4497e55eef3ece15452ed862450135d71bb"
-work_count: 223
+master_sha: "1dc90dd9c45089a7fe48dd7c6c496c67fcb6a66a"
+work_count: 224
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -638,6 +638,10 @@ works:
   - id: my-lord-bag-of-rice-ozaki-1908
     tradition: japanese-folklore
     path: data/works/japanese-folklore/my-lord-bag-of-rice-ozaki-1908.yaml
+
+  - id: jelly-fish-and-monkey-ozaki-1908
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/jelly-fish-and-monkey-ozaki-1908.yaml
 
   - id: the-woodman-and-the-mountain-fairies
     tradition: korean-folklore
