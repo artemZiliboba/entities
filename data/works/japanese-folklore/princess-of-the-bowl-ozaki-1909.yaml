@@ -1,0 +1,17 @@
+id: princess-of-the-bowl-ozaki-1909
+title: "Принцесса с чашей на голове"
+original_title: "The Princess of the Bowl"
+kind: folktale
+tradition:
+  - japanese-folklore
+collection: "Warriors of Old Japan, and Other Stories (Yei Theodora Ozaki, 1909)"
+source:
+  title: "The Princess of the Bowl, in Warriors of Old Japan, and Other Stories, Yei Theodora Ozaki (1909)"
+  url: "https://www.gutenberg.org/cache/epub/41437/pg41437-images.html"
+  note: "Полный английский текст главы IX, THE PRINCESS OF THE BOWL, от истории Минэтаки до воссоединения семьи, Project Gutenberg #41437. Только пересказ Одзаки 1909 года; другие варианты сюжета Хатиказуки не смешивались."
+entities:
+  - id: mothers-enchanted-bowl
+    name: "Заколдованная чаша материнской защиты"
+    type: artifact
+    description: >-
+      Большая лакированная чаша, которую умирающая мать надевает на голову юной принцессы, желая скрыть её красоту от опасностей. Сила материнского желания делает чашу сверхъестественно неотделимой от головы девушки: её не могут снять ни отец, ни слуги, ни люди Ямакагэ, а при попытках оторвать чаша издаёт крики и стоны. Когда принцесса попадает в реку, чаша держит её голову над водой и не даёт утонуть. В тот момент, когда девушке больше не нужна защита, чаша сама с треском распадается на множество частей, а под ней обнаруживается богатое приданое, приготовленное матерью. Текст прямо объясняет чудесную силу предмета материнской любовью.
