@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "1dc90dd9c45089a7fe48dd7c6c496c67fcb6a66a"
-work_count: 224
+master_sha: "fbd00f32b80f427e0e8178549314568a05628582"
+work_count: 225
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -642,6 +642,10 @@ works:
   - id: jelly-fish-and-monkey-ozaki-1908
     tradition: japanese-folklore
     path: data/works/japanese-folklore/jelly-fish-and-monkey-ozaki-1908.yaml
+
+  - id: princess-of-the-bowl-ozaki-1909
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/princess-of-the-bowl-ozaki-1909.yaml
 
   - id: the-woodman-and-the-mountain-fairies
     tradition: korean-folklore
