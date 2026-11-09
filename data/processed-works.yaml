@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "aeabdcac80d7ec543f084f5254ae2a95957381a5"
-work_count: 226
+master_sha: "f21ef9a6da87754dfb5660d50cfc8e688b37366b"
+work_count: 227
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -650,6 +650,10 @@ works:
   - id: goblin-of-oyeyama-ozaki-1909
     tradition: japanese-folklore
     path: data/works/japanese-folklore/goblin-of-oyeyama-ozaki-1909.yaml
+
+  - id: kidomaru-raiko-goblin-spider-ozaki-1909
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/kidomaru-raiko-goblin-spider-ozaki-1909.yaml
 
   - id: the-woodman-and-the-mountain-fairies
     tradition: korean-folklore
