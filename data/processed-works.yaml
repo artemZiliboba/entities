@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f16411aad82e1d859a5f5c49ac703ef92b81f20c"
-work_count: 229
+master_sha: "1736a4c17bd21dd6f0dd2803d25db506b2f92d41"
+work_count: 230
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -774,6 +774,10 @@ works:
   - id: enchanted-pig-lang-red-1890
     tradition: romanian-folklore
     path: data/works/romanian-folklore/enchanted-pig-lang-red-1890.yaml
+
+  - id: voice-of-death-lang-1890
+    tradition: romanian-folklore
+    path: data/works/romanian-folklore/voice-of-death-lang-1890.yaml
 
   - id: sun-moon-and-raven-voronovich-afanasyev-92
     tradition: russian-folklore
