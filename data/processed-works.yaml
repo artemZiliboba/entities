@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f21ef9a6da87754dfb5660d50cfc8e688b37366b"
-work_count: 227
+master_sha: "4e7c4f758cd92f19263df03e56e98310d544696f"
+work_count: 228
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -912,3 +912,6 @@ works:
   - id: math-son-of-mathonwy-guest-1877
     tradition: welsh-mythology
     path: data/works/welsh-mythology/math-son-of-mathonwy-guest-1877.yaml
+  - id: magic-fiddle-santal-jacobs-1892
+    tradition: santal-folklore
+    path: data/works/santal-folklore/magic-fiddle-santal-jacobs-1892.yaml
