@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "1736a4c17bd21dd6f0dd2803d25db506b2f92d41"
-work_count: 230
+master_sha: "44604499b57c13c016c81f6b67da3d5d4b5be946"
+work_count: 231
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -526,6 +526,10 @@ works:
   - id: homeric-hymn-to-demeter-evelyn-white-1914
     tradition: greek-mythology
     path: data/works/greek-mythology/homeric-hymn-to-demeter-evelyn-white-1914.yaml
+
+  - id: odyssey-book-xii-butler-1900
+    tradition: greek-mythology
+    path: data/works/greek-mythology/odyssey-book-xii-butler-1900.yaml
 
   - id: maui-the-fisherman
     tradition: hawaiian-mythology
