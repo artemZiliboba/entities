@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "8aeaa2b89fac6664baa3dbdca64b871e8d966077"
-work_count: 244
+master_sha: "b182d6f1fb354c9cf1e2e5cefde0df8c87ff01d8"
+work_count: 245
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -530,6 +530,10 @@ works:
   - id: odyssey-book-xv-butler-1900
     tradition: greek-mythology
     path: data/works/greek-mythology/odyssey-book-xv-butler-1900.yaml
+
+  - id: odyssey-book-xx-butler-1900
+    tradition: greek-mythology
+    path: data/works/greek-mythology/odyssey-book-xx-butler-1900.yaml
 
   - id: odyssey-book-xix-butler-1900
     tradition: greek-mythology
