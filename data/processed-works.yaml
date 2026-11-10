@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "66aaadd8673ed2fa919a8938fbca7242d8ff4306"
-work_count: 237
+master_sha: "ecfe09129e0251c43b536c828848e1ece2c90655"
+work_count: 238
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -527,6 +527,9 @@ works:
     tradition: greek-mythology
     path: data/works/greek-mythology/homeric-hymn-to-demeter-evelyn-white-1914.yaml
 
+  - id: odyssey-book-xiii-butler-1900
+    tradition: greek-mythology
+    path: data/works/greek-mythology/odyssey-book-xiii-butler-1900.yaml
   - id: odyssey-book-xii-butler-1900
     tradition: greek-mythology
     path: data/works/greek-mythology/odyssey-book-xii-butler-1900.yaml
