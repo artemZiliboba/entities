@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "0e0a9f387603a1f2a8be6e53bf55051be0949e9f"
-work_count: 233
+master_sha: "aec38c42308d2e24f7fa3dcd4293a1e75c0c695c"
+work_count: 234
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -538,6 +538,10 @@ works:
   - id: odyssey-book-xi-butler-1900
     tradition: greek-mythology
     path: data/works/greek-mythology/odyssey-book-xi-butler-1900.yaml
+
+  - id: odyssey-book-v-butler-1900
+    tradition: greek-mythology
+    path: data/works/greek-mythology/odyssey-book-v-butler-1900.yaml
 
   - id: maui-the-fisherman
     tradition: hawaiian-mythology
