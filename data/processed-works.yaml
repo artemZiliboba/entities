@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "44a4767598379d4e22599438b56bec9f3d33b7cf"
-work_count: 253
+master_sha: "d9401a40b3fd1f3a2e60bf75ed76938a4b7a7e74"
+work_count: 230
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -519,104 +519,13 @@ works:
     tradition: greek-mythology
     path: data/works/greek-mythology/terrible-head-lang-blue-1889.yaml
 
-  - id: odyssey-book-x
+  - id: odyssey-butler-1900
     tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-x.yaml
+    path: data/works/greek-mythology/odyssey-butler-1900.yaml
 
   - id: homeric-hymn-to-demeter-evelyn-white-1914
     tradition: greek-mythology
     path: data/works/greek-mythology/homeric-hymn-to-demeter-evelyn-white-1914.yaml
-
-  - id: odyssey-book-xv-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xv-butler-1900.yaml
-
-  - id: odyssey-book-iv-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-iv-butler-1900.yaml
-
-  - id: odyssey-book-iii-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-iii-butler-1900.yaml
-
-  - id: odyssey-book-ii-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-ii-butler-1900.yaml
-
-  - id: odyssey-book-i-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-i-butler-1900.yaml
-
-  - id: odyssey-book-xxiv-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xxiv-butler-1900.yaml
-
-  - id: odyssey-book-xxiii-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xxiii-butler-1900.yaml
-
-  - id: odyssey-book-xxii-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xxii-butler-1900.yaml
-
-  - id: odyssey-book-xxi-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xxi-butler-1900.yaml
-
-  - id: odyssey-book-xx-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xx-butler-1900.yaml
-
-  - id: odyssey-book-xix-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xix-butler-1900.yaml
-
-  - id: odyssey-book-xviii-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xviii-butler-1900.yaml
-
-  - id: odyssey-book-xvii-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xvii-butler-1900.yaml
-
-  - id: odyssey-book-xvi-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xvi-butler-1900.yaml
-
-  - id: odyssey-book-xiv-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xiv-butler-1900.yaml
-
-  - id: odyssey-book-xiii-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xiii-butler-1900.yaml
-  - id: odyssey-book-xii-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xii-butler-1900.yaml
-
-  - id: odyssey-book-ix-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-ix-butler-1900.yaml
-
-  - id: odyssey-book-xi-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-xi-butler-1900.yaml
-
-  - id: odyssey-book-v-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-v-butler-1900.yaml
-
-  - id: odyssey-book-vi-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-vi-butler-1900.yaml
-
-  - id: odyssey-book-vii-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-vii-butler-1900.yaml
-
-  - id: odyssey-book-viii-butler-1900
-    tradition: greek-mythology
-    path: data/works/greek-mythology/odyssey-book-viii-butler-1900.yaml
 
   - id: maui-the-fisherman
     tradition: hawaiian-mythology
