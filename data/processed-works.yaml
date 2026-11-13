@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "6d5579b59c1f20b4ea707d0443cedc7d5f1c1e1d"
-work_count: 235
+master_sha: "55b088584215b5acf78456095fdb582252ed59a9"
+work_count: 236
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -319,6 +319,10 @@ works:
   - id: big-raven-and-the-mice-bogoras-1917
     tradition: koryak-folklore
     path: data/works/koryak-folklore/big-raven-and-the-mice-bogoras-1917.yaml
+
+  - id: gold-giving-serpent-jacobs-1892
+    tradition: indian-folklore
+    path: data/works/indian-folklore/gold-giving-serpent-jacobs-1892.yaml
 
   - id: man-who-did-not-wish-to-die-ozaki-1908
     tradition: japanese-folklore
