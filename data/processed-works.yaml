@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "dd656748cc9eb71c41a34b35121ac5676f3c740b"
-work_count: 232
+master_sha: "553df04ac73c4a839295338b8681c3a4257d1a89"
+work_count: 233
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -311,6 +311,10 @@ works:
   - id: girl-without-hands-grimm-hunt-1884
     tradition: german-folklore
     path: data/works/german-folklore/girl-without-hands-grimm-hunt-1884.yaml
+
+  - id: man-who-did-not-wish-to-die-ozaki-1908
+    tradition: japanese-folklore
+    path: data/works/japanese-folklore/man-who-did-not-wish-to-die-ozaki-1908.yaml
 
   - id: singing-bone-grimm-hunt-1884
     tradition: german-folklore
