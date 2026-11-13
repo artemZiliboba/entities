@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "d9401a40b3fd1f3a2e60bf75ed76938a4b7a7e74"
-work_count: 230
+master_sha: "f1c2449509fbad91b5a2bb0c7189cea87d57a5d4"
+work_count: 231
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -307,6 +307,10 @@ works:
   - id: blue-bird-daulnoy-lang-green-1892
     tradition: french-folklore
     path: data/works/french-folklore/blue-bird-daulnoy-lang-green-1892.yaml
+
+  - id: singing-bone-grimm-hunt-1884
+    tradition: german-folklore
+    path: data/works/german-folklore/singing-bone-grimm-hunt-1884.yaml
 
   - id: three-musicians-grimm-lang-1892
     tradition: german-folklore
