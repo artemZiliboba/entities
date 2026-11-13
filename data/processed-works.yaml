@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "553df04ac73c4a839295338b8681c3a4257d1a89"
-work_count: 233
+master_sha: "c9152af50d9e6564f9e2f28ee2ce334c6d05b6b9"
+work_count: 234
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -311,6 +311,10 @@ works:
   - id: girl-without-hands-grimm-hunt-1884
     tradition: german-folklore
     path: data/works/german-folklore/girl-without-hands-grimm-hunt-1884.yaml
+
+  - id: big-raven-and-the-mice-bogoras-1917
+    tradition: koryak-folklore
+    path: data/works/koryak-folklore/big-raven-and-the-mice-bogoras-1917.yaml
 
   - id: man-who-did-not-wish-to-die-ozaki-1908
     tradition: japanese-folklore
