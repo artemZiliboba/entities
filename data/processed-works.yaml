@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "5b57359a54bdc97dcfabb8ca5ea1655b68d60201"
-work_count: 237
+master_sha: "7bd289673ae4201a225d1d25ce8ffacf8ee7813b"
+work_count: 238
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -319,6 +319,10 @@ works:
   - id: big-raven-and-the-mice-bogoras-1917
     tradition: koryak-folklore
     path: data/works/koryak-folklore/big-raven-and-the-mice-bogoras-1917.yaml
+
+  - id: red-ettin-jacobs-1890
+    tradition: scottish-folklore
+    path: data/works/scottish-folklore/red-ettin-jacobs-1890.yaml
 
   - id: charmed-ring-jacobs-1892
     tradition: indian-folklore
