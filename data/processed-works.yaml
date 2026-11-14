@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "7bd289673ae4201a225d1d25ce8ffacf8ee7813b"
-work_count: 238
+master_sha: "c0d81f199364666af6445c3b3cb99f38100637d8"
+work_count: 239
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -319,6 +319,10 @@ works:
   - id: big-raven-and-the-mice-bogoras-1917
     tradition: koryak-folklore
     path: data/works/koryak-folklore/big-raven-and-the-mice-bogoras-1917.yaml
+
+  - id: three-heads-of-the-well-jacobs-1890
+    tradition: english-folklore
+    path: data/works/english-folklore/three-heads-of-the-well-jacobs-1890.yaml
 
   - id: red-ettin-jacobs-1890
     tradition: scottish-folklore
