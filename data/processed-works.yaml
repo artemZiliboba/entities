@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "c0d81f199364666af6445c3b3cb99f38100637d8"
-work_count: 239
+master_sha: "cc7800977ed095f8bef394193cb32f17aa884008"
+work_count: 240
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -319,6 +319,10 @@ works:
   - id: big-raven-and-the-mice-bogoras-1917
     tradition: koryak-folklore
     path: data/works/koryak-folklore/big-raven-and-the-mice-bogoras-1917.yaml
+
+  - id: childe-rowland-jacobs-1890
+    tradition: scottish-folklore
+    path: data/works/scottish-folklore/childe-rowland-jacobs-1890.yaml
 
   - id: earl-mars-daughter-jacobs-1890
     tradition: scottish-folklore
