@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "c29c3e7a5e3be53a9acb95e04158c72ac4689390"
-work_count: 242
+master_sha: "890217967f71368f36be89f9e51792a50dc80346"
+work_count: 243
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -970,3 +970,6 @@ works:
   - id: talking-skull-story-museum-chris-smith
     tradition: african-folklore
     path: data/works/african-folklore/talking-skull-story-museum-chris-smith.yaml
+  - id: nix-nought-nothing-jacobs-1890
+    tradition: scottish-folklore
+    path: data/works/scottish-folklore/nix-nought-nothing-jacobs-1890.yaml
