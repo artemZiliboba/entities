@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "54b4a755f4f9cde43271d1672f122907426ca435"
-work_count: 241
+master_sha: "c29c3e7a5e3be53a9acb95e04158c72ac4689390"
+work_count: 242
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -319,6 +319,10 @@ works:
   - id: big-raven-and-the-mice-bogoras-1917
     tradition: koryak-folklore
     path: data/works/koryak-folklore/big-raven-and-the-mice-bogoras-1917.yaml
+
+  - id: laidly-worm-spindleston-jacobs-1890
+    tradition: english-folklore
+    path: data/works/english-folklore/laidly-worm-spindleston-jacobs-1890.yaml
 
   - id: kate-crackernuts-jacobs-1890
     tradition: scottish-folklore
