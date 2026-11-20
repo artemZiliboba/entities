@@ -1,0 +1,17 @@
+id: golden-arm-jacobs-1890
+title: "Золотая рука"
+original_title: "The Golden Arm"
+kind: folktale
+tradition:
+  - english-folklore
+collection: "English Fairy Tales, Joseph Jacobs (1890)"
+source:
+  title: "Joseph Jacobs, English Fairy Tales (1890), The Golden Arm"
+  url: "https://en.wikisource.org/wiki/English_Fairy_Tales/The_Golden_Arm"
+  note: "Полный текст короткой сказки The Golden Arm в редакции Джозефа Джейкобса (1890), от женитьбы до последней реплики призрака. Варианты с иной развязкой не смешаны."
+entities:
+  - id: ghost-of-golden-armed-wife
+    name: "Призрак женщины с золотой рукой"
+    type: creature
+    description: >-
+      Призрак умершей женщины, чью правую руку из чистого золота муж тайно отрезал после погребения. Следующей ночью она появляется в его спальне, бесшумно приближается к кровати, отдёргивает занавеску и человеческой речью отвечает на вопросы мужа о своём изменившемся посмертном облике. На вопрос о золотой руке призрак прямо указывает, что она у мужа. Текст не сообщает о физическом нападении, возвращении руки или последующем наказании.
