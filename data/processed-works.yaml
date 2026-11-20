@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "bf027f205ef3b01c0e5105670837468cceaae1e6"
-work_count: 247
+master_sha: "91facb819f57f54c34c968e3ad02a9a6aa2620ec"
+work_count: 248
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -985,3 +985,6 @@ works:
   - id: fish-and-ring-jacobs-1890
     tradition: english-folklore
     path: data/works/english-folklore/fish-and-ring-jacobs-1890.yaml
+  - id: molly-whuppie-jacobs-1890
+    tradition: scottish-folklore
+    path: data/works/scottish-folklore/molly-whuppie-jacobs-1890.yaml
