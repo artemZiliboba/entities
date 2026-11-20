@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "190543ef4c9ee2ce42cbf8c84406ab7f035d4fc4"
-work_count: 245
+master_sha: "1c245d8bdbba194b8d74d84ea96256dbeb72175a"
+work_count: 246
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -979,3 +979,6 @@ works:
   - id: king-o-the-cats-jacobs-1894
     tradition: english-folklore
     path: data/works/english-folklore/king-o-the-cats-jacobs-1894.yaml
+  - id: yallery-brown-jacobs-1894
+    tradition: english-folklore
+    path: data/works/english-folklore/yallery-brown-jacobs-1894.yaml
