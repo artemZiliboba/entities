@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "c23da31a5b01144999ccadbf54b63ace79a346c3"
-work_count: 244
+master_sha: "190543ef4c9ee2ce42cbf8c84406ab7f035d4fc4"
+work_count: 245
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -976,3 +976,6 @@ works:
   - id: buried-moon-jacobs-1894
     tradition: english-folklore
     path: data/works/english-folklore/buried-moon-jacobs-1894.yaml
+  - id: king-o-the-cats-jacobs-1894
+    tradition: english-folklore
+    path: data/works/english-folklore/king-o-the-cats-jacobs-1894.yaml
