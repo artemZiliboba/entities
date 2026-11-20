@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "890217967f71368f36be89f9e51792a50dc80346"
-work_count: 243
+master_sha: "c23da31a5b01144999ccadbf54b63ace79a346c3"
+work_count: 244
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -973,3 +973,6 @@ works:
   - id: nix-nought-nothing-jacobs-1890
     tradition: scottish-folklore
     path: data/works/scottish-folklore/nix-nought-nothing-jacobs-1890.yaml
+  - id: buried-moon-jacobs-1894
+    tradition: english-folklore
+    path: data/works/english-folklore/buried-moon-jacobs-1894.yaml
