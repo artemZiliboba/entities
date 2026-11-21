@@ -180,6 +180,11 @@ function syncReader(parts) {
     }
     return false;
   }
+  if (!readerOpen && !app.innerHTML.trim()) {
+    app.innerHTML = workView(parts[1]);
+    lastContentHash = href('work',parts[1]);
+    initAlphabetNavigation();
+  }
   if (!readerOpen) {
     readerReturnHash = lastContentHash || '#/';
     readerReturnScroll = window.scrollY;
@@ -205,8 +210,6 @@ document.addEventListener('keydown', event => {
   if (event.key === 'Escape') { event.preventDefault(); closeReader(); return; }
   if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
     if (event.target.closest('input,textarea,select,[contenteditable="true"]')) return;
-    const links = document.querySelectorAll('.reader-nav a');
-    const target = event.key === 'ArrowLeft' ? links[0] : links[links.length-1];
     const all = [...document.querySelectorAll('.reader-nav > *')];
     const chosen = event.key === 'ArrowLeft' ? all[0] : all[all.length-1];
     if (chosen?.tagName === 'A') { event.preventDefault(); location.hash = chosen.getAttribute('href'); }
