@@ -161,7 +161,7 @@ let readerReturnScroll = 0;
 let readerTrigger = null;
 let readerOpen = false;
 function routeParts() {
-  return location.hash.replace(/^#\\/?/,'').split('/').filter(Boolean).map(decodeURIComponent);
+  return location.hash.replace(/^#\/?/,'').split('/').filter(Boolean).map(decodeURIComponent);
 }
 function closeReader() {
   location.hash = readerReturnHash;
