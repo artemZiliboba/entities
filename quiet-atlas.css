@@ -405,3 +405,64 @@ h2{margin:48px 0 18px;font-size:clamp(25px,2.4vw,32px);line-height:1.18;letter-s
     display:block;max-width:100%;overflow-wrap:break-word;
   }
 }
+
+/* Entity reader: fixed shell, independent description scrolling. */
+body.reader-open{overflow:hidden}
+.reader-overlay{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:clamp(12px,3vh,32px);isolation:isolate}
+.reader-shade{position:absolute;inset:0;background:rgba(5,8,7,.78);cursor:default}
+.reader-dialog{
+  position:relative;display:flex;flex-direction:column;width:min(1040px,100%);max-height:min(790px,calc(100dvh - 48px));
+  min-height:0;background:var(--paper);color:var(--ink);border:1px solid var(--line);
+  box-shadow:0 22px 80px rgba(0,0,0,.35);overflow:hidden;
+}
+.reader-head,.reader-titlebar,.reader-details,.reader-foot{flex-shrink:0}
+.reader-head{display:flex;align-items:center;justify-content:space-between;min-height:58px;padding:10px 32px;border-bottom:1px solid var(--line)}
+.reader-brand{font:500 17px/1.2 var(--serif)}
+.reader-close{width:38px;height:38px;border:0;background:transparent;color:var(--ink);font:28px/1 var(--sans);cursor:pointer}
+.reader-close:hover{color:var(--accent)}
+.reader-titlebar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:30px 40px 24px}
+.reader-titlebar h1{margin:0;max-width:750px;font:500 clamp(29px,3.1vw,43px)/1.12 var(--serif);letter-spacing:-.025em;text-wrap:balance;overflow-wrap:anywhere}
+.reader-nav{display:flex;align-items:center;gap:10px;white-space:nowrap}
+.reader-arrow{display:grid;place-items:center;width:40px;height:40px;border:1px solid var(--line);color:var(--ink);text-decoration:none;font:23px/1 var(--sans)}
+.reader-arrow:hover{background:var(--hover);color:var(--accent)}
+.reader-arrow.is-disabled{opacity:.25}
+.reader-counter{min-width:42px;text-align:center;color:var(--secondary);font:600 12px/1 var(--sans);font-variant-numeric:tabular-nums}
+.reader-details{display:flex;flex-wrap:wrap;gap:0;margin:0 40px;padding:17px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.reader-details>div{min-width:0;padding:0 23px;border-right:1px solid var(--line)}
+.reader-details>div:first-child{padding-left:0}
+.reader-details>div:last-child{border:0}
+.reader-details dt{margin:0 0 6px;color:var(--muted);font:11px/1.3 var(--sans)}
+.reader-details dd{margin:0;color:var(--ink);font:14px/1.4 var(--sans);overflow-wrap:anywhere}
+.reader-scroll{min-height:0;flex:1 1 auto;overflow-y:auto;overscroll-behavior:contain;padding:28px 40px 38px;scrollbar-color:var(--accent) transparent;scrollbar-width:thin}
+.reader-scroll h2{margin:0 0 17px;font:500 25px/1.2 var(--serif)}
+.reader-scroll p{max-width:70ch;margin:0;font:19px/1.72 var(--serif);overflow-wrap:break-word}
+.reader-foot{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;padding:12px 40px;border-top:1px solid var(--line)}
+.reader-shortcuts{display:flex;align-items:center;gap:9px;color:var(--secondary);font:12px/1.3 var(--sans)}
+.reader-shortcuts kbd{display:inline-grid;place-items:center;min-width:27px;height:26px;padding:0 5px;border:1px solid var(--line);border-radius:2px;font:12px/1 var(--sans)}
+.reader-work-link{color:var(--ink);font:15px/1.3 var(--serif);text-underline-offset:4px;white-space:nowrap}
+.reader-work-link:hover{color:var(--accent)}
+.reader-dialog :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:800px){
+  .reader-overlay{padding:0;align-items:stretch}
+  .reader-dialog{width:100%;height:100dvh;max-height:100dvh;border:0}
+  .reader-head{min-height:52px;padding:8px 18px}
+  .reader-brand{font-size:15px}
+  .reader-titlebar{display:block;padding:24px 20px 18px}
+  .reader-titlebar h1{font-size:clamp(28px,7vw,38px)}
+  .reader-nav{justify-content:flex-start;margin-top:18px}
+  .reader-details{margin:0 20px;padding:12px 0;gap:12px 0}
+  .reader-details>div{padding:0 14px}
+  .reader-details>div:first-child{padding-left:0}
+  .reader-details dt{font-size:10px}
+  .reader-details dd{font-size:12px}
+  .reader-scroll{padding:22px 20px 28px}
+  .reader-scroll h2{font-size:23px}
+  .reader-scroll p{font-size:18px;line-height:1.65}
+  .reader-foot{min-height:62px;padding:12px 20px}
+  .reader-shortcuts{display:none}
+  .reader-work-link{font-size:15px}
+}
+@media(max-height:600px) and (min-width:801px){
+  .reader-titlebar{padding-top:18px;padding-bottom:15px}
+  .reader-scroll{padding-top:18px;padding-bottom:22px}
+}

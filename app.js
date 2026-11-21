@@ -126,26 +126,103 @@ function entityView(workId, entityId) {
   const work = state.works.find(item => item.id === workId);
   const entities = [...(work?.entities || [])].sort((a,b) => safe(a.name).localeCompare(safe(b.name),'ru'));
   const entity = entities.find(item => item.id === entityId);
-  if (!work || !entity) return notFound();
+  if (!work || !entity) return '';
   const index = entities.indexOf(entity);
-  const related = entities.filter(item => item.id !== entity.id);
+  const prev = entities[index - 1], next = entities[index + 1];
   const aliases = Array.isArray(entity.aliases) ? entity.aliases.join(', ') : '';
   const traditions = (Array.isArray(work.tradition) ? work.tradition : [work.tradition]).filter(Boolean).map(humanize).join(', ');
-  const details = [
-    ['Тип', TYPES[entity.type] || humanize(entity.type)], ['Произведение', work.title || work.id], ['Традиция', traditions],
-    ...(aliases ? [['Также известен как', aliases]] : []), ...(work.author ? [['Автор', work.author]] : [])
-  ];
-  const prev = entities[index-1], next = entities[index+1];
-  return `<article class="entity-page"><div class="entity-top"><a class="back" href="${href('work',work.id)}">К произведению</a><div class="top-position"><a class="circle-button" href="${prev ? href('entity',work.id,prev.id) : '#'}" ${prev ? '' : 'aria-disabled="true"'}>←</a><b>${index+1} / ${entities.length}</b><a class="circle-button" href="${next ? href('entity',work.id,next.id) : '#'}" ${next ? '' : 'aria-disabled="true"'}>→</a></div></div><h1>${escapeHtml(entity.name || entity.id)}</h1>
-    <dl class="details">${details.map(([label,value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd></div>`).join('')}</dl>
-    <section class="description-section"><h2>Описание</h2><p class="description">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p></section>
-    <nav class="entity-pager" aria-label="Соседние сущности">
-      ${prev ? `<a class="pager-link" aria-label="Предыдущая сущность: ${escapeHtml(prev.name || prev.id)}" href="${href('entity',work.id,prev.id)}"><span class="circle-button" aria-hidden="true">←</span><span><strong>${escapeHtml(prev.name || prev.id)}</strong></span></a>` : '<span></span>'}
-      <span class="pager-center"><b>${index+1} / ${entities.length}</b><small>${escapeHtml(work.title || work.id)}</small></span>
-      ${next ? `<a class="pager-link pager-next" aria-label="Следующая сущность: ${escapeHtml(next.name || next.id)}" href="${href('entity',work.id,next.id)}"><span><strong>${escapeHtml(next.name || next.id)}</strong></span><span class="circle-button" aria-hidden="true">→</span></a>` : '<span></span>'}
-    </nav>
-    ${related.length ? `<section class="related-section"><div class="section-heading"><h2>В этом произведении</h2><a href="${href('work',work.id)}">Все</a></div><ol class="related-list">${related.map(item => row({name:item.name || item.id, meta:TYPES[item.type] || humanize(item.type), url:href('entity',work.id,item.id)})).join('')}</ol></section>` : ''}</article>`;
+  const details = [['Тип', TYPES[entity.type] || humanize(entity.type)], ['Произведение', work.title || work.id], ['Традиция', traditions],
+    ...(aliases ? [['Также известен как', aliases]] : []), ...(work.author ? [['Автор', work.author]] : [])];
+  const arrow = (target, label, symbol) => target
+    ? `<a class="reader-arrow" href="${href('entity',work.id,target.id)}" aria-label="${escapeHtml(label + ': ' + (target.name || target.id))}">${symbol}</a>`
+    : `<span class="reader-arrow is-disabled" aria-disabled="true">${symbol}</span>`;
+  return `<div class="reader-overlay" id="readerOverlay">
+    <div class="reader-shade" data-reader-close></div>
+    <section class="reader-dialog" role="dialog" aria-modal="true" aria-labelledby="readerTitle" aria-describedby="readerDescription">
+      <header class="reader-head"><span class="reader-brand">Энциклопедия сущностей</span>
+        <button type="button" class="reader-close" data-reader-close aria-label="Закрыть карточку">×</button></header>
+      <div class="reader-titlebar"><h1 id="readerTitle">${escapeHtml(entity.name || entity.id)}</h1>
+        <nav class="reader-nav" aria-label="Переключение сущностей">
+          ${arrow(prev,'Предыдущая сущность','←')}<span class="reader-counter">${index + 1} / ${entities.length}</span>${arrow(next,'Следующая сущность','→')}
+        </nav></div>
+      <dl class="reader-details">${details.map(([label,value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd></div>`).join('')}</dl>
+      <div class="reader-scroll" tabindex="0" aria-label="Прокручиваемое описание сущности">
+        <h2>Описание</h2><p id="readerDescription">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p>
+      </div>
+      <footer class="reader-foot"><span class="reader-shortcuts"><kbd>←</kbd><kbd>→</kbd> Переключить <kbd>Esc</kbd> Закрыть</span>
+        <a class="reader-work-link" href="${href('work',work.id)}">Открыть произведение <span aria-hidden="true">↗</span></a></footer>
+    </section></div>`;
 }
+
+let readerReturnHash = '#/';
+let readerReturnScroll = 0;
+let readerTrigger = null;
+let readerOpen = false;
+function routeParts() {
+  return location.hash.replace(/^#\\/?/,'').split('/').filter(Boolean).map(decodeURIComponent);
+}
+function closeReader() {
+  location.hash = readerReturnHash;
+}
+function syncReader(parts) {
+  const entityRoute = parts[0] === 'entity';
+  const old = document.getElementById('readerOverlay');
+  if (!entityRoute) {
+    if (old) old.remove();
+    document.body.classList.remove('reader-open');
+    if (readerOpen) {
+      wasReaderClosed = true;
+      readerOpen = false;
+      requestAnimationFrame(() => {
+        window.scrollTo(0, readerReturnScroll);
+        if (readerTrigger?.isConnected) readerTrigger.focus({preventScroll:true});
+      });
+    }
+    return false;
+  }
+  if (!readerOpen && !app.innerHTML.trim()) {
+    app.innerHTML = workView(parts[1]);
+    lastContentHash = href('work',parts[1]);
+    initAlphabetNavigation();
+  }
+  if (!readerOpen) {
+    readerReturnHash = lastContentHash || '#/';
+    readerReturnScroll = window.scrollY;
+    readerOpen = true;
+  }
+  const content = entityView(parts[1],parts[2]);
+  if (!content) { location.hash = readerReturnHash; return true; }
+  old?.remove();
+  document.getElementById('siteContent').insertAdjacentHTML('beforeend',content);
+  document.body.classList.add('reader-open');
+  document.querySelector('.reader-close')?.focus({preventScroll:true});
+  document.title = `${document.getElementById('readerTitle')?.textContent || 'Сущность'} — Энциклопедия сущностей`;
+  return true;
+}
+let lastContentHash = '#/';
+document.addEventListener('click', event => {
+  const trigger = event.target.closest('a[href^="#/entity/"]');
+  if (trigger && !readerOpen) readerTrigger = trigger;
+  if (event.target.closest('[data-reader-close]')) closeReader();
+});
+document.addEventListener('keydown', event => {
+  if (!readerOpen) return;
+  if (event.key === 'Escape') { event.preventDefault(); closeReader(); return; }
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+    if (event.target.closest('input,textarea,select,[contenteditable="true"]')) return;
+    const all = [...document.querySelectorAll('.reader-nav > *')];
+    const chosen = event.key === 'ArrowLeft' ? all[0] : all[all.length-1];
+    if (chosen?.tagName === 'A') { event.preventDefault(); location.hash = chosen.getAttribute('href'); }
+    return;
+  }
+  if (event.key === 'Tab') {
+    const dialog = document.querySelector('.reader-dialog');
+    const focusable = [...dialog.querySelectorAll('a[href],button:not([disabled]),[tabindex="0"]')];
+    const first = focusable[0], last = focusable[focusable.length-1];
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  }
+});
 
 function aboutView() { return `<a class="back" href="#/">На главную</a><h1>О проекте</h1><div class="about"><p>«Энциклопедия сущностей» — открытый каталог магических персонажей, существ, предметов и мест из фольклора и литературы разных народов.</p><p>Все материалы хранятся в открытом репозитории. Вы можете предложить уточнение или добавить новое произведение через GitHub.</p></div>`; }
 function notFound() { return '<h1>Страница не найдена</h1><p><a href="#/">Вернуться на главную</a></p>'; }
@@ -153,14 +230,18 @@ function notFound() { return '<h1>Страница не найдена</h1><p><a
 let alphabetScrollCleanup = null;
 function render() {
   if (!state.ready) return;
+  const parts = routeParts();
+  if (syncReader(parts)) return;
   alphabetScrollCleanup?.();
   alphabetScrollCleanup = null;
-  const parts = location.hash.replace(/^#\/?/,'').split('/').filter(Boolean).map(decodeURIComponent);
-  app.innerHTML = !parts.length ? homeView() : parts[0] === 'group' && GROUPS.some(([id]) => id === parts[1]) ? homeView(parts[1]) : parts[0] === 'work' ? workView(parts[1]) : parts[0] === 'entity' ? entityView(parts[1],parts[2]) : parts[0] === 'about' ? aboutView() : notFound();
+  lastContentHash = location.hash || '#/';
+  app.innerHTML = !parts.length ? homeView() : parts[0] === 'group' && GROUPS.some(([id]) => id === parts[1]) ? homeView(parts[1]) : parts[0] === 'work' ? workView(parts[1]) : parts[0] === 'about' ? aboutView() : notFound();
   document.title = `${app.querySelector('h1')?.textContent.trim() || 'Энциклопедия сущностей'} — Энциклопедия сущностей`;
-  window.scrollTo(0,0);
+  if (!wasReaderClosed) window.scrollTo(0,0);
+  wasReaderClosed = false;
   initAlphabetNavigation();
 }
+let wasReaderClosed = false;
 
 function initAlphabetNavigation() {
   const nav = app.querySelector('.alphabet-nav');
