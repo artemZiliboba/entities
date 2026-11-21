@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "46e52af24bf7c853250c066fc7c91e8f7594911b"
-work_count: 249
+master_sha: "8692ff1e049b4ffec06b729bfde993008cceddf7"
+work_count: 250
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -991,3 +991,6 @@ works:
   - id: golden-arm-jacobs-1890
     tradition: english-folklore
     path: data/works/english-folklore/golden-arm-jacobs-1890.yaml
+  - id: golden-ball-jacobs-1894
+    tradition: english-folklore
+    path: data/works/english-folklore/golden-ball-jacobs-1894.yaml
