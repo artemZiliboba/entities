@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "15b34ad84ed1de815d15e3a5a64097e7f3419e24"
-work_count: 251
+master_sha: "fa59654f5f27e5e4356c1672ee8102d8d43a8d14"
+work_count: 252
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -997,3 +997,6 @@ works:
   - id: cauld-lad-of-hilton-jacobs-1890
     tradition: english-folklore
     path: data/works/english-folklore/cauld-lad-of-hilton-jacobs-1890.yaml
+  - id: lambton-worm-jacobs-1894
+    tradition: english-folklore
+    path: data/works/english-folklore/lambton-worm-jacobs-1894.yaml
