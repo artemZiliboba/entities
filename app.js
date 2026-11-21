@@ -49,7 +49,9 @@ function groupNavigation(active) {
 async function loadData(signal, onProgress) {
   const indexResponse = await fetch('data/processed-works.yaml', { cache: 'no-store', signal });
   if (!indexResponse.ok) throw new Error('Не удалось загрузить список произведений');
+  if (typeof jsyaml === 'undefined') throw new Error('YAML-парсер не загрузился');
   const index = jsyaml.load(await indexResponse.text());
+  if (!Array.isArray(index?.works)) throw new Error('Некорректный реестр произведений');
   let loadedWorks = 0;
   let loadedEntities = 0;
   const works = await Promise.all(index.works.map(async item => {
@@ -430,7 +432,9 @@ async function initializeWithPreloader(startTime = performance.now()) {
         Math.max(0, MIN_PRELOADER_DURATION - (performance.now() - startTime))))
     ]);
     if (result.status === 'rejected') throw result.reason;
-    await counters.finish();
+    // A throttled animation frame must never block the site indefinitely.
+    await Promise.race([counters.finish(), new Promise(resolve => setTimeout(resolve, 1200))]);
+    counters.cancel();
     state.ready = true;
     fillMenu();
     render();
@@ -444,7 +448,7 @@ async function initializeWithPreloader(startTime = performance.now()) {
     console.error(error);
     preloader.classList.add('has-error');
     preloaderError.hidden = false;
-    preloaderLabel.textContent = 'Ошибка загрузки энциклопедии.';
+    preloaderLabel.textContent = `Ошибка загрузки: ${error?.message || 'неизвестная ошибка'}.`;
     preloader.setAttribute('aria-busy', 'false');
     preloaderRetry.focus();
   } finally {
