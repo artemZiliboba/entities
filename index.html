@@ -75,7 +75,24 @@
 
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-  <script src="app.js?v=14"></script>
+  <script src="vendor/js-yaml.min.js?v=4.1.0"></script>
+  <script>
+    // Show a recoverable error even if app.js itself fails to initialize.
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const loader = document.getElementById('preloader');
+        if (!loader || loader.classList.contains('is-leaving') || loader.classList.contains('has-error')) return;
+        loader.classList.add('has-error');
+        loader.setAttribute('aria-busy', 'false');
+        const message = document.getElementById('preloaderLabel');
+        if (message) message.textContent = 'Загрузка заняла слишком много времени.';
+        const error = document.getElementById('preloaderError');
+        if (error) error.hidden = false;
+        const retry = document.getElementById('preloaderRetry');
+        if (retry) retry.onclick = () => location.reload();
+      }, 35000);
+    });
+  </script>
+  <script src="app.js?v=15"></script>
 </body>
 </html>
