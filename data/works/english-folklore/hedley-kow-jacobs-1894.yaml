@@ -1,0 +1,38 @@
+id: hedley-kow-jacobs-1894
+title: "Хедли Коу"
+original_title: "The Hedley Kow"
+kind: folktale
+tradition:
+  - english-folklore
+collection: "More English Fairy Tales, Joseph Jacobs (1894), tale LIII"
+source:
+  title: "Joseph Jacobs, More English Fairy Tales (1894), LIII. The Hedley Kow"
+  url: "https://en.wikisource.org/wiki/More_English_Fairy_Tales/The_Hedley_Kow"
+  note: >-
+    Полностью прочитан рассказ LIII из сборника Джозефа Джейкобса
+    More English Fairy Tales (1894), опубликованный на Wikisource.
+    Описан только этот вариант; свойства существ, называемых
+    Hedley Kow в иных преданиях, не добавлялись.
+entities:
+  - id: hedley-kow
+    name: "Хедли Коу"
+    type: creature
+    description: >-
+      Сверхъестественный оборотень, которого бедная пожилая
+      женщина случайно встречает по дороге домой. Сначала
+      он выглядит как тяжёлый чёрный горшок, полный золотых
+      монет; пока женщина тащит находку на шали, та
+      превращается сперва в большой слиток серебра,
+      затем в железо и наконец в камень. У ворот
+      камень внезапно подпрыгивает, пищит, вырастает
+      размером с крупную лошадь, обзаводится четырьмя
+      длинными ногами, двумя длинными ушами и хвостом,
+      после чего убегает, брыкаясь и смеясь.
+      Женщина узнаёт в нём Хедли Коу. В тексте
+      существо не говорит человеческими словами,
+      не причиняет ей вреда и не оставляет ей
+      настоящих сокровищ.
+    tags:
+      - shapeshifter
+      - trickster
+      - supernatural-creature
