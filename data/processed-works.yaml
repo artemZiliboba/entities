@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "dac36160d585c9ee57ab10db3596f9a8e5f15602"
-work_count: 256
+master_sha: "800233211e93e896f12cbac68a6e0cd890a9b8c2"
+work_count: 257
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1012,3 +1012,6 @@ works:
   - id: hedley-kow-jacobs-1894
     tradition: english-folklore
     path: data/works/english-folklore/hedley-kow-jacobs-1894.yaml
+  - id: king-of-love-pitre-crane-1885
+    tradition: italian-folklore
+    path: data/works/italian-folklore/king-of-love-pitre-crane-1885.yaml
