@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "69cca36e5626ffbabbc6d1d0d7d595ca97a8c49b"
-work_count: 255
+master_sha: "dac36160d585c9ee57ab10db3596f9a8e5f15602"
+work_count: 256
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1009,3 +1009,6 @@ works:
   - id: jack-golden-snuff-box-jacobs-1890
     tradition: english-folklore
     path: data/works/english-folklore/jack-golden-snuff-box-jacobs-1890.yaml
+  - id: hedley-kow-jacobs-1894
+    tradition: english-folklore
+    path: data/works/english-folklore/hedley-kow-jacobs-1894.yaml
