@@ -152,7 +152,10 @@ function entityView(workId, entityId) {
         <h2>Описание</h2><p id="readerDescription">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p>
       </div>
       <footer class="reader-foot"><span class="reader-shortcuts"><kbd>←</kbd><kbd>→</kbd> Переключить <kbd>Esc</kbd> Закрыть</span>
-        <a class="reader-work-link" href="${href('work',work.id)}">Открыть произведение <span aria-hidden="true">↗</span></a></footer>
+        <a class="reader-work-link" href="${href('work',work.id)}">Открыть произведение <span aria-hidden="true">↗</span></a>
+        <nav class="reader-mobile-nav" aria-label="Переключение сущностей">
+          ${arrow(prev,'Предыдущая сущность','←')}<span class="reader-counter" aria-label="Сущность ${index + 1} из ${entities.length}">${index + 1} / ${entities.length}</span>${arrow(next,'Следующая сущность','→')}
+        </nav></footer>
     </section></div>`;
 }
 
@@ -201,6 +204,33 @@ function syncReader(parts) {
   document.title = `${document.getElementById('readerTitle')?.textContent || 'Сущность'} — Энциклопедия сущностей`;
   return true;
 }
+// On narrow touch screens, a horizontal gesture in the reading area changes
+// the entity. Vertical scrolling, text selection and interactive controls
+// keep their native behavior. The gesture never wraps at either end.
+let readerSwipeStart = null;
+document.addEventListener('touchstart', event => {
+  readerSwipeStart = null;
+  if (!readerOpen || !window.matchMedia('(max-width:800px)').matches || event.touches.length !== 1) return;
+  const area = event.target.closest('.reader-scroll');
+  if (!area || event.target.closest('a,button,input,textarea,select,[contenteditable="true"]')) return;
+  const touch = event.touches[0];
+  readerSwipeStart = { x: touch.clientX, y: touch.clientY, time: performance.now() };
+}, {passive:true});
+document.addEventListener('touchcancel', () => { readerSwipeStart = null; }, {passive:true});
+document.addEventListener('touchend', event => {
+  const start = readerSwipeStart;
+  readerSwipeStart = null;
+  if (!start || !readerOpen || event.changedTouches.length !== 1) return;
+  const touch = event.changedTouches[0];
+  const dx = touch.clientX - start.x, dy = touch.clientY - start.y;
+  if (Math.abs(dx) < 65 || Math.abs(dx) <= Math.abs(dy) * 1.5 || performance.now() - start.time > 900) return;
+  if (window.getSelection()?.toString()) return;
+  const direction = dx < 0 ? 'next' : 'prev';
+  const selector = direction === 'next' ? '.reader-mobile-nav .reader-arrow:last-child' : '.reader-mobile-nav .reader-arrow:first-child';
+  const link = document.querySelector(selector);
+  if (link?.tagName === 'A') location.hash = link.getAttribute('href');
+}, {passive:true});
+
 let lastContentHash = '#/';
 document.addEventListener('click', event => {
   const trigger = event.target.closest('a[href^="#/entity/"]');
