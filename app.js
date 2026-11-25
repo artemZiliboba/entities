@@ -147,7 +147,10 @@ function entityView(workId, entityId) {
         <nav class="reader-nav" aria-label="Переключение сущностей">
           ${arrow(prev,'Предыдущая сущность','←')}<span class="reader-counter">${index + 1} / ${entities.length}</span>${arrow(next,'Следующая сущность','→')}
         </nav></div>
-      <dl class="reader-details">${details.map(([label,value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd></div>`).join('')}</dl>
+      <details class="reader-metadata" ${window.matchMedia('(min-width:801px)').matches ? 'open' : ''}>
+        <summary>Дополнительные сведения</summary>
+        <dl class="reader-details">${details.map(([label,value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd></div>`).join('')}</dl>
+      </details>
       <div class="reader-scroll" tabindex="0" aria-label="Прокручиваемое описание сущности">
         <h2>Описание</h2><p id="readerDescription">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p>
       </div>
@@ -199,36 +202,83 @@ function syncReader(parts) {
   if (!content) { location.hash = readerReturnHash; return true; }
   old?.remove();
   document.getElementById('siteContent').insertAdjacentHTML('beforeend',content);
+  const incomingDialog = document.querySelector('.reader-dialog');
+  if (readerSwipeDirection) {
+    incomingDialog?.classList.add(readerSwipeDirection === 'next' ? 'reader-enter-from-right' : 'reader-enter-from-left');
+    readerSwipeDirection = null;
+  }
   document.body.classList.add('reader-open');
   document.querySelector('.reader-close')?.focus({preventScroll:true});
   document.title = `${document.getElementById('readerTitle')?.textContent || 'Сущность'} — Энциклопедия сущностей`;
   return true;
 }
-// On narrow touch screens, a horizontal gesture in the reading area changes
-// the entity. Vertical scrolling, text selection and interactive controls
-// keep their native behavior. The gesture never wraps at either end.
+// Horizontal swipes track the finger, then slide the current card away
+// before routing to the adjacent entity. Vertical scrolling stays native.
 let readerSwipeStart = null;
+let readerSwipeDirection = null;
+let readerSwipeTracking = false;
+let readerSwipePending = false;
+function resetReaderSwipe(animate = true) {
+  const dialog = document.querySelector('.reader-dialog');
+  if (dialog) {
+    dialog.style.transition = animate ? 'transform 180ms ease-out, opacity 180ms ease-out' : 'none';
+    dialog.style.transform = '';
+    dialog.style.opacity = '';
+    dialog.classList.remove('is-swiping');
+  }
+  readerSwipeTracking = false;
+  readerSwipeStart = null;
+}
 document.addEventListener('touchstart', event => {
   readerSwipeStart = null;
-  if (!readerOpen || !window.matchMedia('(max-width:800px)').matches || event.touches.length !== 1) return;
+  readerSwipeTracking = false;
+  if (!readerOpen || readerSwipePending || !window.matchMedia('(max-width:800px)').matches || event.touches.length !== 1) return;
   const area = event.target.closest('.reader-scroll');
   if (!area || event.target.closest('a,button,input,textarea,select,[contenteditable="true"]')) return;
   const touch = event.touches[0];
   readerSwipeStart = { x: touch.clientX, y: touch.clientY, time: performance.now() };
 }, {passive:true});
-document.addEventListener('touchcancel', () => { readerSwipeStart = null; }, {passive:true});
+document.addEventListener('touchmove', event => {
+  if (!readerSwipeStart || !readerOpen || event.touches.length !== 1) return;
+  const touch = event.touches[0];
+  const dx = touch.clientX - readerSwipeStart.x, dy = touch.clientY - readerSwipeStart.y;
+  if (!readerSwipeTracking) {
+    if (Math.abs(dx) < 9 || Math.abs(dx) <= Math.abs(dy) * 1.25) return;
+    readerSwipeTracking = true;
+  }
+  const dialog = document.querySelector('.reader-dialog');
+  if (!dialog) return;
+  dialog.classList.add('is-swiping');
+  dialog.style.transition = 'none';
+  dialog.style.transform = `translate3d(${dx * 0.72}px,0,0)`;
+  dialog.style.opacity = String(1 - Math.min(Math.abs(dx) / 900, 0.16));
+}, {passive:true});
+document.addEventListener('touchcancel', () => resetReaderSwipe(true), {passive:true});
 document.addEventListener('touchend', event => {
   const start = readerSwipeStart;
-  readerSwipeStart = null;
-  if (!start || !readerOpen || event.changedTouches.length !== 1) return;
+  if (!start || !readerOpen || event.changedTouches.length !== 1) { resetReaderSwipe(true); return; }
   const touch = event.changedTouches[0];
   const dx = touch.clientX - start.x, dy = touch.clientY - start.y;
-  if (Math.abs(dx) < 65 || Math.abs(dx) <= Math.abs(dy) * 1.5 || performance.now() - start.time > 900) return;
-  if (window.getSelection()?.toString()) return;
+  const horizontal = Math.abs(dx) >= 65 && Math.abs(dx) > Math.abs(dy) * 1.5 && performance.now() - start.time <= 900;
+  if (!horizontal || window.getSelection()?.toString()) { resetReaderSwipe(true); return; }
   const direction = dx < 0 ? 'next' : 'prev';
   const selector = direction === 'next' ? '.reader-mobile-nav .reader-arrow:last-child' : '.reader-mobile-nav .reader-arrow:first-child';
   const link = document.querySelector(selector);
-  if (link?.tagName === 'A') location.hash = link.getAttribute('href');
+  if (!link || link.tagName !== 'A') { resetReaderSwipe(true); return; }
+  const dialog = document.querySelector('.reader-dialog');
+  if (!dialog) { resetReaderSwipe(false); return; }
+  readerSwipePending = true;
+  dialog.classList.remove('is-swiping');
+  dialog.style.transition = 'transform 190ms cubic-bezier(.2,.75,.25,1), opacity 190ms ease-out';
+  dialog.style.transform = `translate3d(${direction === 'next' ? '-105vw' : '105vw'},0,0)`;
+  dialog.style.opacity = '.82';
+  const target = link.getAttribute('href');
+  setTimeout(() => {
+    readerSwipePending = false;
+    readerSwipeDirection = direction;
+    readerSwipeStart = null;
+    location.hash = target;
+  }, 195);
 }, {passive:true});
 
 let lastContentHash = '#/';
