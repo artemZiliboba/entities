@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "800233211e93e896f12cbac68a6e0cd890a9b8c2"
-work_count: 257
+master_sha: "a200b16c31f80fe17d12db2dd214dcd10ea52728"
+work_count: 258
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1015,3 +1015,6 @@ works:
   - id: king-of-love-pitre-crane-1885
     tradition: italian-folklore
     path: data/works/italian-folklore/king-of-love-pitre-crane-1885.yaml
+  - id: the-griffin-imbriani-crane-1885
+    tradition: italian-folklore
+    path: data/works/italian-folklore/the-griffin-imbriani-crane-1885.yaml
