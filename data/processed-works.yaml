@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "a200b16c31f80fe17d12db2dd214dcd10ea52728"
-work_count: 258
+master_sha: "7f29be2529b39eb3a28988d91e9611c7b8b3039f"
+work_count: 259
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1018,3 +1018,6 @@ works:
   - id: the-griffin-imbriani-crane-1885
     tradition: italian-folklore
     path: data/works/italian-folklore/the-griffin-imbriani-crane-1885.yaml
+  - id: dancing-water-singing-apple-speaking-bird-pitre-1885
+    tradition: italian-folklore
+    path: data/works/italian-folklore/dancing-water-singing-apple-speaking-bird-pitre-1885.yaml
