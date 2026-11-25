@@ -1,0 +1,59 @@
+id: the-griffin-imbriani-crane-1885
+title: "Грифон"
+original_title: "The Griffin (L'Auciello Crifone)"
+kind: folktale
+tradition:
+  - italian-folklore
+collection: "Italian Popular Tales (Thomas Frederick Crane, 1885), сказка VIII"
+source:
+  title: "The Griffin — Italian Popular Tales, VIII; Imbriani, Pomiglianesi, p. 195"
+  url: "https://www.gutenberg.org/cache/epub/23634/pg23634-images.html"
+  note: >-
+    Полный текст сказки VIII «The Griffin», страницы 40–42
+    английского сборника Thomas Frederick Crane, Italian Popular
+    Tales (1885). Автор указывает неаполитанский источник:
+    Vittorio Imbriani, Pomiglianesi, стр. 195, «L'Auciello Crifone».
+    Описания основаны исключительно на этом тексте; параллельные
+    версии сказки о поющей кости не смешивались.
+entities:
+  - id: griffin-bird
+    name: "Грифон"
+    type: creature
+    description: >-
+      Необыкновенная птица, чьё перо способно вылечить больные
+      глаза короля. Старик объясняет младшему королевскому сыну,
+      что грифона можно приманить зерном, насыпанным в шляпу.
+      Птица прилетает к приманке, и юноша вырывает у неё перо.
+      Других свойств или поступков грифона сказка не описывает.
+    tags:
+      - griffin
+      - magical-bird
+  - id: griffin-healing-feather
+    name: "Целебное перо грифона"
+    type: artifact
+    description: >-
+      Перо, необходимое для исцеления больных глаз короля.
+      Младший сын добывает его у грифона, но старшие братья
+      отнимают находку и присваивают заслугу. Король
+      действительно исцеляет глаза при помощи пера.
+      Его лечебное действие является отдельным сюжетным
+      свойством полученного предмета.
+    tags:
+      - healing
+      - magical-feather
+  - id: speaking-bone-whistle
+    name: "Говорящая костяная свистулька"
+    type: artifact
+    description: >-
+      Кость убитого и тайно похороненного младшего принца,
+      найденная пастухом после того, как его собака
+      постоянно рыла землю в одном месте. Поднесённая
+      ко рту, кость издаёт звук и произносит слова
+      об убийстве ради пера грифона. Её обращение
+      меняется в зависимости от того, держит ли её
+      пастух, отец-король или брат-убийца, разоблачая
+      предательство.
+    tags:
+      - talking-artifact
+      - murder-revelation
+      - enchanted-bone
