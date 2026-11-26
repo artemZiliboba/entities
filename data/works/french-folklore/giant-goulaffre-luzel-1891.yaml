@@ -1,0 +1,63 @@
+id: giant-goulaffre-luzel-1891
+title: "Великан Гулаффр"
+original_title: "Le Géant Goulaffre"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Франсуа-Мари Люзель (François-Marie Luzel)"
+collection: "Contes et légendes de Basse-Bretagne (1891), pages 107–134"
+source:
+  title: "Le Géant Goulaffre — Contes et légendes de Basse-Bretagne"
+  url: "https://fr.wikisource.org/wiki/Contes_et_l%C3%A9gendes_de_Basse-Bretagne/Texte_entier"
+  note: >-
+    Полностью прочитан отдельный рассказ «Le Géant Goulaffre»
+    (стр. 107–134) в сборнике Contes et légendes de Basse-Bretagne
+    (1891), авторская секция François-Marie Luzel. Рассказ
+    начинается с истории Алланика и Фистилу и заканчивается
+    гибелью великана Гулаффра. Предшествующая легенда «La Volonté
+    de Dieu» и следующий рассказ «L'Homme aux deux Chiens»
+    не включены; детали иных сказок о великанах не смешивались.
+entities:
+  - id: giant-goulaffre
+    name: "Великан Гулаффр"
+    type: creature
+    description: >-
+      Одноглазый великан-людоед, живущий в замке. Он способен
+      преодолевать огромные расстояния с помощью волшебных
+      сапог и обладает нечеловеческой силой. Король считает
+      его опасным врагом: Гулаффр похитил королевскую
+      светящуюся полумесяц-лампу и золотую клетку. Алланик
+      обманывает великана, похищает его сапоги, а позднее
+      возвращает королевскую реликвию и заманивает Гулаффра
+      в ловушку.
+    tags:
+      - giant
+      - ogre
+      - supernatural-strength
+  - id: seven-league-boots-goulaffre
+    name: "Сапоги-семимильные Гулаффра"
+    type: artifact
+    description: >-
+      Волшебные сапоги великана, позволяющие за один шаг
+      преодолевать огромное расстояние. Они могут по желанию
+      увеличиваться и уменьшаться, благодаря чему Алланик
+      прячет их в охотничьей сумке и использует для быстрых
+      переходов и охоты. Сапоги снимают с уснувшего Гулаффра,
+      после чего великан уже не может догнать беглецов.
+    tags:
+      - seven-league-boots
+      - size-changing
+      - rapid-travel
+  - id: kings-magic-half-moon
+    name: "Королевский волшебный полумесяц"
+    type: artifact
+    description: >-
+      Светящееся чудо короля, похищенное великаном Гулаффром.
+      Когда полумесяц устанавливают на самой высокой башне
+      дворца, он освещает окрестности на несколько лье.
+      Если его снять, город погружается во тьму; возвращение
+      полумесяца вновь освещает город, словно среди дня.
+      Алланик похищает его у великана и возвращает королю.
+    tags:
+      - magical-light
+      - royal-treasure
