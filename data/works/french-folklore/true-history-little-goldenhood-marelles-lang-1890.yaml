@@ -1,0 +1,52 @@
+id: true-history-little-goldenhood-marelles-lang-1890
+title: "Подлинная история Золотого Капюшончика"
+original_title: "The True History of Little Goldenhood"
+kind: folktale
+tradition:
+  - french-folklore
+author: "Шарль Марель (Charles Marelles)"
+collection: "The Red Fairy Book (Andrew Lang, 1890), страницы 215–219"
+source:
+  title: "The True History of Little Golden-hood — The Red Fairy Book"
+  url: "https://en.wikisource.org/wiki/The_Red_Fairy_Book/The_True_History_of_Little_Goldenhood"
+  note: >-
+    Полностью прочитан конкретный рассказ «The True History of
+    Little Golden-hood» из The Red Fairy Book под редакцией
+    Эндрю Лэнга (1890), страницы 215–219. Под рассказом
+    указан Ch. Marelles. Это самостоятельный французский вариант
+    истории о девочке и волке; мотивы других версий,
+    включая сказку Перро о Красной Шапочке, не добавлялись.
+entities:
+  - id: protective-golden-hood
+    name: "Волшебный золотой капюшон"
+    type: artifact
+    description: >-
+      Золотисто-огненный капюшон, подаренный девочке Бланшетте
+      её бабушкой. По словам старушки, он сделан из солнечного
+      луча и должен приносить удачу. Когда волк пытается
+      проглотить девочку, он хватает зубами капюшон,
+      который обжигает ему язык и горло, вынуждая
+      отпустить добычу. Рассказчик называет капюшон
+      волшебным, но не показывает, что именно он
+      способен делать хозяйку невидимой.
+    aliases:
+      - "Золотой капюшон"
+    tags:
+      - protective-magic
+      - enchanted-clothing
+      - fire
+  - id: speaking-wolf-goldenhood
+    name: "Говорящий волк"
+    type: animal
+    description: >-
+      Волк, встречающий Бланшетту по дороге к бабушке.
+      Он разговаривает с девочкой на человеческом языке,
+      выясняет, куда она направляется, а затем
+      притворяется её бабушкой, чтобы заманить к себе.
+      Попытка проглотить девочку заканчивается ожогом
+      от волшебного капюшона. Бабушка ловит волка
+      в мешок и бросает в колодец.
+    tags:
+      - talking-animal
+      - shapeless-disguise
+      - antagonist
