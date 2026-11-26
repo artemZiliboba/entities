@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "2783385cb0cdde27b8d0d888aa8193d095608ff7"
-work_count: 263
+master_sha: "dc7635af3893fecc01a0d0af4941eb67794ed57a"
+work_count: 264
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1033,3 +1033,6 @@ works:
   - id: drakestail-marelles-lang-1890
     tradition: french-folklore
     path: data/works/french-folklore/drakestail-marelles-lang-1890.yaml
+  - id: nine-brothers-changed-to-sheep-luzel-1887
+    tradition: french-folklore
+    path: data/works/french-folklore/nine-brothers-changed-to-sheep-luzel-1887.yaml
