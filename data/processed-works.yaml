@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "689bc69578fefa60764f8331ec91acb0857bb605"
-work_count: 260
+master_sha: "5d0c6d90ff3454f17727cf377866e422d8a92d18"
+work_count: 261
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1024,3 +1024,6 @@ works:
   - id: king-bean-bernoni-crane-1885
     tradition: italian-folklore
     path: data/works/italian-folklore/king-bean-bernoni-crane-1885.yaml
+  - id: little-soldier-deulin-crane-1892
+    tradition: french-folklore
+    path: data/works/french-folklore/little-soldier-deulin-crane-1892.yaml
