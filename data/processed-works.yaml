@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "7f29be2529b39eb3a28988d91e9611c7b8b3039f"
-work_count: 259
+master_sha: "689bc69578fefa60764f8331ec91acb0857bb605"
+work_count: 260
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1021,3 +1021,6 @@ works:
   - id: dancing-water-singing-apple-speaking-bird-pitre-1885
     tradition: italian-folklore
     path: data/works/italian-folklore/dancing-water-singing-apple-speaking-bird-pitre-1885.yaml
+  - id: king-bean-bernoni-crane-1885
+    tradition: italian-folklore
+    path: data/works/italian-folklore/king-bean-bernoni-crane-1885.yaml
