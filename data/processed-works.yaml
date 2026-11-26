@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "dc7635af3893fecc01a0d0af4941eb67794ed57a"
-work_count: 264
+master_sha: "e14e22e424dc3c14b42106f2e050c3e78a5d7847"
+work_count: 265
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1036,3 +1036,6 @@ works:
   - id: nine-brothers-changed-to-sheep-luzel-1887
     tradition: french-folklore
     path: data/works/french-folklore/nine-brothers-changed-to-sheep-luzel-1887.yaml
+  - id: giant-goulaffre-luzel-1891
+    tradition: french-folklore
+    path: data/works/french-folklore/giant-goulaffre-luzel-1891.yaml
