@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "5d0c6d90ff3454f17727cf377866e422d8a92d18"
-work_count: 261
+master_sha: "fc842f1701a342565d88b2b84e176c6ce2e716b6"
+work_count: 262
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1027,3 +1027,6 @@ works:
   - id: little-soldier-deulin-crane-1892
     tradition: french-folklore
     path: data/works/french-folklore/little-soldier-deulin-crane-1892.yaml
+  - id: true-history-little-goldenhood-marelles-lang-1890
+    tradition: french-folklore
+    path: data/works/french-folklore/true-history-little-goldenhood-marelles-lang-1890.yaml
