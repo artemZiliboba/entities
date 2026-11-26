@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "fc842f1701a342565d88b2b84e176c6ce2e716b6"
-work_count: 262
+master_sha: "2783385cb0cdde27b8d0d888aa8193d095608ff7"
+work_count: 263
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1030,3 +1030,6 @@ works:
   - id: true-history-little-goldenhood-marelles-lang-1890
     tradition: french-folklore
     path: data/works/french-folklore/true-history-little-goldenhood-marelles-lang-1890.yaml
+  - id: drakestail-marelles-lang-1890
+    tradition: french-folklore
+    path: data/works/french-folklore/drakestail-marelles-lang-1890.yaml
