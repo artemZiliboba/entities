@@ -624,29 +624,27 @@ body.reader-open{overflow:hidden}
   .home-hero h1{max-width:700px}
 }
 @media(max-width:800px){
-  /* Give the illustration its own natural-height row below the statistics.
-     The desktop overlay and its horizontal fade remain unchanged. */
+  /* On phones the artwork is atmosphere inside the hero, not a separate row.
+     Keep the copy and statistics in normal flow above the decorative image. */
   .home-hero{
-    display:flex;
-    flex-direction:column;
+    position:relative;
     min-height:0;
-    padding-bottom:22px;
+    padding-bottom:24px;
   }
   .home-hero-art{
-    position:relative;
-    inset:auto;
-    order:1;
-    display:block;
-    width:100%;
-    max-width:440px;
-    height:auto;
-    margin:15px auto -18px;
+    position:absolute;
+    inset:auto -5% -3% auto;
+    z-index:0;
+    width:82%;
+    height:64%;
+    max-width:none;
     object-fit:contain;
-    opacity:.25;
-    -webkit-mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,#000 24%,rgba(0,0,0,.94) 40%,transparent 100%);
-    mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,#000 24%,rgba(0,0,0,.94) 40%,transparent 100%);
+    object-position:right bottom;
+    opacity:.16;
+    -webkit-mask-image:radial-gradient(ellipse 64% 62% at 68% 66%,#000 18%,rgba(0,0,0,.78) 48%,rgba(0,0,0,.28) 70%,transparent 100%);
+    mask-image:radial-gradient(ellipse 64% 62% at 68% 66%,#000 18%,rgba(0,0,0,.78) 48%,rgba(0,0,0,.28) 70%,transparent 100%);
   }
-  :root[data-theme="dark"] .home-hero-art{opacity:.94}
+  :root[data-theme="dark"] .home-hero-art{opacity:.43}
   .home-hero h1{max-width:none}
   .home-hero .intro{max-width:54ch}
 }
