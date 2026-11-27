@@ -466,3 +466,70 @@ body.reader-open{overflow:hidden}
   .reader-titlebar{padding-top:18px;padding-bottom:15px}
   .reader-scroll{padding-top:18px;padding-bottom:22px}
 }
+
+/* Desktop entity reader: quiet, color-coded chips instead of a metadata table.
+   Mobile keeps its existing collapsible, labelled details. */
+@media (min-width:801px){
+  .reader-metadata .reader-details{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:9px;
+    margin:0 40px;
+    padding:0 0 19px;
+    border-top:0;
+    border-bottom:1px solid var(--line);
+  }
+  .reader-metadata .reader-detail{
+    display:flex;
+    align-items:center;
+    flex:0 1 auto;
+    max-width:100%;
+    min-width:0;
+    padding:7px 12px;
+    border:1px solid var(--chip-border,#aaa69b);
+    border-radius:999px;
+    background:var(--chip-bg,var(--surface));
+    color:var(--chip-text,var(--ink));
+  }
+  .reader-metadata .reader-details>div:first-child,
+  .reader-metadata .reader-details>div:last-child{padding:7px 12px;border:1px solid var(--chip-border,#aaa69b)}
+  .reader-metadata .reader-detail dt{
+    position:absolute;
+    width:1px;height:1px;padding:0;margin:-1px;
+    overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;
+  }
+  .reader-metadata .reader-detail dd{
+    display:flex;align-items:center;gap:8px;min-width:0;
+    color:inherit;font:500 13px/1.35 var(--sans);
+  }
+  .reader-metadata .reader-detail-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 17px;width:17px;height:17px}
+  .reader-metadata .reader-detail-icon svg{display:block;width:17px;height:17px}
+  .reader-metadata .reader-detail-value{min-width:0;overflow-wrap:anywhere}
+  .reader-metadata .reader-detail--type{
+    --chip-bg:#e9eef4;--chip-border:#b8cadb;--chip-text:#334f69;
+  }
+  .reader-metadata .reader-detail--work{
+    --chip-bg:#f0eaf2;--chip-border:#d2bdd8;--chip-text:#63476d;
+  }
+  .reader-metadata .reader-detail--tradition{
+    --chip-bg:#e6f0e9;--chip-border:#b5d0bc;--chip-text:#365a44;
+  }
+  .reader-metadata .reader-detail--extra{
+    --chip-bg:var(--surface);--chip-border:var(--line);--chip-text:var(--secondary);
+  }
+  :root[data-theme="dark"] .reader-metadata .reader-detail--type{
+    --chip-bg:#2a3640;--chip-border:#526579;--chip-text:#e0ebf6;
+  }
+  :root[data-theme="dark"] .reader-metadata .reader-detail--work{
+    --chip-bg:#39313d;--chip-border:#735e7b;--chip-text:#eee0f2;
+  }
+  :root[data-theme="dark"] .reader-metadata .reader-detail--tradition{
+    --chip-bg:#2b3b30;--chip-border:#536e59;--chip-text:#e0eedf;
+  }
+  .reader-titlebar{padding-bottom:19px}
+}
+@media (max-width:800px){
+  .reader-detail-icon{display:none}
+  .reader-detail-value{min-width:0;overflow-wrap:anywhere}
+}
