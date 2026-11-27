@@ -152,7 +152,7 @@ function entityView(workId, entityId) {
         <dl class="reader-details">${details.map(([label,value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd></div>`).join('')}</dl>
       </details>
       <div class="reader-scroll" tabindex="0" aria-label="Прокручиваемое описание сущности">
-        <h2>Описание</h2><p id="readerDescription">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p>
+        <p id="readerDescription">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p>
       </div>
       <footer class="reader-foot"><span class="reader-shortcuts"><kbd>←</kbd><kbd>→</kbd> Переключить <kbd>Esc</kbd> Закрыть</span>
         <a class="reader-work-link" href="${href('work',work.id)}">Открыть произведение <span aria-hidden="true">↗</span></a>
