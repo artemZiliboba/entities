@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "f5eebca55e671c258e53b7311be088a3854e5a8b"
-work_count: 266
+master_sha: "0cc253169a07fe05f7647ca09afb6fd2a6932165"
+work_count: 267
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1042,3 +1042,6 @@ works:
   - id: tail-of-princess-elephant-west-african-1917
     tradition: west-african-folklore
     path: data/works/west-african-folklore/tail-of-princess-elephant-west-african-1917.yaml
+  - id: wirreenun-rainmaker-parker-1896
+    tradition: noongahburrah-folklore
+    path: data/works/noongahburrah-folklore/wirreenun-rainmaker-parker-1896.yaml

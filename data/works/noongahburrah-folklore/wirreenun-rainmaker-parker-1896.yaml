@@ -1,0 +1,66 @@
+id: wirreenun-rainmaker-parker-1896
+title: "Вирринун — повелитель дождя"
+original_title: "Wirreenun the Rainmaker"
+kind: folktale
+tradition:
+  - noongahburrah-folklore
+author: "К. Лэнгло Паркер (K. Langloh Parker), запись устных рассказов"
+collection: "Australian Legendary Tales (1896), tale 31"
+source:
+  title: "Wirreenun the Rainmaker — Australian Legendary Tales, Chapter 31"
+  url: "https://www.gutenberg.org/cache/epub/3833/pg3833-images.html"
+  note: >-
+    Полностью прочитан рассказ 31 «Wirreenun the Rainmaker» из
+    Australian Legendary Tales К. Лэнгло Паркер (1896). В предисловии
+    Паркер сообщает, что сборник ограничен легендами народа Narran,
+    называвшего себя Noongahburrahs, и благодарит Peter Hippi,
+    Hippitha, Matah, Barahgurrie и Beemunny за рассказы и помощь
+    с именами. Выбран именно рассказ о засухе, ритуале Вирринун
+    и создании дождём озера с рыбой; соседние рассказы не смешивались.
+entities:
+  - id: wirreenun-rainmaker
+    name: "Вирринун — дождеватель"
+    type: character
+    description: >-
+      Старый жрец и целитель народа нунгабурра, обладающий
+      искусством вызывать дождь. Во время сильной засухи он
+      проводит обряд у водоёма с украшенным перьями шестом
+      и двумя прозрачными камнями, собирает уголь из голов
+      соплеменников, а затем предсказывает грозу. Во время
+      бури Вирринун поёт защитный напев, не позволяя молниям
+      приблизиться к лагерю. Позднее вместе с другим
+      дождевателем он вызывает дождь над сухой равниной,
+      превращая её в озеро, полное рыбы.
+    tags:
+      - rainmaker
+      - ritual-magic
+      - weather-control
+  - id: wirreenun-magic-stones
+    name: "Губбера — магические камни Вирринуна"
+    type: artifact
+    description: >-
+      Два больших прозрачных камня, которые Вирринун носит
+      при себе, скрывая от женщин. Во время обряда он
+      помещает их у водоёма рядом с шестом, украшенным
+      перьями белого какаду. После появления дождевых
+      облаков он забирает камни обратно. В глоссарии
+      сборника губбера прямо названы магическими камнями
+      Вирринуна.
+    aliases:
+      - "Gubberah"
+    tags:
+      - magical-stones
+      - rainmaking
+  - id: wirreenun-storm-warding-chant
+    name: "Защитный напев Вирринуна"
+    type: spell
+    description: >-
+      Ритуальный напев, который Вирринун исполняет стоя
+      перед лагерем во время грозы. Он предназначен
+      остановить приближение опасной бури и не допустить,
+      чтобы молния ударила рядом с людьми. После исполнения
+      напева гроза стихает, ветер сменяется дождём,
+      который идёт несколько дней.
+    tags:
+      - protective-spell
+      - storm-warding
