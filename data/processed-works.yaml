@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "0cc253169a07fe05f7647ca09afb6fd2a6932165"
-work_count: 267
+master_sha: "75b15ab0b737abdf5b1b1b4a5a4f6ea1fcfc79d6"
+work_count: 268
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1045,3 +1045,6 @@ works:
   - id: wirreenun-rainmaker-parker-1896
     tradition: noongahburrah-folklore
     path: data/works/noongahburrah-folklore/wirreenun-rainmaker-parker-1896.yaml
+  - id: son-of-seven-queens-jacobs-1892
+    tradition: indian-folklore
+    path: data/works/indian-folklore/son-of-seven-queens-jacobs-1892.yaml
