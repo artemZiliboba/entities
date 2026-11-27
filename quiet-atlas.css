@@ -582,3 +582,58 @@ body.reader-open{overflow:hidden}
   }
   .section-menu nav a .group-icon{width:32px;height:32px}
 }
+
+/* Grimoire artwork on the homepage: the supplied illustration dissolves into
+   the existing editorial hero rather than sitting in a framed image block. */
+.home-hero{
+  isolation:isolate;
+  overflow:hidden;
+  min-height:525px;
+}
+.home-hero > :not(.home-hero-art){
+  position:relative;
+  z-index:1;
+}
+.home-hero-art{
+  position:absolute;
+  z-index:0;
+  top:0;
+  right:-2%;
+  width:64%;
+  height:100%;
+  object-fit:cover;
+  object-position:57% 50%;
+  pointer-events:none;
+  user-select:none;
+  opacity:.23;
+  -webkit-mask-image:radial-gradient(ellipse 82% 77% at 62% 50%,#000 51%,transparent 100%);
+  mask-image:radial-gradient(ellipse 82% 77% at 62% 50%,#000 51%,transparent 100%);
+}
+:root[data-theme="dark"] .home-hero-art{opacity:.96}
+.home-hero h1{max-width:760px}
+.home-hero .intro{max-width:53ch}
+@media(max-width:1100px) and (min-width:801px){
+  .home-hero-art{right:-7%;width:67%;opacity:.17}
+  :root[data-theme="dark"] .home-hero-art{opacity:.85}
+  .home-hero h1{max-width:700px}
+}
+@media(max-width:800px){
+  .home-hero{
+    min-height:0;
+    padding-bottom:clamp(210px,58vw,310px);
+  }
+  .home-hero-art{
+    top:auto;
+    bottom:-12px;
+    right:-8%;
+    width:116%;
+    height:clamp(235px,64vw,350px);
+    object-position:57% 56%;
+    opacity:.25;
+    -webkit-mask-image:radial-gradient(ellipse 70% 70% at 53% 52%,#000 48%,transparent 100%);
+    mask-image:radial-gradient(ellipse 70% 70% at 53% 52%,#000 48%,transparent 100%);
+  }
+  :root[data-theme="dark"] .home-hero-art{opacity:.94}
+  .home-hero h1{max-width:none}
+  .home-hero .intro{max-width:54ch}
+}

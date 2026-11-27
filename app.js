@@ -101,7 +101,7 @@ function homeView(active = 'works') {
   const group = GROUPS.find(([id]) => id === active) || GROUPS[0];
   const entities = active === 'works' ? [] : getEntities(active).filter(entity => !query || [entity.name, entity.description, entity.work.title].join(' ').toLocaleLowerCase('ru').includes(query)).sort((a,b) => safe(a.name).localeCompare(safe(b.name),'ru'));
   const count = active === 'works' ? works.length : entities.length;
-  return `<section class="home-hero"><span class="eyebrow">Открытая энциклопедия</span><h1>Магические сущности<br>из сказок и мифов</h1>
+  return `<section class="home-hero"><img class="home-hero-art" src="assets/head/top.png" alt="" aria-hidden="true" width="1440" height="1024" decoding="async" fetchpriority="high"><span class="eyebrow">Открытая энциклопедия</span><h1>Магические сущности<br>из сказок и мифов</h1>
     <p class="intro">Магические персонажи, предметы и явления из сказок, мифов и литературы.</p>
     <div class="home-stats"><span><b>${state.works.length}</b> произведений</span><span><b>${state.works.reduce((total, work) => total + (work.entities || []).length, 0)}</b> сущностей</span></div></section>
     ${groupNavigation(group[0])}
