@@ -643,8 +643,8 @@ body.reader-open{overflow:hidden}
     margin:15px auto -18px;
     object-fit:contain;
     opacity:.25;
-    -webkit-mask-image:radial-gradient(ellipse 74% 66% at 50% 50%,#000 36%,rgba(0,0,0,.94) 53%,transparent 100%);
-    mask-image:radial-gradient(ellipse 74% 66% at 50% 50%,#000 36%,rgba(0,0,0,.94) 53%,transparent 100%);
+    -webkit-mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,#000 24%,rgba(0,0,0,.94) 40%,transparent 100%);
+    mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,#000 24%,rgba(0,0,0,.94) 40%,transparent 100%);
   }
   :root[data-theme="dark"] .home-hero-art{opacity:.94}
   .home-hero h1{max-width:none}
