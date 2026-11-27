@@ -135,6 +135,12 @@ function entityView(workId, entityId) {
   const traditions = (Array.isArray(work.tradition) ? work.tradition : [work.tradition]).filter(Boolean).map(humanize).join(', ');
   const details = [['Тип', TYPES[entity.type] || humanize(entity.type)], ['Произведение', work.title || work.id], ['Традиция', traditions],
     ...(aliases ? [['Также известен как', aliases]] : []), ...(work.author ? [['Автор', work.author]] : [])];
+  // Semantic icons distinguish the three primary chips without relying on color alone.
+  const detailIcons = [
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="3.5"/><path d="M5 21v-2a7 7 0 0 1 14 0v2H5Z"/></svg>',
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1 3-2 6-2 9-1V5c-3-1-6-1-9 1ZM12 6v14"/></svg>',
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4c-9 0-15 4-15 11a5 5 0 0 0 5 5c7 0 11-6 10-16Z"/><path d="M4 21c3-5 7-8 13-11"/></svg>'
+  ];
   const arrow = (target, label, symbol) => target
     ? `<a class="reader-arrow" href="${href('entity',work.id,target.id)}" aria-label="${escapeHtml(label + ': ' + (target.name || target.id))}">${symbol}</a>`
     : `<span class="reader-arrow is-disabled" aria-disabled="true">${symbol}</span>`;
@@ -149,7 +155,7 @@ function entityView(workId, entityId) {
         </nav></div>
       <details class="reader-metadata" ${window.matchMedia('(min-width:801px)').matches ? 'open' : ''}>
         <summary>Дополнительные сведения</summary>
-        <dl class="reader-details">${details.map(([label,value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value || '—')}</dd></div>`).join('')}</dl>
+        <dl class="reader-details">${details.map(([label,value], i) => `<div class="reader-detail ${i < 3 ? ['reader-detail--type', 'reader-detail--work', 'reader-detail--tradition'][i] : 'reader-detail--extra'}"><dt>${escapeHtml(label)}</dt><dd>${i < 3 ? `<span class="reader-detail-icon" aria-hidden="true">${detailIcons[i]}</span>` : ''}<span class="reader-detail-value">${escapeHtml(value || '—')}</span></dd></div>`).join('')}</dl>
       </details>
       <div class="reader-scroll" tabindex="0" aria-label="Прокручиваемое описание сущности">
         <p id="readerDescription">${escapeHtml(entity.description || 'Описание пока не добавлено.')}</p>
