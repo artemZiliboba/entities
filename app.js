@@ -3,10 +3,11 @@ const TYPES = {
   substance:'Вещество', plant:'Растение', animal:'Животное', spell:'Заклинание', phenomenon:'Явление'
 };
 const GROUPS = [
-  ['works','Произведения','book'], ['artifact','Артефакты','cup'], ['character','Персонажи','people'],
-  ['creature','Существа','paw'], ['location','Локации','mountain'], ['spell','Заклинания','sparkles'],
-  ['substance','Вещества','flask'], ['plant','Растения','leaf'], ['animal','Животные','paw'],
-  ['phenomenon','Явления','target']
+  ['works','Произведения','01-works.png'], ['artifact','Артефакты','02-artifacts.png'],
+  ['character','Персонажи','03-characters.png'], ['creature','Существа','04-creatures.png'],
+  ['location','Локации','05-locations.png'], ['spell','Заклинания','06-spells.png'],
+  ['substance','Вещества','07-substances.png'], ['plant','Растения','08-plants.png'],
+  ['animal','Животные','09-animals.png'], ['phenomenon','Явления','10-phenomena.png']
 ];
 const ALPHABET = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'.split('');
 const app = document.getElementById('app');
@@ -19,19 +20,14 @@ const escapeHtml = value => safe(value).replace(/[&<>"']/g, char => ({'&':'&amp;
 const humanize = value => safe(value).split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 const href = (...parts) => `#/${parts.map(encodeURIComponent).join('/')}`;
 
-function icon(name) {
-  const paths = {
-    book:'<path d="M3 5.5c3-1 6-.4 9 1.5v13c-3-1.9-6-2.4-9-1.5zM21 5.5c-3-1-6-.4-9 1.5v13c3-1.9 6-2.4 9-1.5z"/>',
-    cup:'<path d="M7 3h10v4c0 4-2 6-5 7-3-1-5-3-5-7zM12 14v5M8 21h8M17 5h3v2c0 2-1 3-3 3M7 5H4v2c0 2 1 3 3 3"/>',
-    people:'<circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-4 2-6 6-6s6 2 6 6M14 15c4-1 7 1 7 5"/>',
-    paw:'<ellipse cx="12" cy="16" rx="5" ry="4"/><circle cx="5" cy="11" r="2"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="6" r="2"/><circle cx="19" cy="11" r="2"/>',
-    mountain:'<path d="m2 20 7-13 3 5 3-7 7 15zM7 11l2 2 2-2M13 9l2 2 2-2"/>',
-    sparkles:'<path d="m12 2 1.5 5.5L19 9l-5.5 1.5L12 16l-1.5-5.5L5 9l5.5-1.5zM19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/>',
-    flask:'<path d="M9 3h6M10 3v6l-5 9c-1 2 0 3 2 3h10c2 0 3-1 2-3l-5-9V3M8 15h8"/>',
-    leaf:'<path d="M20 4C10 4 5 9 5 17c7 1 13-3 15-13ZM4 21c3-6 7-9 13-13"/>',
-    target:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>'
-  };
-  return `<svg class="group-icon" viewBox="0 0 24 24" aria-hidden="true">${paths[name] || paths.sparkles}</svg>`;
+function icon(filename) {
+  // Category labels remain text; the PNG icons are decorative.
+  return `<img class="group-icon" src="assets/icons/${filename}" width="32" height="32" alt="" aria-hidden="true" decoding="async">`;
+}
+
+function moreIcon() {
+  // 'Ещё' is a navigation action rather than one of the ten categories.
+  return '<svg class="group-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 1.5 5.5L19 9l-5.5 1.5L12 16l-1.5-5.5L5 9l5.5-1.5zM19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg>';
 }
 
 function getEntities(type) {
@@ -43,7 +39,7 @@ function groupCount(id) { return id === 'works' ? state.works.length : getEntiti
 function groupNavigation(active) {
   const visible = GROUPS.slice(0,5);
   const moreActive = !visible.some(([id]) => id === active);
-  return `<nav class="group-nav" aria-label="Разделы энциклопедии">${visible.map(([id,label,glyph]) => `<a class="group-tab${active === id ? ' active' : ''}" href="${id === 'works' ? '#/' : href('group',id)}" ${active === id ? 'aria-current="page"' : ''}>${icon(glyph)}<span>${label}</span></a>`).join('')}<button class="group-tab more-groups${moreActive ? ' active' : ''}" type="button" data-open-menu ${moreActive ? 'aria-current="page"' : ''}>${icon('sparkles')}<span>Ещё</span><b aria-hidden="true">⌄</b></button></nav>`;
+  return `<nav class="group-nav" aria-label="Разделы энциклопедии">${visible.map(([id,label,glyph]) => `<a class="group-tab${active === id ? ' active' : ''}" href="${id === 'works' ? '#/' : href('group',id)}" ${active === id ? 'aria-current="page"' : ''}>${icon(glyph)}<span>${label}</span></a>`).join('')}<button class="group-tab more-groups${moreActive ? ' active' : ''}" type="button" data-open-menu ${moreActive ? 'aria-current="page"' : ''}>${moreIcon()}<span>Ещё</span><b aria-hidden="true">⌄</b></button></nav>`;
 }
 
 async function loadData(signal, onProgress) {
