@@ -624,21 +624,27 @@ body.reader-open{overflow:hidden}
   .home-hero h1{max-width:700px}
 }
 @media(max-width:800px){
+  /* Give the illustration its own natural-height row below the statistics.
+     The desktop overlay and its horizontal fade remain unchanged. */
   .home-hero{
+    display:flex;
+    flex-direction:column;
     min-height:0;
-    padding-bottom:clamp(210px,58vw,310px);
+    padding-bottom:22px;
   }
   .home-hero-art{
-    top:auto;
-    bottom:-12px;
-    right:-8%;
-    width:116%;
-    height:clamp(235px,64vw,350px);
+    position:relative;
+    inset:auto;
+    order:1;
+    display:block;
+    width:100%;
+    max-width:440px;
+    height:auto;
+    margin:15px auto -18px;
     object-fit:contain;
-    object-position:right bottom;
     opacity:.25;
-    -webkit-mask-image:radial-gradient(ellipse 70% 70% at 53% 52%,#000 48%,transparent 100%);
-    mask-image:radial-gradient(ellipse 70% 70% at 53% 52%,#000 48%,transparent 100%);
+    -webkit-mask-image:radial-gradient(ellipse 74% 66% at 50% 50%,#000 36%,rgba(0,0,0,.94) 53%,transparent 100%);
+    mask-image:radial-gradient(ellipse 74% 66% at 50% 50%,#000 36%,rgba(0,0,0,.94) 53%,transparent 100%);
   }
   :root[data-theme="dark"] .home-hero-art{opacity:.94}
   .home-hero h1{max-width:none}
