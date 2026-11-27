@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "e14e22e424dc3c14b42106f2e050c3e78a5d7847"
-work_count: 265
+master_sha: "f5eebca55e671c258e53b7311be088a3854e5a8b"
+work_count: 266
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1039,3 +1039,6 @@ works:
   - id: giant-goulaffre-luzel-1891
     tradition: french-folklore
     path: data/works/french-folklore/giant-goulaffre-luzel-1891.yaml
+  - id: tail-of-princess-elephant-west-african-1917
+    tradition: west-african-folklore
+    path: data/works/west-african-folklore/tail-of-princess-elephant-west-african-1917.yaml
