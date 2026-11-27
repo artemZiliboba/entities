@@ -1,0 +1,52 @@
+id: tail-of-princess-elephant-west-african-1917
+title: "Хвост Принцессы-слонихи"
+original_title: "The Tail of the Princess Elephant"
+kind: folktale
+tradition:
+  - west-african-folklore
+collection: "West African Folk-Tales (W. H. Barker and Cecilia Sinclair, 1917), tale XXII, pages 123–129"
+source:
+  title: "The Tail of the Princess Elephant — West African Folk-Tales, XXII"
+  url: "https://www.gutenberg.org/cache/epub/66923/pg66923-images.html"
+  note: >-
+    Полностью прочитана сказка XXII «The Tail of the Princess Elephant»,
+    страницы 123–129, в сборнике West African Folk-Tales,
+    собранном и составленном W. H. Barker и Cecilia Sinclair
+    (George G. Harrap & Co., 1917). Сборник относит материал
+    к фольклору народов Золотого Берега (нынешняя Гана), но
+    для этой конкретной сказки не называет отдельный народ
+    или рассказчика. Поэтому традиция указана обобщённо как
+    западноафриканская, без более узкой этнической атрибуции.
+entities:
+  - id: princess-elephant
+    name: "Принцесса-слониха"
+    type: character
+    description: >-
+      Принцесса из селения слонов, способная принимать человеческий
+      облик прекрасной девушки и вновь превращаться в слониху.
+      После того как Квеси отрубает ей хвост, она преследует его
+      до человеческого селения, где принимает облик девушки
+      и добивается брака с ним. Ночью она снова становится
+      слонихой и пытается убить мужа, а затем уничтожить
+      его волшебного покровителя.
+    tags:
+      - shapeshifting
+      - elephant
+      - antagonist
+  - id: juju-depor
+    name: "Депор — волшебный джуджу Квеси"
+    type: artifact
+    description: >-
+      Небольшой личный идол-покровитель, который Квеси постоянно
+      носит в волосах. Он разговаривает с владельцем и помогает
+      ему спасаться от Принцессы-слонихи: превращает Квеси
+      в циновку, затем в иглу, чтобы жена не могла его найти,
+      а когда сам оказывается брошен в огонь, подсказывает
+      последнюю метаморфозу — Квеси становится ястребом.
+      Ранее джуджу также велит бросить за спину ветку и початок
+      кукурузы; они мгновенно вырастают в огромное дерево
+      и поле кукурузы, задерживая погоню слонов.
+    tags:
+      - talking-idol
+      - transformation
+      - magical-protection
