@@ -533,3 +533,52 @@ body.reader-open{overflow:hidden}
   .reader-detail-icon{display:none}
   .reader-detail-value{min-width:0;overflow-wrap:anywhere}
 }
+
+/* Section illustrations: fixed-size transparent PNGs replace the old SVG glyphs. */
+.group-nav .group-tab .group-icon{
+  display:block;
+  width:28px;
+  height:28px;
+  flex:0 0 28px;
+  object-fit:contain;
+  filter:drop-shadow(0 1px 1px rgba(0,0,0,.25));
+}
+.group-nav .group-tab .group-more-icon{
+  width:19px;
+  height:19px;
+  flex:0 0 19px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.7;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.section-menu nav a{
+  grid-template-columns:36px minmax(0,1fr) auto;
+  gap:12px;
+}
+.section-menu nav a .group-icon{
+  display:block;
+  width:34px;
+  height:34px;
+  object-fit:contain;
+  justify-self:center;
+  filter:drop-shadow(0 1px 1px rgba(0,0,0,.22));
+}
+@media(max-width:800px){
+  .group-nav .group-tab .group-icon{
+    width:30px;
+    height:30px;
+    flex-basis:30px;
+  }
+  .group-nav .group-tab .group-more-icon{
+    width:21px;
+    height:21px;
+    flex-basis:21px;
+  }
+  .section-menu nav a{
+    grid-template-columns:36px minmax(0,1fr) auto;
+    min-height:48px;
+  }
+  .section-menu nav a .group-icon{width:32px;height:32px}
+}
