@@ -649,25 +649,37 @@ body.reader-open{overflow:hidden}
   .home-hero .intro{max-width:54ch}
 }
 
-/* Entity type chip uses the same PNG family as category navigation.
-   Fit inside the pill at every desktop width without clipping the artwork. */
+/* Reader type: the detailed PNG needs its own inset medallion, not a tiny glyph.
+   All artwork stays inside the pill; the other metadata chips retain their layout. */
 @media (min-width:801px){
   .reader-metadata .reader-detail--type{
+    min-height:44px;
     overflow:hidden;
+  }
+  .reader-metadata .reader-details > .reader-detail--type:first-child{
+    padding:4px 14px 4px 5px;
+  }
+  .reader-metadata .reader-detail--type dd{
+    gap:9px;
   }
   .reader-metadata .reader-detail--type .reader-detail-icon{
     display:inline-flex;
-    width:22px;
-    height:22px;
-    flex:0 0 22px;
+    width:36px;
+    height:36px;
+    flex:0 0 36px;
     align-items:center;
     justify-content:center;
     overflow:hidden;
+    border-radius:50%;
+    background:rgba(255,255,255,.56);
+  }
+  :root[data-theme="dark"] .reader-metadata .reader-detail--type .reader-detail-icon{
+    background:rgba(255,255,255,.10);
   }
   .reader-metadata .reader-type-png{
     display:block;
-    width:22px;
-    height:22px;
+    width:30px;
+    height:30px;
     max-width:100%;
     max-height:100%;
     object-fit:contain;
