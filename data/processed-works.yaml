@@ -1,7 +1,7 @@
 version: 1
 source_of_truth: "data/works/"
-master_sha: "75b15ab0b737abdf5b1b1b4a5a4f6ea1fcfc79d6"
-work_count: 268
+master_sha: "29739994975c11fda14d2c705386706cc9237fa8"
+work_count: 269
 note: >
   Централизованный реестр уже обработанных произведений. При добавлении нового
   произведения в data/works/ этот файл должен обновляться в том же pull request.
@@ -1048,3 +1048,6 @@ works:
   - id: son-of-seven-queens-jacobs-1892
     tradition: indian-folklore
     path: data/works/indian-folklore/son-of-seven-queens-jacobs-1892.yaml
+  - id: water-nix-grimm-khm79-1857
+    tradition: german-folklore
+    path: data/works/german-folklore/water-nix-grimm-khm79-1857.yaml
