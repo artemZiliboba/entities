@@ -1,0 +1,68 @@
+id: water-nix-grimm-khm79-1857
+title: "Водяная дева"
+original_title: "Die Wassernixe"
+kind: folktale
+tradition:
+  - german-folklore
+author: "Братья Гримм"
+collection: "Kinder- und Hausmärchen, KHM 79"
+source:
+  title: "Die Wassernixe — Kinder- und Haus-Märchen, 7-е издание, том I, 1857, с. 399"
+  url: "https://de.wikisource.org/wiki/Seite:Kinder_und_Hausm%C3%A4rchen_(Grimm)_1857_I_399.jpg"
+  note: >
+    Сказка KHM 79 в немецкой редакции 1857 года, седьмое издание братьев
+    Гримм, том I, страница 399. Полный текст сверен с английским переводом
+    Маргарет Хант (1884), «The Water-Nix», Grimm's Household Tales, том I.
+    Подробности иных редакций и сказки KHM 181 «Die Nixe im Teich» не смешивались.
+
+entities:
+  - id: water-nix
+    name: "Водяная дева"
+    type: creature
+    description: >
+      Сверхъестественная обитательница колодца. Захватывает упавших в воду
+      брата и сестру и принуждает их к тяжёлой работе. Преследует сбежавших
+      детей огромными шагами, преодолевает две возникшие перед ней преграды,
+      но задерживается перед скользкой зеркальной горой и в конце возвращается
+      в свой колодец.
+    tags:
+      - water-spirit
+      - abduction
+      - pursuit
+
+  - id: bristle-mountain-brush
+    name: "Щётка, создающая гору щетины"
+    type: artifact
+    description: >
+      Брошенная девочкой позади себя щётка создаёт огромную гору щетины
+      с тысячами острых выступов. Водяная дева с трудом перелезает через
+      препятствие и продолжает погоню.
+    tags:
+      - magical-obstacle
+      - escape
+      - transformation
+
+  - id: comb-mountain
+    name: "Гребень, создающий зубчатую гору"
+    type: artifact
+    description: >
+      Брошенный мальчиком гребень создаёт огромную гору из гребней
+      с бесчисленными зубьями. Преследовательница удерживается на ней
+      и всё же перебирается на другую сторону.
+    tags:
+      - magical-obstacle
+      - escape
+      - transformation
+
+  - id: mirror-mountain
+    name: "Зеркало, создающее зеркальную гору"
+    type: artifact
+    description: >
+      Когда девочка бросает зеркало за спину, возникает гора из зеркал
+      с настолько гладкой поверхностью, что водяная дева не может её
+      пересечь. Та уходит за топором, чтобы расколоть преграду, и за это
+      время дети успевают скрыться.
+    tags:
+      - magical-obstacle
+      - escape
+      - transformation
