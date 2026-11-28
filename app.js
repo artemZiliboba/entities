@@ -135,7 +135,7 @@ function entityView(workId, entityId) {
   // Only known filenames from GROUPS are emitted; never interpolate raw entity data in a URL.
   const typeIconFile = GROUPS.find(([id]) => id === entity.type)?.[2];
   const typeIconMarkup = typeIconFile
-    ? `<img class="reader-type-png" src="assets/icons/${typeIconFile}" width="22" height="22" alt="" aria-hidden="true" decoding="async">`
+    ? `<img class="reader-type-png" src="assets/icons/${typeIconFile}" width="30" height="30" alt="" aria-hidden="true" decoding="async">`
     : '';
   // Semantic icons distinguish the three primary chips without relying on color alone.
   const detailIcons = [
