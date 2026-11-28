@@ -131,9 +131,15 @@ function entityView(workId, entityId) {
   const traditions = (Array.isArray(work.tradition) ? work.tradition : [work.tradition]).filter(Boolean).map(humanize).join(', ');
   const details = [['Тип', TYPES[entity.type] || humanize(entity.type)], ['Произведение', work.title || work.id], ['Традиция', traditions],
     ...(aliases ? [['Также известен как', aliases]] : []), ...(work.author ? [['Автор', work.author]] : [])];
+  // Resolve the type image from the same fixed category-to-PNG mapping used by the catalog.
+  // Only known filenames from GROUPS are emitted; never interpolate raw entity data in a URL.
+  const typeIconFile = GROUPS.find(([id]) => id === entity.type)?.[2];
+  const typeIconMarkup = typeIconFile
+    ? `<img class="reader-type-png" src="assets/icons/${typeIconFile}" width="22" height="22" alt="" aria-hidden="true" decoding="async">`
+    : '';
   // Semantic icons distinguish the three primary chips without relying on color alone.
   const detailIcons = [
-    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="3.5"/><path d="M5 21v-2a7 7 0 0 1 14 0v2H5Z"/></svg>',
+    typeIconMarkup,
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1 3-2 6-2 9-1V5c-3-1-6-1-9 1ZM12 6v14"/></svg>',
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4c-9 0-15 4-15 11a5 5 0 0 0 5 5c7 0 11-6 10-16Z"/><path d="M4 21c3-5 7-8 13-11"/></svg>'
   ];

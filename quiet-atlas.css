@@ -648,3 +648,30 @@ body.reader-open{overflow:hidden}
   .home-hero h1{max-width:none}
   .home-hero .intro{max-width:54ch}
 }
+
+/* Entity type chip uses the same PNG family as category navigation.
+   Fit inside the pill at every desktop width without clipping the artwork. */
+@media (min-width:801px){
+  .reader-metadata .reader-detail--type{
+    overflow:hidden;
+  }
+  .reader-metadata .reader-detail--type .reader-detail-icon{
+    display:inline-flex;
+    width:22px;
+    height:22px;
+    flex:0 0 22px;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+  }
+  .reader-metadata .reader-type-png{
+    display:block;
+    width:22px;
+    height:22px;
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;
+    object-position:center;
+    flex:none;
+  }
+}
